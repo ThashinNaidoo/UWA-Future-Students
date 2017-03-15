@@ -76,6 +76,17 @@ WDS.sampleResult.sampleEnd();
 
 WDS.sampleResult.sampleStart();
 (WDS.browser.findElement(pkg.By.xpath(&quot;//*[@id=\&quot;page-content\&quot;]/div[3]/header/div/nav/a[1]&quot;))).click();
+WDS.sampleResult.sampleEnd()
+</stringProp>
+            <stringProp name="WebDriverSampler.parameters"></stringProp>
+            <stringProp name="WebDriverSampler.language">javascript</stringProp>
+          </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
+          <hashTree/>
+          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp01s3" enabled="true">
+            <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
+
+WDS.sampleResult.sampleStart();
+(WDS.browser.findElement(pkg.By.xpath(&quot;//*[@id=\&quot;page-content\&quot;]/div[3]/header/div/nav/a[1]&quot;))).click();
 (WDS.browser.findElement(pkg.By.id(&apos;RegisterModel_FirstName&apos;))).sendKeys(WDS.args[0]);
 (WDS.browser.findElement(pkg.By.id(&apos;RegisterModel_EmailAddress&apos;))).sendKeys(WDS.args[1]);
 var pass = WDS.args[2];
@@ -88,7 +99,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
           </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
           <hashTree/>
-          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp01s3" enabled="true">
+          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp01s4" enabled="true">
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au//UWAFS/Profile/Logout&quot;);</stringProp>
@@ -194,7 +205,6 @@ WDS.sampleResult.sampleEnd();
 
 WDS.sampleResult.sampleStart();
 WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/courses/&quot;+WDS.args[0]);
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/courses/&quot;+WDS.args[0]+&quot;#admission-requirements&quot;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
@@ -202,6 +212,17 @@ WDS.sampleResult.sampleEnd();
           </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
           <hashTree/>
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp06s4" enabled="true">
+            <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
+
+WDS.sampleResult.sampleStart();
+WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/courses/&quot;+WDS.args[0]+&quot;#admission-requirements&quot;);
+WDS.sampleResult.sampleEnd();
+</stringProp>
+            <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
+            <stringProp name="WebDriverSampler.language">javascript</stringProp>
+          </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
+          <hashTree/>
+          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp06s5" enabled="true">
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
