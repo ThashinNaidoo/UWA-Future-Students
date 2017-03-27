@@ -28,7 +28,7 @@
       <hashTree>
         <RecordingController guiclass="RecordController" testclass="RecordingController" testname="Recording Controller" enabled="true"/>
         <hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp01" enabled="false">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp01" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
             <boolProp name="TransactionController.parent">false</boolProp>
           </TransactionController>
@@ -67,7 +67,7 @@
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -132,7 +132,7 @@
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -241,7 +241,7 @@
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -261,7 +261,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -269,7 +269,7 @@
                     </elementProp>
                     <elementProp name="Origin" elementType="Header">
                       <stringProp name="Header.name">Origin</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au</stringProp>
+                      <stringProp name="Header.value">http://${Environment}</stringProp>
                     </elementProp>
                     <elementProp name="X-Requested-With" elementType="Header">
                       <stringProp name="Header.name">X-Requested-With</stringProp>
@@ -294,21 +294,12 @@
                   </collectionProp>
                 </HeaderManager>
                 <hashTree/>
-                <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
-                  <collectionProp name="Asserion.test_strings">
-                    <stringProp name="-1423679317">&lt;title&gt;Dashboard&lt;/title&gt;</stringProp>
-                  </collectionProp>
-                  <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-                  <boolProp name="Assertion.assume_success">false</boolProp>
-                  <intProp name="Assertion.test_type">16</intProp>
-                </ResponseAssertion>
-                <hashTree/>
               </hashTree>
               <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="9 /Dashboard" enabled="true">
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -328,7 +319,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -353,6 +344,15 @@
                   </collectionProp>
                 </HeaderManager>
                 <hashTree/>
+                <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+                  <collectionProp name="Asserion.test_strings">
+                    <stringProp name="-1423679317">&lt;title&gt;Dashboard&lt;/title&gt;</stringProp>
+                  </collectionProp>
+                  <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+                  <boolProp name="Assertion.assume_success">false</boolProp>
+                  <intProp name="Assertion.test_type">16</intProp>
+                </ResponseAssertion>
+                <hashTree/>
               </hashTree>
             </hashTree>
             <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp01s4" enabled="true">
@@ -364,7 +364,7 @@
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -385,7 +385,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/Dashboard</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/Dashboard</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -424,7 +424,7 @@
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -445,7 +445,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/Dashboard</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/Dashboard</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -475,7 +475,7 @@
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -495,7 +495,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/Dashboard</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/Dashboard</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -523,7 +523,7 @@
               </hashTree>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp02" enabled="false">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp02" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
             <boolProp name="TransactionController.parent">false</boolProp>
           </TransactionController>
@@ -560,7 +560,7 @@
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -615,7 +615,7 @@
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -682,7 +682,7 @@
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -702,7 +702,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -747,7 +747,7 @@
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -767,7 +767,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/find-a-course?level=Undergraduate&amp;term=computer</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/find-a-course?level=Undergraduate&amp;term=computer</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -812,7 +812,7 @@
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -841,7 +841,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/courses/computer-science</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/courses/computer-science</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -869,7 +869,7 @@
               </hashTree>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp03" enabled="false">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp03" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
             <boolProp name="TransactionController.parent">false</boolProp>
           </TransactionController>
@@ -901,7 +901,7 @@
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1019,7 +1019,7 @@
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1039,7 +1039,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1047,7 +1047,7 @@
                     </elementProp>
                     <elementProp name="Origin" elementType="Header">
                       <stringProp name="Header.name">Origin</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au</stringProp>
+                      <stringProp name="Header.value">http://${Environment}</stringProp>
                     </elementProp>
                     <elementProp name="X-Requested-With" elementType="Header">
                       <stringProp name="Header.name">X-Requested-With</stringProp>
@@ -1072,21 +1072,12 @@
                   </collectionProp>
                 </HeaderManager>
                 <hashTree/>
-                <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
-                  <collectionProp name="Asserion.test_strings">
-                    <stringProp name="-1423679317">&lt;title&gt;Dashboard&lt;/title&gt;</stringProp>
-                  </collectionProp>
-                  <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-                  <boolProp name="Assertion.assume_success">false</boolProp>
-                  <intProp name="Assertion.test_type">16</intProp>
-                </ResponseAssertion>
-                <hashTree/>
               </hashTree>
               <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="47 /Dashboard" enabled="true">
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1106,7 +1097,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1131,12 +1122,21 @@
                   </collectionProp>
                 </HeaderManager>
                 <hashTree/>
+                <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+                  <collectionProp name="Asserion.test_strings">
+                    <stringProp name="-1423679317">&lt;title&gt;Dashboard&lt;/title&gt;</stringProp>
+                  </collectionProp>
+                  <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+                  <boolProp name="Assertion.assume_success">false</boolProp>
+                  <intProp name="Assertion.test_type">16</intProp>
+                </ResponseAssertion>
+                <hashTree/>
               </hashTree>
               <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="49 /Areas/UWAFS/Assets/img/texture.jpg" enabled="true">
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1156,7 +1156,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/Dashboard</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/Dashboard</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1182,7 +1182,7 @@
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1202,7 +1202,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/Dashboard</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/Dashboard</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1234,7 +1234,7 @@
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1255,7 +1255,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/Dashboard</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/Dashboard</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1285,7 +1285,7 @@
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1306,7 +1306,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/Dashboard</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/Dashboard</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1336,7 +1336,7 @@
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1356,7 +1356,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/Dashboard</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/Dashboard</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1402,7 +1402,7 @@
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1422,7 +1422,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1478,7 +1478,7 @@
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1518,7 +1518,7 @@
                     </elementProp>
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/courses/computer-science</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/courses/computer-science</stringProp>
                     </elementProp>
                     <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
                       <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
@@ -1537,11 +1537,11 @@
                 </ResponseAssertion>
                 <hashTree/>
               </hashTree>
-              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="21 /assets/img/favicons/favicon-128.png" enabled="true">
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="21 /assets/img/favicons/favicon-128.png" enabled="false">
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1581,7 +1581,7 @@
                     </elementProp>
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/</stringProp>
                     </elementProp>
                     <elementProp name="Pragma" elementType="Header">
                       <stringProp name="Header.name">Pragma</stringProp>
@@ -1649,7 +1649,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                       </elementProp>
                     </collectionProp>
                   </elementProp>
-                  <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                  <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                   <stringProp name="HTTPSampler.port"></stringProp>
                   <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                   <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1685,7 +1685,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1721,7 +1721,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                     </elementProp>
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/</stringProp>
                     </elementProp>
                     <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
                       <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
@@ -1750,7 +1750,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1786,7 +1786,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                     </elementProp>
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/find-a-course?level=Undergraduate&amp;term=computer</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/find-a-course?level=Undergraduate&amp;term=computer</stringProp>
                     </elementProp>
                     <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
                       <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
@@ -1807,7 +1807,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
               </hashTree>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp05" enabled="false">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp05" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
             <boolProp name="TransactionController.parent">false</boolProp>
           </TransactionController>
@@ -1821,7 +1821,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1882,7 +1882,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1902,7 +1902,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1947,7 +1947,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1967,7 +1967,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/Events/Open-day</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/Events/Open-day</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -2004,7 +2004,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
               </hashTree>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp06" enabled="false">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp06" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
             <boolProp name="TransactionController.parent">false</boolProp>
           </TransactionController>
@@ -2018,7 +2018,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -2073,7 +2073,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -2140,7 +2140,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -2160,7 +2160,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -2205,7 +2205,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -2225,7 +2225,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/find-a-course?level=Undergraduate&amp;term=computer</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/find-a-course?level=Undergraduate&amp;term=computer</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -2270,7 +2270,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -2290,7 +2290,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/courses/computer-science</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/courses/computer-science</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -2338,7 +2338,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
             </CSVDataSet>
             <hashTree/>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp08" enabled="false">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp08" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
             <boolProp name="TransactionController.parent">false</boolProp>
           </TransactionController>
@@ -2363,7 +2363,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -2432,7 +2432,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -2452,7 +2452,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -2497,7 +2497,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -2517,7 +2517,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/find-a-course?level=Undergraduate</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/find-a-course?level=Undergraduate</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -2577,7 +2577,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/courses/japanese</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/courses/japanese</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -2623,7 +2623,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/courses/japanese</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/courses/japanese</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -2663,7 +2663,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -2724,7 +2724,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -2744,7 +2744,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/find-a-course?level=Undergraduate</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/find-a-course?level=Undergraduate</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -2803,7 +2803,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/courses/population-health</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/courses/population-health</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -2843,7 +2843,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -2904,7 +2904,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -2924,7 +2924,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/find-a-course?level=Undergraduate</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/find-a-course?level=Undergraduate</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -2984,7 +2984,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/courses/science-communication</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/courses/science-communication</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -3030,7 +3030,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/courses/science-communication</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/courses/science-communication</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -3062,7 +3062,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -3082,7 +3082,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/courses/science-communication</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/courses/science-communication</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -3119,7 +3119,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
               </hashTree>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp09" enabled="false">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp09" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
             <boolProp name="TransactionController.parent">false</boolProp>
           </TransactionController>
@@ -3144,7 +3144,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -3213,7 +3213,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -3233,7 +3233,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -3278,7 +3278,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -3298,7 +3298,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/find-a-course?level=Undergraduate</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/find-a-course?level=Undergraduate</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -3358,7 +3358,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/courses/japanese</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/courses/japanese</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -3404,7 +3404,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/courses/japanese</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/courses/japanese</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -3444,7 +3444,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -3505,7 +3505,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -3525,7 +3525,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/find-a-course?level=Undergraduate</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/find-a-course?level=Undergraduate</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -3584,7 +3584,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/courses/population-health</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/courses/population-health</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -3624,7 +3624,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -3685,7 +3685,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -3705,7 +3705,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/find-a-course?level=Undergraduate</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/find-a-course?level=Undergraduate</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -3765,7 +3765,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/courses/science-communication</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/courses/science-communication</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -3811,7 +3811,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/courses/science-communication</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/courses/science-communication</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -3843,7 +3843,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">devcm01-new-study.content.uwa.edu.au</stringProp>
+                <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -3863,7 +3863,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://devcm01-new-study.content.uwa.edu.au/courses/science-communication</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/courses/science-communication</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -3900,7 +3900,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
               </hashTree>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp10" enabled="false">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp10" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
             <boolProp name="TransactionController.parent">false</boolProp>
           </TransactionController>
@@ -5477,6 +5477,16 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
               </hashTree>
             </hashTree>
           </hashTree>
+          <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="Environment" elementType="Argument">
+                <stringProp name="Argument.name">Environment</stringProp>
+                <stringProp name="Argument.value">testcm02-study.content.uwa.edu.au</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </Arguments>
+          <hashTree/>
         </hashTree>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>

@@ -64,7 +64,7 @@
           <hashTree/>
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp01s1" enabled="true">
             <stringProp name="WebDriverSampler.script">WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/&quot;);
+WDS.browser.get(&quot;http://${Environment}/&quot;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -132,7 +132,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/UWAFS/Profile/Logout&quot;);
+WDS.browser.get(&quot;http://${Environment}/UWAFS/Profile/Logout&quot;);
 WDS.sampleResult.sampleEnd();
 
 </stringProp>
@@ -170,7 +170,7 @@ WDS.sampleResult.sampleEnd();
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp02s0A" enabled="true">
             <stringProp name="WebDriverSampler.script">
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/&quot;);
+WDS.browser.get(&quot;http://${Environment}/&quot;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -212,7 +212,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/courses/&quot;+WDS.args[0]);
+WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
@@ -232,7 +232,7 @@ WDS.sampleResult.sampleEnd();
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp02s1" enabled="true">
             <stringProp name="WebDriverSampler.script">
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/&quot;);
+WDS.browser.get(&quot;http://${Environment}/&quot;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -250,7 +250,7 @@ WDS.sampleResult.sampleEnd();
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp03" enabled="false">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp03" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
@@ -258,7 +258,7 @@ WDS.sampleResult.sampleEnd();
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp03s1" enabled="true">
             <stringProp name="WebDriverSampler.script">
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/&quot;);
+WDS.browser.get(&quot;http://${Environment}/&quot;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -298,25 +298,26 @@ wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&quot;//*[co
           </hashTree>
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp03s3" enabled="true">
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium, org.openqa.selenium.support.ui);
+var wait = new pkg.WebDriverWait(WDS.browser, 5000);
 WDS.sampleResult.sampleStart();
 (WDS.browser.findElement(pkg.By.xpath(&quot;//*[contains(text(), &apos;Log In&apos;)]&quot;))).click();
 WDS.sampleResult.sampleEnd();
-</stringProp>
+wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&quot;/html/body/main/div[3]/div[2]/div/div[2]/div/form[2]/input[2]&quot;)));</stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
           </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
           <hashTree/>
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp03s4" enabled="true">
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium, org.openqa.selenium.support.ui);
-
+var wait = new pkg.WebDriverWait(WDS.browser, 5000);
 
 WDS.sampleResult.sampleStart();
 
 (WDS.browser.findElement(pkg.By.xpath(&quot;/html/body/main/div[3]/div[2]/div/div[2]/div/form[2]/input[2]&quot;))).sendKeys(WDS.args[0]);
 (WDS.browser.findElement(pkg.By.id(&apos;LoginModel_Password&apos;))).sendKeys(WDS.args[1]);
-(WDS.browser.findElement(pkg.By.name(&quot;login&quot;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&quot;//*[contains(text(), &apos;Log in&apos;)]&quot;))).click();
 WDS.sampleResult.sampleEnd();
-</stringProp>
+wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&quot;//*[@id=\&quot;page-content\&quot;]/div[3]/div[1]/div/div/nav/div/div/a[2]&quot;)));</stringProp>
             <stringProp name="WebDriverSampler.parameters">${Email} ${Password}</stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
           </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
@@ -335,7 +336,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/UWAFS/Profile/Logout&quot;);
+WDS.browser.get(&quot;http://${Environment}/UWAFS/Profile/Logout&quot;);
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -371,7 +372,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp04s1" enabled="true">
             <stringProp name="WebDriverSampler.script">
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/&quot;);
+WDS.browser.get(&quot;http://${Environment}/&quot;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -432,14 +433,14 @@ WDS.sampleResult.sampleEnd();
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp05" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp05" enabled="false">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp05s1" enabled="true">
             <stringProp name="WebDriverSampler.script">WDS.sampleResult.sampleStart()
-WDS.browser.get(&apos;http://devcm01-new-study.content.uwa.edu.au/&apos;)
+WDS.browser.get(&apos;http://${Environment}/&apos;)
 WDS.sampleResult.sampleEnd()
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -481,16 +482,16 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium, org.openqa.selenium.support.ui);
 var wait = new pkg.WebDriverWait(WDS.browser, 5000);
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[2]/div/nav/ul/li[5]/button&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;/html/body/main/div[2]/div/nav/ul/li[4]/button&apos;))).click();
 WDS.sampleResult.sampleEnd();
-//wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&quot;//*[contains(text(), &apos;Open Day&apos;)]&quot;)));</stringProp>
+wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&quot;//*[contains(text(), &apos;Open day&apos;)]&quot;)));</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
           </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
           <hashTree>
             <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
               <collectionProp name="Asserion.test_strings">
-                <stringProp name="1895526714">&lt;title&gt;Home&lt;/title&gt;</stringProp>
+                <stringProp name="0"></stringProp>
               </collectionProp>
               <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
@@ -502,7 +503,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[2]/div/nav/ul/li[5]/ul/li[8]/a&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[contains(text(), \&apos;Open day\&apos;)]&apos;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -520,7 +521,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
           </hashTree>
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp05s5" enabled="true">
             <stringProp name="WebDriverSampler.script">WDS.sampleResult.sampleStart()
-WDS.browser.get(&apos;http://devcm01-new-study.content.uwa.edu.au/&apos;)
+WDS.browser.get(&apos;http://${Environment}/&apos;)
 WDS.sampleResult.sampleEnd()
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -557,7 +558,7 @@ WDS.sampleResult.sampleEnd()
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp06s1" enabled="true">
             <stringProp name="WebDriverSampler.script">
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/&quot;);
+WDS.browser.get(&quot;http://${Environment}/&quot;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -600,7 +601,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/courses/&quot;+WDS.args[0]);
+WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
@@ -621,7 +622,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/courses/&quot;+WDS.args[0]+&quot;#course-details&quot;);
+WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]+&quot;#course-details&quot;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
@@ -642,7 +643,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/courses/&quot;+WDS.args[0]+&quot;#careers-and-further-study&quot;);
+WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]+&quot;#careers-and-further-study&quot;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
@@ -663,7 +664,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/courses/&quot;+WDS.args[0]+&quot;#fees-and-scholarships&quot;);
+WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]+&quot;#fees-and-scholarships&quot;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
@@ -684,7 +685,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/courses/&quot;+WDS.args[0]+&quot;#admission-requirements&quot;);
+WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]+&quot;#admission-requirements&quot;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
@@ -705,7 +706,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/courses/&quot;+WDS.args[0]+&quot;#how-to-apply&quot;);
+WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]+&quot;#how-to-apply&quot;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
@@ -726,7 +727,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/courses/&quot;+WDS.args[0]+&quot;#contact-us&quot;);
+WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]+&quot;#contact-us&quot;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
@@ -784,7 +785,7 @@ WDS.sampleResult.sampleEnd();
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp08s1" enabled="true">
             <stringProp name="WebDriverSampler.script">
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/&quot;);
+WDS.browser.get(&quot;http://${Environment}/&quot;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -826,7 +827,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/courses/&quot;+WDS.args[0]);
+WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
@@ -847,7 +848,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&apos;http://devcm01-new-study.content.uwa.edu.au/find-a-course&apos;);
+WDS.browser.get(&apos;http://${Environment}/find-a-course&apos;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -868,7 +869,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/courses/&quot;+WDS.args[0]);
+WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
@@ -889,7 +890,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&apos;http://devcm01-new-study.content.uwa.edu.au/find-a-course&apos;);
+WDS.browser.get(&apos;http://${Environment}/find-a-course&apos;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -910,7 +911,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/courses/&quot;+WDS.args[0]);
+WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
@@ -968,7 +969,7 @@ WDS.sampleResult.sampleEnd();
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp09s1" enabled="true">
             <stringProp name="WebDriverSampler.script">
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/&quot;);
+WDS.browser.get(&quot;http://${Environment}/&quot;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -1010,7 +1011,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/courses/&quot;+WDS.args[0]);
+WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
@@ -1031,7 +1032,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&apos;http://devcm01-new-study.content.uwa.edu.au/find-a-course&apos;);
+WDS.browser.get(&apos;http://${Environment}/find-a-course&apos;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -1052,7 +1053,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/courses/&quot;+WDS.args[0]);
+WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
@@ -1073,7 +1074,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&apos;http://devcm01-new-study.content.uwa.edu.au/find-a-course&apos;);
+WDS.browser.get(&apos;http://${Environment}/find-a-course&apos;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -1094,7 +1095,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-WDS.browser.get(&quot;http://devcm01-new-study.content.uwa.edu.au/courses/&quot;+WDS.args[0]);
+WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
@@ -1189,6 +1190,16 @@ WDS.sampleResult.sampleEnd()
           </objProp>
           <stringProp name="filename"></stringProp>
         </ResultCollector>
+        <hashTree/>
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="Environment" elementType="Argument">
+              <stringProp name="Argument.name">Environment</stringProp>
+              <stringProp name="Argument.value">testcm02-study.content.uwa.edu.au</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </Arguments>
         <hashTree/>
       </hashTree>
     </hashTree>
