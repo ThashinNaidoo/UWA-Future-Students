@@ -1691,7 +1691,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
                 <stringProp name="HTTPSampler.protocol">http</stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">/find-a-course</stringProp>
+                <stringProp name="HTTPSampler.path">/courses-and-careers/find-a-course</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1929,7 +1929,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <hashTree/>
                 <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
                   <collectionProp name="Asserion.test_strings">
-                    <stringProp name="-1037704011">&lt;h1 class=&quot;short-header-title&quot;&gt;Open day&lt;/h1&gt;</stringProp>
+                    <stringProp name="-641147647">&lt;title&gt;Open Day&lt;/title&gt;</stringProp>
                   </collectionProp>
                   <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
                   <boolProp name="Assertion.assume_success">false</boolProp>
@@ -2438,7 +2438,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
                 <stringProp name="HTTPSampler.protocol">http</stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">/find-a-course</stringProp>
+                <stringProp name="HTTPSampler.path">/courses-and-careers/find-a-course</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -2669,7 +2669,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
                 <stringProp name="HTTPSampler.protocol">http</stringProp>
                 <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
-                <stringProp name="HTTPSampler.path">/find-a-course</stringProp>
+                <stringProp name="HTTPSampler.path">/courses-and-careers/find-a-course</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -2849,7 +2849,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
                 <stringProp name="HTTPSampler.protocol">http</stringProp>
                 <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
-                <stringProp name="HTTPSampler.path">/find-a-course</stringProp>
+                <stringProp name="HTTPSampler.path">/courses-and-careers/find-a-course</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
