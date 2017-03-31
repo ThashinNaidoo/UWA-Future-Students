@@ -523,7 +523,7 @@
               </hashTree>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp02" enabled="true">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp02" enabled="false">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
             <boolProp name="TransactionController.parent">false</boolProp>
           </TransactionController>
@@ -3126,7 +3126,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
               </hashTree>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp09" enabled="false">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp09" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
             <boolProp name="TransactionController.parent">false</boolProp>
           </TransactionController>
@@ -3226,7 +3226,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
                 <stringProp name="HTTPSampler.protocol">http</stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">/find-a-course</stringProp>
+                <stringProp name="HTTPSampler.path">/courses-and-careers/find-a-course</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3457,7 +3457,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
                 <stringProp name="HTTPSampler.protocol">http</stringProp>
                 <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
-                <stringProp name="HTTPSampler.path">/find-a-course</stringProp>
+                <stringProp name="HTTPSampler.path">/courses-and-careers/find-a-course</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3637,7 +3637,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
                 <stringProp name="HTTPSampler.protocol">http</stringProp>
                 <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
-                <stringProp name="HTTPSampler.path">/find-a-course</stringProp>
+                <stringProp name="HTTPSampler.path">/courses-and-careers/find-a-course</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -5493,6 +5493,11 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
               </elementProp>
             </collectionProp>
           </Arguments>
+          <hashTree/>
+          <CacheManager guiclass="CacheManagerGui" testclass="CacheManager" testname="HTTP Cache Manager" enabled="true">
+            <boolProp name="clearEachIteration">true</boolProp>
+            <boolProp name="useExpires">false</boolProp>
+          </CacheManager>
           <hashTree/>
         </hashTree>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
