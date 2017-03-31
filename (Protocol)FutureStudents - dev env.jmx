@@ -28,7 +28,7 @@
       <hashTree>
         <RecordingController guiclass="RecordController" testclass="RecordingController" testname="Recording Controller" enabled="true"/>
         <hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp01" enabled="true">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp01" enabled="false">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
             <boolProp name="TransactionController.parent">false</boolProp>
           </TransactionController>
@@ -688,7 +688,7 @@
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
                 <stringProp name="HTTPSampler.protocol">http</stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">/find-a-course</stringProp>
+                <stringProp name="HTTPSampler.path">/courses-and-careers/find-a-course</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -744,8 +744,15 @@
             </TransactionController>
             <hashTree>
               <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="10 /courses/${CourseName}" enabled="true">
-                <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
-                  <collectionProp name="Arguments.arguments"/>
+                <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+                <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                  <collectionProp name="Arguments.arguments">
+                    <elementProp name="" elementType="HTTPArgument">
+                      <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                      <stringProp name="Argument.value"></stringProp>
+                      <stringProp name="Argument.metadata">=</stringProp>
+                    </elementProp>
+                  </collectionProp>
                 </elementProp>
                 <stringProp name="HTTPSampler.domain">${Environment}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
@@ -767,7 +774,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://${Environment}/find-a-course?level=Undergraduate&amp;term=computer</stringProp>
+                      <stringProp name="Header.value">http://${Environment}/courses-and-careers/find-a-course?level=Undergraduate&amp;term=computer</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -869,7 +876,7 @@
               </hashTree>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp03" enabled="true">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp03" enabled="false">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
             <boolProp name="TransactionController.parent">false</boolProp>
           </TransactionController>
@@ -1446,7 +1453,7 @@
               </hashTree>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp04" enabled="true">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp04" enabled="false">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
             <boolProp name="TransactionController.parent">false</boolProp>
           </TransactionController>
@@ -1807,7 +1814,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
               </hashTree>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp05" enabled="true">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp05" enabled="false">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
             <boolProp name="TransactionController.parent">false</boolProp>
           </TransactionController>
@@ -2004,7 +2011,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
               </hashTree>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp06" enabled="true">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp06" enabled="false">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
             <boolProp name="TransactionController.parent">false</boolProp>
           </TransactionController>
@@ -2338,7 +2345,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
             </CSVDataSet>
             <hashTree/>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp08" enabled="true">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp08" enabled="false">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
             <boolProp name="TransactionController.parent">false</boolProp>
           </TransactionController>
@@ -3119,7 +3126,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
               </hashTree>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp09" enabled="true">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp09" enabled="false">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
             <boolProp name="TransactionController.parent">false</boolProp>
           </TransactionController>
@@ -3900,7 +3907,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
               </hashTree>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp10" enabled="true">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp10" enabled="false">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
             <boolProp name="TransactionController.parent">false</boolProp>
           </TransactionController>
