@@ -15,7 +15,7 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">1</stringProp>
+          <stringProp name="LoopController.loops">5</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
@@ -61,12 +61,12 @@
           </collectionProp>
         </Arguments>
         <hashTree/>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp01" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp01" enabled="false">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
-          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="false">
             <stringProp name="delimiter">,</stringProp>
             <stringProp name="fileEncoding"></stringProp>
             <stringProp name="filename">Parameters/bp01Parameters.csv</stringProp>
@@ -77,7 +77,7 @@
             <stringProp name="variableNames">FirstName,Email,Password</stringProp>
           </CSVDataSet>
           <hashTree/>
-          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp01s1" enabled="true">
+          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp01s1" enabled="false">
             <stringProp name="WebDriverSampler.script">WDS.sampleResult.sampleStart();
 WDS.browser.get(&quot;http://${Environment}/&quot;);
 WDS.sampleResult.sampleEnd();
@@ -96,7 +96,7 @@ WDS.sampleResult.sampleEnd();
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp01s2" enabled="true">
+          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp01s2" enabled="false">
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
@@ -117,7 +117,7 @@ WDS.sampleResult.sampleEnd()
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp01s3" enabled="true">
+          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp01s3" enabled="false">
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium, org.openqa.selenium.support.ui);
 var wait = new pkg.WebDriverWait(WDS.browser, 5000);
 
@@ -145,7 +145,7 @@ WDS.sampleResult.sampleEnd();
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp01s4" enabled="true">
+          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp01s4" enabled="false">
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
@@ -168,7 +168,7 @@ WDS.sampleResult.sampleEnd();
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp02" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp02" enabled="false">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
@@ -267,7 +267,7 @@ WDS.sampleResult.sampleEnd();
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp03" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp03" enabled="false">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
@@ -381,7 +381,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
           </CSVDataSet>
           <hashTree/>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp04" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp04" enabled="false">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
@@ -461,7 +461,7 @@ WDS.sampleResult.sampleEnd();
           </CSVDataSet>
           <hashTree/>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp05" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp05" enabled="false">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
@@ -576,7 +576,7 @@ WDS.sampleResult.sampleEnd()
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp06" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp06" enabled="false">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
@@ -863,10 +863,12 @@ WDS.sampleResult.sampleEnd();
             <hashTree/>
           </hashTree>
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp08s3" enabled="true">
-            <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
+            <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium, org.openqa.selenium.support.ui);
+var wait = new pkg.WebDriverWait(WDS.browser, 5000);
 
 WDS.sampleResult.sampleStart();
 WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]);
+wait.until(pkg.ExpectedConditions.presenceOfElementLocated(pkg.By.xpath(&quot;//*[@id=\&quot;fb-root\&quot;]&quot;)));
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
@@ -905,12 +907,13 @@ WDS.sampleResult.sampleEnd();
             <hashTree/>
           </hashTree>
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp08s5" enabled="true">
-            <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
+            <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium, org.openqa.selenium.support.ui);
+var wait = new pkg.WebDriverWait(WDS.browser, 5000);
 
 WDS.sampleResult.sampleStart();
 WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]);
-WDS.sampleResult.sampleEnd();
-</stringProp>
+wait.until(pkg.ExpectedConditions.presenceOfElementLocated(pkg.By.xpath(&quot;//*[@id=\&quot;fb-root\&quot;]&quot;)));
+WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
           </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
@@ -947,12 +950,13 @@ WDS.sampleResult.sampleEnd();
             <hashTree/>
           </hashTree>
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp08s7" enabled="true">
-            <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
+            <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium, org.openqa.selenium.support.ui);
+var wait = new pkg.WebDriverWait(WDS.browser, 5000);
 
 WDS.sampleResult.sampleStart();
 WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]);
-WDS.sampleResult.sampleEnd();
-</stringProp>
+wait.until(pkg.ExpectedConditions.presenceOfElementLocated(pkg.By.xpath(&quot;//*[@id=\&quot;fb-root\&quot;]&quot;)));
+WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
           </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
@@ -1047,13 +1051,14 @@ WDS.sampleResult.sampleEnd();</stringProp>
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp09s3" enabled="false">
-            <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
+          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp09s3" enabled="true">
+            <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium, org.openqa.selenium.support.ui);
+var wait = new pkg.WebDriverWait(WDS.browser, 5000);
 
 WDS.sampleResult.sampleStart();
 WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]);
-WDS.sampleResult.sampleEnd();
-</stringProp>
+wait.until(pkg.ExpectedConditions.presenceOfElementLocated(pkg.By.xpath(&quot;//*[@id=\&quot;fb-root\&quot;]&quot;)));
+WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
           </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
@@ -1068,7 +1073,7 @@ WDS.sampleResult.sampleEnd();
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp09s4" enabled="false">
+          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp09s4" enabled="true">
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
@@ -1089,13 +1094,14 @@ WDS.sampleResult.sampleEnd();
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp09s5" enabled="false">
-            <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
+          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp09s5" enabled="true">
+            <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium, org.openqa.selenium.support.ui);
+var wait = new pkg.WebDriverWait(WDS.browser, 5000);
 
 WDS.sampleResult.sampleStart();
 WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]);
-WDS.sampleResult.sampleEnd();
-</stringProp>
+wait.until(pkg.ExpectedConditions.presenceOfElementLocated(pkg.By.xpath(&quot;//*[@id=\&quot;fb-root\&quot;]&quot;)));
+WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
           </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
@@ -1110,7 +1116,7 @@ WDS.sampleResult.sampleEnd();
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp09s6" enabled="false">
+          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp09s6" enabled="true">
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
@@ -1131,13 +1137,14 @@ WDS.sampleResult.sampleEnd();
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp09s7" enabled="false">
-            <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
+          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp09s7" enabled="true">
+            <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium, org.openqa.selenium.support.ui);
+var wait = new pkg.WebDriverWait(WDS.browser, 5000);
 
 WDS.sampleResult.sampleStart();
 WDS.browser.get(&quot;http://${Environment}/courses/&quot;+WDS.args[0]);
-WDS.sampleResult.sampleEnd();
-</stringProp>
+wait.until(pkg.ExpectedConditions.presenceOfElementLocated(pkg.By.xpath(&quot;//*[@id=\&quot;fb-root\&quot;]&quot;)));
+WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters">${CourseName}</stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
           </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
@@ -1152,7 +1159,7 @@ WDS.sampleResult.sampleEnd();
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp09s8" enabled="false">
+          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp09s8" enabled="true">
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
@@ -1172,7 +1179,7 @@ WDS.sampleResult.sampleEnd();
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp10" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="bp10" enabled="false">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
