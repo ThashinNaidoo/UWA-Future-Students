@@ -2513,7 +2513,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">143</stringProp>
+        <stringProp name="ThreadGroup.num_threads">48</stringProp>
         <stringProp name="ThreadGroup.ramp_time">${RampUp}</stringProp>
         <longProp name="ThreadGroup.start_time">1491448085000</longProp>
         <longProp name="ThreadGroup.end_time">1491448085000</longProp>
@@ -3342,7 +3342,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">38</stringProp>
+        <stringProp name="ThreadGroup.num_threads">13</stringProp>
         <stringProp name="ThreadGroup.ramp_time">${RampUp}</stringProp>
         <longProp name="ThreadGroup.start_time">1491448082000</longProp>
         <longProp name="ThreadGroup.end_time">1491448082000</longProp>
