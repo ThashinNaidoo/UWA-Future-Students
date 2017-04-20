@@ -49,7 +49,7 @@
           </elementProp>
           <elementProp name="Duration" elementType="Argument">
             <stringProp name="Argument.name">Duration</stringProp>
-            <stringProp name="Argument.value">5400</stringProp>
+            <stringProp name="Argument.value">3600</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="TestActionPause" elementType="Argument">
@@ -5764,7 +5764,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
         </TestAction>
         <hashTree/>
       </hashTree>
-      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+      <ResultCollector guiclass="SimpleDataWriter" testclass="ResultCollector" testname="Simple Data Writer" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -5797,7 +5797,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">C:\Users\Administrator\Desktop\Test Assets\UWA-Future-Students\Results\002_u250_t5400_HalfPeak.csv</stringProp>
+        <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>
