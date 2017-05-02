@@ -1,0 +1,1036 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1493700592801,26,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2178,0,1,5,0,0,0
+1493700592514,26,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2178,0,1,5,0,287,0
+1493700592749,4148,bp07s1,200,OK,bp07 2-1,text,true,,139992,0,1,5,0,0,0
+1493700592737,4183,bp09s1,200,OK,bp09 4-1,text,true,,139990,0,1,5,0,0,0
+1493700592754,4232,bp08s1,200,OK,bp08 3-1,text,true,,139994,0,1,5,0,0,0
+1493700592800,4466,bp06s1,200,OK,bp06 1-1,text,true,,139994,0,1,5,0,0,0
+1493700597292,134,bp09s2A,200,OK,bp09 4-1,text,true,,139987,0,1,5,0,0,0
+1493700597331,115,bp08s2A,200,OK,bp08 3-1,text,true,,139994,0,1,5,0,0,0
+1493700597234,139,bp07s2,200,OK,bp07 2-1,text,true,,138389,0,1,5,0,0,0
+1493700597815,2074,bp07s3,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493700597757,3008,bp09s2,200,OK,bp09 4-1,text,true,,298508,0,1,5,0,0,0
+1493700597779,3276,bp08s2,200,OK,bp08 3-1,text,true,,298510,0,1,5,0,0,0
+1493700597601,4157,bp06s2,200,OK,bp06 1-1,text,true,,115641,0,1,5,0,0,0
+1493700600218,1822,bp07s4,200,OK,bp07 2-1,text,true,,127717,0,1,5,0,0,0
+1493700601123,3913,bp09s3,200,OK,bp09 4-1,text,true,,134223,0,1,5,0,0,0
+1493700602371,2978,bp07s5,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493700602084,3475,bp06s3,200,OK,bp06 1-1,text,true,,134071,0,1,5,0,0,0
+1493700605678,2421,bp07s6,200,OK,bp07 2-1,text,true,,112832,0,1,5,0,0,0
+1493700605885,3661,bp06s4,200,OK,bp06 1-1,text,true,,134215,0,1,5,0,0,0
+1493700608437,2228,bp07s7,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493700605366,5524,bp09s4,200,OK,bp09 4-1,text,true,,298510,0,1,5,0,0,0
+1493700609889,3411,bp06s5,200,OK,bp06 1-1,text,true,,134228,0,1,5,0,0,0
+1493700610994,2600,bp07s8,200,OK,bp07 2-1,text,true,,115796,0,1,5,0,0,0
+1493700611235,3563,bp09s5,200,OK,bp09 4-1,text,true,,132808,0,1,5,0,0,0
+1493700613920,4030,bp07s9,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493700601426,17098,bp08s3,200,OK,bp08 3-1,text,true,,173786,0,1,5,0,0,0
+1493700613625,5896,bp06s6,200,OK,bp06 1-1,text,true,,134225,0,1,5,0,0,0
+1493700615127,6688,bp09s6,200,OK,bp09 4-1,text,true,,298509,0,1,5,0,0,0
+1493700618302,4317,bp07s10,200,OK,bp07 2-1,text,true,,107411,0,1,5,0,0,0
+1493700619849,4606,bp06s7,200,OK,bp06 1-1,text,true,,134223,0,1,5,0,0,0
+1493700618862,6252,bp08s4,200,OK,bp08 3-1,text,true,,298505,0,1,5,0,0,0
+1493700622947,2239,bp07s11,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493700622167,4097,bp09s7,200,OK,bp09 4-1,text,true,,135258,0,1,5,0,0,0
+1493700625512,1839,bp07s12,200,OK,bp07 2-1,text,true,,109633,0,1,5,0,0,0
+1493700624781,2944,bp06s8,200,OK,bp06 1-1,text,true,,134213,0,1,5,0,0,0
+1493700626592,2336,bp09s8,200,OK,bp09 4-1,text,true,,139994,0,1,5,0,0,0
+1493700592391,33446,bp09,200,"Number of samples in transaction : 10, number of failing samples : 0",bp09 4-1,,true,,1717787,0,1,5,0,3126,0
+1493700627678,1802,bp07s13,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493700628058,2860,bp06s9,200,OK,bp06 1-1,text,true,,134210,0,1,5,0,0,0
+1493700629805,1679,bp07s14,200,OK,bp07 2-1,text,true,,106579,0,1,5,0,0,0
+1493700631264,2151,bp06s10,200,OK,bp06 1-1,text,true,,139838,0,1,5,0,0,0
+1493700592514,37627,bp06,200,"Number of samples in transaction : 10, number of failing samples : 0",bp06 1-1,,true,,1334858,0,1,5,0,3304,0
+1493700631805,2461,bp07s15,200,OK,bp07 2-1,text,true,,139840,0,1,5,0,0,0
+1493700592433,36777,bp07,200,"Number of samples in transaction : 15, number of failing samples : 0",bp07 2-1,,true,,1876615,0,1,5,0,5081,0
+1493700625464,17167,bp08s5,200,OK,bp08 3-1,text,true,,191408,0,1,5,0,0,0
+1493700642964,3087,bp08s6,200,OK,bp08 3-1,text,true,,298509,0,1,5,0,0,0
+1493700646395,12691,bp08s7,200,OK,bp08 3-1,text,true,,190725,0,1,5,0,0,0
+1493700659435,2609,bp08s8,200,OK,bp08 3-1,text,true,,140150,0,1,5,0,0,0
+1493700592433,66527,bp08,200,"Number of samples in transaction : 10, number of failing samples : 0",bp08 3-1,,true,,1871581,0,1,5,0,3109,0
+1493700773441,5,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493700773127,5,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,314,0
+1493700809594,3233,bp09s1,200,OK,bp09 4-1,text,true,,139839,0,1,5,0,0,0
+1493700813196,95,bp09s2A,200,OK,bp09 4-1,text,true,,139836,0,1,5,0,0,0
+1493700814088,2877,bp06s1,200,OK,bp06 1-1,text,true,,139837,0,1,5,0,0,0
+1493700813641,3670,bp09s2,200,OK,bp09 4-1,text,true,,298356,0,1,5,0,0,0
+1493700814933,2563,bp07s1,200,OK,bp07 2-1,text,true,,139840,0,1,5,0,0,0
+1493700817784,117,bp07s2,200,OK,bp07 2-1,text,true,,138129,0,1,5,0,0,0
+1493700818382,1828,bp07s3,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493700817332,3617,bp06s2,200,OK,bp06 1-1,text,true,,115487,0,1,5,0,0,0
+1493700820537,1837,bp07s4,200,OK,bp07 2-1,text,true,,127718,0,1,5,0,0,0
+1493700817622,5724,bp09s3,200,OK,bp09 4-1,text,true,,132287,0,1,5,0,0,0
+1493700821235,2755,bp06s3,200,OK,bp06 1-1,text,true,,132656,0,1,5,0,0,0
+1493700822700,1651,bp07s5,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493700824678,2521,bp07s6,200,OK,bp07 2-1,text,true,,112832,0,1,5,0,0,0
+1493700823672,3578,bp09s4,200,OK,bp09 4-1,text,true,,298356,0,1,5,0,0,0
+1493700824316,3298,bp06s4,200,OK,bp06 1-1,text,true,,132799,0,1,5,0,0,0
+1493700827523,1803,bp07s7,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493700827945,3179,bp06s5,200,OK,bp06 1-1,text,true,,132812,0,1,5,0,0,0
+1493700827598,3636,bp09s5,200,OK,bp09 4-1,text,true,,134525,0,1,5,0,0,0
+1493700829651,2087,bp07s8,200,OK,bp07 2-1,text,true,,115894,0,1,5,0,0,0
+1493700832062,1777,bp07s9,200,OK,bp07 2-1,text,true,,129736,0,1,5,0,0,0
+1493700831462,3105,bp06s6,200,OK,bp06 1-1,text,true,,132811,0,1,5,0,0,0
+1493700831563,3220,bp09s6,200,OK,bp09 4-1,text,true,,298356,0,1,5,0,0,0
+1493700834169,1649,bp07s10,200,OK,bp07 2-1,text,true,,107412,0,1,5,0,0,0
+1493700834895,2570,bp06s7,200,OK,bp06 1-1,text,true,,132808,0,1,5,0,0,0
+1493700835145,2688,bp09s7,200,OK,bp09 4-1,text,true,,133049,0,1,5,0,0,0
+1493700836143,1747,bp07s11,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493700838214,1622,bp07s12,200,OK,bp07 2-1,text,true,,109632,0,1,5,0,0,0
+1493700838159,2234,bp09s8,200,OK,bp09 4-1,text,true,,139840,0,1,5,0,0,0
+1493700809281,28078,bp09,200,"Number of samples in transaction : 10, number of failing samples : 0",bp09 4-1,,true,,1714444,0,1,5,0,3083,0
+1493700837794,3110,bp06s8,200,OK,bp06 1-1,text,true,,132798,0,1,5,0,0,0
+1493700840166,1710,bp07s13,200,OK,bp07 2-1,text,true,,129736,0,1,5,0,0,0
+1493700842201,1754,bp07s14,200,OK,bp07 2-1,text,true,,106581,0,1,5,0,0,0
+1493700841233,3172,bp06s9,200,OK,bp06 1-1,text,true,,132796,0,1,5,0,0,0
+1493700842658,2621,bp08s1,200,OK,bp08 3-1,text,true,,140004,0,1,5,0,0,0
+1493700845613,117,bp08s2A,200,OK,bp08 3-1,text,true,,140004,0,1,5,0,0,0
+1493700844309,2014,bp07s15,200,OK,bp07 2-1,text,true,,139842,0,1,5,0,0,0
+1493700814631,26680,bp07,200,"Number of samples in transaction : 15, number of failing samples : 0",bp07 2-1,,true,,1876303,0,1,5,0,5078,0
+1493700844733,2224,bp06s10,200,OK,bp06 1-1,text,true,,139835,0,1,5,0,0,0
+1493700813786,29907,bp06,200,"Number of samples in transaction : 10, number of failing samples : 0",bp06 1-1,,true,,1324639,0,1,5,0,3357,0
+1493700846063,3397,bp08s2,200,OK,bp08 3-1,text,true,,298357,0,1,5,0,0,0
+1493700849855,16038,bp08s3,200,OK,bp08 3-1,text,true,,178094,0,1,5,0,0,0
+1493700866217,3295,bp08s4,200,OK,bp08 3-1,text,true,,298355,0,1,5,0,0,0
+1493700869864,42328,bp08s5,200,OK,bp08 3-1,text,true,,206811,0,1,5,0,0,0
+1493700912544,3236,bp08s6,200,OK,bp08 3-1,text,true,,298354,0,1,5,0,0,0
+1493700916109,15674,bp08s7,200,OK,bp08 3-1,text,true,,176354,0,1,5,0,0,0
+1493700932108,2266,bp08s8,200,OK,bp08 3-1,text,true,,139868,0,1,5,0,0,0
+1493700842356,88972,bp08,200,"Number of samples in transaction : 10, number of failing samples : 0",bp08 3-1,,true,,1876201,0,1,5,0,3139,0
+1493700954081,5,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493700953767,5,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,314,0
+1493701021020,2729,bp09s1,200,OK,bp09 4-1,text,true,,139841,0,1,5,0,0,0
+1493701024126,99,bp09s2A,200,OK,bp09 4-1,text,true,,139838,0,1,5,0,0,0
+1493701024564,3072,bp09s2,200,OK,bp09 4-1,text,true,,298357,0,1,5,0,0,0
+1493701026983,2252,bp07s1,200,OK,bp07 2-1,text,true,,139837,0,1,5,0,0,0
+1493701029535,130,bp07s2,200,OK,bp07 2-1,text,true,,138126,0,1,5,0,0,0
+1493701027643,2280,bp06s1,200,OK,bp06 1-1,text,true,,139842,0,1,5,0,0,0
+1493701027951,3713,bp09s3,200,OK,bp09 4-1,text,true,,135464,0,1,5,0,0,0
+1493701030150,2077,bp07s3,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493701030220,4299,bp06s2,200,OK,bp06 1-1,text,true,,115468,0,1,5,0,0,0
+1493701032555,2228,bp07s4,200,OK,bp07 2-1,text,true,,127718,0,1,5,0,0,0
+1493701031991,3514,bp09s4,200,OK,bp09 4-1,text,true,,298355,0,1,5,0,0,0
+1493701035115,2491,bp07s5,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493701034845,3773,bp06s3,200,OK,bp06 1-1,text,true,,135106,0,1,5,0,0,0
+1493701037935,1647,bp07s6,200,OK,bp07 2-1,text,true,,112832,0,1,5,0,0,0
+1493701035852,3958,bp09s5,200,OK,bp09 4-1,text,true,,134814,0,1,5,0,0,0
+1493701039906,1917,bp07s7,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493701038951,3665,bp06s4,200,OK,bp06 1-1,text,true,,135249,0,1,5,0,0,0
+1493701040141,3258,bp09s6,200,OK,bp09 4-1,text,true,,298353,0,1,5,0,0,0
+1493701042157,1911,bp07s8,200,OK,bp07 2-1,text,true,,115895,0,1,5,0,0,0
+1493701044397,1976,bp07s9,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493701042943,3448,bp06s5,200,OK,bp06 1-1,text,true,,135262,0,1,5,0,0,0
+1493701043752,3849,bp09s7,200,OK,bp09 4-1,text,true,,135591,0,1,5,0,0,0
+1493701046708,1695,bp07s10,200,OK,bp07 2-1,text,true,,107412,0,1,5,0,0,0
+1493701046721,3486,bp06s6,200,OK,bp06 1-1,text,true,,135258,0,1,5,0,0,0
+1493701048724,1810,bp07s11,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493701047929,2736,bp09s8,200,OK,bp09 4-1,text,true,,139840,0,1,5,0,0,0
+1493701020692,26928,bp09,200,"Number of samples in transaction : 10, number of failing samples : 0",bp09 4-1,,true,,1720453,0,1,5,0,3074,0
+1493701050860,1826,bp07s12,200,OK,bp07 2-1,text,true,,109633,0,1,5,0,0,0
+1493701050535,3382,bp06s7,200,OK,bp06 1-1,text,true,,135257,0,1,5,0,0,0
+1493701053010,1986,bp07s13,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493701055325,1743,bp07s14,200,OK,bp07 2-1,text,true,,106581,0,1,5,0,0,0
+1493701054262,3589,bp06s8,200,OK,bp06 1-1,text,true,,135247,0,1,5,0,0,0
+1493701057402,2769,bp07s15,200,OK,bp07 2-1,text,true,,139840,0,1,5,0,0,0
+1493701026681,28458,bp07,200,"Number of samples in transaction : 15, number of failing samples : 0",bp07 2-1,,true,,1876301,0,1,5,0,5089,0
+1493701058184,4055,bp06s9,200,OK,bp06 1-1,text,true,,135246,0,1,5,0,0,0
+1493701062561,2872,bp06s10,200,OK,bp06 1-1,text,true,,139842,0,1,5,0,0,0
+1493701027342,34849,bp06,200,"Number of samples in transaction : 10, number of failing samples : 0",bp06 1-1,,true,,1341777,0,1,5,0,3299,0
+1493701115019,3621,bp08s1,200,OK,bp08 3-1,text,true,,139869,0,1,5,0,0,0
+1493701118995,84,bp08s2A,200,OK,bp08 3-1,text,true,,139869,0,1,5,0,0,0
+1493701119430,3202,bp08s2,200,OK,bp08 3-1,text,true,,298357,0,1,5,0,0,0
+1493701134696,9,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493701134395,9,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,301,0
+1493701122952,18155,bp08s3,200,OK,bp08 3-1,text,true,,179845,0,1,5,0,0,0
+1493701141442,3308,bp08s4,200,OK,bp08 3-1,text,true,,298356,0,1,5,0,0,0
+1493701145093,25574,bp08s5,200,OK,bp08 3-1,text,true,,191223,0,1,5,0,0,0
+1493701171015,4797,bp08s6,200,OK,bp08 3-1,text,true,,298356,0,1,5,0,0,0
+1493701176152,8542,bp08s7,200,OK,bp08 3-1,text,true,,161793,0,1,5,0,0,0
+1493701185059,3512,bp08s8,200,OK,bp08 3-1,text,true,,139846,0,1,5,0,0,0
+1493701114680,70795,bp08,200,"Number of samples in transaction : 10, number of failing samples : 0",bp08 3-1,,true,,1847514,0,1,5,0,3172,0
+1493701231324,2811,bp09s1,200,OK,bp09 4-1,text,true,,139842,0,1,5,0,0,0
+1493701234491,104,bp09s2A,200,OK,bp09 4-1,text,true,,139839,0,1,5,0,0,0
+1493701234928,3078,bp09s2,200,OK,bp09 4-1,text,true,,298354,0,1,5,0,0,0
+1493701238370,4083,bp09s3,200,OK,bp09 4-1,text,true,,135705,0,1,5,0,0,0
+1493701240810,2521,bp07s1,200,OK,bp07 2-1,text,true,,139839,0,1,5,0,0,0
+1493701243645,114,bp07s2,200,OK,bp07 2-1,text,true,,138128,0,1,5,0,0,0
+1493701244103,2075,bp07s3,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493701242782,3809,bp09s4,200,OK,bp09 4-1,text,true,,298357,0,1,5,0,0,0
+1493701246504,2058,bp07s4,200,OK,bp07 2-1,text,true,,127717,0,1,5,0,0,0
+1493701246072,2939,bp06s1,200,OK,bp06 1-1,text,true,,139840,0,1,5,0,0,0
+1493701248889,2328,bp07s5,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493701246926,4854,bp09s5,200,OK,bp09 4-1,text,true,,133791,0,1,5,0,0,0
+1493701251543,2698,bp07s6,200,OK,bp07 2-1,text,true,,112832,0,1,5,0,0,0
+1493701249344,5617,bp06s2,200,OK,bp06 1-1,text,true,,129239,0,1,5,0,0,0
+1493701254567,2257,bp07s7,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493701252105,5215,bp09s6,200,OK,bp09 4-1,text,true,,298355,0,1,5,0,0,0
+1493701257149,2284,bp07s8,200,OK,bp07 2-1,text,true,,115893,0,1,5,0,0,0
+1493701257669,3809,bp09s7,200,OK,bp09 4-1,text,true,,130713,0,1,5,0,0,0
+1493701259755,2018,bp07s9,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493701255307,8279,bp06s3,200,OK,bp06 1-1,text,true,,132286,0,1,5,0,0,0
+1493701262101,2899,bp07s10,200,OK,bp07 2-1,text,true,,107411,0,1,5,0,0,0
+1493701261803,4678,bp09s8,200,OK,bp09 4-1,text,true,,139842,0,1,5,0,0,0
+1493701231010,32441,bp09,200,"Number of samples in transaction : 10, number of failing samples : 0",bp09 4-1,,true,,1714798,0,1,5,0,3076,0
+1493701265332,1789,bp07s11,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493701267451,1658,bp07s12,200,OK,bp07 2-1,text,true,,109632,0,1,5,0,0,0
+1493701269439,1851,bp07s13,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493701263914,8557,bp06s4,200,OK,bp06 1-1,text,true,,132430,0,1,5,0,0,0
+1493701271620,1878,bp07s14,200,OK,bp07 2-1,text,true,,106579,0,1,5,0,0,0
+1493701273818,3489,bp07s15,200,OK,bp07 2-1,text,true,,139838,0,1,5,0,0,0
+1493701240509,31917,bp07,200,"Number of samples in transaction : 15, number of failing samples : 0",bp07 2-1,,true,,1876297,0,1,5,0,4919,0
+1493701272803,7713,bp06s5,200,OK,bp06 1-1,text,true,,132443,0,1,5,0,0,0
+1493701280853,6684,bp06s6,200,OK,bp06 1-1,text,true,,132442,0,1,5,0,0,0
+1493701287854,7429,bp06s7,200,OK,bp06 1-1,text,true,,132439,0,1,5,0,0,0
+1493701295624,7240,bp06s8,200,OK,bp06 1-1,text,true,,132429,0,1,5,0,0,0
+1493701303207,8039,bp06s9,200,OK,bp06 1-1,text,true,,132426,0,1,5,0,0,0
+1493701311567,2147,bp06s10,200,OK,bp06 1-1,text,true,,139838,0,1,5,0,0,0
+1493701245771,64644,bp06,200,"Number of samples in transaction : 10, number of failing samples : 0",bp06 1-1,,true,,1335812,0,1,5,0,3353,0
+1493701315359,5,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493701315025,5,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,334,0
+1493701369190,3199,bp08s1,200,OK,bp08 3-1,text,true,,139841,0,1,5,0,0,0
+1493701372749,83,bp08s2A,200,OK,bp08 3-1,text,true,,139841,0,1,5,0,0,0
+1493701373168,3349,bp08s2,200,OK,bp08 3-1,text,true,,298355,0,1,5,0,0,0
+1493701376880,27383,bp08s3,200,OK,bp08 3-1,text,true,,180355,0,1,5,0,0,0
+1493701404589,3869,bp08s4,200,OK,bp08 3-1,text,true,,298355,0,1,5,0,0,0
+1493701408808,27526,bp08s5,200,OK,bp08 3-1,text,true,,180194,0,1,5,0,0,0
+1493701436699,4691,bp08s6,200,OK,bp08 3-1,text,true,,298357,0,1,5,0,0,0
+1493701447108,3158,bp09s1,200,OK,bp09 4-1,text,true,,139839,0,1,5,0,0,0
+1493701450593,94,bp09s2A,200,OK,bp09 4-1,text,true,,139836,0,1,5,0,0,0
+1493701451013,5941,bp09s2,200,OK,bp09 4-1,text,true,,298358,0,1,5,0,0,0
+1493701457931,4742,bp07s1,200,OK,bp07 2-1,text,true,,139836,0,1,5,0,0,0
+1493701457326,5619,bp09s3,200,OK,bp09 4-1,text,false,Test failed: text expected to contain /<title> Master of Health Science Physiology</title>/,133733,0,1,5,0,0,0
+1493701463005,113,bp07s2,200,OK,bp07 2-1,text,true,,138125,0,1,5,0,0,0
+1493701441767,22127,bp08s7,200,OK,bp08 3-1,text,true,,172388,0,1,5,0,0,0
+1493701463532,2587,bp07s3,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493701463301,5322,bp09s4,200,OK,bp09 4-1,text,true,,298358,0,1,5,0,0,0
+1493701466448,2707,bp07s4,200,OK,bp07 2-1,text,true,,127718,0,1,5,0,0,0
+1493701464205,5007,bp08s8,200,OK,bp08 3-1,text,true,,139884,0,1,5,0,0,0
+1493701368862,97234,bp08,200,"Number of samples in transaction : 10, number of failing samples : 0",bp08 3-1,,true,,1847570,0,1,5,0,3206,0
+1493701469482,2434,bp07s5,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493701468973,4113,bp09s5,200,OK,bp09 4-1,text,true,,135088,0,1,5,0,0,0
+1493701472280,2222,bp07s6,200,OK,bp07 2-1,text,true,,112832,0,1,5,0,0,0
+1493701474825,1683,bp07s7,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493701473425,3604,bp09s6,200,OK,bp09 4-1,text,true,,298357,0,1,5,0,0,0
+1493701476833,2013,bp07s8,200,OK,bp07 2-1,text,true,,115893,0,1,5,0,0,0
+1493701479169,2205,bp07s9,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493701477380,4669,bp09s7,200,OK,bp09 4-1,text,true,,138252,0,1,5,0,0,0
+1493701481703,2296,bp07s10,200,OK,bp07 2-1,text,true,,107412,0,1,5,0,0,0
+1493701482376,3031,bp09s8,200,OK,bp09 4-1,text,true,,139839,0,1,5,0,0,0
+1493701446806,35551,bp09,,"Number of samples in transaction : 10, number of failing samples : 1",bp09 4-1,,false,,1721660,0,1,5,0,3079,0
+1493701484321,1871,bp07s11,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493701486535,1700,bp07s12,200,OK,bp07 2-1,text,true,,109633,0,1,5,0,0,0
+1493701488574,2360,bp07s13,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493701491276,2360,bp07s14,200,OK,bp07 2-1,text,true,,106581,0,1,5,0,0,0
+1493701495940,6,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493701495637,6,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,304,0
+1493701493944,3190,bp07s15,200,OK,bp07 2-1,text,true,,139839,0,1,5,0,0,0
+1493701457630,34483,bp07,200,"Number of samples in transaction : 15, number of failing samples : 0",bp07 2-1,,true,,1876293,0,1,5,0,5114,0
+1493701494341,3494,bp06s1,200,OK,bp06 1-1,text,true,,139842,0,1,5,0,0,0
+1493701498141,3947,bp06s2,200,OK,bp06 1-1,text,true,,115493,0,1,5,0,0,0
+1493701502431,5185,bp06s3,200,OK,bp06 1-1,text,true,,134525,0,1,5,0,0,0
+1493701507949,5392,bp06s4,200,OK,bp06 1-1,text,true,,134668,0,1,5,0,0,0
+1493701513719,4245,bp06s5,200,OK,bp06 1-1,text,true,,134681,0,1,5,0,0,0
+1493701518348,4591,bp06s6,200,OK,bp06 1-1,text,true,,134680,0,1,5,0,0,0
+1493701523257,3385,bp06s7,200,OK,bp06 1-1,text,true,,134676,0,1,5,0,0,0
+1493701526985,6198,bp06s8,200,OK,bp06 1-1,text,true,,134666,0,1,5,0,0,0
+1493701533503,5013,bp06s9,200,OK,bp06 1-1,text,true,,134665,0,1,5,0,0,0
+1493701538841,3726,bp06s10,200,OK,bp06 1-1,text,true,,139836,0,1,5,0,0,0
+1493701494039,45176,bp06,200,"Number of samples in transaction : 10, number of failing samples : 0",bp06 1-1,,true,,1337732,0,1,5,0,3475,0
+1493701649858,3036,bp08s1,200,OK,bp08 3-1,text,true,,139885,0,1,5,0,0,0
+1493701653243,83,bp08s2A,200,OK,bp08 3-1,text,true,,139885,0,1,5,0,0,0
+1493701653678,3647,bp08s2,200,OK,bp08 3-1,text,true,,298357,0,1,5,0,0,0
+1493701666038,2748,bp09s1,200,OK,bp09 4-1,text,true,,139836,0,1,5,0,0,0
+1493701669117,91,bp09s2A,200,OK,bp09 4-1,text,true,,139833,0,1,5,0,0,0
+1493701669532,4508,bp09s2,200,OK,bp09 4-1,text,true,,298356,0,1,5,0,0,0
+1493701676535,6,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493701676233,6,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,302,0
+1493701677755,2809,bp07s1,200,OK,bp07 2-1,text,true,,139834,0,1,5,0,0,0
+1493701680894,144,bp07s2,200,OK,bp07 2-1,text,true,,138123,0,1,5,0,0,0
+1493701681439,2155,bp07s3,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493701657680,26184,bp08s3,200,OK,bp08 3-1,text,true,,177547,0,1,5,0,0,0
+1493701683923,1997,bp07s4,200,OK,bp07 2-1,text,true,,127718,0,1,5,0,0,0
+1493701684170,3645,bp08s4,200,OK,bp08 3-1,text,true,,298356,0,1,5,0,0,0
+1493701686427,2192,bp07s5,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493701688945,1811,bp07s6,200,OK,bp07 2-1,text,true,,112831,0,1,5,0,0,0
+1493701674385,17470,bp09s3,200,OK,bp09 4-1,text,true,,136702,0,1,5,0,0,0
+1493701691079,2267,bp07s7,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493701692184,3398,bp09s4,200,OK,bp09 4-1,text,true,,298356,0,1,5,0,0,0
+1493701693671,2462,bp07s8,200,OK,bp07 2-1,text,true,,115895,0,1,5,0,0,0
+1493701696462,2289,bp07s9,200,OK,bp07 2-1,text,true,,129736,0,1,5,0,0,0
+1493701695929,4112,bp09s5,200,OK,bp09 4-1,text,true,,137089,0,1,5,0,0,0
+1493701699084,1769,bp07s10,200,OK,bp07 2-1,text,true,,107412,0,1,5,0,0,0
+1493701701175,2412,bp07s11,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493701688166,16490,bp08s5,200,OK,bp08 3-1,text,true,,173527,0,1,5,0,0,0
+1493701703916,2496,bp07s12,200,OK,bp07 2-1,text,true,,109632,0,1,5,0,0,0
+1493701700366,6052,bp09s6,200,OK,bp09 4-1,text,true,,298356,0,1,5,0,0,0
+1493701706739,3057,bp07s13,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493701704987,5541,bp08s6,200,OK,bp08 3-1,text,true,,298355,0,1,5,0,0,0
+1493701710122,1787,bp07s14,200,OK,bp07 2-1,text,true,,106581,0,1,5,0,0,0
+1493701706765,5498,bp09s7,200,OK,bp09 4-1,text,true,,135974,0,1,5,0,0,0
+1493701712231,2650,bp07s15,200,OK,bp07 2-1,text,true,,139833,0,1,5,0,0,0
+1493701677452,32297,bp07,200,"Number of samples in transaction : 15, number of failing samples : 0",bp07 2-1,,true,,1876283,0,1,5,0,5160,0
+1493701712588,2334,bp09s8,200,OK,bp09 4-1,text,true,,139838,0,1,5,0,0,0
+1493701665737,46211,bp09,200,"Number of samples in transaction : 10, number of failing samples : 0",bp09 4-1,,true,,1724340,0,1,5,0,3018,0
+1493701723198,3013,bp06s1,200,OK,bp06 1-1,text,true,,139835,0,1,5,0,0,0
+1493701726538,3916,bp06s2,200,OK,bp06 1-1,text,true,,115611,0,1,5,0,0,0
+1493701730781,3100,bp06s3,200,OK,bp06 1-1,text,true,,133049,0,1,5,0,0,0
+1493701734206,3442,bp06s4,200,OK,bp06 1-1,text,true,,133193,0,1,5,0,0,0
+1493701710875,27070,bp08s7,200,OK,bp08 3-1,text,true,,173099,0,1,5,0,0,0
+1493701737975,3590,bp06s5,200,OK,bp06 1-1,text,true,,133205,0,1,5,0,0,0
+1493701738284,3732,bp08s8,200,OK,bp08 3-1,text,true,,139849,0,1,5,0,0,0
+1493701649545,89428,bp08,200,"Number of samples in transaction : 10, number of failing samples : 0",bp08 3-1,,true,,1838860,0,1,5,0,3086,0
+1493701741893,3677,bp06s6,200,OK,bp06 1-1,text,true,,133203,0,1,5,0,0,0
+1493701745911,3386,bp06s7,200,OK,bp06 1-1,text,true,,133200,0,1,5,0,0,0
+1493701749629,5953,bp06s8,200,OK,bp06 1-1,text,true,,133190,0,1,5,0,0,0
+1493701755915,3030,bp06s9,200,OK,bp06 1-1,text,true,,133189,0,1,5,0,0,0
+1493701759291,2721,bp06s10,200,OK,bp06 1-1,text,true,,139842,0,1,5,0,0,0
+1493701722897,35828,bp06,200,"Number of samples in transaction : 10, number of failing samples : 0",bp06 1-1,,true,,1327517,0,1,5,0,3330,0
+1493701857155,7,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493701856841,7,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,314,0
+1493701895522,2907,bp07s1,200,OK,bp07 2-1,text,true,,139840,0,1,5,0,0,0
+1493701895541,3028,bp09s1,200,OK,bp09 4-1,text,true,,139838,0,1,5,0,0,0
+1493701898801,116,bp07s2,200,OK,bp07 2-1,text,true,,138129,0,1,5,0,0,0
+1493701898934,145,bp09s2A,200,OK,bp09 4-1,text,true,,139835,0,1,5,0,0,0
+1493701899421,1850,bp07s3,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493701899437,3348,bp09s2,200,OK,bp09 4-1,text,true,,298357,0,1,5,0,0,0
+1493701901601,1949,bp07s4,200,OK,bp07 2-1,text,true,,127718,0,1,5,0,0,0
+1493701903862,1796,bp07s5,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493701905983,1770,bp07s6,200,OK,bp07 2-1,text,true,,112830,0,1,5,0,0,0
+1493701908075,1876,bp07s7,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493701910304,1852,bp07s8,200,OK,bp07 2-1,text,true,,115892,0,1,5,0,0,0
+1493701912482,1823,bp07s9,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493701903132,11211,bp09s3,200,OK,bp09 4-1,text,true,,134924,0,1,5,0,0,0
+1493701914649,1590,bp07s10,200,OK,bp07 2-1,text,true,,107411,0,1,5,0,0,0
+1493701914694,2956,bp09s4,200,OK,bp09 4-1,text,true,,298358,0,1,5,0,0,0
+1493701916562,1823,bp07s11,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493701918694,1883,bp07s12,200,OK,bp07 2-1,text,true,,109633,0,1,5,0,0,0
+1493701920903,1729,bp07s13,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493701918003,5658,bp09s5,200,OK,bp09 4-1,text,true,,135825,0,1,5,0,0,0
+1493701922961,1751,bp07s14,200,OK,bp07 2-1,text,true,,106581,0,1,5,0,0,0
+1493701922646,3716,bp08s1,200,OK,bp08 3-1,text,true,,139845,0,1,5,0,0,0
+1493701926695,91,bp08s2A,200,OK,bp08 3-1,text,true,,139845,0,1,5,0,0,0
+1493701923971,3388,bp09s6,200,OK,bp09 4-1,text,true,,298358,0,1,5,0,0,0
+1493701925036,2462,bp07s15,200,OK,bp07 2-1,text,true,,139840,0,1,5,0,0,0
+1493701895194,27177,bp07,200,"Number of samples in transaction : 15, number of failing samples : 0",bp07 2-1,,true,,1876299,0,1,5,0,5155,0
+1493701927115,3642,bp08s2,200,OK,bp08 3-1,text,true,,298358,0,1,5,0,0,0
+1493701927704,4308,bp09s7,200,OK,bp09 4-1,text,false,Test failed: text expected to contain /<title>Master of Teaching - Coursework (Early Childhood)</title>/,130061,0,1,5,0,0,0
+1493701932336,2473,bp09s8,200,OK,bp09 4-1,text,true,,139842,0,1,5,0,0,0
+1493701895256,36515,bp09,,"Number of samples in transaction : 10, number of failing samples : 1",bp09 4-1,,false,,1715398,0,1,5,0,3064,0
+1493701942623,3080,bp06s1,200,OK,bp06 1-1,text,true,,139839,0,1,5,0,0,0
+1493701946031,4443,bp06s2,200,OK,bp06 1-1,text,true,,115673,0,1,5,0,0,0
+1493701950800,5783,bp06s3,200,OK,bp06 1-1,text,true,,135465,0,1,5,0,0,0
+1493701956912,5936,bp06s4,200,OK,bp06 1-1,text,true,,135609,0,1,5,0,0,0
+1493701931121,33874,bp08s3,200,OK,bp08 3-1,text,true,,188492,0,1,5,0,0,0
+1493701963174,4821,bp06s5,200,OK,bp06 1-1,text,true,,135621,0,1,5,0,0,0
+1493701965330,4058,bp08s4,200,OK,bp08 3-1,text,true,,298356,0,1,5,0,0,0
+1493701968320,5168,bp06s6,200,OK,bp06 1-1,text,true,,135620,0,1,5,0,0,0
+1493701973818,4756,bp06s7,200,OK,bp06 1-1,text,true,,135616,0,1,5,0,0,0
+1493701978900,3685,bp06s8,200,OK,bp06 1-1,text,true,,135606,0,1,5,0,0,0
+1493701982911,5614,bp06s9,200,OK,bp06 1-1,text,true,,135605,0,1,5,0,0,0
+1493701988854,2908,bp06s10,200,OK,bp06 1-1,text,true,,139842,0,1,5,0,0,0
+1493701942322,46194,bp06,200,"Number of samples in transaction : 10, number of failing samples : 0",bp06 1-1,,true,,1344496,0,1,5,0,3270,0
+1493701969735,33115,bp08s5,200,OK,bp08 3-1,text,true,,177910,0,1,5,0,0,0
+1493702003196,4165,bp08s6,200,OK,bp08 3-1,text,true,,298357,0,1,5,0,0,0
+1493702007714,18939,bp08s7,200,OK,bp08 3-1,text,true,,175807,0,1,5,0,0,0
+1493702026978,4304,bp08s8,200,OK,bp08 3-1,text,true,,139845,0,1,5,0,0,0
+1493701922344,105904,bp08,200,"Number of samples in transaction : 10, number of failing samples : 0",bp08 3-1,,true,,1856815,0,1,5,0,3087,0
+1493702037796,5,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493702037469,5,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,327,0
+1493702108133,3174,bp07s1,200,OK,bp07 2-1,text,true,,139839,0,1,5,0,0,0
+1493702111660,113,bp07s2,200,OK,bp07 2-1,text,true,,138128,0,1,5,0,0,0
+1493702112164,1711,bp07s3,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493702114218,1885,bp07s4,200,OK,bp07 2-1,text,true,,127718,0,1,5,0,0,0
+1493702115442,2247,bp09s1,200,OK,bp09 4-1,text,true,,139837,0,1,5,0,0,0
+1493702118015,101,bp09s2A,200,OK,bp09 4-1,text,true,,139834,0,1,5,0,0,0
+1493702116447,1712,bp07s5,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493702118466,1671,bp07s6,200,OK,bp07 2-1,text,true,,112831,0,1,5,0,0,0
+1493702120468,2200,bp07s7,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493702118445,4761,bp09s2,200,OK,bp09 4-1,text,true,,298356,0,1,5,0,0,0
+1493702122993,2147,bp07s8,200,OK,bp07 2-1,text,true,,115895,0,1,5,0,0,0
+1493702125485,2219,bp07s9,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493702123570,5198,bp09s3,200,OK,bp09 4-1,text,false,Test failed: text expected to contain /<title>Master of Teaching - Coursework (Primary)</title>/,131045,0,1,5,0,0,0
+1493702128038,1663,bp07s10,200,OK,bp07 2-1,text,true,,107410,0,1,5,0,0,0
+1493702130024,2298,bp07s11,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493702129099,4950,bp09s4,200,OK,bp09 4-1,text,true,,298358,0,1,5,0,0,0
+1493702132647,1961,bp07s12,200,OK,bp07 2-1,text,true,,109633,0,1,5,0,0,0
+1493702134930,1888,bp07s13,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493702137143,1706,bp07s14,200,OK,bp07 2-1,text,true,,106581,0,1,5,0,0,0
+1493702134400,4624,bp09s5,200,OK,bp09 4-1,text,false,Test failed: text expected to contain /<title>Master of Teaching - Coursework (Secondary)</title>/,131202,0,1,5,0,0,0
+1493702139171,2352,bp07s15,200,OK,bp07 2-1,text,true,,139839,0,1,5,0,0,0
+1493702107819,28700,bp07,200,"Number of samples in transaction : 15, number of failing samples : 0",bp07 2-1,,true,,1876298,0,1,5,0,5047,0
+1493702139345,3203,bp09s6,200,OK,bp09 4-1,text,true,,298356,0,1,5,0,0,0
+1493702142938,5143,bp09s7,200,OK,bp09 4-1,text,true,,135554,0,1,5,0,0,0
+1493702148377,2109,bp09s8,200,OK,bp09 4-1,text,true,,139840,0,1,5,0,0,0
+1493702115141,32336,bp09,,"Number of samples in transaction : 10, number of failing samples : 2",bp09 4-1,,false,,1712382,0,1,5,0,3116,0
+1493702172401,2946,bp06s1,200,OK,bp06 1-1,text,true,,139841,0,1,5,0,0,0
+1493702175718,3506,bp06s2,200,OK,bp06 1-1,text,true,,115557,0,1,5,0,0,0
+1493702179543,4821,bp06s3,200,OK,bp06 1-1,text,true,,134814,0,1,5,0,0,0
+1493702184699,5167,bp06s4,200,OK,bp06 1-1,text,true,,134958,0,1,5,0,0,0
+1493702190201,4667,bp06s5,200,OK,bp06 1-1,text,true,,134970,0,1,5,0,0,0
+1493702195217,6612,bp06s6,200,OK,bp06 1-1,text,true,,134969,0,1,5,0,0,0
+1493702202159,4224,bp06s7,200,OK,bp06 1-1,text,true,,134965,0,1,5,0,0,0
+1493702206715,4720,bp06s8,200,OK,bp06 1-1,text,true,,134956,0,1,5,0,0,0
+1493702211939,3354,bp08s1,200,OK,bp08 3-1,text,true,,139852,0,1,5,0,0,0
+1493702215613,93,bp08s2A,200,OK,bp08 3-1,text,true,,139852,0,1,5,0,0,0
+1493702211769,4146,bp06s9,200,OK,bp06 1-1,text,true,,134954,0,1,5,0,0,0
+1493702218410,5,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493702218118,5,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,301,0
+1493702216058,2939,bp08s2,200,OK,bp08 3-1,text,true,,298353,0,1,5,0,0,0
+1493702216235,2941,bp06s10,200,OK,bp06 1-1,text,true,,139836,0,1,5,0,0,0
+1493702172088,43750,bp06,200,"Number of samples in transaction : 10, number of failing samples : 0",bp06 1-1,,true,,1339820,0,1,5,0,3402,0
+1493702219349,19902,bp08s3,200,OK,bp08 3-1,text,true,,174268,0,1,5,0,0,0
+1493702239566,4021,bp08s4,200,OK,bp08 3-1,text,true,,298356,0,1,5,0,0,0
+1493702243949,9655,bp08s5,200,OK,bp08 3-1,text,true,,174832,0,1,5,0,0,0
+1493702253932,6022,bp08s6,200,OK,bp08 3-1,text,true,,298358,0,1,5,0,0,0
+1493702260362,23856,bp08s7,200,OK,bp08 3-1,text,true,,176173,0,1,5,0,0,0
+1493702284533,3242,bp08s8,200,OK,bp08 3-1,text,true,,139888,0,1,5,0,0,0
+1493702211625,73084,bp08,200,"Number of samples in transaction : 10, number of failing samples : 0",bp08 3-1,,true,,1839932,0,1,5,0,3172,0
+1493702322119,3306,bp07s1,200,OK,bp07 2-1,text,true,,139835,0,1,5,0,0,0
+1493702325817,114,bp07s2,200,OK,bp07 2-1,text,true,,138124,0,1,5,0,0,0
+1493702326369,2050,bp07s3,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493702328751,1846,bp07s4,200,OK,bp07 2-1,text,true,,127717,0,1,5,0,0,0
+1493702330931,2030,bp07s5,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493702331165,2467,bp09s1,200,OK,bp09 4-1,text,true,,139838,0,1,5,0,0,0
+1493702333924,131,bp09s2A,200,OK,bp09 4-1,text,true,,139835,0,1,5,0,0,0
+1493702333311,1739,bp07s6,200,OK,bp07 2-1,text,true,,112831,0,1,5,0,0,0
+1493702335338,2056,bp07s7,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493702334390,3916,bp09s2,200,OK,bp09 4-1,text,true,,298358,0,1,5,0,0,0
+1493702337722,2275,bp07s8,200,OK,bp07 2-1,text,true,,115895,0,1,5,0,0,0
+1493702340323,2180,bp07s9,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493702338653,4046,bp09s3,200,OK,bp09 4-1,text,true,,136674,0,1,5,0,0,0
+1493702342838,1684,bp07s10,200,OK,bp07 2-1,text,true,,107410,0,1,5,0,0,0
+1493702343036,3072,bp09s4,200,OK,bp09 4-1,text,true,,298357,0,1,5,0,0,0
+1493702344837,1902,bp07s11,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493702347064,1675,bp07s12,200,OK,bp07 2-1,text,true,,109632,0,1,5,0,0,0
+1493702346462,3345,bp09s5,200,OK,bp09 4-1,text,true,,136919,0,1,5,0,0,0
+1493702349070,2008,bp07s13,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493702351405,1720,bp07s14,200,OK,bp07 2-1,text,true,,106581,0,1,5,0,0,0
+1493702350134,3243,bp09s6,200,OK,bp09 4-1,text,true,,298352,0,1,5,0,0,0
+1493702353457,2757,bp07s15,200,OK,bp07 2-1,text,true,,139841,0,1,5,0,0,0
+1493702321821,29342,bp07,200,"Number of samples in transaction : 15, number of failing samples : 0",bp07 2-1,,true,,1876292,0,1,5,0,5073,0
+1493702353724,6433,bp09s7,200,OK,bp09 4-1,text,true,,136436,0,1,5,0,0,0
+1493702360484,2575,bp09s8,200,OK,bp09 4-1,text,true,,139837,0,1,5,0,0,0
+1493702330869,29228,bp09,200,"Number of samples in transaction : 10, number of failing samples : 0",bp09 4-1,,true,,1724606,0,1,5,0,3032,0
+1493702399037,6,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493702398724,6,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,313,0
+1493702399801,2914,bp06s1,200,OK,bp06 1-1,text,true,,139835,0,1,5,0,0,0
+1493702403046,4056,bp06s2,200,OK,bp06 1-1,text,true,,115584,0,1,5,0,0,0
+1493702407490,4309,bp06s3,200,OK,bp06 1-1,text,true,,135591,0,1,5,0,0,0
+1493702412124,3881,bp06s4,200,OK,bp06 1-1,text,true,,135734,0,1,5,0,0,0
+1493702416344,3245,bp06s5,200,OK,bp06 1-1,text,true,,135746,0,1,5,0,0,0
+1493702419910,3471,bp06s6,200,OK,bp06 1-1,text,true,,135746,0,1,5,0,0,0
+1493702423694,3450,bp06s7,200,OK,bp06 1-1,text,true,,135742,0,1,5,0,0,0
+1493702427487,3115,bp06s8,200,OK,bp06 1-1,text,true,,135732,0,1,5,0,0,0
+1493702430954,4046,bp06s9,200,OK,bp06 1-1,text,true,,135730,0,1,5,0,0,0
+1493702435323,2167,bp06s10,200,OK,bp06 1-1,text,true,,139837,0,1,5,0,0,0
+1493702399504,34654,bp06,200,"Number of samples in transaction : 10, number of failing samples : 0",bp06 1-1,,true,,1345277,0,1,5,0,3434,0
+1493702468404,3988,bp08s1,200,OK,bp08 3-1,text,true,,139887,0,1,5,0,0,0
+1493702472766,82,bp08s2A,200,OK,bp08 3-1,text,true,,139887,0,1,5,0,0,0
+1493702473201,3998,bp08s2,200,OK,bp08 3-1,text,true,,298353,0,1,5,0,0,0
+1493702477551,23042,bp08s3,200,OK,bp08 3-1,text,true,,175044,0,1,5,0,0,0
+1493702500939,3565,bp08s4,200,OK,bp08 3-1,text,true,,298355,0,1,5,0,0,0
+1493702504838,30994,bp08s5,200,OK,bp08 3-1,text,true,,175535,0,1,5,0,0,0
+1493702536845,2516,bp07s1,200,OK,bp07 2-1,text,true,,139836,0,1,5,0,0,0
+1493702539683,114,bp07s2,200,OK,bp07 2-1,text,true,,138125,0,1,5,0,0,0
+1493702536164,4358,bp08s6,200,OK,bp08 3-1,text,true,,298357,0,1,5,0,0,0
+1493702540148,2243,bp07s3,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493702542716,2281,bp07s4,200,OK,bp07 2-1,text,true,,127715,0,1,5,0,0,0
+1493702545321,2103,bp07s5,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493702543685,4009,bp09s1,200,OK,bp09 4-1,text,true,,139839,0,1,5,0,0,0
+1493702548022,109,bp09s2A,200,OK,bp09 4-1,text,true,,139836,0,1,5,0,0,0
+1493702547754,1812,bp07s6,200,OK,bp07 2-1,text,true,,112832,0,1,5,0,0,0
+1493702549889,2141,bp07s7,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493702548455,3577,bp09s2,200,OK,bp09 4-1,text,true,,298357,0,1,5,0,0,0
+1493702552357,2525,bp07s8,200,OK,bp07 2-1,text,true,,115895,0,1,5,0,0,0
+1493702555207,2441,bp07s9,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493702552378,6624,bp09s3,200,OK,bp09 4-1,text,true,,139433,0,1,5,0,0,0
+1493702557977,1933,bp07s10,200,OK,bp07 2-1,text,true,,107412,0,1,5,0,0,0
+1493702560236,2689,bp07s11,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493702559329,3803,bp09s4,200,OK,bp09 4-1,text,true,,298358,0,1,5,0,0,0
+1493702563270,1900,bp07s12,200,OK,bp07 2-1,text,true,,109633,0,1,5,0,0,0
+1493702565493,2205,bp07s13,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493702568033,2371,bp07s14,200,OK,bp07 2-1,text,true,,106580,0,1,5,0,0,0
+1493702563477,7781,bp09s5,200,OK,bp09 4-1,text,true,,140762,0,1,5,0,0,0
+1493702570725,3278,bp07s15,200,OK,bp07 2-1,text,true,,139838,0,1,5,0,0,0
+1493702536544,32552,bp07,200,"Number of samples in transaction : 15, number of failing samples : 0",bp07 2-1,,true,,1876290,0,1,5,0,4935,0
+1493702571586,3318,bp09s6,200,OK,bp09 4-1,text,true,,298354,0,1,5,0,0,0
+1493702579642,5,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493702579341,5,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,301,0
+1493702575284,5432,bp09s7,200,OK,bp09 4-1,text,true,,138653,0,1,5,0,0,0
+1493702581041,4174,bp09s8,200,OK,bp09 4-1,text,true,,139840,0,1,5,0,0,0
+1493702543384,38827,bp09,200,"Number of samples in transaction : 10, number of failing samples : 0",bp09 4-1,,true,,1733432,0,1,5,0,3033,0
+1493702540866,52774,bp08s7,200,OK,bp08 3-1,text,true,,177876,0,1,5,0,0,0
+1493702593986,4300,bp08s8,200,OK,bp08 3-1,text,true,,139852,0,1,5,0,0,0
+1493702468090,127101,bp08,200,"Number of samples in transaction : 10, number of failing samples : 0",bp08 3-1,,true,,1843146,0,1,5,0,3189,0
+1493702618141,3490,bp06s1,200,OK,bp06 1-1,text,true,,139841,0,1,5,0,0,0
+1493702621980,3674,bp06s2,200,OK,bp06 1-1,text,true,,115510,0,1,5,0,0,0
+1493702625979,6226,bp06s3,200,OK,bp06 1-1,text,true,,135705,0,1,5,0,0,0
+1493702632537,4882,bp06s4,200,OK,bp06 1-1,text,true,,135849,0,1,5,0,0,0
+1493702637778,6171,bp06s5,200,OK,bp06 1-1,text,true,,135861,0,1,5,0,0,0
+1493702644278,5997,bp06s6,200,OK,bp06 1-1,text,true,,135859,0,1,5,0,0,0
+1493702650608,5968,bp06s7,200,OK,bp06 1-1,text,true,,135856,0,1,5,0,0,0
+1493702656905,6347,bp06s8,200,OK,bp06 1-1,text,true,,135847,0,1,5,0,0,0
+1493702663552,5095,bp06s9,200,OK,bp06 1-1,text,true,,135845,0,1,5,0,0,0
+1493702668997,2343,bp06s10,200,OK,bp06 1-1,text,true,,139842,0,1,5,0,0,0
+1493702617843,50193,bp06,200,"Number of samples in transaction : 10, number of failing samples : 0",bp06 1-1,,true,,1346015,0,1,5,0,3439,0
+1493702754640,3389,bp07s1,200,OK,bp07 2-1,text,true,,139842,0,1,5,0,0,0
+1493702758387,114,bp07s2,200,OK,bp07 2-1,text,true,,138131,0,1,5,0,0,0
+1493702760259,5,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493702759958,5,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,301,0
+1493702758894,2133,bp07s3,200,OK,bp07 2-1,text,true,,129735,0,1,5,0,0,0
+1493702761372,2135,bp07s4,200,OK,bp07 2-1,text,true,,127718,0,1,5,0,0,0
+1493702763814,2043,bp07s5,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493702766187,1820,bp07s6,200,OK,bp07 2-1,text,true,,112831,0,1,5,0,0,0
+1493702765838,2670,bp09s1,200,OK,bp09 4-1,text,true,,139836,0,1,5,0,0,0
+1493702768843,112,bp09s2A,200,OK,bp09 4-1,text,true,,139833,0,1,5,0,0,0
+1493702768332,1685,bp07s7,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493702770348,1852,bp07s8,200,OK,bp07 2-1,text,true,,115895,0,1,5,0,0,0
+1493702769325,3148,bp09s2,200,OK,bp09 4-1,text,true,,298354,0,1,5,0,0,0
+1493702772523,2352,bp07s9,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493702775192,2070,bp07s10,200,OK,bp07 2-1,text,true,,107411,0,1,5,0,0,0
+1493702772829,4811,bp09s3,200,OK,bp09 4-1,text,false,Test failed: text expected to contain /<title>Master of Environmental Science Geographic Information Science and Environmental Management </title>/,136385,0,1,5,0,0,0
+1493702777584,1837,bp07s11,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493702779759,1825,bp07s12,200,OK,bp07 2-1,text,true,,109631,0,1,5,0,0,0
+1493702777954,3601,bp09s4,200,OK,bp09 4-1,text,true,,298356,0,1,5,0,0,0
+1493702778904,3850,bp08s1,200,OK,bp08 3-1,text,true,,139852,0,1,5,0,0,0
+1493702783082,102,bp08s2A,200,OK,bp08 3-1,text,true,,139852,0,1,5,0,0,0
+1493702781925,2482,bp07s13,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493702781926,4451,bp09s5,200,OK,bp09 4-1,text,true,,134171,0,1,5,0,0,0
+1493702784731,2006,bp07s14,200,OK,bp07 2-1,text,true,,106580,0,1,5,0,0,0
+1493702783511,3528,bp08s2,200,OK,bp08 3-1,text,true,,298355,0,1,5,0,0,0
+1493702787058,3658,bp07s15,200,OK,bp07 2-1,text,true,,139842,0,1,5,0,0,0
+1493702754327,31401,bp07,200,"Number of samples in transaction : 15, number of failing samples : 0",bp07 2-1,,true,,1876304,0,1,5,0,5063,0
+1493702786705,4119,bp09s6,200,OK,bp09 4-1,text,true,,298357,0,1,5,0,0,0
+1493702791169,5342,bp09s7,200,OK,bp09 4-1,text,true,,133830,0,1,5,0,0,0
+1493702796838,3217,bp09s8,200,OK,bp09 4-1,text,true,,139840,0,1,5,0,0,0
+1493702765537,31471,bp09,,"Number of samples in transaction : 10, number of failing samples : 1",bp09 4-1,,false,,1718962,0,1,5,0,3074,0
+1493702787385,36732,bp08s3,200,OK,bp08 3-1,text,true,,171645,0,1,5,0,0,0
+1493702824493,3486,bp08s4,200,OK,bp08 3-1,text,true,,298356,0,1,5,0,0,0
+1493702828382,25770,bp08s5,200,OK,bp08 3-1,text,true,,183477,0,1,5,0,0,0
+1493702851958,3529,bp06s1,200,OK,bp06 1-1,text,true,,139838,0,1,5,0,0,0
+1493702854445,5033,bp08s6,200,OK,bp08 3-1,text,true,,298353,0,1,5,0,0,0
+1493702855818,6237,bp06s2,200,OK,bp06 1-1,text,true,,115847,0,1,5,0,0,0
+1493702862384,6516,bp06s3,200,OK,bp06 1-1,text,true,,133791,0,1,5,0,0,0
+1493702869227,5690,bp06s4,200,OK,bp06 1-1,text,true,,133934,0,1,5,0,0,0
+1493702859826,15818,bp08s7,200,OK,bp08 3-1,text,true,,174509,0,1,5,0,0,0
+1493702875977,3374,bp08s8,200,OK,bp08 3-1,text,true,,139848,0,1,5,0,0,0
+1493702778603,97693,bp08,200,"Number of samples in transaction : 10, number of failing samples : 0",bp08 3-1,,true,,1844247,0,1,5,0,3118,0
+1493702875276,5521,bp06s5,200,OK,bp06 1-1,text,true,,133948,0,1,5,0,0,0
+1493702881134,4642,bp06s6,200,OK,bp06 1-1,text,true,,133946,0,1,5,0,0,0
+1493702886104,4610,bp06s7,200,OK,bp06 1-1,text,true,,133940,0,1,5,0,0,0
+1493702891052,4646,bp06s8,200,OK,bp06 1-1,text,true,,133933,0,1,5,0,0,0
+1493702896015,3917,bp06s9,200,OK,bp06 1-1,text,true,,133931,0,1,5,0,0,0
+1493702900276,88,bp06s10,200,OK,bp06 1-1,text,true,,139839,0,1,5,0,0,0
+1493702851657,45396,bp06,200,"Number of samples in transaction : 10, number of failing samples : 0",bp06 1-1,,true,,1332947,0,1,5,0,5441,0
+1493702940846,6,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493702940548,6,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,298,0
+1493702971362,3019,bp07s1,200,OK,bp07 2-1,text,true,,139838,0,1,5,0,0,0
+1493702974753,111,bp07s2,200,OK,bp07 2-1,text,true,,138127,0,1,5,0,0,0
+1493702975282,1744,bp07s3,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493702977373,1755,bp07s4,200,OK,bp07 2-1,text,true,,127717,0,1,5,0,0,0
+1493702979433,1743,bp07s5,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493702980684,2084,bp09s1,200,OK,bp09 4-1,text,true,,139840,0,1,5,0,0,0
+1493702981501,1701,bp07s6,200,OK,bp07 2-1,text,true,,112831,0,1,5,0,0,0
+1493702983097,107,bp09s2A,200,OK,bp09 4-1,text,true,,139837,0,1,5,0,0,0
+1493702983549,1900,bp07s7,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493702983550,3352,bp09s2,200,OK,bp09 4-1,text,true,,298357,0,1,5,0,0,0
+1493702985753,1985,bp07s8,200,OK,bp07 2-1,text,true,,115893,0,1,5,0,0,0
+1493702988064,1749,bp07s9,200,OK,bp07 2-1,text,true,,129736,0,1,5,0,0,0
+1493702987228,4208,bp09s3,200,OK,bp09 4-1,text,true,,139093,0,1,5,0,0,0
+1493702990138,1610,bp07s10,200,OK,bp07 2-1,text,true,,107411,0,1,5,0,0,0
+1493702992070,1942,bp07s11,200,OK,bp07 2-1,text,true,,129735,0,1,5,0,0,0
+1493702991764,3231,bp09s4,200,OK,bp09 4-1,text,true,,298355,0,1,5,0,0,0
+1493702994338,1668,bp07s12,200,OK,bp07 2-1,text,true,,109632,0,1,5,0,0,0
+1493702996329,2150,bp07s13,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493702995344,3654,bp09s5,200,OK,bp09 4-1,text,true,,139710,0,1,5,0,0,0
+1493702998804,1718,bp07s14,200,OK,bp07 2-1,text,true,,106581,0,1,5,0,0,0
+1493702999330,4197,bp09s6,200,OK,bp09 4-1,text,true,,298358,0,1,5,0,0,0
+1493703000842,2849,bp07s15,200,OK,bp07 2-1,text,true,,139839,0,1,5,0,0,0
+1493702971049,27645,bp07,200,"Number of samples in transaction : 15, number of failing samples : 0",bp07 2-1,,true,,1876291,0,1,5,0,5062,0
+1493703003876,7986,bp09s7,200,OK,bp09 4-1,text,true,,141886,0,1,5,0,0,0
+1493703012241,3079,bp09s8,200,OK,bp09 4-1,text,true,,139839,0,1,5,0,0,0
+1493702980383,31898,bp09,200,"Number of samples in transaction : 10, number of failing samples : 0",bp09 4-1,,true,,1735275,0,1,5,0,3086,0
+1493703059990,3640,bp08s1,200,OK,bp08 3-1,text,true,,139846,0,1,5,0,0,0
+1493703063960,94,bp08s2A,200,OK,bp08 3-1,text,true,,139846,0,1,5,0,0,0
+1493703064393,4660,bp08s2,200,OK,bp08 3-1,text,true,,298358,0,1,5,0,0,0
+1493703083049,3396,bp06s1,200,OK,bp06 1-1,text,true,,139838,0,1,5,0,0,0
+1493703086777,6802,bp06s2,200,OK,bp06 1-1,text,true,,115666,0,1,5,0,0,0
+1493703093903,4278,bp06s3,200,OK,bp06 1-1,text,true,,130713,0,1,5,0,0,0
+1493703069404,31399,bp08s3,200,OK,bp08 3-1,text,true,,172878,0,1,5,0,0,0
+1493703098512,5886,bp06s4,200,OK,bp06 1-1,text,true,,130857,0,1,5,0,0,0
+1493703101135,5280,bp08s4,200,OK,bp08 3-1,text,true,,298353,0,1,5,0,0,0
+1493703104730,3929,bp06s5,200,OK,bp06 1-1,text,true,,130870,0,1,5,0,0,0
+1493703108987,3588,bp06s6,200,OK,bp06 1-1,text,true,,130868,0,1,5,0,0,0
+1493703112900,3432,bp06s7,200,OK,bp06 1-1,text,true,,130865,0,1,5,0,0,0
+1493703116661,2901,bp06s8,200,OK,bp06 1-1,text,true,,130855,0,1,5,0,0,0
+1493703121475,6,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493703121174,6,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,301,0
+1493703119888,3215,bp06s9,200,OK,bp06 1-1,text,true,,130852,0,1,5,0,0,0
+1493703123438,2420,bp06s10,200,OK,bp06 1-1,text,true,,139836,0,1,5,0,0,0
+1493703082748,39847,bp06,200,"Number of samples in transaction : 10, number of failing samples : 0",bp06 1-1,,true,,1311220,0,1,5,0,3288,0
+1493703106761,30136,bp08s5,200,OK,bp08 3-1,text,true,,180898,0,1,5,0,0,0
+1493703137236,4225,bp08s6,200,OK,bp08 3-1,text,true,,298344,0,1,5,0,0,0
+1493703141824,25516,bp08s7,200,OK,bp08 3-1,text,true,,191421,0,1,5,0,0,0
+1493703167662,3163,bp08s8,200,OK,bp08 3-1,text,true,,140106,0,1,5,0,0,0
+1493703059676,108113,bp08,200,"Number of samples in transaction : 10, number of failing samples : 0",bp08 3-1,,true,,1860050,0,1,5,0,3096,0
+1493703184347,3771,bp07s1,200,OK,bp07 2-1,text,true,,139840,0,1,5,0,0,0
+1493703188468,113,bp07s2,200,OK,bp07 2-1,text,true,,138129,0,1,5,0,0,0
+1493703188906,2009,bp07s3,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493703191277,2212,bp07s4,200,OK,bp07 2-1,text,true,,127718,0,1,5,0,0,0
+1493703193845,1908,bp07s5,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493703196051,1781,bp07s6,200,OK,bp07 2-1,text,true,,112831,0,1,5,0,0,0
+1493703195906,2418,bp09s1,200,OK,bp09 4-1,text,true,,139836,0,1,5,0,0,0
+1493703198652,89,bp09s2A,200,OK,bp09 4-1,text,true,,139833,0,1,5,0,0,0
+1493703198159,2963,bp07s7,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493703199064,5214,bp09s2,200,OK,bp09 4-1,text,true,,298355,0,1,5,0,0,0
+1493703201463,3013,bp07s8,200,OK,bp07 2-1,text,true,,115895,0,1,5,0,0,0
+1493703204801,1961,bp07s9,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493703204625,3854,bp09s3,200,OK,bp09 4-1,text,true,,143741,0,1,5,0,0,0
+1493703207087,2023,bp07s10,200,OK,bp07 2-1,text,true,,107412,0,1,5,0,0,0
+1493703209441,2120,bp07s11,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493703208809,3744,bp09s4,200,OK,bp09 4-1,text,true,,298357,0,1,5,0,0,0
+1493703211886,1924,bp07s12,200,OK,bp07 2-1,text,true,,109633,0,1,5,0,0,0
+1493703214134,2039,bp07s13,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493703212899,4647,bp09s5,200,OK,bp09 4-1,text,true,,136410,0,1,5,0,0,0
+1493703216509,1988,bp07s14,200,OK,bp07 2-1,text,true,,106581,0,1,5,0,0,0
+1493703217872,3586,bp09s6,200,OK,bp09 4-1,text,true,,298358,0,1,5,0,0,0
+1493703218818,3558,bp07s15,200,OK,bp07 2-1,text,true,,139841,0,1,5,0,0,0
+1493703184018,33383,bp07,200,"Number of samples in transaction : 15, number of failing samples : 0",bp07 2-1,,true,,1876308,0,1,5,0,5050,0
+1493703221819,6931,bp09s7,200,OK,bp09 4-1,text,true,,139399,0,1,5,0,0,0
+1493703229104,2506,bp09s8,200,OK,bp09 4-1,text,true,,139839,0,1,5,0,0,0
+1493703195602,32989,bp09,200,"Number of samples in transaction : 10, number of failing samples : 0",bp09 4-1,,true,,1734128,0,1,5,0,3053,0
+1493703302104,5,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493703301791,5,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,313,0
+1493703306495,3368,bp06s1,200,OK,bp06 1-1,text,true,,139826,0,1,5,0,0,0
+1493703310215,7043,bp06s2,200,OK,bp06 1-1,text,true,,115622,0,1,5,0,0,0
+1493703317579,4730,bp06s3,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title> Master of Health Science Physiology</title>/,133720,0,1,5,0,0,0
+1493703322652,5494,bp06s4,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title> Master of Health Science Physiology</title>/,133863,0,1,5,0,0,0
+1493703328466,7163,bp06s5,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title> Master of Health Science Physiology</title>/,133876,0,1,5,0,0,0
+1493703335957,8451,bp06s6,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title> Master of Health Science Physiology</title>/,133876,0,1,5,0,0,0
+1493703344741,6644,bp06s7,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title> Master of Health Science Physiology</title>/,133872,0,1,5,0,0,0
+1493703351454,4480,bp08s1,200,OK,bp08 3-1,text,true,,140109,0,1,5,0,0,0
+1493703356291,87,bp08s2A,200,OK,bp08 3-1,text,true,,140109,0,1,5,0,0,0
+1493703351718,7926,bp06s8,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title> Master of Health Science Physiology</title>/,133863,0,1,5,0,0,0
+1493703356701,3910,bp08s2,200,OK,bp08 3-1,text,true,,298344,0,1,5,0,0,0
+1493703359971,4090,bp06s9,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title> Master of Health Science Physiology</title>/,133861,0,1,5,0,0,0
+1493703364388,2397,bp06s10,200,OK,bp06 1-1,text,true,,139823,0,1,5,0,0,0
+1493703306182,57306,bp06,,"Number of samples in transaction : 10, number of failing samples : 7",bp06 1-1,,false,,1332202,0,1,5,0,3325,0
+1493703402999,3003,bp07s1,200,OK,bp07 2-1,text,true,,139837,0,1,5,0,0,0
+1493703406332,120,bp07s2,200,OK,bp07 2-1,text,true,,138126,0,1,5,0,0,0
+1493703406824,1966,bp07s3,200,OK,bp07 2-1,text,true,,129736,0,1,5,0,0,0
+1493703409118,2126,bp07s4,200,OK,bp07 2-1,text,true,,127717,0,1,5,0,0,0
+1493703411570,2158,bp07s5,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493703412230,3229,bp09s1,200,OK,bp09 4-1,text,true,,139842,0,1,5,0,0,0
+1493703414053,1799,bp07s6,200,OK,bp07 2-1,text,true,,112831,0,1,5,0,0,0
+1493703415792,93,bp09s2A,200,OK,bp09 4-1,text,true,,139839,0,1,5,0,0,0
+1493703416176,2334,bp07s7,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493703416207,3971,bp09s2,200,OK,bp09 4-1,text,true,,298356,0,1,5,0,0,0
+1493703418837,2356,bp07s8,200,OK,bp07 2-1,text,true,,115893,0,1,5,0,0,0
+1493703421517,2151,bp07s9,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493703423996,1922,bp07s10,200,OK,bp07 2-1,text,true,,107410,0,1,5,0,0,0
+1493703420525,7745,bp09s3,200,OK,bp09 4-1,text,true,,134620,0,1,5,0,0,0
+1493703426258,2222,bp07s11,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493703428807,2385,bp07s12,200,OK,bp07 2-1,text,true,,109633,0,1,5,0,0,0
+1493703431515,2481,bp07s13,200,OK,bp07 2-1,text,true,,129736,0,1,5,0,0,0
+1493703428595,5803,bp09s4,200,OK,bp09 4-1,text,true,,298358,0,1,5,0,0,0
+1493703434326,1869,bp07s14,200,OK,bp07 2-1,text,true,,106580,0,1,5,0,0,0
+1493703436515,2782,bp07s15,200,OK,bp07 2-1,text,true,,139839,0,1,5,0,0,0
+1493703402698,31674,bp07,200,"Number of samples in transaction : 15, number of failing samples : 0",bp07 2-1,,true,,1876288,0,1,5,0,4955,0
+1493703434750,5734,bp09s5,200,OK,bp09 4-1,text,true,,136394,0,1,5,0,0,0
+1493703360955,80070,bp08s3,200,OK,bp08 3-1,text,true,,195875,0,1,5,0,0,0
+1493703440808,3467,bp09s6,200,OK,bp09 4-1,text,true,,298357,0,1,5,0,0,0
+1493703441361,3288,bp08s4,200,OK,bp08 3-1,text,true,,298343,0,1,5,0,0,0
+1493703444621,5590,bp09s7,200,OK,bp09 4-1,text,true,,136766,0,1,5,0,0,0
+1493703450534,2723,bp09s8,200,OK,bp09 4-1,text,true,,139840,0,1,5,0,0,0
+1493703411929,38355,bp09,200,"Number of samples in transaction : 10, number of failing samples : 0",bp09 4-1,,true,,1722372,0,1,5,0,2999,0
+1493703444996,16148,bp08s5,200,OK,bp08 3-1,text,true,,176303,0,1,5,0,0,0
+1493703461490,4037,bp08s6,200,OK,bp08 3-1,text,true,,298346,0,1,5,0,0,0
+1493703482721,5,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493703482420,5,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,301,0
+1493703465897,34717,bp08s7,200,OK,bp08 3-1,text,true,,191501,0,1,5,0,0,0
+1493703500942,4884,bp08s8,200,OK,bp08 3-1,text,true,,140101,0,1,5,0,0,0
+1493703351153,151621,bp08,200,"Number of samples in transaction : 10, number of failing samples : 0",bp08 3-1,,true,,1879031,0,1,5,0,3107,0
+1493703547448,3709,bp06s1,200,OK,bp06 1-1,text,true,,139827,0,1,5,0,0,0
+1493703551496,3672,bp06s2,200,OK,bp06 1-1,text,true,,115520,0,1,5,0,0,0
+1493703555495,3261,bp06s3,200,OK,bp06 1-1,text,true,,135078,0,1,5,0,0,0
+1493703559089,3119,bp06s4,200,OK,bp06 1-1,text,true,,135222,0,1,5,0,0,0
+1493703562555,3002,bp06s5,200,OK,bp06 1-1,text,true,,135235,0,1,5,0,0,0
+1493703565875,3142,bp06s6,200,OK,bp06 1-1,text,true,,135233,0,1,5,0,0,0
+1493703569358,3077,bp06s7,200,OK,bp06 1-1,text,true,,135230,0,1,5,0,0,0
+1493703572791,3669,bp06s8,200,OK,bp06 1-1,text,true,,135219,0,1,5,0,0,0
+1493703576763,3527,bp06s9,200,OK,bp06 1-1,text,true,,135218,0,1,5,0,0,0
+1493703580638,2691,bp06s10,200,OK,bp06 1-1,text,true,,139828,0,1,5,0,0,0
+1493703547134,32869,bp06,200,"Number of samples in transaction : 10, number of failing samples : 0",bp06 1-1,,true,,1341610,0,1,5,0,3454,0
+1493703619912,3783,bp07s1,200,OK,bp07 2-1,text,true,,139842,0,1,5,0,0,0
+1493703624060,123,bp07s2,200,OK,bp07 2-1,text,true,,138131,0,1,5,0,0,0
+1493703624536,1974,bp07s3,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493703626853,2187,bp07s4,200,OK,bp07 2-1,text,true,,127718,0,1,5,0,0,0
+1493703629392,2225,bp07s5,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493703631954,2213,bp07s6,200,OK,bp07 2-1,text,true,,112832,0,1,5,0,0,0
+1493703634481,2021,bp07s7,200,OK,bp07 2-1,text,true,,129736,0,1,5,0,0,0
+1493703633904,2773,bp09s1,200,OK,bp09 4-1,text,true,,139839,0,1,5,0,0,0
+1493703636990,94,bp09s2A,200,OK,bp09 4-1,text,true,,139836,0,1,5,0,0,0
+1493703636849,2037,bp07s8,200,OK,bp07 2-1,text,true,,115895,0,1,5,0,0,0
+1493703637427,3636,bp09s2,200,OK,bp09 4-1,text,true,,298358,0,1,5,0,0,0
+1493703639209,2099,bp07s9,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493703641632,2279,bp07s10,200,OK,bp07 2-1,text,true,,107412,0,1,5,0,0,0
+1493703644236,2098,bp07s11,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493703641409,5062,bp09s3,200,OK,bp09 4-1,text,true,,136412,0,1,5,0,0,0
+1493703646673,1780,bp07s12,200,OK,bp07 2-1,text,true,,109631,0,1,5,0,0,0
+1493703646822,3607,bp09s4,200,OK,bp09 4-1,text,true,,298357,0,1,5,0,0,0
+1493703648779,2785,bp07s13,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493703651866,1802,bp07s14,200,OK,bp07 2-1,text,true,,106581,0,1,5,0,0,0
+1493703650768,4091,bp09s5,200,OK,bp09 4-1,text,true,,140636,0,1,5,0,0,0
+1493703653993,2821,bp07s15,200,OK,bp07 2-1,text,true,,139836,0,1,5,0,0,0
+1493703619626,32227,bp07,200,"Number of samples in transaction : 15, number of failing samples : 0",bp07 2-1,,true,,1876302,0,1,5,0,5021,0
+1493703655190,4052,bp09s6,200,OK,bp09 4-1,text,true,,298356,0,1,5,0,0,0
+1493703659600,3175,bp09s7,200,OK,bp09 4-1,text,true,,146599,0,1,5,0,0,0
+1493703663363,5,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493703663070,5,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,293,0
+1493703663101,3009,bp09s8,200,OK,bp09 4-1,text,true,,139842,0,1,5,0,0,0
+1493703633603,29499,bp09,200,"Number of samples in transaction : 10, number of failing samples : 0",bp09 4-1,,true,,1738235,0,1,5,0,3085,0
+1493703686457,2821,bp08s1,200,OK,bp08 3-1,text,true,,140100,0,1,5,0,0,0
+1493703689633,83,bp08s2A,200,OK,bp08 3-1,text,true,,140100,0,1,5,0,0,0
+1493703690051,3043,bp08s2,200,OK,bp08 3-1,text,true,,298346,0,1,5,0,0,0
+1493703693485,23712,bp08s3,200,OK,bp08 3-1,text,true,,177714,0,1,5,0,0,0
+1493703717502,5677,bp08s4,200,OK,bp08 3-1,text,true,,298344,0,1,5,0,0,0
+1493703723523,35024,bp08s5,200,OK,bp08 3-1,text,true,,178646,0,1,5,0,0,0
+1493703758888,4160,bp08s6,200,OK,bp08 3-1,text,true,,298346,0,1,5,0,0,0
+1493703763947,3773,bp06s1,200,OK,bp06 1-1,text,true,,139828,0,1,5,0,0,0
+1493703768046,3474,bp06s2,200,OK,bp06 1-1,text,true,,115349,0,1,5,0,0,0
+1493703771846,1816,bp06s3,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title>Lawyer</title>/,103037,0,1,5,0,0,0
+1493703773984,1625,bp06s4,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title>Lawyer</title>/,103037,0,1,5,0,0,0
+1493703776011,1461,bp06s5,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title>Lawyer</title>/,103037,0,1,5,0,0,0
+1493703777868,2004,bp06s6,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title>Lawyer</title>/,103036,0,1,5,0,0,0
+1493703780193,2415,bp06s7,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title>Lawyer</title>/,103037,0,1,5,0,0,0
+1493703782930,2025,bp06s8,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title>Lawyer</title>/,103037,0,1,5,0,0,0
+1493703785303,1570,bp06s9,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title>Lawyer</title>/,103035,0,1,5,0,0,0
+1493703787196,2819,bp06s10,200,OK,bp06 1-1,text,true,,139829,0,1,5,0,0,0
+1493703763646,22982,bp06,,"Number of samples in transaction : 10, number of failing samples : 7",bp06 1-1,,false,,1116262,0,1,5,0,3412,0
+1493703763388,33956,bp08s7,200,OK,bp08 3-1,text,true,,174947,0,1,5,0,0,0
+1493703797681,4392,bp08s8,200,OK,bp08 3-1,text,true,,139853,0,1,5,0,0,0
+1493703686145,112868,bp08,200,"Number of samples in transaction : 10, number of failing samples : 0",bp08 3-1,,true,,1846396,0,1,5,0,3153,0
+1493703837449,3517,bp07s1,200,OK,bp07 2-1,text,true,,139836,0,1,5,0,0,0
+1493703841339,112,bp07s2,200,OK,bp07 2-1,text,true,,138125,0,1,5,0,0,0
+1493703843964,5,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493703843663,5,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,301,0
+1493703841871,3822,bp07s3,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493703846023,3465,bp07s4,200,OK,bp07 2-1,text,true,,127718,0,1,5,0,0,0
+1493703846734,3287,bp09s1,200,OK,bp09 4-1,text,true,,139836,0,1,5,0,0,0
+1493703850351,91,bp09s2A,200,OK,bp09 4-1,text,true,,139833,0,1,5,0,0,0
+1493703849815,2468,bp07s5,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493703852607,2715,bp07s6,200,OK,bp07 2-1,text,true,,112832,0,1,5,0,0,0
+1493703855646,2561,bp07s7,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493703850767,7485,bp09s2,200,OK,bp09 4-1,text,true,,298354,0,1,5,0,0,0
+1493703858547,2531,bp07s8,200,OK,bp07 2-1,text,true,,115891,0,1,5,0,0,0
+1493703858606,4615,bp09s3,200,OK,bp09 4-1,text,true,,137776,0,1,5,0,0,0
+1493703861395,2116,bp07s9,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493703863836,1860,bp07s10,200,OK,bp07 2-1,text,true,,107410,0,1,5,0,0,0
+1493703863540,4894,bp09s4,200,OK,bp09 4-1,text,true,,298355,0,1,5,0,0,0
+1493703866025,4053,bp07s11,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493703870404,2650,bp07s12,200,OK,bp07 2-1,text,true,,109633,0,1,5,0,0,0
+1493703868781,4929,bp09s5,200,OK,bp09 4-1,text,false,Test failed: text expected to contain /<title>Master of Infectious Diseases - Coursework - Dissertation</title>/,138082,0,1,5,0,0,0
+1493703873385,1906,bp07s13,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493703875620,1764,bp07s14,200,OK,bp07 2-1,text,true,,106580,0,1,5,0,0,0
+1493703874055,3406,bp09s6,200,OK,bp09 4-1,text,true,,298358,0,1,5,0,0,0
+1493703877713,3199,bp07s15,200,OK,bp07 2-1,text,true,,139838,0,1,5,0,0,0
+1493703837136,38739,bp07,200,"Number of samples in transaction : 15, number of failing samples : 0",bp07 2-1,,true,,1876289,0,1,5,0,5060,0
+1493703877817,3889,bp09s7,200,OK,bp09 4-1,text,true,,135165,0,1,5,0,0,0
+1493703882032,2624,bp09s8,200,OK,bp09 4-1,text,true,,139838,0,1,5,0,0,0
+1493703846433,35220,bp09,,"Number of samples in transaction : 10, number of failing samples : 1",bp09 4-1,,false,,1725597,0,1,5,0,3051,0
+1493703970638,3621,bp06s1,200,OK,bp06 1-1,text,true,,139823,0,1,5,0,0,0
+1493703974647,6261,bp06s2,200,OK,bp06 1-1,text,true,,115752,0,1,5,0,0,0
+1493703981229,3828,bp06s3,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title>Master of Science Communication and Education  Coursework</title>/,138241,0,1,5,0,0,0
+1493703982748,3809,bp08s1,200,OK,bp08 3-1,text,true,,139854,0,1,5,0,0,0
+1493703986875,120,bp08s2A,200,OK,bp08 3-1,text,true,,139854,0,1,5,0,0,0
+1493703985372,6478,bp06s4,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title>Master of Science Communication and Education  Coursework</title>/,138386,0,1,5,0,0,0
+1493703987319,5184,bp08s2,200,OK,bp08 3-1,text,true,,298344,0,1,5,0,0,0
+1493703992180,3978,bp06s5,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title>Master of Science Communication and Education  Coursework</title>/,138398,0,1,5,0,0,0
+1493703996503,3026,bp06s6,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title>Master of Science Communication and Education  Coursework</title>/,138396,0,1,5,0,0,0
+1493703999854,3376,bp06s7,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title>Master of Science Communication and Education  Coursework</title>/,138394,0,1,5,0,0,0
+1493704003558,4880,bp06s8,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title>Master of Science Communication and Education  Coursework</title>/,138384,0,1,5,0,0,0
+1493703992849,16909,bp08s3,200,OK,bp08 3-1,text,true,,172281,0,1,5,0,0,0
+1493704008764,3371,bp06s9,200,OK,bp06 1-1,text,false,Test failed: text expected to contain /<title>Master of Science Communication and Education  Coursework</title>/,138382,0,1,5,0,0,0
+1493704010089,3233,bp08s4,200,OK,bp08 3-1,text,true,,298345,0,1,5,0,0,0
+1493704012473,2563,bp06s10,200,OK,bp06 1-1,text,true,,139823,0,1,5,0,0,0
+1493703970341,41382,bp06,,"Number of samples in transaction : 10, number of failing samples : 7",bp06 1-1,,false,,1363979,0,1,5,0,3338,0
+1493704024554,8,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 772fa3c6ce1fda1997dc14c4b82ff1d3
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir4176_1696, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493704024253,8,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,301,0
+1493704013666,14244,bp08s5,200,OK,bp08 3-1,text,true,,183568,0,1,5,0,0,0
+1493704028248,4969,bp08s6,200,OK,bp08 3-1,text,true,,298344,0,1,5,0,0,0
+1493704033594,22495,bp08s7,200,OK,bp08 3-1,text,true,,182901,0,1,5,0,0,0
+1493704056446,5582,bp08s8,200,OK,bp08 3-1,text,true,,139865,0,1,5,0,0,0
+1493703982446,76545,bp08,200,"Number of samples in transaction : 10, number of failing samples : 0",bp08 3-1,,true,,1853356,0,1,5,0,3097,0
+1493704061533,4991,bp07s1,200,OK,bp07 2-1,text,true,,139838,0,1,5,0,0,0
+1493704066855,187,bp07s2,200,OK,bp07 2-1,text,true,,138127,0,1,5,0,0,0
+1493704065277,3650,bp09s1,200,OK,bp09 4-1,text,true,,139838,0,1,5,0,0,0
+1493704069280,89,bp09s2A,200,OK,bp09 4-1,text,true,,139835,0,1,5,0,0,0
+1493704067443,3870,bp07s3,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493704071639,4765,bp07s4,200,OK,bp07 2-1,text,true,,127717,0,1,5,0,0,0
+1493704069697,8446,bp09s2,200,OK,bp09 4-1,text,true,,298358,0,1,5,0,0,0
+1493704076732,3457,bp07s5,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493704080518,3134,bp07s6,200,OK,bp07 2-1,text,true,,112832,0,1,5,0,0,0
+1493704078489,9708,bp09s3,200,OK,bp09 4-1,text,true,,137015,0,1,5,0,0,0
+1493704083978,5164,bp07s7,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493704088524,5033,bp09s4,200,OK,bp09 4-1,text,true,,298349,0,1,5,0,0,0
+1493704089480,4100,bp07s8,200,OK,bp07 2-1,text,true,,115895,0,1,5,0,0,0
+1493704093914,2358,bp07s9,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493704093913,5041,bp09s5,200,OK,bp09 4-1,text,true,,136151,0,1,5,0,0,0
+1493704096590,3087,bp07s10,200,OK,bp07 2-1,text,true,,107412,0,1,5,0,0,0
+1493704100004,3072,bp07s11,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493704099289,5628,bp09s6,200,OK,bp09 4-1,text,true,,298355,0,1,5,0,0,0
+1493704103406,2675,bp07s12,200,OK,bp07 2-1,text,true,,109633,0,1,5,0,0,0
+1493704106410,4408,bp07s13,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493704105279,6612,bp09s7,200,OK,bp09 4-1,text,true,,137291,0,1,5,0,0,0
+1493704111144,2748,bp07s14,200,OK,bp07 2-1,text,true,,106581,0,1,5,0,0,0
+1493704112220,4243,bp09s8,200,OK,bp09 4-1,text,true,,139840,0,1,5,0,0,0
+1493704064976,48450,bp09,200,"Number of samples in transaction : 10, number of failing samples : 0",bp09 4-1,,true,,1725032,0,1,5,0,3067,0
+1493704114212,3748,bp07s15,200,OK,bp07 2-1,text,true,,139836,0,1,5,0,0,0
+1493704061232,51764,bp07,200,"Number of samples in transaction : 15, number of failing samples : 0",bp07 2-1,,true,,1876299,0,1,5,0,5029,0
+1493705875313,19,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 34 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: fc3a3e9ada57df1d1ea48230a06de270
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir5320_4693, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2178,0,1,5,0,0,0
+1493705874977,19,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2178,0,1,5,0,336,0
+1493705875313,5832,bp08s1,200,OK,bp08 3-1,text,true,,139994,0,1,5,0,0,0
+1493705875351,5822,bp07s1,200,OK,bp07 2-1,text,true,,139994,0,1,5,0,0,0
+1493705881482,94,bp08s2A,200,OK,bp08 3-1,text,true,,139994,0,1,5,0,0,0
+1493705875329,6554,bp06s1,200,OK,bp06 1-1,text,true,,139993,0,1,5,0,0,0
+1493705881509,152,bp07s2,200,OK,bp07 2-1,text,true,,138391,0,1,5,0,0,0
+1493705875329,8329,bp09s1,200,OK,bp09 4-1,text,true,,139992,0,1,5,0,0,0
+1493705883987,120,bp09s2A,200,OK,bp09 4-1,text,true,,139989,0,1,5,0,0,0
+1493705883730,2481,bp07s3,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493705884438,2863,bp09s2,200,OK,bp09 4-1,text,true,,298510,0,1,5,0,0,0
+1493705881903,5448,bp08s2,200,OK,bp08 3-1,text,true,,298510,0,1,5,0,0,0
+1493705883725,3958,bp06s2,200,OK,bp06 1-1,text,true,,115495,0,1,5,0,0,0
+1493705886555,2939,bp07s4,200,OK,bp07 2-1,text,true,,127717,0,1,5,0,0,0
+1493705887657,2855,bp09s3,200,OK,bp09 4-1,text,true,,134222,0,1,5,0,0,0
+1493705889836,2241,bp07s5,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493705888014,4085,bp06s3,200,OK,bp06 1-1,text,true,,134071,0,1,5,0,0,0
+1493705892437,3152,bp07s6,200,OK,bp07 2-1,text,true,,112832,0,1,5,0,0,0
+1493705890839,4794,bp09s4,200,OK,bp09 4-1,text,true,,298503,0,1,5,0,0,0
+1493705892442,3403,bp06s4,200,OK,bp06 1-1,text,true,,134215,0,1,5,0,0,0
+1493705895915,2152,bp07s7,200,OK,bp07 2-1,text,true,,129736,0,1,5,0,0,0
+1493705896175,3424,bp06s5,200,OK,bp06 1-1,text,true,,134228,0,1,5,0,0,0
+1493705887726,11905,bp08s3,200,OK,bp08 3-1,text,true,,173745,0,1,5,0,0,0
+1493705895987,4608,bp09s5,200,OK,bp09 4-1,text,true,,132808,0,1,5,0,0,0
+1493705898398,2726,bp07s8,200,OK,bp07 2-1,text,true,,115791,0,1,5,0,0,0
+1493705901447,1735,bp07s9,200,OK,bp07 2-1,text,true,,129736,0,1,5,0,0,0
+1493705899948,3654,bp06s6,200,OK,bp06 1-1,text,true,,134225,0,1,5,0,0,0
+1493705899971,4311,bp08s4,200,OK,bp08 3-1,text,true,,298509,0,1,5,0,0,0
+1493705900920,3638,bp09s6,200,OK,bp09 4-1,text,true,,298507,0,1,5,0,0,0
+1493705903513,81,bp07s10,200,OK,bp07 2-1,text,true,,107412,0,1,5,0,0,0
+1493705903934,3097,bp06s7,200,OK,bp06 1-1,text,true,,134223,0,1,5,0,0,0
+1493705906028,2149,bp07s11,200,OK,bp07 2-1,text,true,,129737,0,1,5,0,0,0
+1493705904917,3324,bp09s7,200,OK,bp09 4-1,text,true,,135258,0,1,5,0,0,0
+1493705908504,2967,bp07s12,200,OK,bp07 2-1,text,true,,109633,0,1,5,0,0,0
+1493705907374,4102,bp06s8,200,OK,bp06 1-1,text,true,,134211,0,1,5,0,0,0
+1493705908576,4057,bp09s8,200,OK,bp09 4-1,text,true,,139840,0,1,5,0,0,0
+1493705874999,34588,bp09,200,"Number of samples in transaction : 10, number of failing samples : 0",bp09 4-1,,true,,1717629,0,1,5,0,3077,0
+1493705911820,1742,bp07s13,200,OK,bp07 2-1,text,true,,129738,0,1,5,0,0,0
+1493705911821,2653,bp06s9,200,OK,bp06 1-1,text,true,,134211,0,1,5,0,0,0
+1493705914806,86,bp06s10,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: Element <span class=""text"">...</span> is not clickable at point (38, 9). Other element would receive the click: <header class=""header-wrapper header-wrapper--fixed"">...</header>
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 65 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 5b4b39fc690279d875dae9564aad96b2
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2548_25529, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp06 1-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2271,0,1,5,0,0,0
+1493705875000,35016,bp06,,"Number of samples in transaction : 10, number of failing samples : 1",bp06 1-1,,false,,1197143,0,1,5,0,4880,0
+1493705913892,1689,bp07s14,200,OK,bp07 2-1,text,true,,106581,0,1,5,0,0,0
+1493705904805,12988,bp08s5,200,OK,bp08 3-1,text,true,,191404,0,1,5,0,0,0
+1493705915900,2125,bp07s15,200,OK,bp07 2-1,text,true,,139840,0,1,5,0,0,0
+1493705875064,34153,bp07,200,"Number of samples in transaction : 15, number of failing samples : 0",bp07 2-1,,true,,1876614,0,1,5,0,8836,0
+1493705918142,2864,bp08s6,200,OK,bp08 3-1,text,true,,298508,0,1,5,0,0,0
+1493705921350,12096,bp08s7,200,OK,bp08 3-1,text,true,,190723,0,1,5,0,0,0
+1493705933797,2949,bp08s8,200,OK,bp08 3-1,text,true,,140001,0,1,5,0,0,0
+1493705874977,58487,bp08,200,"Number of samples in transaction : 10, number of failing samples : 0",bp08 3-1,,true,,1871388,0,1,5,0,3307,0
+1493706056073,5,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: fc3a3e9ada57df1d1ea48230a06de270
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir5320_4693, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 5-1,text,false,,2177,0,1,5,0,0,0
+1493706055760,5,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 5-1,,false,,2177,0,1,5,0,313,0
+1493706184998,18,bp10s1,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {""code"":-32000,""message"":""Cannot navigate to invalid URL""}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 34 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: c165b3148175d4e57bda0153b2a55d16
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir3744_31010, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#2) in <Unknown source> at line number 2",bp10 1-1,text,false,,2179,0,1,1,0,0,0
+1493706184687,18,bp10,,"Number of samples in transaction : 1, number of failing samples : 1",bp10 1-1,,false,,2179,0,1,1,0,311,0
+1493706209354,3624,bp10s1,200,OK,bp10 1-1,text,true,,70679,0,1,1,0,0,0
+1493706209035,3624,bp10,200,"Number of samples in transaction : 1, number of failing samples : 0",bp10 1-1,,true,,70679,0,1,1,0,336,0
