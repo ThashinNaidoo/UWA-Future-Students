@@ -2013,7 +2013,7 @@ WDS.sampleResult.sampleEnd();
         <hashTree>
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp10s1" enabled="true">
             <stringProp name="WebDriverSampler.script">WDS.sampleResult.sampleStart()
-WDS.browser.get(&apos;test-corporate.uwa.edu.au/&apos;)
+WDS.browser.get(&apos;https://test-corporate.uwa.edu.au/&apos;)
 WDS.sampleResult.sampleEnd()
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
