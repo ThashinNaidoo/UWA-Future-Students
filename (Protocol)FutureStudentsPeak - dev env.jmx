@@ -254,7 +254,7 @@
                   <elementProp name="RegisterModel.EmailAddress" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">true</boolProp>
                     <stringProp name="Argument.name">RegisterModel.EmailAddress</stringProp>
-                    <stringProp name="Argument.value">${Email}</stringProp>
+                    <stringProp name="Argument.value">${__time}@test.com</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                     <boolProp name="HTTPArgument.use_equals">true</boolProp>
                   </elementProp>
