@@ -1,0 +1,256 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1493784220017,6100,bp03s1,200,OK,bp03 3-1,text,true,,158695,0,1,5,0,0,0
+1493784226470,154,bp03s2,200,OK,bp03 3-1,text,true,,158863,0,1,5,0,0,0
+1493784227121,138,bp03s3,200,OK,bp03 3-1,text,true,,158863,0,1,5,0,0,0
+1493784221973,5996,bp05s1,200,OK,bp05 5-1,text,true,,158694,0,1,5,0,0,0
+1493784228328,134,bp05s2,200,OK,bp05 5-1,text,true,,157476,0,1,5,0,0,0
+1493784221923,6868,bp04s1,200,OK,bp04 4-1,text,true,,158697,0,1,5,0,0,0
+1493784221914,6903,bp01s1,200,OK,bp01 1-1,text,true,,158695,0,1,5,0,0,0
+1493784229163,116,bp01s2,200,OK,bp01 1-1,text,true,,158863,0,1,5,0,0,0
+1493784228910,2734,jp@gc - WebDriver Sampler,200,OK,bp05 5-1,text,true,,93475,0,1,5,0,0,0
+1493784221670,8864,bp05,200,"Number of samples in transaction : 3, number of failing samples : 0",bp05 5-1,,true,,409645,0,1,5,0,1117,0
+1493784227711,476,bp03s4,200,OK,bp03 3-1,text,true,,91886,0,1,5,0,0,0
+1493784229663,6414,bp01s3,200,OK,bp01 1-1,text,true,,91887,0,1,5,0,0,0
+1493784229141,7377,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,121926,0,1,5,0,0,0
+1493784232042,7550,bp03s5,200,OK,bp03 3-1,text,true,,158696,0,1,5,0,0,0
+1493784219692,14418,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,727003,0,1,5,0,5496,0
+1493784236847,3942,bp04s3,200,OK,bp04 4-1,text,true,,158541,0,1,4,0,0,0
+1493784221618,18187,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,439164,0,1,4,0,997,0
+1493784236402,5710,bp01s4,200,OK,bp01 1-1,text,true,,158539,0,1,4,0,0,0
+1493784221610,19143,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567984,0,1,4,0,1376,0
+1493784412260,3946,bp05s1,200,OK,bp05 5-1,text,true,,158542,0,1,4,0,0,0
+1493784416563,108,bp05s2,200,OK,bp05 5-1,text,true,,157216,0,1,4,0,0,0
+1493784417107,1841,jp@gc - WebDriver Sampler,200,OK,bp05 5-1,text,true,,93474,0,1,4,0,0,0
+1493784411943,5895,bp05,200,"Number of samples in transaction : 3, number of failing samples : 0",bp05 5-1,,true,,409232,0,1,4,0,1101,0
+1493784420188,4171,bp03s1,200,OK,bp03 3-1,text,true,,158692,0,1,4,0,0,0
+1493784424722,113,bp03s2,200,OK,bp03 3-1,text,true,,158860,0,1,4,0,0,0
+1493784425292,76,bp03s3,200,OK,bp03 3-1,text,true,,158860,0,1,4,0,0,0
+1493784421386,4765,bp04s1,200,OK,bp04 4-1,text,true,,158543,0,1,4,0,0,0
+1493784422714,5816,bp01s1,200,OK,bp01 1-1,text,true,,158539,0,1,4,0,0,0
+1493784428909,109,bp01s2,200,OK,bp01 1-1,text,true,,158599,0,1,4,0,0,0
+1493784426525,3195,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,103672,0,1,4,0,0,0
+1493784425766,447,bp03s4,200,OK,bp03 3-1,text,true,,91885,0,1,4,0,0,0
+1493784430049,5647,bp04s3,200,OK,bp04 4-1,text,true,,158543,0,1,4,0,0,0
+1493784421082,13607,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,420758,0,1,4,0,999,0
+1493784429405,7613,bp01s3,200,OK,bp01 1-1,text,true,,91889,0,1,4,0,0,0
+1493784431015,11041,bp03s5,200,OK,bp03 3-1,text,true,,158697,0,1,4,0,0,0
+1493784419888,15848,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,726994,0,1,4,0,6326,0
+1493784437352,8222,bp01s4,200,OK,bp01 1-1,text,true,,158541,0,1,4,0,0,0
+1493784422410,21760,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567568,0,1,4,0,1396,0
+1493784599618,6307,bp05s1,200,OK,bp05 5-1,text,true,,158545,0,1,4,0,0,0
+1493784606269,119,bp05s2,200,OK,bp05 5-1,text,true,,157219,0,1,4,0,0,0
+1493784606751,1830,jp@gc - WebDriver Sampler,200,OK,bp05 5-1,text,true,,93474,0,1,4,0,0,0
+1493784599302,8256,bp05,200,"Number of samples in transaction : 3, number of failing samples : 0",bp05 5-1,,true,,409238,0,1,4,0,1021,0
+1493784616298,5328,bp04s1,200,OK,bp04 4-1,text,true,,158541,0,1,4,0,0,0
+1493784621989,5799,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,126947,0,1,4,0,0,0
+1493784622674,7405,bp03s1,200,OK,bp03 3-1,text,true,,158691,0,1,4,0,0,0
+1493784630436,110,bp03s2,200,OK,bp03 3-1,text,true,,158859,0,1,4,0,0,0
+1493784631469,69,bp03s3,200,OK,bp03 3-1,text,true,,158859,0,1,4,0,0,0
+1493784626206,6022,bp01s1,200,OK,bp01 1-1,text,true,,158545,0,1,4,0,0,0
+1493784632574,124,bp01s2,200,OK,bp01 1-1,text,true,,158605,0,1,4,0,0,0
+1493784628136,5655,bp04s3,200,OK,bp04 4-1,text,true,,158537,0,1,4,0,0,0
+1493784615997,16782,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,444025,0,1,4,0,962,0
+1493784631923,356,bp03s4,200,OK,bp03 3-1,text,true,,91889,0,1,4,0,0,0
+1493784633081,6050,bp01s3,200,OK,bp01 1-1,text,true,,91889,0,1,4,0,0,0
+1493784636317,9959,bp03s5,200,OK,bp03 3-1,text,true,,158545,0,1,4,0,0,0
+1493784622370,17899,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,726843,0,1,4,0,6008,0
+1493784639453,12365,bp01s4,200,OK,bp01 1-1,text,true,,158539,0,1,4,0,0,0
+1493784625898,24561,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567578,0,1,4,0,1384,0
+1493784789240,8115,bp05s1,200,OK,bp05 5-1,text,true,,158544,0,1,4,0,0,0
+1493784797696,109,bp05s2,200,OK,bp05 5-1,text,true,,157218,0,1,4,0,0,0
+1493784798224,1650,jp@gc - WebDriver Sampler,200,OK,bp05 5-1,text,true,,93475,0,1,4,0,0,0
+1493784788909,9874,bp05,200,"Number of samples in transaction : 3, number of failing samples : 0",bp05 5-1,,true,,409237,0,1,4,0,1085,0
+1493784814434,9687,bp04s1,200,OK,bp04 4-1,text,true,,158545,0,1,4,0,0,0
+1493784824451,5827,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,112944,0,1,4,0,0,0
+1493784826892,11599,bp03s1,200,OK,bp03 3-1,text,true,,158543,0,1,4,0,0,0
+1493784838980,133,bp03s2,200,OK,bp03 3-1,text,true,,158603,0,1,4,0,0,0
+1493784830612,9008,bp04s3,200,OK,bp04 4-1,text,true,,158543,0,1,4,0,0,0
+1493784814116,24522,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,430032,0,1,4,0,1123,0
+1493784840028,70,bp03s3,200,OK,bp03 3-1,text,true,,158603,0,1,4,0,0,0
+1493784832458,7849,bp01s1,200,OK,bp01 1-1,text,true,,158542,0,1,4,0,0,0
+1493784840637,107,bp01s2,200,OK,bp01 1-1,text,true,,158602,0,1,4,0,0,0
+1493784841091,9830,bp01s3,200,OK,bp01 1-1,text,true,,91886,0,1,4,0,0,0
+1493784851310,14535,bp01s4,200,OK,bp01 1-1,text,true,,158542,0,1,4,0,0,0
+1493784832154,32321,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567572,0,1,4,0,1353,0
+1493784980499,9051,bp05s1,200,OK,bp05 5-1,text,true,,158539,0,1,4,0,0,0
+1493784989911,108,bp05s2,200,OK,bp05 5-1,text,true,,157213,0,1,4,0,0,0
+1493784990447,2515,jp@gc - WebDriver Sampler,200,OK,bp05 5-1,text,true,,93474,0,1,4,0,0,0
+1493784980195,11674,bp05,200,"Number of samples in transaction : 3, number of failing samples : 0",bp05 5-1,,true,,409226,0,1,4,0,1079,0
+1493785020367,14723,bp04s1,200,OK,bp04 4-1,text,true,,158542,0,1,4,0,0,0
+1493785035561,7644,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,127380,0,1,4,0,0,0
+1493785043548,12494,bp04s3,200,OK,bp04 4-1,text,true,,158543,0,1,4,0,0,0
+1493785020068,34861,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,444465,0,1,4,0,1083,0
+1493785046507,14105,bp01s1,200,OK,bp01 1-1,text,true,,158541,0,1,4,0,0,0
+1493785060976,120,bp01s2,200,OK,bp01 1-1,text,true,,158601,0,1,4,0,0,0
+1493785061442,29836,bp01s3,200,OK,bp01 1-1,text,true,,91887,0,1,4,0,0,0
+1493785091653,29904,bp01s4,200,OK,bp01 1-1,text,true,,158535,0,1,4,0,0,0
+1493785046203,73965,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567564,0,1,4,0,1616,0
+1493785173599,13411,bp05s1,200,OK,bp05 5-1,text,true,,158543,0,1,4,0,0,0
+1493785187382,110,bp05s2,200,OK,bp05 5-1,text,true,,157217,0,1,4,0,0,0
+1493785187896,2060,jp@gc - WebDriver Sampler,200,OK,bp05 5-1,text,true,,93475,0,1,4,0,0,0
+1493785173283,15581,bp05,200,"Number of samples in transaction : 3, number of failing samples : 0",bp05 5-1,,true,,409235,0,1,4,0,1073,0
+1493785236688,11883,bp04s1,200,OK,bp04 4-1,text,true,,158538,0,1,4,0,0,0
+1493785248928,5141,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,117515,0,1,4,0,0,0
+1493785254385,16687,bp04s3,200,OK,bp04 4-1,text,true,,158543,0,1,4,0,0,0
+1493785236373,33711,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,434596,0,1,4,0,994,0
+1493785302437,15692,bp01s1,200,OK,bp01 1-1,text,true,,158544,0,1,4,0,0,0
+1493785318481,104,bp01s2,200,OK,bp01 1-1,text,true,,158604,0,1,4,0,0,0
+1493785318952,7472,bp01s3,200,OK,bp01 1-1,text,true,,91889,0,1,4,0,0,0
+1493785326776,25295,bp01s4,200,OK,bp01 1-1,text,true,,158544,0,1,4,0,0,0
+1493785302122,48563,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567581,0,1,4,0,1480,0
+1493785370601,19197,bp05s1,200,OK,bp05 5-1,text,true,,158542,0,1,4,0,0,0
+1493785390294,109,bp05s2,200,OK,bp05 5-1,text,true,,157216,0,1,4,0,0,0
+1493785390823,1860,jp@gc - WebDriver Sampler,200,OK,bp05 5-1,text,true,,93474,0,1,4,0,0,0
+1493785370286,21166,bp05,200,"Number of samples in transaction : 3, number of failing samples : 0",bp05 5-1,,true,,409232,0,1,4,0,1229,0
+1493785451728,14696,bp04s1,200,OK,bp04 4-1,text,true,,158545,0,1,4,0,0,0
+1493785466765,9386,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,121145,0,1,4,0,0,0
+1493785476573,16350,bp04s3,200,OK,bp04 4-1,text,true,,158542,0,1,4,0,0,0
+1493785451413,40432,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,438232,0,1,4,0,1071,0
+1493785532813,16179,bp01s1,200,OK,bp01 1-1,text,true,,158556,0,1,4,0,0,0
+1493785549343,104,bp01s2,200,OK,bp01 1-1,text,true,,158616,0,1,4,0,0,0
+1493785549816,18550,bp01s3,200,OK,bp01 1-1,text,true,,91899,0,1,4,0,0,0
+1493785573331,9438,bp05s1,200,OK,bp05 5-1,text,true,,158551,0,1,4,0,0,0
+1493785583099,109,bp05s2,200,OK,bp05 5-1,text,true,,157225,0,1,4,0,0,0
+1493785583600,6995,jp@gc - WebDriver Sampler,200,OK,bp05 5-1,text,true,,93487,0,1,4,0,0,0
+1493785573027,16542,bp05,200,"Number of samples in transaction : 3, number of failing samples : 0",bp05 5-1,,true,,409263,0,1,4,0,1043,0
+1493785568739,32561,bp01s4,200,OK,bp01 1-1,text,true,,158555,0,1,4,0,0,0
+1493785532497,67394,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567626,0,1,4,0,1483,0
+1493785673590,13406,bp04s1,200,OK,bp04 4-1,text,true,,158543,0,1,4,0,0,0
+1493785687342,12562,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,107988,0,1,4,0,0,0
+1493785700233,10876,bp04s3,200,OK,bp04 4-1,text,true,,158541,0,1,4,0,0,0
+1493785673275,36844,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,425072,0,1,4,0,1113,0
+1493785771209,11571,bp05s1,200,OK,bp05 5-1,text,true,,158553,0,1,4,0,0,0
+1493785783293,117,bp05s2,200,OK,bp05 5-1,text,true,,157227,0,1,4,0,0,0
+1493785783826,2611,jp@gc - WebDriver Sampler,200,OK,bp05 5-1,text,true,,93487,0,1,4,0,0,0
+1493785770919,14299,bp05,200,"Number of samples in transaction : 3, number of failing samples : 0",bp05 5-1,,true,,409267,0,1,4,0,1221,0
+1493785782104,16114,bp01s1,200,OK,bp01 1-1,text,true,,158554,0,1,4,0,0,0
+1493785798554,104,bp01s2,200,OK,bp01 1-1,text,true,,158614,0,1,4,0,0,0
+1493785799026,9775,bp01s3,200,OK,bp01 1-1,text,true,,91898,0,1,4,0,0,0
+1493785809156,32397,bp01s4,200,OK,bp01 1-1,text,true,,158555,0,1,4,0,0,0
+1493785781800,58390,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567621,0,1,4,0,1430,0
+1493785891873,13674,bp04s1,200,OK,bp04 4-1,text,true,,158544,0,1,4,0,0,0
+1493785905930,7662,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,121337,0,1,4,0,0,0
+1493785913922,22164,bp04s3,200,OK,bp04 4-1,text,true,,158544,0,1,4,0,0,0
+1493785891558,43500,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,438425,0,1,4,0,1004,0
+1493785967080,9580,bp05s1,200,OK,bp05 5-1,text,true,,158553,0,1,4,0,0,0
+1493785977163,112,bp05s2,200,OK,bp05 5-1,text,true,,157227,0,1,4,0,0,0
+1493785977708,6861,jp@gc - WebDriver Sampler,200,OK,bp05 5-1,text,true,,93486,0,1,4,0,0,0
+1493785966764,16553,bp05,200,"Number of samples in transaction : 3, number of failing samples : 0",bp05 5-1,,true,,409266,0,1,4,0,1247,0
+1493786022282,12233,bp01s1,200,OK,bp01 1-1,text,true,,158555,0,1,4,0,0,0
+1493786034877,130,bp01s2,200,OK,bp01 1-1,text,true,,158615,0,1,4,0,0,0
+1493786035358,9309,bp01s3,200,OK,bp01 1-1,text,true,,91898,0,1,4,0,0,0
+1493786045017,21439,bp01s4,200,OK,bp01 1-1,text,true,,158557,0,1,4,0,0,0
+1493786021951,43111,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567625,0,1,4,0,1373,0
+1493786116736,10440,bp04s1,200,OK,bp04 4-1,text,true,,158544,0,1,4,0,0,0
+1493786127725,12070,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,108116,0,1,4,0,0,0
+1493786140156,19513,bp04s3,200,OK,bp04 4-1,text,true,,158544,0,1,4,0,0,0
+1493786116421,42023,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,425204,0,1,4,0,1316,0
+1493786165198,16261,bp05s1,200,OK,bp05 5-1,text,true,,158555,0,1,4,0,0,0
+1493786181968,113,bp05s2,200,OK,bp05 5-1,text,true,,157229,0,1,4,0,0,0
+1493786182514,4410,jp@gc - WebDriver Sampler,200,OK,bp05 5-1,text,true,,93487,0,1,4,0,0,0
+1493786164883,20784,bp05,200,"Number of samples in transaction : 3, number of failing samples : 0",bp05 5-1,,true,,409271,0,1,4,0,1244,0
+1493786247082,13848,bp01s1,200,OK,bp01 1-1,text,true,,158553,0,1,4,0,0,0
+1493786261283,105,bp01s2,200,OK,bp01 1-1,text,true,,158613,0,1,4,0,0,0
+1493786261736,18968,bp01s3,200,OK,bp01 1-1,text,true,,91897,0,1,4,0,0,0
+1493786281106,23606,bp01s4,200,OK,bp01 1-1,text,true,,158551,0,1,4,0,0,0
+1493786246781,56527,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567614,0,1,4,0,1516,0
+1493786340458,14440,bp04s1,200,OK,bp04 4-1,text,true,,158542,0,1,4,0,0,0
+1493786355407,9932,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,115029,0,1,4,0,0,0
+1493786367533,11714,bp05s1,200,OK,bp05 5-1,text,true,,158555,0,1,4,0,0,0
+1493786365772,13933,bp04s3,200,OK,bp04 4-1,text,true,,158542,0,1,4,0,0,0
+1493786340143,38305,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,432113,0,1,4,0,1269,0
+1493786379743,109,bp05s2,200,OK,bp05 5-1,text,true,,157229,0,1,4,0,0,0
+1493786380322,3745,jp@gc - WebDriver Sampler,200,OK,bp05 5-1,text,true,,93485,0,1,4,0,0,0
+1493786367229,15568,bp05,200,"Number of samples in transaction : 3, number of failing samples : 0",bp05 5-1,,true,,409269,0,1,4,0,1282,0
+1493786485554,11202,bp01s1,200,OK,bp01 1-1,text,true,,158555,0,1,4,0,0,0
+1493786497259,103,bp01s2,200,OK,bp01 1-1,text,true,,158615,0,1,4,0,0,0
+1493786497708,13083,bp01s3,200,OK,bp01 1-1,text,true,,91894,0,1,4,0,0,0
+1493786511159,27819,bp01s4,200,OK,bp01 1-1,text,true,,158553,0,1,4,0,0,0
+1493786485224,52207,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567617,0,1,4,0,1518,0
+1493786560390,9609,bp04s1,200,OK,bp04 4-1,text,true,,158544,0,1,4,0,0,0
+1493786564715,11395,bp05s1,200,OK,bp05 5-1,text,true,,158548,0,1,4,0,0,0
+1493786576498,109,bp05s2,200,OK,bp05 5-1,text,true,,157222,0,1,4,0,0,0
+1493786570510,8614,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,139946,0,1,4,0,0,0
+1493786577023,4538,jp@gc - WebDriver Sampler,200,OK,bp05 5-1,text,true,,93487,0,1,4,0,0,0
+1493786564411,16042,bp05,200,"Number of samples in transaction : 3, number of failing samples : 0",bp05 5-1,,true,,409257,0,1,4,0,1109,0
+1493786579536,11234,bp04s3,200,OK,bp04 4-1,text,true,,158544,0,1,4,0,0,0
+1493786560040,29457,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,457034,0,1,4,0,1399,0
+1493786719616,14076,bp01s1,200,OK,bp01 1-1,text,true,,158543,0,1,4,0,0,0
+1493786734053,105,bp01s2,200,OK,bp01 1-1,text,true,,158603,0,1,4,0,0,0
+1493786734513,15174,bp01s3,200,OK,bp01 1-1,text,true,,91889,0,1,4,0,0,0
+1493786762181,21742,bp05s1,200,OK,bp05 5-1,text,true,,158543,0,1,4,0,0,0
+1493786784253,111,bp05s2,200,OK,bp05 5-1,text,true,,157217,0,1,4,0,0,0
+1493786750055,36208,bp01s4,200,OK,bp01 1-1,text,true,,158543,0,1,4,0,0,0
+1493786719301,65563,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567578,0,1,4,0,1346,0
+1493786771555,16879,bp04s1,200,OK,bp04 4-1,text,true,,158544,0,1,4,0,0,0
+1493786784781,6753,jp@gc - WebDriver Sampler,200,OK,bp05 5-1,text,true,,93473,0,1,4,0,0,0
+1493786761877,28606,bp05,200,"Number of samples in transaction : 3, number of failing samples : 0",bp05 5-1,,true,,409233,0,1,4,0,1068,0
+1493786788763,16734,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,103728,0,1,4,0,0,0
+1493786805830,18465,bp04s3,200,OK,bp04 4-1,text,true,,158539,0,1,4,0,0,0
+1493786771251,52078,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,420811,0,1,4,0,1121,0
+1493786966910,11312,bp01s1,200,OK,bp01 1-1,text,true,,158541,0,1,4,0,0,0
+1493786978708,105,bp01s2,200,OK,bp01 1-1,text,true,,158601,0,1,4,0,0,0
+1493786972155,16017,bp05s1,200,OK,bp05 5-1,text,true,,158542,0,1,4,0,0,0
+1493786988635,117,bp05s2,200,OK,bp05 5-1,text,true,,157216,0,1,4,0,0,0
+1493786979199,13489,bp01s3,200,OK,bp01 1-1,text,true,,91889,0,1,4,0,0,0
+1493786989210,4481,jp@gc - WebDriver Sampler,200,OK,bp05 5-1,text,true,,93474,0,1,4,0,0,0
+1493786971851,20615,bp05,200,"Number of samples in transaction : 3, number of failing samples : 0",bp05 5-1,,true,,409232,0,1,4,0,1243,0
+1493786993010,31395,bp01s4,200,OK,bp01 1-1,text,true,,158544,0,1,4,0,0,0
+1493786966595,56301,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567575,0,1,4,0,1633,0
+1493787005058,21289,bp04s1,200,OK,bp04 4-1,text,true,,158542,0,1,4,0,0,0
+1493787026714,27010,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,118990,0,1,4,0,0,0
+1493787054058,18675,bp04s3,200,OK,bp04 4-1,text,true,,158543,0,1,4,0,0,0
+1493787004754,66974,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,436075,0,1,4,0,1202,0
+1493787174305,8322,bp05s1,200,OK,bp05 5-1,text,true,,158545,0,1,4,0,0,0
+1493787182994,119,bp05s2,200,OK,bp05 5-1,text,true,,157219,0,1,4,0,0,0
+1493787183553,8518,jp@gc - WebDriver Sampler,200,OK,bp05 5-1,text,true,,93475,0,1,4,0,0,0
+1493787173990,16959,bp05,200,"Number of samples in transaction : 3, number of failing samples : 0",bp05 5-1,,true,,409239,0,1,4,0,1100,0
+1493787205146,16964,bp01s1,200,OK,bp01 1-1,text,true,,158538,0,1,4,0,0,0
+1493787222476,103,bp01s2,200,OK,bp01 1-1,text,true,,158598,0,1,4,0,0,0
+1493787222919,21984,bp01s3,200,OK,bp01 1-1,text,true,,91888,0,1,4,0,0,0
+1493787245296,25337,bp01s4,200,OK,bp01 1-1,text,true,,158540,0,1,4,0,0,0
+1493787204831,64388,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567564,0,1,4,0,1455,0
+1493787253565,17174,bp04s1,200,OK,bp04 4-1,text,true,,158545,0,1,4,0,0,0
+1493787271233,17335,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,115000,0,1,4,0,0,0
+1493787288906,13317,bp04s3,200,OK,bp04 4-1,text,true,,158543,0,1,4,0,0,0
+1493787253262,47826,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,432088,0,1,4,0,1149,0
+1493787372724,11209,bp05s1,200,OK,bp05 5-1,text,true,,158543,0,1,4,0,0,0
+1493787384408,110,bp05s2,200,OK,bp05 5-1,text,true,,157217,0,1,4,0,0,0
+1493787384952,3945,jp@gc - WebDriver Sampler,200,OK,bp05 5-1,text,true,,93475,0,1,4,0,0,0
+1493787372410,15264,bp05,200,"Number of samples in transaction : 3, number of failing samples : 0",bp05 5-1,,true,,409235,0,1,4,0,1221,0
+1493787451407,13059,bp01s1,200,OK,bp01 1-1,text,true,,158542,0,1,4,0,0,0
+1493787464813,135,bp01s2,200,OK,bp01 1-1,text,true,,158602,0,1,4,0,0,0
+1493787465290,19719,bp01s3,200,OK,bp01 1-1,text,true,,91885,0,1,4,0,0,0
+1493787482865,11481,bp04s1,200,OK,bp04 4-1,text,true,,158540,0,1,4,0,0,0
+1493787494676,17232,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,107904,0,1,4,0,0,0
+1493787485451,31068,bp01s4,200,OK,bp01 1-1,text,true,,158544,0,1,4,0,0,0
+1493787451091,63981,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567573,0,1,4,0,1334,0
+1493787512244,17111,bp04s3,200,OK,bp04 4-1,text,true,,158543,0,1,4,0,0,0
+1493787482561,45824,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,424987,0,1,4,0,1014,0
+1493787569579,14750,bp05s1,200,OK,bp05 5-1,text,true,,158544,0,1,4,0,0,0
+1493787584652,108,bp05s2,200,OK,bp05 5-1,text,true,,157218,0,1,4,0,0,0
+1493787585201,6673,jp@gc - WebDriver Sampler,200,OK,bp05 5-1,text,true,,93475,0,1,4,0,0,0
+1493787569264,21531,bp05,200,"Number of samples in transaction : 3, number of failing samples : 0",bp05 5-1,,true,,409237,0,1,4,0,1091,0
+1493787697137,14241,bp01s1,200,OK,bp01 1-1,text,true,,158545,0,1,4,0,0,0
+1493787711734,110,bp01s2,200,OK,bp01 1-1,text,true,,158605,0,1,4,0,0,0
+1493787712252,10646,bp01s3,200,OK,bp01 1-1,text,true,,91888,0,1,4,0,0,0
+1493787710004,14618,bp04s1,200,OK,bp04 4-1,text,true,,158542,0,1,4,0,0,0
+1493787724970,8833,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,108056,0,1,4,0,0,0
+1493787734248,7975,bp04s3,200,OK,bp04 4-1,text,true,,158543,0,1,4,0,0,0
+1493787709700,31426,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,425141,0,1,4,0,1393,0
+1493787723218,22989,bp01s4,200,OK,bp01 1-1,text,true,,158540,0,1,4,0,0,0
+1493787696850,47986,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567578,0,1,4,0,1459,0
+1493787772557,9133,bp05s1,200,OK,bp05 5-1,text,true,,158543,0,1,4,0,0,0
+1493787782238,108,bp05s2,200,OK,bp05 5-1,text,true,,157217,0,1,4,0,0,0
+1493787782814,4366,jp@gc - WebDriver Sampler,200,OK,bp05 5-1,text,true,,93475,0,1,4,0,0,0
+1493787772241,13607,bp05,200,"Number of samples in transaction : 3, number of failing samples : 0",bp05 5-1,,true,,409235,0,1,4,0,1325,0
+1493784840493,338,bp03s4,500,"chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.06 seconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir7048_10548}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 765bde8fddfbe647257e220b92f4a734
+*** Element info: {Using=xpath, value=//*[@id=""page-content""]/div[4]/div[1]/div/div/nav/div/div/a[2]}",bp03 3-1,text,false,,4048,0,1,1,0,0,0
