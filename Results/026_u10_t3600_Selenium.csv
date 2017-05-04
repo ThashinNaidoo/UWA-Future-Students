@@ -1,0 +1,388 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1493863326012,10494,bp02s0A,200,OK,bp02 2-1,text,true,,158855,0,1,5,0,0,0
+1493863326012,10871,bp01s1,200,OK,bp01 1-1,text,true,,158841,0,1,5,0,0,0
+1493863326035,11357,bp05s1,200,OK,bp05 5-1,text,true,,158842,0,1,5,0,0,0
+1493863326033,11386,bp04s1,200,OK,bp04 4-1,text,true,,158838,0,1,5,0,0,0
+1493863337299,152,bp01s2,200,OK,bp01 1-1,text,true,,159009,0,1,5,0,0,0
+1493863326031,11438,bp03s1,200,OK,bp03 3-1,text,true,,158836,0,1,5,0,0,0
+1493863337775,257,bp05s2,200,OK,bp05 5-1,text,true,,157611,0,1,5,0,0,0
+1493863337861,214,bp03s2,200,OK,bp03 3-1,text,true,,159004,0,1,5,0,0,0
+1493863338654,83,bp03s3,200,OK,bp03 3-1,text,true,,159004,0,1,5,0,0,0
+1493863338491,2562,bp05s3,200,OK,bp05 5-1,text,true,,300678,0,1,5,0,0,0
+1493863339161,349,bp03s4,200,OK,bp03 3-1,text,true,,91763,0,1,5,0,0,0
+1493863336880,6818,bp02s0B,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,157343,0,1,5,0,0,0
+1493863341478,3136,bp05s4,200,OK,bp05 5-1,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">Open day</h1>/",93622,0,1,5,0,0,0
+1493863337809,6996,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,122073,0,1,5,0,0,0
+1493863337853,7446,bp01s3,200,OK,bp01 1-1,text,true,,91763,0,1,5,0,0,0
+1493863344946,3922,bp05s5,200,OK,bp05 5-1,text,true,,158690,0,1,5,0,0,0
+1493863325708,21234,bp05,,"Number of samples in transaction : 5, number of failing samples : 1",bp05 5-1,,false,,869443,0,1,5,0,1919,0
+1493863345139,5185,bp04s3,200,OK,bp04 4-1,text,true,,158690,0,1,5,0,0,0
+1493863325708,23567,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,439601,0,1,5,0,1047,0
+1493863344000,7103,bp03s5,200,OK,bp03 3-1,text,true,,158844,0,1,5,0,0,0
+1493863325708,19187,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,727451,0,1,5,0,6202,0
+1493863345622,8234,bp01s4,200,OK,bp01 1-1,text,true,,158689,0,1,5,0,0,0
+1493863325692,26703,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,568302,0,1,5,0,1473,0
+1493863344041,14786,bp02s0C,200,OK,bp02 2-1,text,true,,181182,0,1,5,0,0,0
+1493863359134,2809,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Neuroscience"" class=""tile-row-list-item tile/",158717,0,1,5,0,0,0
+1493863325692,34907,bp02,,"Number of samples in transaction : 4, number of failing samples : 2",bp02 2-1,,false,,656097,0,1,5,0,1335,0
+1493863529439,3849,bp05s1,200,OK,bp05 5-1,text,true,,158690,0,1,5,0,0,0
+1493863533725,128,bp05s2,200,OK,bp05 5-1,text,true,,157351,0,1,5,0,0,0
+1493863530865,3624,bp04s1,200,OK,bp04 4-1,text,true,,158688,0,1,5,0,0,0
+1493863531640,3647,bp03s1,200,OK,bp03 3-1,text,true,,158841,0,1,5,0,0,0
+1493863535721,110,bp03s2,200,OK,bp03 3-1,text,true,,159009,0,1,5,0,0,0
+1493863536325,75,bp03s3,200,OK,bp03 3-1,text,true,,159009,0,1,5,0,0,0
+1493863534393,2238,bp05s3,200,OK,bp05 5-1,text,true,,300678,0,1,5,0,0,0
+1493863534926,3241,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,103821,0,1,5,0,0,0
+1493863537065,1562,bp05s4,200,OK,bp05 5-1,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">Open day</h1>/",93620,0,1,5,0,0,0
+1493863534507,4297,bp01s1,200,OK,bp01 1-1,text,true,,158692,0,1,5,0,0,0
+1493863539154,109,bp01s2,200,OK,bp01 1-1,text,true,,158752,0,1,5,0,0,0
+1493863536817,564,bp03s4,200,OK,bp03 3-1,text,true,,91761,0,1,5,0,0,0
+1493863538498,3481,bp04s3,200,OK,bp04 4-1,text,true,,158688,0,1,5,0,0,0
+1493863530559,10346,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,421197,0,1,5,0,1009,0
+1493863538952,3262,bp05s5,200,OK,bp05 5-1,text,true,,158682,0,1,5,0,0,0
+1493863529136,11039,bp05,,"Number of samples in transaction : 5, number of failing samples : 1",bp05 5-1,,false,,869021,0,1,5,0,1967,0
+1493863539607,4931,bp01s3,200,OK,bp01 1-1,text,true,,91763,0,1,5,0,0,0
+1493863542602,3529,bp02s0A,200,OK,bp02 2-1,text,true,,158711,0,1,5,0,0,0
+1493863540906,5271,bp03s5,200,OK,bp03 3-1,text,true,,158840,0,1,5,0,0,0
+1493863531334,9667,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,727460,0,1,5,0,5105,0
+1493863546473,3240,bp02s0B,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,157342,0,1,5,0,0,0
+1493863544866,5952,bp01s4,200,OK,bp01 1-1,text,true,,158692,0,1,5,0,0,0
+1493863534201,15289,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567899,0,1,5,0,1360,0
+1493863550051,20302,bp02s0C,200,OK,bp02 2-1,text,true,,198263,0,1,5,0,0,0
+1493863570689,3467,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Pathology-and-Laboratory-Medicine"" class=""tile-row-list-item tile/",158849,0,1,5,0,0,0
+1493863542297,30539,bp02,,"Number of samples in transaction : 4, number of failing samples : 2",bp02 2-1,,false,,673165,0,1,5,0,1345,0
+1493863722835,4602,bp05s1,200,OK,bp05 5-1,text,true,,158685,0,1,5,0,0,0
+1493863722627,5119,bp04s1,200,OK,bp04 4-1,text,true,,158689,0,1,5,0,0,0
+1493863727785,119,bp05s2,200,OK,bp05 5-1,text,true,,157346,0,1,5,0,0,0
+1493863728356,2401,bp05s3,200,OK,bp05 5-1,text,true,,300680,0,1,5,0,0,0
+1493863728094,2763,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,127093,0,1,5,0,0,0
+1493863726793,5674,bp03s1,200,OK,bp03 3-1,text,true,,158843,0,1,5,0,0,0
+1493863731164,1527,bp05s4,200,OK,bp05 5-1,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">Open day</h1>/",93621,0,1,5,0,0,0
+1493863732822,158,bp03s2,200,OK,bp03 3-1,text,true,,159011,0,1,5,0,0,0
+1493863733505,76,bp03s3,200,OK,bp03 3-1,text,true,,159011,0,1,5,0,0,0
+1493863731220,4761,bp04s3,200,OK,bp04 4-1,text,true,,158689,0,1,5,0,0,0
+1493863722326,12643,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,444471,0,1,5,0,1040,0
+1493863731456,5200,bp01s1,200,OK,bp01 1-1,text,true,,158686,0,1,5,0,0,0
+1493863733013,4201,bp05s5,200,OK,bp05 5-1,text,true,,158690,0,1,5,0,0,0
+1493863722544,12850,bp05,,"Number of samples in transaction : 5, number of failing samples : 1",bp05 5-1,,false,,869022,0,1,5,0,1850,0
+1493863737048,168,bp01s2,200,OK,bp01 1-1,text,true,,158746,0,1,5,0,0,0
+1493863733979,352,bp03s4,200,OK,bp03 3-1,text,true,,91757,0,1,5,0,0,0
+1493863737583,5260,bp01s3,200,OK,bp01 1-1,text,true,,91762,0,1,5,0,0,0
+1493863737987,5514,bp03s5,200,OK,bp03 3-1,text,true,,158691,0,1,5,0,0,0
+1493863726488,11774,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,727313,0,1,5,0,5250,0
+1493863743166,4988,bp01s4,200,OK,bp01 1-1,text,true,,158688,0,1,5,0,0,0
+1493863731150,15616,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567882,0,1,5,0,1413,0
+1493863754712,3718,bp02s0A,200,OK,bp02 2-1,text,true,,158847,0,1,5,0,0,0
+1493863758854,2461,bp02s0B,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,157339,0,1,5,0,0,0
+1493863761630,18700,bp02s0C,200,OK,bp02 2-1,text,true,,197282,0,1,5,0,0,0
+1493863780723,4019,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Pharmacology"" class=""tile-row-list-item tile/",158866,0,1,5,0,0,0
+1493863754396,28898,bp02,,"Number of samples in transaction : 4, number of failing samples : 2",bp02 2-1,,false,,672334,0,1,5,0,1302,0
+1493863916516,3202,bp04s1,200,OK,bp04 4-1,text,true,,158690,0,1,5,0,0,0
+1493863917864,3900,bp05s1,200,OK,bp05 5-1,text,true,,158690,0,1,5,0,0,0
+1493863922095,126,bp05s2,200,OK,bp05 5-1,text,true,,157351,0,1,5,0,0,0
+1493863920193,3673,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,113093,0,1,5,0,0,0
+1493863922644,2955,bp05s3,200,OK,bp05 5-1,text,true,,300678,0,1,5,0,0,0
+1493863925999,2577,bp05s4,200,OK,bp05 5-1,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">Open day</h1>/",93622,0,1,5,0,0,0
+1493863924131,5015,bp03s1,200,OK,bp03 3-1,text,true,,158690,0,1,5,0,0,0
+1493863924192,5576,bp04s3,200,OK,bp04 4-1,text,true,,158689,0,1,5,0,0,0
+1493863916214,12451,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,430472,0,1,5,0,990,0
+1493863929492,114,bp03s2,200,OK,bp03 3-1,text,true,,158750,0,1,5,0,0,0
+1493863930518,66,bp03s3,200,OK,bp03 3-1,text,true,,158750,0,1,5,0,0,0
+1493863928785,5165,bp01s1,200,OK,bp01 1-1,text,true,,158690,0,1,5,0,0,0
+1493863934302,127,bp01s2,200,OK,bp01 1-1,text,true,,158750,0,1,5,0,0,0
+1493863928900,6191,bp05s5,200,OK,bp05 5-1,text,true,,158691,0,1,5,0,0,0
+1493863917559,15749,bp05,,"Number of samples in transaction : 5, number of failing samples : 1",bp05 5-1,,false,,869032,0,1,5,0,1817,0
+1493863934778,6593,bp01s3,200,OK,bp01 1-1,text,true,,91761,0,1,5,0,0,0
+1493863941744,9220,bp01s4,200,OK,bp01 1-1,text,true,,158688,0,1,5,0,0,0
+1493863928480,21105,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567889,0,1,5,0,1353,0
+1493863965226,4683,bp02s0A,200,OK,bp02 2-1,text,true,,158863,0,1,5,0,0,0
+1493863970421,3255,bp02s0B,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,157344,0,1,5,0,0,0
+1493863974023,16247,bp02s0C,200,OK,bp02 2-1,text,true,,184187,0,1,5,0,0,0
+1493863990575,3190,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Philosophy"" class=""tile-row-list-item tile/",158719,0,1,5,0,0,0
+1493863964926,27375,bp02,,"Number of samples in transaction : 4, number of failing samples : 2",bp02 2-1,,false,,659113,0,1,5,0,1258,0
+1493864110339,4783,bp04s1,200,OK,bp04 4-1,text,true,,158690,0,1,5,0,0,0
+1493864115537,2777,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,127529,0,1,5,0,0,0
+1493864115722,4266,bp05s1,200,OK,bp05 5-1,text,true,,158692,0,1,5,0,0,0
+1493864120342,117,bp05s2,200,OK,bp05 5-1,text,true,,157353,0,1,5,0,0,0
+1493864118663,4419,bp04s3,200,OK,bp04 4-1,text,true,,158691,0,1,5,0,0,0
+1493864110022,11979,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,444910,0,1,5,0,991,0
+1493864120883,2479,bp05s3,200,OK,bp05 5-1,text,true,,300679,0,1,5,0,0,0
+1493864123733,1557,bp05s4,200,OK,bp05 5-1,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">Open day</h1>/",93622,0,1,5,0,0,0
+1493864125594,3973,bp05s5,200,OK,bp05 5-1,text,true,,158690,0,1,5,0,0,0
+1493864115445,12392,bp05,,"Number of samples in transaction : 5, number of failing samples : 1",bp05 5-1,,false,,869036,0,1,5,0,1735,0
+1493864131591,3540,bp01s1,200,OK,bp01 1-1,text,true,,158686,0,1,5,0,0,0
+1493864135508,102,bp01s2,200,OK,bp01 1-1,text,true,,158746,0,1,5,0,0,0
+1493864135955,4994,bp01s3,200,OK,bp01 1-1,text,true,,91763,0,1,5,0,0,0
+1493864141328,6673,bp01s4,200,OK,bp01 1-1,text,true,,158690,0,1,5,0,0,0
+1493864131290,15309,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567885,0,1,5,0,1319,0
+1493864174392,6227,bp02s0A,200,OK,bp02 2-1,text,true,,158727,0,1,5,0,0,0
+1493864181007,3506,bp02s0B,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,157346,0,1,5,0,0,0
+1493864184837,48909,bp02s0C,200,OK,bp02 2-1,text,true,,224204,0,1,5,0,0,0
+1493864234069,4587,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Physics"" class=""tile-row-list-item tile/",158731,0,1,5,0,0,0
+1493864174090,63229,bp02,,"Number of samples in transaction : 4, number of failing samples : 2",bp02 2-1,,false,,699008,0,1,5,0,1296,0
+1493864303711,4877,bp04s1,200,OK,bp04 4-1,text,true,,158687,0,1,5,0,0,0
+1493864308959,3414,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,117664,0,1,5,0,0,0
+1493864310242,4299,bp05s1,200,OK,bp05 5-1,text,true,,158684,0,1,5,0,0,0
+1493864314881,139,bp05s2,200,OK,bp05 5-1,text,true,,157345,0,1,5,0,0,0
+1493864312698,4202,bp04s3,200,OK,bp04 4-1,text,true,,158691,0,1,5,0,0,0
+1493864303410,12493,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,435042,0,1,5,0,994,0
+1493864315414,2826,bp05s3,200,OK,bp05 5-1,text,true,,300677,0,1,5,0,0,0
+1493864318616,1720,bp05s4,200,OK,bp05 5-1,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">Open day</h1>/",93621,0,1,5,0,0,0
+1493864320661,4921,bp05s5,200,OK,bp05 5-1,text,true,,158689,0,1,5,0,0,0
+1493864309938,13905,bp05,,"Number of samples in transaction : 5, number of failing samples : 1",bp05 5-1,,false,,869016,0,1,5,0,1755,0
+1493864328695,5117,bp01s1,200,OK,bp01 1-1,text,true,,158687,0,1,5,0,0,0
+1493864334155,106,bp01s2,200,OK,bp01 1-1,text,true,,158747,0,1,5,0,0,0
+1493864334610,6059,bp01s3,200,OK,bp01 1-1,text,true,,91763,0,1,5,0,0,0
+1493864341087,13264,bp01s4,200,OK,bp01 1-1,text,true,,158685,0,1,5,0,0,0
+1493864328394,24546,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567882,0,1,5,0,1324,0
+1493864419267,4438,bp02s0A,200,OK,bp02 2-1,text,true,,158730,0,1,5,0,0,0
+1493864424091,2663,bp02s0B,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,157343,0,1,5,0,0,0
+1493864427070,21716,bp02s0C,200,OK,bp02 2-1,text,true,,186257,0,1,5,0,0,0
+1493864449148,6494,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Physiology"" class=""tile-row-list-item tile/",158729,0,1,5,0,0,0
+1493864418981,35311,bp02,,"Number of samples in transaction : 4, number of failing samples : 2",bp02 2-1,,false,,661059,0,1,5,0,1259,0
+1493864497510,5422,bp04s1,200,OK,bp04 4-1,text,true,,158691,0,1,5,0,0,0
+1493864503322,3610,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,121294,0,1,5,0,0,0
+1493864506214,4459,bp05s1,200,OK,bp05 5-1,text,true,,158691,0,1,5,0,0,0
+1493864511040,131,bp05s2,200,OK,bp05 5-1,text,true,,157352,0,1,5,0,0,0
+1493864507270,4483,bp04s3,200,OK,bp04 4-1,text,true,,158690,0,1,5,0,0,0
+1493864497194,13515,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,438675,0,1,5,0,987,0
+1493864511618,2077,bp05s3,200,OK,bp05 5-1,text,true,,300678,0,1,5,0,0,0
+1493864514073,1449,bp05s4,200,OK,bp05 5-1,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">Open day</h1>/",93621,0,1,5,0,0,0
+1493864515846,3512,bp05s5,200,OK,bp05 5-1,text,true,,158691,0,1,5,0,0,0
+1493864505908,11628,bp05,,"Number of samples in transaction : 5, number of failing samples : 1",bp05 5-1,,false,,869033,0,1,5,0,1814,0
+1493864534928,3332,bp01s1,200,OK,bp01 1-1,text,true,,158704,0,1,5,0,0,0
+1493864538670,103,bp01s2,200,OK,bp01 1-1,text,true,,158764,0,1,5,0,0,0
+1493864539138,5525,bp01s3,200,OK,bp01 1-1,text,true,,91772,0,1,5,0,0,0
+1493864545055,7080,bp01s4,200,OK,bp01 1-1,text,true,,158696,0,1,5,0,0,0
+1493864534628,16040,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567936,0,1,5,0,1326,0
+1493864636221,4402,bp02s0A,200,OK,bp02 2-1,text,true,,158731,0,1,5,0,0,0
+1493864641065,2894,bp02s0B,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,157343,0,1,5,0,0,0
+1493864644290,22647,bp02s0C,200,OK,bp02 2-1,text,true,,185772,0,1,5,0,0,0
+1493864667287,4880,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Political-Science-and-International-Relations"" class=""tile-row-list-item tile/",158723,0,1,5,0,0,0
+1493864635921,34823,bp02,,"Number of samples in transaction : 4, number of failing samples : 2",bp02 2-1,,false,,660569,0,1,5,0,1290,0
+1493864692288,3676,bp04s1,200,OK,bp04 4-1,text,true,,158699,0,1,5,0,0,0
+1493864696441,2714,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,108150,0,1,5,0,0,0
+1493864699485,3014,bp04s3,200,OK,bp04 4-1,text,true,,158702,0,1,5,0,0,0
+1493864691987,9404,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,425551,0,1,5,0,958,0
+1493864700003,3459,bp05s1,200,OK,bp05 5-1,text,true,,158701,0,1,5,0,0,0
+1493864703800,175,bp05s2,200,OK,bp05 5-1,text,true,,157362,0,1,5,0,0,0
+1493864704379,2164,bp05s3,200,OK,bp05 5-1,text,true,,300688,0,1,5,0,0,0
+1493864706918,1454,bp05s4,200,OK,bp05 5-1,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">Open day</h1>/",93633,0,1,5,0,0,0
+1493864708725,3219,bp05s5,200,OK,bp05 5-1,text,true,,158696,0,1,5,0,0,0
+1493864699699,10471,bp05,,"Number of samples in transaction : 5, number of failing samples : 1",bp05 5-1,,false,,869080,0,1,5,0,1744,0
+1493864732599,3549,bp01s1,200,OK,bp01 1-1,text,true,,158701,0,1,5,0,0,0
+1493864736634,101,bp01s2,200,OK,bp01 1-1,text,true,,158761,0,1,5,0,0,0
+1493864737085,4844,bp01s3,200,OK,bp01 1-1,text,true,,91775,0,1,5,0,0,0
+1493864742275,6016,bp01s4,200,OK,bp01 1-1,text,true,,158702,0,1,5,0,0,0
+1493864732304,14510,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567939,0,1,5,0,1311,0
+1493864852745,6235,bp02s0A,200,OK,bp02 2-1,text,true,,158723,0,1,5,0,0,0
+1493864859388,2711,bp02s0B,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,157346,0,1,5,0,0,0
+1493864883138,3080,bp04s1,200,OK,bp04 4-1,text,true,,158704,0,1,5,0,0,0
+1493864886549,3064,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,121496,0,1,5,0,0,0
+1493864862419,30555,bp02s0C,200,OK,bp02 2-1,text,true,,202920,0,1,5,0,0,0
+1493864889938,4164,bp04s3,200,OK,bp04 4-1,text,true,,158702,0,1,5,0,0,0
+1493864882834,10308,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,438902,0,1,5,0,984,0
+1493864892592,4609,bp05s1,200,OK,bp05 5-1,text,true,,158699,0,1,5,0,0,0
+1493864897533,110,bp05s2,200,OK,bp05 5-1,text,true,,157360,0,1,5,0,0,0
+1493864893352,5352,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Population-Health"" class=""tile-row-list-item tile/",158911,0,1,5,0,0,0
+1493864852443,44853,bp02,,"Number of samples in transaction : 4, number of failing samples : 2",bp02 2-1,,false,,677900,0,1,5,0,1301,0
+1493864898044,2700,bp05s3,200,OK,bp05 5-1,text,true,,300688,0,1,5,0,0,0
+1493864901107,1577,bp05s4,200,OK,bp05 5-1,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">Open day</h1>/",93633,0,1,5,0,0,0
+1493864902995,5279,bp05s5,200,OK,bp05 5-1,text,true,,158701,0,1,5,0,0,0
+1493864892288,14275,bp05,,"Number of samples in transaction : 5, number of failing samples : 1",bp05 5-1,,false,,869081,0,1,5,0,1735,0
+1493864928963,5070,bp01s1,200,OK,bp01 1-1,text,true,,158698,0,1,5,0,0,0
+1493864934403,106,bp01s2,200,OK,bp01 1-1,text,true,,158758,0,1,5,0,0,0
+1493864934849,5295,bp01s3,200,OK,bp01 1-1,text,true,,91775,0,1,5,0,0,0
+1493864940559,5093,bp01s4,200,OK,bp01 1-1,text,true,,158703,0,1,5,0,0,0
+1493864928678,15564,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567934,0,1,5,0,1296,0
+1493865074677,6050,bp04s1,200,OK,bp04 4-1,text,true,,158700,0,1,5,0,0,0
+1493865081121,3482,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,108276,0,1,5,0,0,0
+1493865079335,5340,bp02s0A,200,OK,bp02 2-1,text,true,,158913,0,1,5,0,0,0
+1493865084989,2599,bp02s0B,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,157342,0,1,5,0,0,0
+1493865084918,4971,bp04s3,200,OK,bp04 4-1,text,true,,158701,0,1,5,0,0,0
+1493865074378,14503,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,425677,0,1,5,0,987,0
+1493865088923,4916,bp05s1,200,OK,bp05 5-1,text,true,,158702,0,1,5,0,0,0
+1493865094169,108,bp05s2,200,OK,bp05 5-1,text,true,,157363,0,1,5,0,0,0
+1493865094706,2281,bp05s3,200,OK,bp05 5-1,text,true,,300691,0,1,5,0,0,0
+1493865097381,1597,bp05s4,200,OK,bp05 5-1,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">Open day</h1>/",93634,0,1,5,0,0,0
+1493865087917,12073,bp02s0C,200,OK,bp02 2-1,text,true,,167712,0,1,5,0,0,0
+1493865099299,4179,bp05s5,200,OK,bp05 5-1,text,true,,158699,0,1,5,0,0,0
+1493865088619,13081,bp05,,"Number of samples in transaction : 5, number of failing samples : 1",bp05 5-1,,false,,869089,0,1,5,0,1802,0
+1493865100335,4549,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Professional-Economics"" class=""tile-row-list-item tile/",158721,0,1,5,0,0,0
+1493865079031,24561,bp02,,"Number of samples in transaction : 4, number of failing samples : 2",bp02 2-1,,false,,642688,0,1,5,0,1301,0
+1493865126200,4295,bp01s1,200,OK,bp01 1-1,text,true,,158702,0,1,5,0,0,0
+1493865130949,163,bp01s2,200,OK,bp01 1-1,text,true,,158762,0,1,5,0,0,0
+1493865131479,6012,bp01s3,200,OK,bp01 1-1,text,true,,91775,0,1,5,0,0,0
+1493865137836,8197,bp01s4,200,OK,bp01 1-1,text,true,,158702,0,1,5,0,0,0
+1493865125900,18667,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567941,0,1,5,0,1352,0
+1493865270523,4600,bp04s1,200,OK,bp04 4-1,text,true,,158702,0,1,5,0,0,0
+1493865275507,3827,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,115187,0,1,5,0,0,0
+1493865279666,4523,bp04s3,200,OK,bp04 4-1,text,true,,158702,0,1,5,0,0,0
+1493865270223,12950,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,432591,0,1,5,0,953,0
+1493865284107,4411,bp05s1,200,OK,bp05 5-1,text,true,,158700,0,1,5,0,0,0
+1493865288848,145,bp05s2,200,OK,bp05 5-1,text,true,,157361,0,1,5,0,0,0
+1493865285520,4583,bp02s0A,200,OK,bp02 2-1,text,true,,158724,0,1,5,0,0,0
+1493865289434,2580,bp05s3,200,OK,bp05 5-1,text,true,,300692,0,1,5,0,0,0
+1493865290435,2743,bp02s0B,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,157343,0,1,5,0,0,0
+1493865292412,70,bp05s4,200,OK,bp05 5-1,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">Open day</h1>/",93634,0,1,5,0,0,0
+1493865294197,2887,bp05s5,200,OK,bp05 5-1,text,true,,158702,0,1,5,0,0,0
+1493865283803,10093,bp05,,"Number of samples in transaction : 5, number of failing samples : 1",bp05 5-1,,false,,869089,0,1,5,0,3212,0
+1493865293516,25933,bp02s0C,200,OK,bp02 2-1,text,true,,196016,0,1,5,0,0,0
+1493865319779,4232,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Psychological-Science"" class=""tile-row-list-item tile/",158726,0,1,5,0,0,0
+1493865285216,37491,bp02,,"Number of samples in transaction : 4, number of failing samples : 2",bp02 2-1,,false,,670809,0,1,5,0,1327,0
+1493865326631,4510,bp01s1,200,OK,bp01 1-1,text,true,,158700,0,1,5,0,0,0
+1493865331560,104,bp01s2,200,OK,bp01 1-1,text,true,,158760,0,1,5,0,0,0
+1493865332008,5188,bp01s3,200,OK,bp01 1-1,text,true,,91772,0,1,5,0,0,0
+1493865337571,9851,bp01s4,200,OK,bp01 1-1,text,true,,158702,0,1,5,0,0,0
+1493865326331,19653,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567934,0,1,5,0,1316,0
+1493865464813,6476,bp04s1,200,OK,bp04 4-1,text,true,,158699,0,1,5,0,0,0
+1493865471647,2869,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,140104,0,1,5,0,0,0
+1493865474842,6012,bp04s3,200,OK,bp04 4-1,text,true,,158701,0,1,5,0,0,0
+1493865464513,15357,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,457504,0,1,5,0,950,0
+1493865477693,5978,bp05s1,200,OK,bp05 5-1,text,true,,158698,0,1,5,0,0,0
+1493865484173,112,bp05s2,200,OK,bp05 5-1,text,true,,157359,0,1,5,0,0,0
+1493865484704,2837,bp05s3,200,OK,bp05 5-1,text,true,,300691,0,1,5,0,0,0
+1493865487914,2159,bp05s4,200,OK,bp05 5-1,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">Open day</h1>/",93634,0,1,5,0,0,0
+1493865490442,4130,bp05s5,200,OK,bp05 5-1,text,true,,158703,0,1,5,0,0,0
+1493865477389,15216,bp05,,"Number of samples in transaction : 5, number of failing samples : 1",bp05 5-1,,false,,869085,0,1,5,0,1908,0
+1493865504635,3706,bp02s0A,200,OK,bp02 2-1,text,true,,158724,0,1,5,0,0,0
+1493865508721,2660,bp02s0B,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,157345,0,1,5,0,0,0
+1493865511716,18355,bp02s0C,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Psychology (double major)</title>/,187657,0,1,5,0,0,0
+1493865528110,2851,bp01s1,200,OK,bp01 1-1,text,true,,158697,0,1,5,0,0,0
+1493865531291,113,bp01s2,200,OK,bp01 1-1,text,true,,158757,0,1,5,0,0,0
+1493865530416,3228,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Psychology-double-major"" class=""tile-row-list-item tile/",158698,0,1,5,0,0,0
+1493865504335,27949,bp02,,"Number of samples in transaction : 4, number of failing samples : 3",bp02 2-1,,false,,662424,0,1,5,0,1325,0
+1493865531740,4833,bp01s3,200,OK,bp01 1-1,text,true,,91773,0,1,5,0,0,0
+1493865536894,5087,bp01s4,200,OK,bp01 1-1,text,true,,158699,0,1,5,0,0,0
+1493865527806,12884,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567926,0,1,5,0,1316,0
+1493865661506,5454,bp04s1,200,OK,bp04 4-1,text,true,,158700,0,1,5,0,0,0
+1493865667312,3458,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,103885,0,1,5,0,0,0
+1493865671098,7069,bp04s3,200,OK,bp04 4-1,text,true,,158697,0,1,5,0,0,0
+1493865661190,15981,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,421282,0,1,5,0,962,0
+1493865675245,6534,bp05s1,200,OK,bp05 5-1,text,true,,158702,0,1,5,0,0,0
+1493865682089,124,bp05s2,200,OK,bp05 5-1,text,true,,157363,0,1,5,0,0,0
+1493865682681,2654,bp05s3,200,OK,bp05 5-1,text,true,,300690,0,1,5,0,0,0
+1493865685744,1846,bp05s4,200,OK,bp05 5-1,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">Open day</h1>/",93634,0,1,5,0,0,0
+1493865687907,7670,bp05s5,200,OK,bp05 5-1,text,true,,158704,0,1,5,0,0,0
+1493865674941,18828,bp05,,"Number of samples in transaction : 5, number of failing samples : 1",bp05 5-1,,false,,869093,0,1,5,0,1800,0
+1493865714281,6259,bp02s0A,200,OK,bp02 2-1,text,true,,158701,0,1,5,0,0,0
+1493865720872,2949,bp02s0B,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,157340,0,1,5,0,0,0
+1493865722607,5023,bp01s1,200,OK,bp01 1-1,text,true,,158702,0,1,5,0,0,0
+1493865727975,103,bp01s2,200,OK,bp01 1-1,text,true,,158762,0,1,5,0,0,0
+1493865728446,6506,bp01s3,200,OK,bp01 1-1,text,true,,91774,0,1,5,0,0,0
+1493865735273,8195,bp01s4,200,OK,bp01 1-1,text,true,,158704,0,1,5,0,0,0
+1493865722303,19827,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567942,0,1,5,0,1451,0
+1493865724165,22052,bp02s0C,200,OK,bp02 2-1,text,true,,190128,0,1,5,0,0,0
+1493865746527,3969,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Psychology-in-Society"" class=""tile-row-list-item tile/",158701,0,1,5,0,0,0
+1493865713996,35229,bp02,,"Number of samples in transaction : 4, number of failing samples : 2",bp02 2-1,,false,,664870,0,1,5,0,1265,0
+1493865858723,3567,bp04s1,200,OK,bp04 4-1,text,true,,158700,0,1,5,0,0,0
+1493865862753,3304,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,119149,0,1,5,0,0,0
+1493865866399,4332,bp04s3,200,OK,bp04 4-1,text,true,,158688,0,1,5,0,0,0
+1493865858407,11203,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,436537,0,1,5,0,991,0
+1493865876209,3691,bp05s1,200,OK,bp05 5-1,text,true,,158690,0,1,5,0,0,0
+1493865880280,108,bp05s2,200,OK,bp05 5-1,text,true,,157351,0,1,5,0,0,0
+1493865880794,2421,bp05s3,200,OK,bp05 5-1,text,true,,300676,0,1,5,0,0,0
+1493865883582,57,bp05s4,200,OK,bp05 5-1,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">Open day</h1>/",93621,0,1,5,0,0,0
+1493865885861,3370,bp05s5,200,OK,bp05 5-1,text,true,,158692,0,1,5,0,0,0
+1493865875894,9647,bp05,,"Number of samples in transaction : 5, number of failing samples : 1",bp05 5-1,,false,,869030,0,1,5,0,3594,0
+1493865924224,4984,bp01s1,200,OK,bp01 1-1,text,true,,158702,0,1,5,0,0,0
+1493865929531,103,bp01s2,200,OK,bp01 1-1,text,true,,158762,0,1,5,0,0,0
+1493865929970,6031,bp01s3,200,OK,bp01 1-1,text,true,,91774,0,1,5,0,0,0
+1493865931151,5434,bp02s0A,200,OK,bp02 2-1,text,true,,158686,0,1,5,0,0,0
+1493865936955,3069,bp02s0B,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,157334,0,1,5,0,0,0
+1493865936363,10378,bp01s4,200,OK,bp01 1-1,text,true,,158696,0,1,5,0,0,0
+1493865923783,21496,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567934,0,1,5,0,1292,0
+1493865940352,25723,bp02s0C,200,OK,bp02 2-1,text,true,,179885,0,1,5,0,0,0
+1493865966426,4235,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Human-Resource-Management"" class=""tile-row-list-item tile/",158735,0,1,5,0,0,0
+1493865930831,38461,bp02,,"Number of samples in transaction : 4, number of failing samples : 2",bp02 2-1,,false,,654640,0,1,5,0,1355,0
+1493866051305,3463,bp04s1,200,OK,bp04 4-1,text,true,,158687,0,1,5,0,0,0
+1493866055179,3206,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,115147,0,1,5,0,0,0
+1493866058704,4572,bp04s3,200,OK,bp04 4-1,text,true,,158691,0,1,5,0,0,0
+1493866051017,11241,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,432525,0,1,5,0,957,0
+1493866069891,3172,bp05s1,200,OK,bp05 5-1,text,true,,158690,0,1,5,0,0,0
+1493866073388,110,bp05s2,200,OK,bp05 5-1,text,true,,157351,0,1,5,0,0,0
+1493866073842,2194,bp05s3,200,OK,bp05 5-1,text,true,,300678,0,1,5,0,0,0
+1493866076458,1490,bp05s4,200,OK,bp05 5-1,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">Open day</h1>/",93621,0,1,5,0,0,0
+1493866078274,2404,bp05s5,200,OK,bp05 5-1,text,true,,158691,0,1,5,0,0,0
+1493866069575,9370,bp05,,"Number of samples in transaction : 5, number of failing samples : 1",bp05 5-1,,false,,869031,0,1,5,0,1708,0
+1493866127318,3272,bp01s1,200,OK,bp01 1-1,text,true,,158699,0,1,5,0,0,0
+1493866130983,104,bp01s2,200,OK,bp01 1-1,text,true,,158759,0,1,5,0,0,0
+1493866131468,5207,bp01s3,200,OK,bp01 1-1,text,true,,91775,0,1,5,0,0,0
+1493866137040,4991,bp01s4,200,OK,bp01 1-1,text,true,,158699,0,1,5,0,0,0
+1493866127030,13574,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567932,0,1,5,0,1343,0
+1493866151225,4913,bp02s0A,200,OK,bp02 2-1,text,true,,158739,0,1,5,0,0,0
+1493866156540,2844,bp02s0B,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,157333,0,1,5,0,0,0
+1493866159737,18375,bp02s0C,200,OK,bp02 2-1,text,true,,184995,0,1,5,0,0,0
+1493866178442,4965,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Human-Geography-and-Planning"" class=""tile-row-list-item tile/",158689,0,1,5,0,0,0
+1493866150925,31097,bp02,,"Number of samples in transaction : 4, number of failing samples : 2",bp02 2-1,,false,,659756,0,1,5,0,1288,0
+1493866243883,6352,bp04s1,200,OK,bp04 4-1,text,true,,158687,0,1,5,0,0,0
+1493866250639,4106,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,108051,0,1,5,0,0,0
+1493866255068,6683,bp04s3,200,OK,bp04 4-1,text,true,,158688,0,1,5,0,0,0
+1493866243597,17141,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,425426,0,1,5,0,945,0
+1493866261339,4641,bp05s1,200,OK,bp05 5-1,text,true,,158688,0,1,5,0,0,0
+1493866266292,114,bp05s2,200,OK,bp05 5-1,text,true,,157349,0,1,5,0,0,0
+1493866266829,2535,bp05s3,200,OK,bp05 5-1,text,true,,300677,0,1,5,0,0,0
+1493866269768,1774,bp05s4,200,OK,bp05 5-1,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">Open day</h1>/",93621,0,1,5,0,0,0
+1493866271851,3702,bp05s5,200,OK,bp05 5-1,text,true,,158688,0,1,5,0,0,0
+1493866261035,12766,bp05,,"Number of samples in transaction : 5, number of failing samples : 1",bp05 5-1,,false,,869023,0,1,5,0,1745,0
+1493866322596,4178,bp01s1,200,OK,bp01 1-1,text,true,,158700,0,1,5,0,0,0
+1493866327220,103,bp01s2,200,OK,bp01 1-1,text,true,,158760,0,1,5,0,0,0
+1493866327661,5253,bp01s3,200,OK,bp01 1-1,text,true,,91771,0,1,5,0,0,0
+1493866333280,6539,bp01s4,200,OK,bp01 1-1,text,true,,158702,0,1,5,0,0,0
+1493866322281,16073,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567933,0,1,5,0,1329,0
+1493866363966,3812,bp02s0A,200,OK,bp02 2-1,text,true,,158688,0,1,5,0,0,0
+1493866368212,2827,bp02s0B,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,157334,0,1,5,0,0,0
+1493866371373,11828,bp02s0C,200,OK,bp02 2-1,text,true,,174877,0,1,5,0,0,0
+1493866383525,4235,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /History-of-Art"" class=""tile-row-list-item tile/",158724,0,1,5,0,0,0
+1493866363681,22702,bp02,,"Number of samples in transaction : 4, number of failing samples : 2",bp02 2-1,,false,,649623,0,1,5,0,1233,0
+1493866442321,3928,bp04s1,200,OK,bp04 4-1,text,true,,158691,0,1,5,0,0,0
+1493866446691,4101,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,108201,0,1,5,0,0,0
+1493866451125,4311,bp04s3,200,OK,bp04 4-1,text,true,,158688,0,1,5,0,0,0
+1493866442021,12340,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,425580,0,1,5,0,984,0
+1493866456224,4451,bp05s1,200,OK,bp05 5-1,text,true,,158690,0,1,5,0,0,0
+1493866461009,120,bp05s2,200,OK,bp05 5-1,text,true,,157351,0,1,5,0,0,0
+1493866461560,2550,bp05s3,200,OK,bp05 5-1,text,true,,300674,0,1,5,0,0,0
+1493866464489,1486,bp05s4,200,OK,bp05 5-1,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">Open day</h1>/",93620,0,1,5,0,0,0
+1493866466358,3749,bp05s5,200,OK,bp05 5-1,text,true,,158692,0,1,5,0,0,0
+1493866455916,12356,bp05,,"Number of samples in transaction : 5, number of failing samples : 1",bp05 5-1,,false,,869027,0,1,5,0,1790,0
+1493866520457,4867,bp01s1,200,OK,bp01 1-1,text,true,,158702,0,1,5,0,0,0
+1493866525699,101,bp01s2,200,OK,bp01 1-1,text,true,,158762,0,1,5,0,0,0
+1493866526135,5419,bp01s3,200,OK,bp01 1-1,text,true,,91774,0,1,5,0,0,0
+1493866531949,10175,bp01s4,200,OK,bp01 1-1,text,true,,158695,0,1,5,0,0,0
+1493866520156,20562,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567933,0,1,5,0,1427,0
+1493866568299,6099,bp02s0A,200,OK,bp02 2-1,text,true,,158727,0,1,5,0,0,0
+1493866574857,3267,bp02s0B,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,157330,0,1,5,0,0,0
+1493866578463,31221,bp02s0C,200,OK,bp02 2-1,text,true,,195585,0,1,5,0,0,0
+1493866610034,4745,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Accounting"" class=""tile-row-list-item tile/",158704,0,1,5,0,0,0
+1493866568011,45332,bp02,,"Number of samples in transaction : 4, number of failing samples : 2",bp02 2-1,,false,,670346,0,1,5,0,1309,0
+1493866636067,4133,bp04s1,200,OK,bp04 4-1,text,true,,158686,0,1,5,0,0,0
+1493866640594,2702,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,105929,0,1,5,0,0,0
+1493866643619,4659,bp04s3,200,OK,bp04 4-1,text,true,,158688,0,1,5,0,0,0
+1493866635752,11494,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,423303,0,1,5,0,993,0
+1493866650715,3905,bp05s1,200,OK,bp05 5-1,text,true,,158690,0,1,5,0,0,0
+1493866654991,114,bp05s2,200,OK,bp05 5-1,text,true,,157351,0,1,5,0,0,0
+1493866655527,2664,bp05s3,200,OK,bp05 5-1,text,true,,300678,0,1,5,0,0,0
+1493866658543,1645,bp05s4,200,OK,bp05 5-1,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">Open day</h1>/",93622,0,1,5,0,0,0
+1493866660579,3362,bp05s5,200,OK,bp05 5-1,text,true,,158689,0,1,5,0,0,0
+1493866650415,11690,bp05,,"Number of samples in transaction : 5, number of failing samples : 1",bp05 5-1,,false,,869030,0,1,5,0,1753,0
+1493866722774,6569,bp01s1,200,OK,bp01 1-1,text,true,,158700,0,1,5,0,0,0
+1493866729791,103,bp01s2,200,OK,bp01 1-1,text,true,,158760,0,1,5,0,0,0
+1493866730274,6798,bp01s3,200,OK,bp01 1-1,text,true,,91772,0,1,5,0,0,0
+1493866737512,11849,bp01s4,200,OK,bp01 1-1,text,true,,158704,0,1,5,0,0,0
+1493866722464,25319,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,567936,0,1,5,0,1354,0
+1493866795401,8743,bp02s0A,200,OK,bp02 2-1,text,true,,158700,0,1,5,0,0,0
+1493866804492,4024,bp02s0B,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,157330,0,1,5,0,0,0
+1493866828945,7161,bp04s1,200,OK,bp04 4-1,text,true,,158686,0,1,5,0,0,0
+1493866836436,3819,bp04s2,200,OK,bp04 4-1,text,false,Test failed: text expected to contain /<title>Find a Course</title>/,106215,0,1,5,0,0,0
+1493866808874,33604,bp02s0C,200,OK,bp02 2-1,text,true,,198842,0,1,5,0,0,0
+1493866840578,5544,bp04s3,200,OK,bp04 4-1,text,true,,158690,0,1,5,0,0,0
+1493866828641,16524,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,423591,0,1,5,0,1055,0
+1493866842814,5366,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Agricultural-Science"" class=""tile-row-list-item tile/",158843,0,1,5,0,0,0
+1493866795113,51737,bp02,,"Number of samples in transaction : 4, number of failing samples : 2",bp02 2-1,,false,,673715,0,1,5,0,1316,0
+1493866844588,5891,bp05s1,200,OK,bp05 5-1,text,true,,158687,0,1,5,0,0,0
+1493866850794,107,bp05s2,200,OK,bp05 5-1,text,true,,157348,0,1,5,0,0,0
+1493866851370,2746,bp05s3,200,OK,bp05 5-1,text,true,,300677,0,1,5,0,0,0
+1493866854494,1559,bp05s4,200,OK,bp05 5-1,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">Open day</h1>/",93622,0,1,5,0,0,0
+1493866856417,3643,bp05s5,200,OK,bp05 5-1,text,true,,158690,0,1,5,0,0,0
+1493866844284,13946,bp05,,"Number of samples in transaction : 5, number of failing samples : 1",bp05 5-1,,false,,869024,0,1,5,0,1829,0
+1493863931003,334,bp03s4,500,null,bp03 3-1,text,false,,1752,0,1,1,0,0,0
