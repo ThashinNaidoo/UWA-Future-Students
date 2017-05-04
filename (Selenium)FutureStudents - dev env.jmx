@@ -745,7 +745,7 @@ WDS.sampleResult.sampleEnd();
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="jp@gc - WebDriver Sampler" enabled="true">
+          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="jp" enabled="false">
             <stringProp name="WebDriverSampler.script">WDS.sampleResult.sampleStart()
 WDS.browser.get(&apos;https://${Environment}/events/open-day&apos;)
 WDS.sampleResult.sampleEnd()
@@ -754,13 +754,13 @@ WDS.sampleResult.sampleEnd()
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
           </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
           <hashTree/>
-          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp05s3" enabled="false">
+          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp05s3" enabled="true">
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium, org.openqa.selenium.support.ui);
 var wait = new pkg.WebDriverWait(WDS.browser, 5000);
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;/html/body/main/div[2]/div/nav/ul/li[4]/button&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;/html/body/main/div[2]/div/nav/ul/li[10]/a&apos;))).click();
 WDS.sampleResult.sampleEnd();
-wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&quot;//*[contains(text(), &apos;Open day&apos;)]&quot;)));</stringProp>
+wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&quot;/html/body/main/div[4]/div[5]/div/div[2]/div/div/div[2]/a[8]/div[2]/h4&quot;)));</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
           </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
@@ -775,11 +775,11 @@ wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&quot;//*[co
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp05s4" enabled="false">
+          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp05s4" enabled="true">
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[contains(text(), \&apos;Open day\&apos;)]&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;/html/body/main/div[4]/div[5]/div/div[2]/div/div/div[2]/a[8]/div[2]/h4&apos;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -795,7 +795,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp05s5" enabled="false">
+          <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp05s5" enabled="true">
             <stringProp name="WebDriverSampler.script">WDS.sampleResult.sampleStart()
 WDS.browser.get(&apos;http://${Environment}/&apos;)
 WDS.sampleResult.sampleEnd()
@@ -2069,7 +2069,7 @@ WDS.sampleResult.sampleEnd()
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">C:\Users\Administrator\Desktop\Test Assets\UWA-Future-Students\Results\022_u10_t3600_Selenium.csv</stringProp>
+        <stringProp name="filename">C:\Users\Administrator\Desktop\Test Assets\UWA-Future-Students\Results\026_u10_t3600_Selenium.csv</stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>
