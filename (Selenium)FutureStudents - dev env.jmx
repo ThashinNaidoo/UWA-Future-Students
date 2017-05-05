@@ -199,13 +199,13 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
           </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
           <hashTree>
-            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="false">
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
               <collectionProp name="Asserion.test_strings">
-                <stringProp name="1318816463">span class=&quot;field-validation-valid&quot; data-valmsg-for=&quot;RegisterModel.ConfirmPassword</stringProp>
+                <stringProp name="-1397214398">Welcome</stringProp>
               </collectionProp>
               <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
-              <intProp name="Assertion.test_type">16</intProp>
+              <intProp name="Assertion.test_type">2</intProp>
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
@@ -239,6 +239,42 @@ WDS.sampleResult.sampleEnd();
           </CookieManager>
           <hashTree/>
         </hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
         <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
           <intProp name="ActionProcessor.action">1</intProp>
           <intProp name="ActionProcessor.target">0</intProp>
@@ -246,7 +282,7 @@ WDS.sampleResult.sampleEnd();
         </TestAction>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp02" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp02" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -321,7 +357,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=\&quot;dd56476f-8e9a-401b-9e85-65459e73c935\&quot;]/a[1]/span[2]&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;dd56476f-8e9a-401b-9e85-65459e73c935&quot;]/a[1]&apos;))).click();
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters">${Term}</stringProp>
@@ -330,7 +366,7 @@ WDS.sampleResult.sampleEnd();
           <hashTree>
             <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
               <collectionProp name="Asserion.test_strings">
-                <stringProp name="294496632">&lt;title&gt;Find a Course&lt;/title&gt;</stringProp>
+                <stringProp name="1296489816">&lt;title&gt;Find a course&lt;/title&gt;</stringProp>
               </collectionProp>
               <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
@@ -387,7 +423,7 @@ WDS.sampleResult.sampleEnd();
         </TestAction>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp03" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp03" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -486,7 +522,7 @@ var wait = new pkg.WebDriverWait(WDS.browser, 5000);
 WDS.sampleResult.sampleStart();
 
 (WDS.browser.findElement(pkg.By.xpath(&quot;//*[@id=\&quot;LoginModel_EmailAddress\&quot;]&quot;))).sendKeys(WDS.args[0]);
-(WDS.browser.findElement(pkg.By.id(&apos;LoginModel_Password&apos;))).sendKeys(WDS.args[1]);
+(WDS.browser.findElement(pkg.By.id(&apos;LoginModel_Password&apos;))).sendKeys(&quot;Password1&quot;);
 (WDS.browser.findElement(pkg.By.xpath(&quot;//*[contains(text(), &apos;Log in&apos;)]&quot;))).click();
 WDS.sampleResult.sampleEnd();
 wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&quot;//*[@id=\&quot;page-content\&quot;]/div[4]/div[1]/div/div/nav/div/div/a[2]&quot;)));</stringProp>
@@ -543,7 +579,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
         </TestAction>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp04" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp04" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -617,7 +653,7 @@ WDS.sampleResult.sampleEnd();
           <hashTree>
             <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
               <collectionProp name="Asserion.test_strings">
-                <stringProp name="294496632">&lt;title&gt;Find a Course&lt;/title&gt;</stringProp>
+                <stringProp name="1296489816">&lt;title&gt;Find a course&lt;/title&gt;</stringProp>
               </collectionProp>
               <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
@@ -665,7 +701,7 @@ WDS.sampleResult.sampleEnd();
         </TestAction>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp05" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp05" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -787,7 +823,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
           <hashTree>
             <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
               <collectionProp name="Asserion.test_strings">
-                <stringProp name="-1037704011">&lt;h1 class=&quot;short-header-title&quot;&gt;Open day&lt;/h1&gt;</stringProp>
+                <stringProp name="-641147647">&lt;title&gt;Open Day&lt;/title&gt;</stringProp>
               </collectionProp>
               <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
@@ -822,7 +858,7 @@ WDS.sampleResult.sampleEnd()
         </TestAction>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp06" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp06" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -907,7 +943,7 @@ WDS.sampleResult.sampleEnd();
           <hashTree>
             <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
               <collectionProp name="Asserion.test_strings">
-                <stringProp name="294496632">&lt;title&gt;Find a Course&lt;/title&gt;</stringProp>
+                <stringProp name="1296489816">&lt;title&gt;Find a course&lt;/title&gt;</stringProp>
               </collectionProp>
               <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
@@ -1091,7 +1127,7 @@ WDS.sampleResult.sampleEnd();
         </TestAction>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp07" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp07" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -1174,7 +1210,7 @@ WDS.sampleResult.sampleEnd();
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp07s3" enabled="true">
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[2]/div/nav/ul/li[4]/a&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[2]/div/nav/ul/li[3]/a&apos;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -1182,7 +1218,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
           <hashTree>
             <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
               <collectionProp name="Asserion.test_strings">
-                <stringProp name="1853283665">&lt;h1 class=&quot;short-header-title&quot;&gt;International students&lt;/h1&gt;</stringProp>
+                <stringProp name="712436677">&lt;title&gt;International students&lt;/title&gt;</stringProp>
               </collectionProp>
               <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
@@ -1191,10 +1227,12 @@ WDS.sampleResult.sampleEnd();</stringProp>
             <hashTree/>
           </hashTree>
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp07s4" enabled="true">
-            <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
+            <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium, org.openqa.selenium.support.ui);
+var wait = new pkg.WebDriverWait(WDS.browser, 5000);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[5]/div/div/div[1]/a&apos;))).click();
+wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[6]/div/div/div[1]/a&apos;)));
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[6]/div/div/div[1]/a&apos;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -1222,7 +1260,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
           <hashTree>
             <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
               <collectionProp name="Asserion.test_strings">
-                <stringProp name="1853283665">&lt;h1 class=&quot;short-header-title&quot;&gt;International students&lt;/h1&gt;</stringProp>
+                <stringProp name="712436677">&lt;title&gt;International students&lt;/title&gt;</stringProp>
               </collectionProp>
               <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
@@ -1234,7 +1272,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[6]/div/div/div/div/div/div/div/div/div[5]/a&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[7]/div/div/div/div/div/div/div/div/div[4]/a&apos;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -1262,7 +1300,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
           <hashTree>
             <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
               <collectionProp name="Asserion.test_strings">
-                <stringProp name="1853283665">&lt;h1 class=&quot;short-header-title&quot;&gt;International students&lt;/h1&gt;</stringProp>
+                <stringProp name="712436677">&lt;title&gt;International students&lt;/title&gt;</stringProp>
               </collectionProp>
               <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
@@ -1274,7 +1312,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[7]/div/div/div[1]/a&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[8]/div/div/div[1]/a&apos;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -1302,7 +1340,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
           <hashTree>
             <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
               <collectionProp name="Asserion.test_strings">
-                <stringProp name="1853283665">&lt;h1 class=&quot;short-header-title&quot;&gt;International students&lt;/h1&gt;</stringProp>
+                <stringProp name="712436677">&lt;title&gt;International students&lt;/title&gt;</stringProp>
               </collectionProp>
               <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
@@ -1314,7 +1352,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[8]/div/section/div[2]/article[1]/div[2]/a&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[9]/div/section/div[2]/article[1]/div[2]/a&apos;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -1342,7 +1380,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
           <hashTree>
             <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
               <collectionProp name="Asserion.test_strings">
-                <stringProp name="1853283665">&lt;h1 class=&quot;short-header-title&quot;&gt;International students&lt;/h1&gt;</stringProp>
+                <stringProp name="712436677">&lt;title&gt;International students&lt;/title&gt;</stringProp>
               </collectionProp>
               <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
@@ -1354,7 +1392,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[8]/div/section/div[2]/article[2]/div[2]/a&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[9]/div/section/div[2]/article[2]/div[2]/a&apos;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -1382,7 +1420,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
           <hashTree>
             <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
               <collectionProp name="Asserion.test_strings">
-                <stringProp name="1853283665">&lt;h1 class=&quot;short-header-title&quot;&gt;International students&lt;/h1&gt;</stringProp>
+                <stringProp name="712436677">&lt;title&gt;International students&lt;/title&gt;</stringProp>
               </collectionProp>
               <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
@@ -1394,7 +1432,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[8]/div/section/div[2]/article[3]/div[2]/a&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[9]/div/section/div[2]/article[3]/div[2]/a&apos;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -1437,7 +1475,7 @@ WDS.sampleResult.sampleEnd()
         </TestAction>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp08" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp08" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -1559,7 +1597,7 @@ WDS.sampleResult.sampleEnd();
             <hashTree>
               <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
                 <collectionProp name="Asserion.test_strings">
-                  <stringProp name="294496632">&lt;title&gt;Find a Course&lt;/title&gt;</stringProp>
+                  <stringProp name="1296489816">&lt;title&gt;Find a course&lt;/title&gt;</stringProp>
                 </collectionProp>
                 <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
                 <boolProp name="Assertion.assume_success">false</boolProp>
@@ -1706,7 +1744,7 @@ WDS.sampleResult.sampleEnd();
         </TestAction>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp09" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp09" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -1796,7 +1834,7 @@ WDS.sampleResult.sampleEnd();
             <hashTree>
               <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
                 <collectionProp name="Asserion.test_strings">
-                  <stringProp name="294496632">&lt;title&gt;Find a Course&lt;/title&gt;</stringProp>
+                  <stringProp name="1296489816">&lt;title&gt;Find a course&lt;/title&gt;</stringProp>
                 </collectionProp>
                 <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
                 <boolProp name="Assertion.assume_success">false</boolProp>
@@ -1971,7 +2009,7 @@ WDS.sampleResult.sampleEnd();
         </TestAction>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp10" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp10" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -2036,7 +2074,7 @@ WDS.sampleResult.sampleEnd()
         </TestAction>
         <hashTree/>
       </hashTree>
-      <ResultCollector guiclass="SimpleDataWriter" testclass="ResultCollector" testname="Simple Data Writer" enabled="true">
+      <ResultCollector guiclass="SimpleDataWriter" testclass="ResultCollector" testname="Simple Data Writer" enabled="false">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
