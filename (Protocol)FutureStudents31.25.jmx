@@ -19,7 +19,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="Environment" elementType="Argument">
             <stringProp name="Argument.name">Environment</stringProp>
-            <stringProp name="Argument.value">testweb05-study.webcluster.uwa.edu.au</stringProp>
+            <stringProp name="Argument.value">testweb06-study.webcluster.uwa.edu.au</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="9Counter" elementType="Argument">
@@ -54,7 +54,7 @@
           </elementProp>
           <elementProp name="TestActionPause" elementType="Argument">
             <stringProp name="Argument.name">TestActionPause</stringProp>
-            <stringProp name="Argument.value">120000</stringProp>
+            <stringProp name="Argument.value">180000</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -6725,7 +6725,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename"></stringProp>
+        <stringProp name="filename">C:\Users\Administrator\Desktop\Test Assets\UWA-Future-Students\Results\02906_u150_t3600_31.25Peak.csv</stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>
