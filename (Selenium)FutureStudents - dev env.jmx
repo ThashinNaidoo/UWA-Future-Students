@@ -90,7 +90,7 @@
         <stringProp name="ConstantTimer.delay">300</stringProp>
       </ConstantTimer>
       <hashTree/>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp01" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp01" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -164,7 +164,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&quot;//*[@id=\&quot;page-content\&quot;]/div[4]/header/div/nav/a[1]&quot;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&quot;//*[@id=\&quot;page-content\&quot;]/div[1]/header/div/nav/a[1]&quot;))).click();
 WDS.sampleResult.sampleEnd()
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -192,7 +192,7 @@ var pass = WDS.args[2];
 (WDS.browser.findElement(pkg.By.id(&apos;RegisterModel_Password&apos;))).sendKeys(pass);
 (WDS.browser.findElement(pkg.By.id(&apos;RegisterModel_ConfirmPassword&apos;))).sendKeys(pass);
 (WDS.browser.findElement(pkg.By.name(&quot;register&quot;))).click();
-wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&quot;//*[@id=\&quot;page-content\&quot;]/div[4]/div[1]/div/div/nav/div/div/a[2]&quot;)));
+wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&quot;//*[@id=\&quot;page-content\&quot;]/div[1]/div[1]/div/div/nav/div/div/a[2]&quot;)));
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters">${FirstName} ${Email} ${Password}</stringProp>
@@ -213,7 +213,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&quot;//*[@id=\&quot;page-content\&quot;]/div[4]/div[1]/div/div/nav/div/div/a[2]&quot;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&quot;//*[@id=\&quot;page-content\&quot;]/div[1]/div[1]/div/div/nav/div/div/a[2]&quot;))).click();
 WDS.sampleResult.sampleEnd();
 
 </stringProp>
@@ -422,6 +422,42 @@ WDS.sampleResult.sampleEnd();
           <stringProp name="ActionProcessor.duration">${TestActionPause}</stringProp>
         </TestAction>
         <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp03" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
@@ -487,7 +523,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium, org.openqa.selenium.support.ui);
 var wait = new pkg.WebDriverWait(WDS.browser, 5000);
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&quot;//*[@id=\&quot;page-content\&quot;]/div[4]/header/div/nav/a[1]&quot;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&quot;//*[@id=\&quot;page-content\&quot;]/div[1]/header/div/nav/a[1]&quot;))).click();
 WDS.sampleResult.sampleEnd();
 wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&quot;//*[contains(text(), &apos;Log In&apos;)]&quot;)));</stringProp>
             <stringProp name="WebDriverSampler.parameters">${Term}</stringProp>
@@ -525,7 +561,7 @@ WDS.sampleResult.sampleStart();
 (WDS.browser.findElement(pkg.By.id(&apos;LoginModel_Password&apos;))).sendKeys(&quot;Password1&quot;);
 (WDS.browser.findElement(pkg.By.xpath(&quot;//*[contains(text(), &apos;Log in&apos;)]&quot;))).click();
 WDS.sampleResult.sampleEnd();
-wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&quot;//*[@id=\&quot;page-content\&quot;]/div[4]/div[1]/div/div/nav/div/div/a[2]&quot;)));</stringProp>
+wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&quot;//*[@id=\&quot;page-content\&quot;]/div[1]/div[1]/div/div/nav/div/div/a[2]&quot;)));</stringProp>
             <stringProp name="WebDriverSampler.parameters">${Email} ${Password}</stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
           </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
@@ -544,7 +580,7 @@ wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&quot;//*[@i
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&quot;//*[@id=\&quot;page-content\&quot;]/div[4]/div[1]/div/div/nav/div/div/a[2]&quot;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&quot;//*[@id=\&quot;page-content\&quot;]/div[1]/div[1]/div/div/nav/div/div/a[2]&quot;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -577,6 +613,42 @@ WDS.sampleResult.sampleEnd();</stringProp>
           <intProp name="ActionProcessor.target">0</intProp>
           <stringProp name="ActionProcessor.duration">${TestActionPause}</stringProp>
         </TestAction>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
         <hashTree/>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp04" enabled="false">
@@ -665,7 +737,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[1]/a/span&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;http://${Environment}/&apos;))).click();
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -699,6 +771,42 @@ WDS.sampleResult.sampleEnd();
           <intProp name="ActionProcessor.target">0</intProp>
           <stringProp name="ActionProcessor.duration">${TestActionPause}</stringProp>
         </TestAction>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
         <hashTree/>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp05" enabled="false">
@@ -764,7 +872,7 @@ WDS.sampleResult.sampleEnd()
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/header/div/nav/a[3]&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[1]/header/div/nav/a[3]&apos;))).click();
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -794,9 +902,9 @@ WDS.sampleResult.sampleEnd()
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium, org.openqa.selenium.support.ui);
 var wait = new pkg.WebDriverWait(WDS.browser, 5000);
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;/html/body/main/div[2]/div/nav/ul/li[10]/a&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[3]/div/nav/ul/li[9]/a&apos;))).click();
 WDS.sampleResult.sampleEnd();
-wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&quot;/html/body/main/div[4]/div[5]/div/div[2]/div/div/div[2]/a[8]/div[2]/h4&quot;)));</stringProp>
+wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&quot;/html/body/main/div[1]/div[5]/div/div[2]/div/div/div[2]/a[5]&quot;)));</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
           </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
@@ -815,7 +923,7 @@ wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&quot;/html/
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;/html/body/main/div[4]/div[5]/div/div[2]/div/div/div[2]/a[8]/div[2]/h4&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;/html/body/main/div[1]/div[5]/div/div[2]/div/div/div[2]/a[5]&apos;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -856,6 +964,42 @@ WDS.sampleResult.sampleEnd()
           <intProp name="ActionProcessor.target">0</intProp>
           <stringProp name="ActionProcessor.duration">${TestActionPause}</stringProp>
         </TestAction>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
         <hashTree/>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp06" enabled="false">
@@ -1102,7 +1246,7 @@ WDS.sampleResult.sampleEnd();
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[1]/a[1]/span&apos;))).click();
+WDS.browser.get(&quot;http://${Environment}/&quot;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -1126,8 +1270,44 @@ WDS.sampleResult.sampleEnd();
           <stringProp name="ActionProcessor.duration">${TestActionPause}</stringProp>
         </TestAction>
         <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp07" enabled="false">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp07" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -1190,7 +1370,7 @@ WDS.sampleResult.sampleEnd()
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/header/div/nav/a[3]&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[1]/header/div/nav/a[3]&apos;))).click();
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -1210,7 +1390,7 @@ WDS.sampleResult.sampleEnd();
           <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="bp07s3" enabled="true">
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[2]/div/nav/ul/li[3]/a&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[3]/div/nav/ul/li[3]/a&apos;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -1231,8 +1411,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
 var wait = new pkg.WebDriverWait(WDS.browser, 5000);
 
 WDS.sampleResult.sampleStart();
-wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[6]/div/div/div[1]/a&apos;)));
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[6]/div/div/div[1]/a&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&quot;//*[@id=\&quot;page-content\&quot;]/div[1]/div[6]/div/div/div[1]/a&quot;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -1240,7 +1419,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
           <hashTree>
             <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
               <collectionProp name="Asserion.test_strings">
-                <stringProp name="547489935">&lt;h1 class=&quot;short-header-title&quot;&gt;Life in Perth&lt;/h1&gt;</stringProp>
+                <stringProp name="-1802003663">&lt;title&gt;Life in Perth&lt;/title&gt;</stringProp>
               </collectionProp>
               <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
@@ -1252,7 +1431,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[1]/a[2]/span&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[2]/a[2]/span&apos;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -1260,7 +1439,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
           <hashTree>
             <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
               <collectionProp name="Asserion.test_strings">
-                <stringProp name="712436677">&lt;title&gt;International students&lt;/title&gt;</stringProp>
+                <stringProp name="0"></stringProp>
               </collectionProp>
               <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
@@ -1272,7 +1451,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[7]/div/div/div/div/div/div/div/div/div[4]/a&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&quot;//*[contains(text(), &apos;Moving to Perth&apos;)]&quot;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -1292,7 +1471,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[1]/a[2]/span&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[2]/a[2]/span&apos;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -1312,7 +1491,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[8]/div/div/div[1]/a&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&quot;//*[@id=\&quot;page-content\&quot;]/div[1]/div[8]/div/div/div[1]/a&quot;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -1332,7 +1511,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[1]/a[2]/span&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[2]/a[2]/span&apos;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -1352,7 +1531,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[9]/div/section/div[2]/article[1]/div[2]/a&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[1]/div[9]/div/section/div[2]/article[1]/div[2]/a&apos;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -1372,7 +1551,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[1]/a[2]/span&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[2]/a[2]/span&apos;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -1392,7 +1571,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[9]/div/section/div[2]/article[2]/div[2]/a&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[1]/div[9]/div/section/div[2]/article[2]/div[2]/a&apos;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -1412,7 +1591,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[1]/a[2]/span&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[2]/a[2]/span&apos;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -1432,7 +1611,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[4]/div[9]/div/section/div[2]/article[3]/div[2]/a&apos;))).click();
+(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[1]/div[9]/div/section/div[2]/article[3]/div[2]/a&apos;))).click();
 WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
             <stringProp name="WebDriverSampler.language">javascript</stringProp>
@@ -1473,6 +1652,42 @@ WDS.sampleResult.sampleEnd()
           <intProp name="ActionProcessor.target">0</intProp>
           <stringProp name="ActionProcessor.duration">${TestActionPause}</stringProp>
         </TestAction>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
         <hashTree/>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp08" enabled="false">
@@ -1719,7 +1934,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[1]/a[1]/span&apos;))).click();
+WDS.browser.get(&quot;http://${Environment}/&quot;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -1743,8 +1958,44 @@ WDS.sampleResult.sampleEnd();
           <stringProp name="ActionProcessor.duration">${TestActionPause}</stringProp>
         </TestAction>
         <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp09" enabled="false">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp09" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -1986,7 +2237,7 @@ WDS.sampleResult.sampleEnd();</stringProp>
             <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
 
 WDS.sampleResult.sampleStart();
-(WDS.browser.findElement(pkg.By.xpath(&apos;//*[@id=&quot;page-content&quot;]/div[1]/a[1]/span&apos;))).click();
+WDS.browser.get(&quot;http://${Environment}/&quot;);
 WDS.sampleResult.sampleEnd();
 </stringProp>
             <stringProp name="WebDriverSampler.parameters"></stringProp>
@@ -2007,6 +2258,42 @@ WDS.sampleResult.sampleEnd();
           <intProp name="ActionProcessor.target">0</intProp>
           <stringProp name="ActionProcessor.duration">${TestActionPause}</stringProp>
         </TestAction>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
         <hashTree/>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="bp10" enabled="false">
@@ -2072,6 +2359,42 @@ WDS.sampleResult.sampleEnd()
           <intProp name="ActionProcessor.target">0</intProp>
           <stringProp name="ActionProcessor.duration">${TestActionPause}</stringProp>
         </TestAction>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
         <hashTree/>
       </hashTree>
       <ResultCollector guiclass="SimpleDataWriter" testclass="ResultCollector" testname="Simple Data Writer" enabled="false">
