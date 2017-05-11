@@ -1,0 +1,640 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1494481749476,4691,bp04s1,200,OK,bp04 4-1,text,true,,112032,0,1,5,0,0,0
+1494481749476,4777,bp03s1,200,OK,bp03 3-1,text,true,,112031,0,1,5,0,0,0
+1494481749499,5535,bp01s1,200,OK,bp01 1-1,text,true,,112032,0,1,5,0,0,0
+1494481749476,5604,bp02s0A,200,OK,bp02 2-1,text,true,,112030,0,1,5,0,0,0
+1494481749500,5492,bp05s1,200,OK,bp05 5-1,text,true,,112032,0,1,5,0,0,0
+1494481754638,168,bp03s2,200,OK,bp03 3-1,text,true,,112199,0,1,5,0,0,0
+1494481755421,121,bp01s2,200,OK,bp01 1-1,text,true,,112200,0,1,5,0,0,0
+1494481755569,101,bp03s3,200,OK,bp03 3-1,text,true,,112199,0,1,5,0,0,0
+1494481755505,189,bp05s2,200,OK,bp05 5-1,text,true,,111057,0,1,5,0,0,0
+1494481754590,3709,bp04s2,200,OK,bp04 4-1,text,true,,149520,0,1,5,0,0,0
+1494481758629,41,bp04s3,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://test-study.uwa.edu.au// because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://test-study.uwa.edu.au//' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=http://test-study.uwa.edu.au//}
+Session ID: 1698ba4bb008e308d04b0b574d92db6f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir6920_24885, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2535,0,1,5,0,0,0
+1494481749095,8441,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,264087,0,1,5,0,1132,0
+1494481756134,3729,bp05s3,200,OK,bp05 5-1,text,true,,289819,0,1,5,0,0,0
+1494481755495,4497,bp02s0B,200,OK,bp02 2-1,text,true,,167209,0,1,5,0,0,0
+1494481756097,429,bp03s4,200,OK,bp03 3-1,text,true,,87873,0,1,5,0,0,0
+1494481755934,5881,bp01s3,200,OK,bp01 1-1,text,true,,87873,0,1,5,0,0,0
+1494481760340,80,bp05s4,200,OK,bp05 5-1,text,true,,87020,0,1,5,0,0,0
+1494481762252,2604,bp05s5,200,OK,bp05 5-1,text,true,,111878,0,1,5,0,0,0
+1494481749186,12094,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,711806,0,1,5,0,3755,0
+1494481761266,4555,bp03s5,200,OK,bp03 3-1,text,true,,111877,0,1,5,0,0,0
+1494481749112,10030,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,536179,0,1,5,0,6832,0
+1494481762142,4342,bp01s4,200,OK,bp01 1-1,text,true,,111878,0,1,5,0,0,0
+1494481749186,15879,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,423983,0,1,5,0,1538,0
+1494481760344,16204,bp02s0C,200,OK,bp02 2-1,text,true,,195437,0,1,5,0,0,0
+1494481776899,3296,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Neuroscience"" class=""tile-row-list-item tile/",112220,0,1,5,0,0,0
+1494481749106,29601,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,586896,0,1,5,0,1664,0
+1494481939263,3007,bp04s1,200,OK,bp04 4-1,text,true,,111880,0,1,5,0,0,0
+1494481942660,2963,bp04s2,200,OK,bp04 4-1,text,true,,97580,0,1,5,0,0,0
+1494481945924,29,bp04s3,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://test-study.uwa.edu.au// because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://test-study.uwa.edu.au//' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=http://test-study.uwa.edu.au//}
+Session ID: 1698ba4bb008e308d04b0b574d92db6f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir6920_24885, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2535,0,1,5,0,0,0
+1494481938949,5999,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,211995,0,1,5,0,987,0
+1494481945641,3509,bp05s1,200,OK,bp05 5-1,text,true,,111879,0,1,5,0,0,0
+1494481949612,145,bp05s2,200,OK,bp05 5-1,text,true,,110796,0,1,5,0,0,0
+1494481947208,3036,bp01s1,200,OK,bp01 1-1,text,true,,111879,0,1,5,0,0,0
+1494481946580,3841,bp03s1,200,OK,bp03 3-1,text,true,,111881,0,1,5,0,0,0
+1494481950707,132,bp01s2,200,OK,bp01 1-1,text,true,,111939,0,1,5,0,0,0
+1494481950887,158,bp03s2,200,OK,bp03 3-1,text,true,,111941,0,1,5,0,0,0
+1494481951517,73,bp03s3,200,OK,bp03 3-1,text,true,,111941,0,1,5,0,0,0
+1494481950112,2174,bp05s3,200,OK,bp05 5-1,text,true,,289820,0,1,5,0,0,0
+1494481952689,1672,bp05s4,200,OK,bp05 5-1,text,true,,87022,0,1,5,0,0,0
+1494481952012,392,bp03s4,200,OK,bp03 3-1,text,true,,87875,0,1,5,0,0,0
+1494481951184,5332,bp01s3,200,OK,bp01 1-1,text,true,,87875,0,1,5,0,0,0
+1494481954681,3204,bp05s5,200,OK,bp05 5-1,text,true,,111877,0,1,5,0,0,0
+1494481945339,10704,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,711394,0,1,5,0,2026,0
+1494481955904,10894,bp03s5,200,OK,bp03 3-1,text,true,,111880,0,1,5,0,0,0
+1494481946278,15358,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,535518,0,1,5,0,5317,0
+1494481960960,7823,bp02s0A,200,OK,bp02 2-1,text,true,,112218,0,1,5,0,0,0
+1494481956838,12078,bp01s4,200,OK,bp01 1-1,text,true,,111879,0,1,5,0,0,0
+1494481946906,20578,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,423572,0,1,5,0,1596,0
+1494481969279,6307,bp02s0B,200,OK,bp02 2-1,text,true,,166771,0,1,5,0,0,0
+1494481975924,26608,bp02s0C,200,OK,bp02 2-1,text,true,,201306,0,1,5,0,0,0
+1494482002882,2662,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Pathology-and-Laboratory-Medicine"" class=""tile-row-list-item tile/",112206,0,1,5,0,0,0
+1494481960658,43400,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,592501,0,1,5,0,1603,0
+1494482126590,6194,bp04s1,200,OK,bp04 4-1,text,true,,111881,0,1,5,0,0,0
+1494482133114,2844,bp04s2,200,OK,bp04 4-1,text,true,,128395,0,1,5,0,0,0
+1494482136294,23,bp04s3,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://test-study.uwa.edu.au// because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://test-study.uwa.edu.au//' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=http://test-study.uwa.edu.au//}
+Session ID: 1698ba4bb008e308d04b0b574d92db6f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir6920_24885, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2535,0,1,5,0,0,0
+1494482126276,9061,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,242811,0,1,5,0,981,0
+1494482138711,5562,bp05s1,200,OK,bp05 5-1,text,true,,111879,0,1,5,0,0,0
+1494482144753,114,bp05s2,200,OK,bp05 5-1,text,true,,110796,0,1,5,0,0,0
+1494482145191,2575,bp05s3,200,OK,bp05 5-1,text,true,,289821,0,1,5,0,0,0
+1494482148161,3456,bp05s4,200,OK,bp05 5-1,text,true,,87021,0,1,5,0,0,0
+1494482147560,4033,bp03s1,200,OK,bp03 3-1,text,true,,111881,0,1,5,0,0,0
+1494482152031,118,bp03s2,200,OK,bp03 3-1,text,true,,111941,0,1,5,0,0,0
+1494482152551,67,bp03s3,200,OK,bp03 3-1,text,true,,111941,0,1,5,0,0,0
+1494482149687,4640,bp01s1,200,OK,bp01 1-1,text,true,,111881,0,1,5,0,0,0
+1494482154765,109,bp01s2,200,OK,bp01 1-1,text,true,,111941,0,1,5,0,0,0
+1494482151933,5167,bp05s5,200,OK,bp05 5-1,text,true,,111880,0,1,5,0,0,0
+1494482138382,16874,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,711397,0,1,5,0,1983,0
+1494482155254,4870,bp01s3,200,OK,bp01 1-1,text,true,,87874,0,1,5,0,0,0
+1494482153021,381,bp03s4,200,OK,bp03 3-1,text,true,,87875,0,1,5,0,0,0
+1494482160429,7562,bp01s4,200,OK,bp01 1-1,text,true,,111881,0,1,5,0,0,0
+1494482149385,17181,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,423577,0,1,5,0,1559,0
+1494482164276,12693,bp03s5,200,OK,bp03 3-1,text,true,,111881,0,1,5,0,0,0
+1494482147258,17292,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,535519,0,1,5,0,12585,0
+1494482186277,3152,bp02s0A,200,OK,bp02 2-1,text,true,,112204,0,1,5,0,0,0
+1494482189890,3799,bp02s0B,200,OK,bp02 2-1,text,true,,166773,0,1,5,0,0,0
+1494482193991,20969,bp02s0C,200,OK,bp02 2-1,text,true,,199113,0,1,5,0,0,0
+1494482215322,6919,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Pharmacology"" class=""tile-row-list-item tile/",112224,0,1,5,0,0,0
+1494482185988,34839,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,590314,0,1,5,0,1582,0
+1494482316957,6366,bp04s1,200,OK,bp04 4-1,text,true,,111876,0,1,5,0,0,0
+1494482323769,8303,bp04s2,200,OK,bp04 4-1,text,true,,143003,0,1,5,0,0,0
+1494482332413,22,bp04s3,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://test-study.uwa.edu.au// because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://test-study.uwa.edu.au//' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=http://test-study.uwa.edu.au//}
+Session ID: 1698ba4bb008e308d04b0b574d92db6f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir6920_24885, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2535,0,1,5,0,0,0
+1494482316629,14691,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,257414,0,1,5,0,1105,0
+1494482337916,2475,bp05s1,200,OK,bp05 5-1,text,true,,111877,0,1,5,0,0,0
+1494482340796,149,bp05s2,200,OK,bp05 5-1,text,true,,110794,0,1,5,0,0,0
+1494482341381,2453,bp05s3,200,OK,bp05 5-1,text,true,,289820,0,1,5,0,0,0
+1494482344255,1488,bp05s4,200,OK,bp05 5-1,text,true,,87022,0,1,5,0,0,0
+1494482346078,4155,bp05s5,200,OK,bp05 5-1,text,true,,111881,0,1,5,0,0,0
+1494482337603,10720,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,711394,0,1,5,0,2089,0
+1494482348732,10466,bp01s1,200,OK,bp01 1-1,text,true,,111878,0,1,5,0,0,0
+1494482359629,108,bp01s2,200,OK,bp01 1-1,text,true,,111938,0,1,5,0,0,0
+1494482357723,7860,bp03s1,200,OK,bp03 3-1,text,true,,111880,0,1,5,0,0,0
+1494482366067,131,bp03s2,200,OK,bp03 3-1,text,true,,111940,0,1,5,0,0,0
+1494482367144,68,bp03s3,200,OK,bp03 3-1,text,true,,111940,0,1,5,0,0,0
+1494482360097,12565,bp01s3,200,OK,bp01 1-1,text,true,,87875,0,1,5,0,0,0
+1494482367601,349,bp03s4,200,OK,bp03 3-1,text,true,,87874,0,1,5,0,0,0
+1494482372955,20018,bp01s4,200,OK,bp01 1-1,text,true,,111880,0,1,5,0,0,0
+1494482348430,43157,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,423571,0,1,5,0,1613,0
+1494482376242,17513,bp03s5,200,OK,bp03 3-1,text,true,,111879,0,1,5,0,0,0
+1494482357421,25921,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,535513,0,1,5,0,10574,0
+1494482402992,17116,bp02s0A,200,OK,bp02 2-1,text,true,,112223,0,1,5,0,0,0
+1494482420453,12247,bp02s0B,200,OK,bp02 2-1,text,true,,167057,0,1,5,0,0,0
+1494482433043,47204,bp02s0C,200,OK,bp02 2-1,text,true,,197790,0,1,5,0,0,0
+1494482480575,15070,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Philosophy"" class=""tile-row-list-item tile/",112104,0,1,5,0,0,0
+1494482402678,91637,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,589174,0,1,5,0,1493,0
+1494482513091,4927,bp04s1,200,OK,bp04 4-1,text,true,,111878,0,1,5,0,0,0
+1494482518454,2880,bp04s2,200,OK,bp04 4-1,text,true,,143314,0,1,5,0,0,0
+1494482521661,22,bp04s3,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://test-study.uwa.edu.au// because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://test-study.uwa.edu.au//' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=http://test-study.uwa.edu.au//}
+Session ID: 1698ba4bb008e308d04b0b574d92db6f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir6920_24885, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2535,0,1,5,0,0,0
+1494482512762,7829,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,257727,0,1,5,0,1120,0
+1494482530923,2561,bp05s1,200,OK,bp05 5-1,text,true,,111877,0,1,5,0,0,0
+1494482533938,110,bp05s2,200,OK,bp05 5-1,text,true,,110794,0,1,5,0,0,0
+1494482534449,2669,bp05s3,200,OK,bp05 5-1,text,true,,289821,0,1,5,0,0,0
+1494482537514,1960,bp05s4,200,OK,bp05 5-1,text,true,,87020,0,1,5,0,0,0
+1494482539831,4008,bp05s5,200,OK,bp05 5-1,text,true,,111880,0,1,5,0,0,0
+1494482530605,11308,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,711392,0,1,5,0,2126,0
+1494482574498,4244,bp03s1,200,OK,bp03 3-1,text,true,,111881,0,1,5,0,0,0
+1494482579184,105,bp03s2,200,OK,bp03 3-1,text,true,,111941,0,1,5,0,0,0
+1494482580185,65,bp03s3,200,OK,bp03 3-1,text,true,,111941,0,1,5,0,0,0
+1494482573775,7947,bp01s1,200,OK,bp01 1-1,text,true,,111880,0,1,5,0,0,0
+1494482582163,106,bp01s2,200,OK,bp01 1-1,text,true,,111940,0,1,5,0,0,0
+1494482580638,378,bp03s4,200,OK,bp03 3-1,text,true,,87870,0,1,5,0,0,0
+1494482584641,5316,bp03s5,200,OK,bp03 3-1,text,true,,111880,0,1,5,0,0,0
+1494482574197,10108,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,535513,0,1,5,0,5777,0
+1494482582622,9938,bp01s3,200,OK,bp01 1-1,text,true,,87871,0,1,5,0,0,0
+1494482592884,27241,bp01s4,200,OK,bp01 1-1,text,true,,111878,0,1,5,0,0,0
+1494482573456,45232,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,423569,0,1,5,0,1586,0
+1494482676396,2884,bp02s0A,200,OK,bp02 2-1,text,true,,112103,0,1,5,0,0,0
+1494482679744,2758,bp02s0B,200,OK,bp02 2-1,text,true,,166775,0,1,5,0,0,0
+1494482702290,5675,bp04s1,200,OK,bp04 4-1,text,true,,111881,0,1,5,0,0,0
+1494482708461,4363,bp04s2,200,OK,bp04 4-1,text,true,,145442,0,1,5,0,0,0
+1494482713163,23,bp04s3,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://test-study.uwa.edu.au// because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://test-study.uwa.edu.au//' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=http://test-study.uwa.edu.au//}
+Session ID: 1698ba4bb008e308d04b0b574d92db6f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir6920_24885, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2535,0,1,5,0,0,0
+1494482701988,10061,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,259858,0,1,5,0,1137,0
+1494482724610,14412,bp05s1,200,OK,bp05 5-1,text,true,,111879,0,1,5,0,0,0
+1494482739475,124,bp05s2,200,OK,bp05 5-1,text,true,,110796,0,1,5,0,0,0
+1494482740023,9502,bp05s3,200,OK,bp05 5-1,text,true,,289820,0,1,5,0,0,0
+1494482749922,9759,bp05s4,200,OK,bp05 5-1,text,true,,87021,0,1,5,0,0,0
+1494482760001,9744,bp05s5,200,OK,bp05 5-1,text,true,,111879,0,1,5,0,0,0
+1494482724309,43541,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,711395,0,1,5,0,2043,0
+1494482682844,94251,bp02s0C,200,OK,bp02 2-1,text,true,,228943,0,1,5,0,0,0
+1494482777430,4040,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Physics"" class=""tile-row-list-item tile/",112103,0,1,5,0,0,0
+1494482676083,103933,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,619924,0,1,5,0,1480,0
+1494482770677,15870,bp03s1,200,OK,bp03 3-1,text,true,,111879,0,1,5,0,0,0
+1494482787009,134,bp03s2,200,OK,bp03 3-1,text,true,,111939,0,1,5,0,0,0
+1494482787563,71,bp03s3,200,OK,bp03 3-1,text,true,,111939,0,1,5,0,0,0
+1494482788025,349,bp03s4,200,OK,bp03 3-1,text,true,,87875,0,1,5,0,0,0
+1494482800869,19938,bp01s1,200,OK,bp01 1-1,text,true,,111879,0,1,5,0,0,0
+1494482821165,107,bp01s2,200,OK,bp01 1-1,text,true,,111939,0,1,5,0,0,0
+1494482821615,14492,bp01s3,200,OK,bp01 1-1,text,true,,87872,0,1,5,0,0,0
+1494482814946,29439,bp03s5,200,OK,bp03 3-1,text,true,,111879,0,1,5,0,0,0
+1494482770376,45863,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,535511,0,1,5,0,28355,0
+1494482836426,28415,bp01s4,200,OK,bp01 1-1,text,true,,111879,0,1,5,0,0,0
+1494482800568,62952,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,423569,0,1,5,0,1486,0
+1494482893840,3011,bp04s1,200,OK,bp04 4-1,text,true,,111881,0,1,5,0,0,0
+1494482897356,4832,bp04s2,200,OK,bp04 4-1,text,true,,142931,0,1,5,0,0,0
+1494482902519,40,bp04s3,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://test-study.uwa.edu.au// because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://test-study.uwa.edu.au//' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 38 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=http://test-study.uwa.edu.au//}
+Session ID: 1698ba4bb008e308d04b0b574d92db6f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir6920_24885, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2535,0,1,5,0,0,0
+1494482893526,7883,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,257347,0,1,5,0,1177,0
+1494482962095,2957,bp02s0A,200,OK,bp02 2-1,text,true,,112097,0,1,5,0,0,0
+1494482965377,2601,bp02s0B,200,OK,bp02 2-1,text,true,,166775,0,1,5,0,0,0
+1494482950517,31936,bp05s1,200,OK,bp05 5-1,text,true,,111877,0,1,5,0,0,0
+1494482982792,155,bp05s2,200,OK,bp05 5-1,text,true,,110794,0,1,5,0,0,0
+1494482983340,28674,bp05s3,200,OK,bp05 5-1,text,true,,289822,0,1,5,0,0,0
+1494483025120,2625,bp03s1,200,OK,bp03 3-1,text,true,,111879,0,1,5,0,0,0
+1494483028077,111,bp03s2,200,OK,bp03 3-1,text,true,,111939,0,1,5,0,0,0
+1494483028621,65,bp03s3,200,OK,bp03 3-1,text,true,,111939,0,1,5,0,0,0
+1494483029080,342,bp03s4,200,OK,bp03 3-1,text,true,,87875,0,1,5,0,0,0
+1494483045607,4263,bp01s1,200,OK,bp01 1-1,text,true,,111881,0,1,5,0,0,0
+1494483050197,110,bp01s2,200,OK,bp01 1-1,text,true,,111941,0,1,5,0,0,0
+1494482968307,85014,bp02s0C,200,OK,bp02 2-1,text,true,,199764,0,1,5,0,0,0
+1494483050648,5042,bp01s3,200,OK,bp01 1-1,text,true,,87870,0,1,5,0,0,0
+1494483012538,44724,bp05s4,200,OK,bp05 5-1,text,true,,87021,0,1,5,0,0,0
+1494483056011,5446,bp01s4,200,OK,bp01 1-1,text,true,,111879,0,1,5,0,0,0
+1494483045306,14861,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,423571,0,1,5,0,1421,0
+1494483032722,37452,bp03s5,200,OK,bp03 3-1,text,true,,111881,0,1,5,0,0,0
+1494483024819,40595,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,535513,0,1,5,0,4913,0
+1494483057584,36693,bp05s5,200,OK,bp05 5-1,text,true,,111877,0,1,5,0,0,0
+1494482950195,142182,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,711391,0,1,5,0,2037,0
+1494483053663,53575,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Physiology"" class=""tile-row-list-item tile/",112237,0,1,5,0,0,0
+1494482961794,144147,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,590873,0,1,5,0,1322,0
+1494483083160,36528,bp04s1,200,OK,bp04 4-1,text,true,,111881,0,1,5,0,0,0
+1494483120028,3426,bp04s2,200,OK,bp04 4-1,text,true,,102972,0,1,5,0,0,0
+1494483123778,23,bp04s3,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://test-study.uwa.edu.au// because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://test-study.uwa.edu.au//' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=http://test-study.uwa.edu.au//}
+Session ID: 1698ba4bb008e308d04b0b574d92db6f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir6920_24885, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2535,0,1,5,0,0,0
+1494483082859,39977,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,217388,0,1,5,0,977,0
+1494483242201,3581,bp01s1,200,OK,bp01 1-1,text,true,,111878,0,1,5,0,0,0
+1494483246152,110,bp01s2,200,OK,bp01 1-1,text,true,,111938,0,1,5,0,0,0
+1494483246607,4819,bp01s3,200,OK,bp01 1-1,text,true,,87872,0,1,5,0,0,0
+1494483250929,3151,bp03s1,200,OK,bp03 3-1,text,true,,111879,0,1,5,0,0,0
+1494483254405,106,bp03s2,200,OK,bp03 3-1,text,true,,111939,0,1,5,0,0,0
+1494483254959,100,bp03s3,200,OK,bp03 3-1,text,true,,111939,0,1,5,0,0,0
+1494483255457,364,bp03s4,200,OK,bp03 3-1,text,true,,87875,0,1,5,0,0,0
+1494483259442,5613,bp03s5,200,OK,bp03 3-1,text,true,,111877,0,1,5,0,0,0
+1494483250628,9334,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,535509,0,1,5,0,5236,0
+1494483251706,15871,bp01s4,200,OK,bp01 1-1,text,true,,111877,0,1,5,0,0,0
+1494483241888,24381,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,423565,0,1,5,0,1568,0
+1494483275062,2943,bp05s1,200,OK,bp05 5-1,text,true,,111880,0,1,5,0,0,0
+1494483278340,119,bp05s2,200,OK,bp05 5-1,text,true,,110797,0,1,5,0,0,0
+1494483278926,2294,bp05s3,200,OK,bp05 5-1,text,true,,289820,0,1,5,0,0,0
+1494483281608,1517,bp05s4,200,OK,bp05 5-1,text,true,,87022,0,1,5,0,0,0
+1494483283464,2691,bp05s5,200,OK,bp05 5-1,text,true,,111879,0,1,5,0,0,0
+1494483274749,9564,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,711398,0,1,5,0,1983,0
+1494483287908,3552,bp02s0A,200,OK,bp02 2-1,text,true,,112236,0,1,5,0,0,0
+1494483291777,2655,bp02s0B,200,OK,bp02 2-1,text,true,,166769,0,1,5,0,0,0
+1494483304398,5345,bp04s1,200,OK,bp04 4-1,text,true,,111879,0,1,5,0,0,0
+1494483310069,4583,bp04s2,200,OK,bp04 4-1,text,true,,119978,0,1,5,0,0,0
+1494483314978,23,bp04s3,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://test-study.uwa.edu.au// because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://test-study.uwa.edu.au//' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=http://test-study.uwa.edu.au//}
+Session ID: 1698ba4bb008e308d04b0b574d92db6f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir6920_24885, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2535,0,1,5,0,0,0
+1494483304097,9951,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,234392,0,1,5,0,953,0
+1494483294775,27561,bp02s0C,200,OK,bp02 2-1,text,true,,201352,0,1,5,0,0,0
+1494483322650,5405,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Political-Science-and-International-Relations"" class=""tile-row-list-item tile/",112241,0,1,5,0,0,0
+1494483287610,39173,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,592598,0,1,5,0,1470,0
+1494483448405,2520,bp01s1,200,OK,bp01 1-1,text,true,,111879,0,1,5,0,0,0
+1494483451398,105,bp01s2,200,OK,bp01 1-1,text,true,,111939,0,1,5,0,0,0
+1494483451858,5109,bp01s3,200,OK,bp01 1-1,text,true,,87873,0,1,5,0,0,0
+1494483457287,5651,bp01s4,200,OK,bp01 1-1,text,true,,111880,0,1,5,0,0,0
+1494483448104,13385,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,423571,0,1,5,0,1558,0
+1494483445822,33606,bp03s1,200,OK,bp03 3-1,text,true,,111878,0,1,5,0,0,0
+1494483479899,142,bp03s2,200,OK,bp03 3-1,text,true,,111938,0,1,5,0,0,0
+1494483480502,70,bp03s3,200,OK,bp03 3-1,text,true,,111938,0,1,5,0,0,0
+1494483466879,18360,bp05s1,200,OK,bp05 5-1,text,true,,111879,0,1,5,0,0,0
+1494483485686,116,bp05s2,200,OK,bp05 5-1,text,true,,110796,0,1,5,0,0,0
+1494483486240,8130,bp05s3,200,OK,bp05 5-1,text,true,,289818,0,1,5,0,0,0
+1494483480967,379,bp03s4,200,OK,bp03 3-1,text,true,,87874,0,1,5,0,0,0
+1494483495602,3516,bp04s1,200,OK,bp04 4-1,text,true,,111879,0,1,5,0,0,0
+1494483499450,4722,bp04s2,200,OK,bp04 4-1,text,true,,160262,0,1,5,0,0,0
+1494483504501,22,bp04s3,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://test-study.uwa.edu.au// because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://test-study.uwa.edu.au//' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=http://test-study.uwa.edu.au//}
+Session ID: 1698ba4bb008e308d04b0b574d92db6f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir6920_24885, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2535,0,1,5,0,0,0
+1494483495301,8260,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,274676,0,1,5,0,962,0
+1494483494778,11393,bp05s4,200,OK,bp05 5-1,text,true,,87021,0,1,5,0,0,0
+1494483506495,6445,bp05s5,200,OK,bp05 5-1,text,true,,111878,0,1,5,0,0,0
+1494483466578,44444,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,711392,0,1,5,0,1961,0
+1494483498995,21353,bp03s5,200,OK,bp03 3-1,text,true,,111880,0,1,5,0,0,0
+1494483445517,55550,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,535508,0,1,5,0,19301,0
+1494483508782,14305,bp02s0A,200,OK,bp02 2-1,text,true,,112245,0,1,5,0,0,0
+1494483523542,8293,bp02s0B,200,OK,bp02 2-1,text,true,,167056,0,1,5,0,0,0
+1494483532162,87446,bp02s0C,200,OK,bp02 2-1,text,true,,205882,0,1,5,0,0,0
+1494483619944,18131,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Population-Health"" class=""tile-row-list-item tile/",112272,0,1,5,0,0,0
+1494483508481,128175,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,597455,0,1,5,0,1477,0
+1494483643673,21134,bp01s1,200,OK,bp01 1-1,text,true,,111879,0,1,5,0,0,0
+1494483665201,107,bp01s2,200,OK,bp01 1-1,text,true,,111939,0,1,5,0,0,0
+1494483700977,2633,bp03s1,200,OK,bp03 3-1,text,true,,111881,0,1,5,0,0,0
+1494483704067,115,bp03s2,200,OK,bp03 3-1,text,true,,111941,0,1,5,0,0,0
+1494483705087,67,bp03s3,200,OK,bp03 3-1,text,true,,111941,0,1,5,0,0,0
+1494483665661,42129,bp01s3,200,OK,bp01 1-1,text,true,,87875,0,1,5,0,0,0
+1494483705554,365,bp03s4,200,OK,bp03 3-1,text,true,,87868,0,1,5,0,0,0
+1494483685124,33180,bp04s1,200,OK,bp04 4-1,text,true,,111881,0,1,5,0,0,0
+1494483709604,10790,bp03s5,200,OK,bp03 3-1,text,true,,111881,0,1,5,0,0,0
+1494483700676,13970,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,535512,0,1,5,0,5775,0
+1494483718642,3125,bp04s2,200,OK,bp04 4-1,text,true,,136537,0,1,5,0,0,0
+1494483722095,27,bp04s3,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://test-study.uwa.edu.au// because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://test-study.uwa.edu.au//' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=http://test-study.uwa.edu.au//}
+Session ID: 1698ba4bb008e308d04b0b574d92db6f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir6920_24885, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2535,0,1,5,0,0,0
+1494483684823,36332,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,250953,0,1,5,0,968,0
+1494483708128,25569,bp01s4,200,OK,bp01 1-1,text,true,,111877,0,1,5,0,0,0
+1494483643360,88939,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,423570,0,1,5,0,1410,0
+1494483693584,42782,bp05s1,200,OK,bp05 5-1,text,true,,111881,0,1,5,0,0,0
+1494483736729,115,bp05s2,200,OK,bp05 5-1,text,true,,110798,0,1,5,0,0,0
+1494483737176,19365,bp05s3,200,OK,bp05 5-1,text,true,,289820,0,1,5,0,0,0
+1494483757064,24780,bp05s4,200,OK,bp05 5-1,text,true,,87022,0,1,5,0,0,0
+1494483782168,4473,bp05s5,200,OK,bp05 5-1,text,true,,111879,0,1,5,0,0,0
+1494483693283,91515,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,711400,0,1,5,0,2016,0
+1494483818742,50914,bp02s0A,200,OK,bp02 2-1,text,true,,112269,0,1,5,0,0,0
+1494483901022,3041,bp03s1,200,OK,bp03 3-1,text,true,,111881,0,1,5,0,0,0
+1494483904524,107,bp03s2,200,OK,bp03 3-1,text,true,,111941,0,1,5,0,0,0
+1494483905066,76,bp03s3,200,OK,bp03 3-1,text,true,,111941,0,1,5,0,0,0
+1494483902724,4467,bp04s1,200,OK,bp04 4-1,text,true,,111881,0,1,5,0,0,0
+1494483870060,38222,bp02s0B,200,OK,bp02 2-1,text,true,,167054,0,1,5,0,0,0
+1494483905536,425,bp03s4,200,OK,bp03 3-1,text,true,,87873,0,1,5,0,0,0
+1494483907652,5474,bp04s2,200,OK,bp04 4-1,text,true,,149040,0,1,5,0,0,0
+1494483913473,22,bp04s3,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://test-study.uwa.edu.au// because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://test-study.uwa.edu.au//' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=http://test-study.uwa.edu.au//}
+Session ID: 1698ba4bb008e308d04b0b574d92db6f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir6920_24885, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2535,0,1,5,0,0,0
+1494483902423,9963,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,263456,0,1,5,0,1109,0
+1494483913109,28180,bp03s5,200,OK,bp03 3-1,text,true,,111880,0,1,5,0,0,0
+1494483900721,31829,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,535516,0,1,5,0,8895,0
+1494483914349,27517,bp01s1,200,OK,bp01 1-1,text,true,,111877,0,1,5,0,0,0
+1494483942257,109,bp01s2,200,OK,bp01 1-1,text,true,,111937,0,1,5,0,0,0
+1494483967391,2768,bp05s1,200,OK,bp05 5-1,text,true,,111880,0,1,5,0,0,0
+1494483970613,120,bp05s2,200,OK,bp05 5-1,text,true,,110797,0,1,5,0,0,0
+1494483971084,2008,bp05s3,200,OK,bp05 5-1,text,true,,289820,0,1,5,0,0,0
+1494483973511,1498,bp05s4,200,OK,bp05 5-1,text,true,,87022,0,1,5,0,0,0
+1494483975328,2871,bp05s5,200,OK,bp05 5-1,text,true,,111880,0,1,5,0,0,0
+1494483967090,9265,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,711399,0,1,5,0,2028,0
+1494483942733,45562,bp01s3,200,OK,bp01 1-1,text,true,,87874,0,1,5,0,0,0
+1494483908589,108651,bp02s0C,200,OK,bp02 2-1,text,true,,186156,0,1,5,0,0,0
+1494484017573,33389,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Professional-Economics"" class=""tile-row-list-item tile/",112007,0,1,5,0,0,0
+1494483818429,231176,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,577486,0,1,5,0,1441,0
+1494483988617,71137,bp01s4,200,OK,bp01 1-1,text,true,,111880,0,1,5,0,0,0
+1494483914048,144325,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,423568,0,1,5,0,1418,0
+1494484094107,13545,bp04s1,200,OK,bp04 4-1,text,true,,111879,0,1,5,0,0,0
+1494484108170,3003,bp04s2,200,OK,bp04 4-1,text,true,,97632,0,1,5,0,0,0
+1494484111496,21,bp04s3,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://test-study.uwa.edu.au// because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://test-study.uwa.edu.au//' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=http://test-study.uwa.edu.au//}
+Session ID: 1698ba4bb008e308d04b0b574d92db6f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir6920_24885, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2535,0,1,5,0,0,0
+1494484093794,16569,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,212046,0,1,5,0,1158,0
+1494484122081,15381,bp03s1,200,OK,bp03 3-1,text,true,,111880,0,1,5,0,0,0
+1494484137833,160,bp03s2,200,OK,bp03 3-1,text,true,,111940,0,1,5,0,0,0
+1494484138418,66,bp03s3,200,OK,bp03 3-1,text,true,,111940,0,1,5,0,0,0
+1494484158985,3175,bp05s1,200,OK,bp05 5-1,text,true,,111881,0,1,5,0,0,0
+1494484162608,112,bp05s2,200,OK,bp05 5-1,text,true,,110798,0,1,5,0,0,0
+1494484163044,2338,bp05s3,200,OK,bp05 5-1,text,true,,289822,0,1,5,0,0,0
+1494484165776,1731,bp05s4,200,OK,bp05 5-1,text,true,,87022,0,1,5,0,0,0
+1494484138882,440,bp03s4,200,OK,bp03 3-1,text,true,,87873,0,1,5,0,0,0
+1494484167826,5042,bp05s5,200,OK,bp05 5-1,text,true,,111880,0,1,5,0,0,0
+1494484158684,12398,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,711403,0,1,5,0,1929,0
+1494484167980,10125,bp03s5,200,OK,bp03 3-1,text,true,,111881,0,1,5,0,0,0
+1494484121752,26172,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,535514,0,1,5,0,30273,0
+1494484231657,7559,bp02s0A,200,OK,bp02 2-1,text,true,,112006,0,1,5,0,0,0
+1494484239549,14247,bp02s0B,200,OK,bp02 2-1,text,true,,167055,0,1,5,0,0,0
+1494484240385,15790,bp01s1,200,OK,bp01 1-1,text,true,,111880,0,1,5,0,0,0
+1494484256509,106,bp01s2,200,OK,bp01 1-1,text,true,,111940,0,1,5,0,0,0
+1494484256968,19533,bp01s3,200,OK,bp01 1-1,text,true,,87876,0,1,5,0,0,0
+1494484254133,22786,bp02s0C,200,OK,bp02 2-1,text,true,,201584,0,1,5,0,0,0
+1494484292103,3190,bp04s1,200,OK,bp04 4-1,text,true,,111881,0,1,5,0,0,0
+1494484295620,3040,bp04s2,200,OK,bp04 4-1,text,true,,115943,0,1,5,0,0,0
+1494484298983,22,bp04s3,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://test-study.uwa.edu.au// because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://test-study.uwa.edu.au//' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=http://test-study.uwa.edu.au//}
+Session ID: 1698ba4bb008e308d04b0b574d92db6f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir6920_24885, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2535,0,1,5,0,0,0
+1494484291802,6252,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,230359,0,1,5,0,951,0
+1494484277253,28588,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Psychological-Science"" class=""tile-row-list-item tile/",112222,0,1,5,0,0,0
+1494484231344,73180,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,592867,0,1,5,0,1313,0
+1494484276824,44607,bp01s4,200,OK,bp01 1-1,text,true,,111880,0,1,5,0,0,0
+1494484240084,80036,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,423576,0,1,5,0,1359,0
+1494484353625,14334,bp05s1,200,OK,bp05 5-1,text,true,,111881,0,1,5,0,0,0
+1494484368301,115,bp05s2,200,OK,bp05 5-1,text,true,,110798,0,1,5,0,0,0
+1494484368807,2396,bp05s3,200,OK,bp05 5-1,text,true,,289819,0,1,5,0,0,0
+1494484371604,1489,bp05s4,200,OK,bp05 5-1,text,true,,87021,0,1,5,0,0,0
+1494484358735,16790,bp03s1,200,OK,bp03 3-1,text,true,,111880,0,1,5,0,0,0
+1494484375849,160,bp03s2,200,OK,bp03 3-1,text,true,,111940,0,1,5,0,0,0
+1494484376564,84,bp03s3,200,OK,bp03 3-1,text,true,,111940,0,1,5,0,0,0
+1494484373420,3756,bp05s5,200,OK,bp05 5-1,text,true,,111879,0,1,5,0,0,0
+1494484353312,22090,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,711398,0,1,5,0,1859,0
+1494484377047,379,bp03s4,200,OK,bp03 3-1,text,true,,87873,0,1,5,0,0,0
+1494484395905,8179,bp03s5,200,OK,bp03 3-1,text,true,,112030,0,1,5,0,0,0
+1494484358434,25592,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,535663,0,1,5,0,20232,0
+1494484479612,3332,bp04s1,200,OK,bp04 4-1,text,true,,111878,0,1,5,0,0,0
+1494484483328,4357,bp04s2,200,OK,bp04 4-1,text,true,,112525,0,1,5,0,0,0
+1494484487998,22,bp04s3,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://test-study.uwa.edu.au// because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://test-study.uwa.edu.au//' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=http://test-study.uwa.edu.au//}
+Session ID: 1698ba4bb008e308d04b0b574d92db6f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir6920_24885, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2535,0,1,5,0,0,0
+1494484479298,7711,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,226938,0,1,5,0,990,0
+1494484486462,17649,bp02s0A,200,OK,bp02 2-1,text,true,,112230,0,1,5,0,0,0
+1494484502098,2661,bp01s1,200,OK,bp01 1-1,text,true,,111879,0,1,5,0,0,0
+1494484505259,113,bp01s2,200,OK,bp01 1-1,text,true,,111939,0,1,5,0,0,0
+1494484505712,4893,bp01s3,200,OK,bp01 1-1,text,true,,87876,0,1,5,0,0,0
+1494484510925,7174,bp01s4,200,OK,bp01 1-1,text,true,,111880,0,1,5,0,0,0
+1494484501797,14841,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,423574,0,1,5,0,1597,0
+1494484504564,23219,bp02s0B,200,OK,bp02 2-1,text,true,,167054,0,1,5,0,0,0
+1494484557878,23488,bp05s1,200,OK,bp05 5-1,text,true,,111881,0,1,5,0,0,0
+1494484528137,53764,bp02s0C,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Psychology (double major)</title>/,194353,0,1,5,0,0,0
+1494484581817,159,bp05s2,200,OK,bp05 5-1,text,true,,110798,0,1,5,0,0,0
+1494484582382,20450,bp05s3,200,OK,bp05 5-1,text,true,,289817,0,1,5,0,0,0
+1494484584807,28335,bp03s1,200,OK,bp03 3-1,text,true,,112027,0,1,5,0,0,0
+1494484582216,31210,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Psychology-double-major"" class=""tile-row-list-item tile/",112148,0,1,5,0,0,0
+1494484486161,125842,bp02,,"Number of samples in transaction : 4, number of failing samples : 2",bp02 2-1,,false,,585785,0,1,5,0,1476,0
+1494484613519,106,bp03s2,200,OK,bp03 3-1,text,true,,112195,0,1,5,0,0,0
+1494484614056,102,bp03s3,200,OK,bp03 3-1,text,true,,112195,0,1,5,0,0,0
+1494484603252,16993,bp05s4,200,OK,bp05 5-1,text,true,,87022,0,1,5,0,0,0
+1494484620566,6651,bp05s5,200,OK,bp05 5-1,text,true,,111877,0,1,5,0,0,0
+1494484557577,67741,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,711395,0,1,5,0,2026,0
+1494484614554,374,bp03s4,200,OK,bp03 3-1,text,true,,87875,0,1,5,0,0,0
+1494484632699,22020,bp03s5,200,OK,bp03 3-1,text,true,,112032,0,1,5,0,0,0
+1494484584506,50937,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,536324,0,1,5,0,19304,0
+1494484668628,8047,bp04s1,200,OK,bp04 4-1,text,true,,111879,0,1,5,0,0,0
+1494484677040,3370,bp04s2,200,OK,bp04 4-1,text,true,,103011,0,1,5,0,0,0
+1494484680754,22,bp04s3,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://test-study.uwa.edu.au// because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://test-study.uwa.edu.au//' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=http://test-study.uwa.edu.au//}
+Session ID: 1698ba4bb008e308d04b0b574d92db6f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir6920_24885, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2535,0,1,5,0,0,0
+1494484668315,11439,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,217425,0,1,5,0,1004,0
+1494484698835,10185,bp01s1,200,OK,bp01 1-1,text,true,,111881,0,1,5,0,0,0
+1494484709509,105,bp01s2,200,OK,bp01 1-1,text,true,,111941,0,1,5,0,0,0
+1494484709953,19640,bp01s3,200,OK,bp01 1-1,text,true,,87876,0,1,5,0,0,0
+1494484729874,21447,bp01s4,200,OK,bp01 1-1,text,true,,111881,0,1,5,0,0,0
+1494484698521,51377,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,423579,0,1,5,0,1583,0
+1494484794061,13844,bp02s0A,200,OK,bp02 2-1,text,true,,112150,0,1,5,0,0,0
+1494484807945,10929,bp05s1,200,OK,bp05 5-1,text,true,,111881,0,1,5,0,0,0
+1494484819354,115,bp05s2,200,OK,bp05 5-1,text,true,,110798,0,1,5,0,0,0
+1494484808307,14237,bp02s0B,200,OK,bp02 2-1,text,true,,167056,0,1,5,0,0,0
+1494484819854,3258,bp05s3,200,OK,bp05 5-1,text,true,,289819,0,1,5,0,0,0
+1494484823518,1660,bp05s4,200,OK,bp05 5-1,text,true,,87022,0,1,5,0,0,0
+1494484825497,4008,bp05s5,200,OK,bp05 5-1,text,true,,111878,0,1,5,0,0,0
+1494484807644,19970,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,711398,0,1,5,0,2024,0
+1494484835349,5282,bp03s1,200,OK,bp03 3-1,text,true,,112030,0,1,5,0,0,0
+1494484840992,127,bp03s2,200,OK,bp03 3-1,text,true,,112198,0,1,5,0,0,0
+1494484841581,78,bp03s3,200,OK,bp03 3-1,text,true,,112198,0,1,5,0,0,0
+1494484822875,18966,bp02s0C,200,OK,bp02 2-1,text,true,,194810,0,1,5,0,0,0
+1494484842373,3319,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Psychology-in-Society"" class=""tile-row-list-item tile/",112183,0,1,5,0,0,0
+1494484793748,50366,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,586199,0,1,5,0,1656,0
+1494484842070,360,bp03s4,200,OK,bp03 3-1,text,true,,87876,0,1,5,0,0,0
+1494484846342,5621,bp03s5,200,OK,bp03 3-1,text,true,,112033,0,1,5,0,0,0
+1494484835048,11468,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,536335,0,1,5,0,5564,0
+1494484861382,3448,bp04s1,200,OK,bp04 4-1,text,true,,111875,0,1,5,0,0,0
+1494484865377,2826,bp04s2,200,OK,bp04 4-1,text,true,,103385,0,1,5,0,0,0
+1494484868545,22,bp04s3,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://test-study.uwa.edu.au// because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://test-study.uwa.edu.au//' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=http://test-study.uwa.edu.au//}
+Session ID: 1698ba4bb008e308d04b0b574d92db6f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir6920_24885, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2535,0,1,5,0,0,0
+1494484861069,6296,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,217795,0,1,5,0,1202,0
+1494484932101,17271,bp01s1,200,OK,bp01 1-1,text,true,,111880,0,1,5,0,0,0
+1494484949844,129,bp01s2,200,OK,bp01 1-1,text,true,,111940,0,1,5,0,0,0
+1494484950318,21301,bp01s3,200,OK,bp01 1-1,text,true,,87875,0,1,5,0,0,0
+1494484971930,39617,bp01s4,200,OK,bp01 1-1,text,true,,111881,0,1,5,0,0,0
+1494484931803,78318,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,423576,0,1,5,0,1563,0
+1494485010239,19664,bp05s1,200,OK,bp05 5-1,text,true,,111879,0,1,5,0,0,0
+1494485030362,111,bp05s2,200,OK,bp05 5-1,text,true,,110796,0,1,5,0,0,0
+1494485032682,7158,bp03s1,200,OK,bp03 3-1,text,true,,112028,0,1,5,0,0,0
+1494485040308,106,bp03s2,200,OK,bp03 3-1,text,true,,112196,0,1,5,0,0,0
+1494485040837,66,bp03s3,200,OK,bp03 3-1,text,true,,112196,0,1,5,0,0,0
+1494485026404,16597,bp02s0A,200,OK,bp02 2-1,text,true,,112181,0,1,5,0,0,0
+1494485030810,13260,bp05s3,200,OK,bp05 5-1,text,true,,289822,0,1,5,0,0,0
+1494485044482,5304,bp05s4,200,OK,bp05 5-1,text,true,,87022,0,1,5,0,0,0
+1494485041354,403,bp03s4,200,OK,bp03 3-1,text,true,,87873,0,1,5,0,0,0
+1494485043364,8330,bp02s0B,200,OK,bp02 2-1,text,true,,166775,0,1,5,0,0,0
+1494485050105,4615,bp05s5,200,OK,bp05 5-1,text,true,,111874,0,1,5,0,0,0
+1494485009938,42954,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,711393,0,1,5,0,1951,0
+1494485049172,7539,bp04s1,200,OK,bp04 4-1,text,true,,111879,0,1,5,0,0,0
+1494485057091,7200,bp04s2,200,OK,bp04 4-1,text,true,,100361,0,1,5,0,0,0
+1494485064612,24,bp04s3,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://test-study.uwa.edu.au// because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://test-study.uwa.edu.au//' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=http://test-study.uwa.edu.au//}
+Session ID: 1698ba4bb008e308d04b0b574d92db6f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir6920_24885, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2535,0,1,5,0,0,0
+1494485048871,14763,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,214775,0,1,5,0,1002,0
+1494485051477,14584,bp03s5,200,OK,bp03 3-1,text,true,,112029,0,1,5,0,0,0
+1494485032381,22317,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,536322,0,1,5,0,11426,0
+1494485052046,17031,bp02s0C,200,OK,bp02 2-1,text,true,,194355,0,1,5,0,0,0
+1494485069422,6581,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Human-Resource-Management"" class=""tile-row-list-item tile/",112155,0,1,5,0,0,0
+1494485026103,48539,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,585466,0,1,5,0,1455,0
+1494485192316,8413,bp01s1,200,OK,bp01 1-1,text,true,,111880,0,1,5,0,0,0
+1494485201207,105,bp01s2,200,OK,bp01 1-1,text,true,,111940,0,1,5,0,0,0
+1494485201681,13639,bp01s3,200,OK,bp01 1-1,text,true,,87873,0,1,5,0,0,0
+1494485246725,5537,bp03s1,200,OK,bp03 3-1,text,true,,112067,0,1,5,0,0,0
+1494485252705,135,bp03s2,200,OK,bp03 3-1,text,true,,112235,0,1,5,0,0,0
+1494485253778,81,bp03s3,200,OK,bp03 3-1,text,true,,112235,0,1,5,0,0,0
+1494485235444,18630,bp05s1,200,OK,bp05 5-1,text,true,,111881,0,1,5,0,0,0
+1494485254526,146,bp05s2,200,OK,bp05 5-1,text,true,,110798,0,1,5,0,0,0
+1494485215624,39710,bp01s4,200,OK,bp01 1-1,text,true,,111881,0,1,5,0,0,0
+1494485192003,61867,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,423574,0,1,5,0,1623,0
+1494485254374,430,bp03s4,200,OK,bp03 3-1,text,true,,87870,0,1,5,0,0,0
+1494485256693,4447,bp02s0A,200,OK,bp02 2-1,text,true,,112151,0,1,5,0,0,0
+1494485245236,16820,bp04s1,200,OK,bp04 4-1,text,true,,111878,0,1,5,0,0,0
+1494485262418,3185,bp04s2,200,OK,bp04 4-1,text,true,,151206,0,1,5,0,0,0
+1494485265932,27,bp04s3,500,"sun.org.mozilla.javascript.internal.WrappedException: Wrapped org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://test-study.uwa.edu.au// because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://test-study.uwa.edu.au//' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.47.224', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=http://test-study.uwa.edu.au//}
+Session ID: 1698ba4bb008e308d04b0b574d92db6f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir6920_24885, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}] (<Unknown source>#4) in <Unknown source> at line number 4",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,2535,0,1,5,0,0,0
+1494485244935,20032,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,265619,0,1,5,0,992,0
+1494485261620,4346,bp02s0B,200,OK,bp02 2-1,text,true,,166773,0,1,5,0,0,0
+1494485255156,17275,bp05s3,200,OK,bp05 5-1,text,true,,289816,0,1,5,0,0,0
+1494485272945,8919,bp05s4,200,OK,bp05 5-1,text,true,,87022,0,1,5,0,0,0
+1494485260802,27306,bp03s5,200,OK,bp03 3-1,text,true,,112029,0,1,5,0,0,0
+1494485246424,33489,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,536436,0,1,5,0,8337,0
+1494485282195,13772,bp05s5,200,OK,bp05 5-1,text,true,,111881,0,1,5,0,0,0
+1494485235143,58742,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,711398,0,1,5,0,2239,0
+1494485266296,44777,bp02s0C,200,OK,bp02 2-1,text,true,,198222,0,1,5,0,0,0
+1494485311418,27452,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Human-Geography-and-Planning"" class=""tile-row-list-item tile/",112135,0,1,5,0,0,0
+1494485256392,81022,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,589281,0,1,5,0,1491,0
