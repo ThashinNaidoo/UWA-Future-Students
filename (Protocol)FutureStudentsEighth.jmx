@@ -54,7 +54,7 @@
           </elementProp>
           <elementProp name="TestActionPause" elementType="Argument">
             <stringProp name="Argument.name">TestActionPause</stringProp>
-            <stringProp name="Argument.value">120000</stringProp>
+            <stringProp name="Argument.value">180000</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -6725,7 +6725,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename"></stringProp>
+        <stringProp name="filename">C:\Users\Administrator\Desktop\Test Assets\UWA-Future-Students\Results\02505_u62_t22800_HalfPeakSoak.csv</stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>
