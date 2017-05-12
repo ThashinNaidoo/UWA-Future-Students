@@ -1,0 +1,680 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1494567049106,13469,bp01s1,200,OK,bp01 1-1,text,true,,131635,0,1,5,0,0,0
+1494567049106,13611,bp02s0A,200,OK,bp02 2-1,text,true,,131635,0,1,5,0,0,0
+1494567062946,129,bp01s2,200,OK,bp01 1-1,text,true,,131803,0,1,5,0,0,0
+1494567049106,15067,bp04s1,200,OK,bp04 4-1,text,true,,131637,0,1,5,0,0,0
+1494567049090,18894,bp05s1,200,OK,bp05 5-1,text,true,,131637,0,1,5,0,0,0
+1494567049131,19075,bp03s1,200,OK,bp03 3-1,text,true,,131636,0,1,5,0,0,0
+1494567068363,113,bp05s2,200,OK,bp05 5-1,text,true,,130558,0,1,5,0,0,0
+1494567068576,125,bp03s2,200,OK,bp03 3-1,text,true,,131804,0,1,5,0,0,0
+1494567069132,71,bp03s3,200,OK,bp03 3-1,text,true,,131804,0,1,5,0,0,0
+1494567063093,15290,bp02s0B,200,OK,bp02 2-1,text,true,,169014,0,1,5,0,0,0
+1494567063464,16818,bp01s3,200,OK,bp01 1-1,text,true,,96826,0,1,5,0,0,0
+1494567064548,15991,bp04s2,200,OK,bp04 4-1,text,true,,150976,0,1,5,0,0,0
+1494567080870,54,bp04s3,500,"invalid selector: Unable to locate an element with the xpath expression http://testweb06-study.webcluster.uwa.edu.au/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://testweb06-study.webcluster.uwa.edu.au/' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 52 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2568_14770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3fd7926d3bf646a5f761207385211d0b
+*** Element info: {Using=xpath, value=http://testweb06-study.webcluster.uwa.edu.au/}",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3737,0,1,5,0,0,0
+1494567048804,31112,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,286350,0,1,5,0,966,0
+1494567068859,11974,bp05s3,200,OK,bp05 5-1,text,true,,279038,0,1,5,0,0,0
+1494567069612,468,bp03s4,200,OK,bp03 3-1,text,true,,96829,0,1,5,0,0,0
+1494567081270,4207,bp05s4,200,OK,bp05 5-1,text,true,,88408,0,1,5,0,0,0
+1494567085801,7244,bp05s5,200,OK,bp05 5-1,text,true,,131483,0,1,5,0,0,0
+1494567048777,42432,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,761124,0,1,5,0,1816,0
+1494567080608,20330,bp01s4,200,OK,bp01 1-1,text,true,,131486,0,1,5,0,0,0
+1494567048806,50746,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,491750,0,1,5,0,1368,0
+1494567084283,17091,bp03s5,200,OK,bp03 3-1,text,true,,131486,0,1,5,0,0,0
+1494567048838,36830,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,623559,0,1,5,0,15694,0
+1494567078714,23356,bp02s0C,200,OK,bp02 2-1,text,true,,196374,0,1,5,0,0,0
+1494567102404,6814,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Neuroscience"" class=""tile-row-list-item tile/",131450,0,1,5,0,0,0
+1494567048799,59071,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,628473,0,1,5,0,1327,0
+1494567261495,3823,bp04s1,200,OK,bp04 4-1,text,true,,131485,0,1,5,0,0,0
+1494567265710,2670,bp04s2,200,OK,bp04 4-1,text,true,,99109,0,1,5,0,0,0
+1494567268691,21,bp04s3,500,"invalid selector: Unable to locate an element with the xpath expression http://testweb06-study.webcluster.uwa.edu.au/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://testweb06-study.webcluster.uwa.edu.au/' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2568_14770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3fd7926d3bf646a5f761207385211d0b
+*** Element info: {Using=xpath, value=http://testweb06-study.webcluster.uwa.edu.au/}",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3736,0,1,5,0,0,0
+1494567261195,6514,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,234330,0,1,5,0,939,0
+1494567273556,4036,bp05s1,200,OK,bp05 5-1,text,true,,131483,0,1,5,0,0,0
+1494567278066,105,bp05s2,200,OK,bp05 5-1,text,true,,130296,0,1,5,0,0,0
+1494567278519,2337,bp05s3,200,OK,bp05 5-1,text,true,,279043,0,1,5,0,0,0
+1494567281244,1696,bp05s4,200,OK,bp05 5-1,text,true,,88408,0,1,5,0,0,0
+1494567281550,3433,bp01s1,200,OK,bp01 1-1,text,true,,131486,0,1,5,0,0,0
+1494567285325,117,bp01s2,200,OK,bp01 1-1,text,true,,131546,0,1,5,0,0,0
+1494567281992,3902,bp03s1,200,OK,bp03 3-1,text,true,,131486,0,1,5,0,0,0
+1494567283258,3071,bp05s5,200,OK,bp05 5-1,text,true,,131486,0,1,5,0,0,0
+1494567273256,11245,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,760716,0,1,5,0,1702,0
+1494567286257,110,bp03s2,200,OK,bp03 3-1,text,true,,131546,0,1,5,0,0,0
+1494567286790,73,bp03s3,200,OK,bp03 3-1,text,true,,131546,0,1,5,0,0,0
+1494567287346,340,bp03s4,200,OK,bp03 3-1,text,true,,96830,0,1,5,0,0,0
+1494567285786,6645,bp01s3,200,OK,bp01 1-1,text,true,,96830,0,1,5,0,0,0
+1494567289843,4164,bp02s0A,200,OK,bp02 2-1,text,true,,131452,0,1,5,0,0,0
+1494567294338,3735,bp02s0B,200,OK,bp02 2-1,text,true,,168867,0,1,5,0,0,0
+1494567292751,6832,bp01s4,200,OK,bp01 1-1,text,true,,131486,0,1,5,0,0,0
+1494567281247,17027,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,491348,0,1,5,0,1320,0
+1494567292236,7382,bp03s5,200,OK,bp03 3-1,text,true,,131482,0,1,5,0,0,0
+1494567281688,11807,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,622890,0,1,5,0,6127,0
+1494567298426,21098,bp02s0C,200,OK,bp02 2-1,text,true,,202098,0,1,5,0,0,0
+1494567319834,3158,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Pathology-and-Laboratory-Medicine"" class=""tile-row-list-item tile/",131413,0,1,5,0,0,0
+1494567289540,32155,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,633830,0,1,5,0,1319,0
+1494567449283,5752,bp04s1,200,OK,bp04 4-1,text,true,,131486,0,1,5,0,0,0
+1494567455440,3975,bp04s2,200,OK,bp04 4-1,text,true,,129878,0,1,5,0,0,0
+1494567459727,21,bp04s3,500,"invalid selector: Unable to locate an element with the xpath expression http://testweb06-study.webcluster.uwa.edu.au/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://testweb06-study.webcluster.uwa.edu.au/' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2568_14770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3fd7926d3bf646a5f761207385211d0b
+*** Element info: {Using=xpath, value=http://testweb06-study.webcluster.uwa.edu.au/}",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3736,0,1,5,0,0,0
+1494567448953,9748,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,265100,0,1,5,0,980,0
+1494567466976,3102,bp05s1,200,OK,bp05 5-1,text,true,,131483,0,1,5,0,0,0
+1494567470433,112,bp05s2,200,OK,bp05 5-1,text,true,,130296,0,1,5,0,0,0
+1494567470940,2158,bp05s3,200,OK,bp05 5-1,text,true,,279042,0,1,5,0,0,0
+1494567473463,1757,bp05s4,200,OK,bp05 5-1,text,true,,88407,0,1,5,0,0,0
+1494567475538,3181,bp05s5,200,OK,bp05 5-1,text,true,,131484,0,1,5,0,0,0
+1494567466661,10310,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,760712,0,1,5,0,1736,0
+1494567480213,3721,bp01s1,200,OK,bp01 1-1,text,true,,131486,0,1,5,0,0,0
+1494567480241,3925,bp03s1,200,OK,bp03 3-1,text,true,,131484,0,1,5,0,0,0
+1494567484261,95,bp01s2,200,OK,bp01 1-1,text,true,,131546,0,1,5,0,0,0
+1494567484499,121,bp03s2,200,OK,bp03 3-1,text,true,,131544,0,1,5,0,0,0
+1494567485046,79,bp03s3,200,OK,bp03 3-1,text,true,,131544,0,1,5,0,0,0
+1494567485521,393,bp03s4,200,OK,bp03 3-1,text,true,,96829,0,1,5,0,0,0
+1494567484713,5835,bp01s3,200,OK,bp01 1-1,text,true,,96827,0,1,5,0,0,0
+1494567489614,5442,bp03s5,200,OK,bp03 3-1,text,true,,131485,0,1,5,0,0,0
+1494567479932,9960,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,622886,0,1,5,0,5179,0
+1494567490868,6069,bp01s4,200,OK,bp01 1-1,text,true,,131485,0,1,5,0,0,0
+1494567479904,15720,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,491344,0,1,5,0,1329,0
+1494567503642,6605,bp02s0A,200,OK,bp02 2-1,text,true,,131417,0,1,5,0,0,0
+1494567510573,3354,bp02s0B,200,OK,bp02 2-1,text,true,,168864,0,1,5,0,0,0
+1494567514270,20532,bp02s0C,200,OK,bp02 2-1,text,true,,201186,0,1,5,0,0,0
+1494567535163,9133,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Pharmacology"" class=""tile-row-list-item tile/",131429,0,1,5,0,0,0
+1494567503339,39624,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,632896,0,1,5,0,1326,0
+1494567640374,4196,bp04s1,200,OK,bp04 4-1,text,true,,131485,0,1,5,0,0,0
+1494567644896,3178,bp04s2,200,OK,bp04 4-1,text,true,,144605,0,1,5,0,0,0
+1494567648413,21,bp04s3,500,"invalid selector: Unable to locate an element with the xpath expression http://testweb06-study.webcluster.uwa.edu.au/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://testweb06-study.webcluster.uwa.edu.au/' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2568_14770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3fd7926d3bf646a5f761207385211d0b
+*** Element info: {Using=xpath, value=http://testweb06-study.webcluster.uwa.edu.au/}",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3736,0,1,5,0,0,0
+1494567640025,7395,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,279826,0,1,5,0,964,0
+1494567659297,3558,bp05s1,200,OK,bp05 5-1,text,true,,131486,0,1,5,0,0,0
+1494567663263,121,bp05s2,200,OK,bp05 5-1,text,true,,130299,0,1,5,0,0,0
+1494567663826,2300,bp05s3,200,OK,bp05 5-1,text,true,,279042,0,1,5,0,0,0
+1494567666493,1681,bp05s4,200,OK,bp05 5-1,text,true,,88406,0,1,5,0,0,0
+1494567668497,3038,bp05s5,200,OK,bp05 5-1,text,true,,131486,0,1,5,0,0,0
+1494567658998,10698,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,760719,0,1,5,0,1786,0
+1494567675679,4684,bp03s1,200,OK,bp03 3-1,text,true,,131478,0,1,5,0,0,0
+1494567680691,135,bp03s2,200,OK,bp03 3-1,text,true,,131538,0,1,5,0,0,0
+1494567677561,3792,bp01s1,200,OK,bp01 1-1,text,true,,131482,0,1,5,0,0,0
+1494567681286,63,bp03s3,200,OK,bp03 3-1,text,true,,131538,0,1,5,0,0,0
+1494567681682,104,bp01s2,200,OK,bp01 1-1,text,true,,131542,0,1,5,0,0,0
+1494567681754,432,bp03s4,200,OK,bp03 3-1,text,true,,96826,0,1,5,0,0,0
+1494567682141,6390,bp01s3,200,OK,bp01 1-1,text,true,,96829,0,1,5,0,0,0
+1494567686291,7738,bp03s5,200,OK,bp03 3-1,text,true,,131484,0,1,5,0,0,0
+1494567675376,13052,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,622864,0,1,5,0,5624,0
+1494567688851,5509,bp01s4,200,OK,bp01 1-1,text,true,,131486,0,1,5,0,0,0
+1494567677258,15795,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,491339,0,1,5,0,1329,0
+1494567724772,3796,bp02s0A,200,OK,bp02 2-1,text,true,,131434,0,1,5,0,0,0
+1494567729056,3455,bp02s0B,200,OK,bp02 2-1,text,true,,168867,0,1,5,0,0,0
+1494567732830,31538,bp02s0C,200,OK,bp02 2-1,text,true,,197235,0,1,5,0,0,0
+1494567764702,10536,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Philosophy"" class=""tile-row-list-item tile/",131268,0,1,5,0,0,0
+1494567724473,49325,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,628804,0,1,5,0,1282,0
+1494567828945,3436,bp04s1,200,OK,bp04 4-1,text,true,,131482,0,1,5,0,0,0
+1494567832839,2936,bp04s2,200,OK,bp04 4-1,text,true,,145059,0,1,5,0,0,0
+1494567836092,22,bp04s3,500,"invalid selector: Unable to locate an element with the xpath expression http://testweb06-study.webcluster.uwa.edu.au/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://testweb06-study.webcluster.uwa.edu.au/' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 33 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2568_14770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3fd7926d3bf646a5f761207385211d0b
+*** Element info: {Using=xpath, value=http://testweb06-study.webcluster.uwa.edu.au/}",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3737,0,1,5,0,0,0
+1494567828646,6394,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,280278,0,1,5,0,941,0
+1494567852177,3393,bp05s1,200,OK,bp05 5-1,text,true,,131486,0,1,5,0,0,0
+1494567855928,106,bp05s2,200,OK,bp05 5-1,text,true,,130299,0,1,5,0,0,0
+1494567856443,2170,bp05s3,200,OK,bp05 5-1,text,true,,279043,0,1,5,0,0,0
+1494567859025,1660,bp05s4,200,OK,bp05 5-1,text,true,,88407,0,1,5,0,0,0
+1494567861000,2778,bp05s5,200,OK,bp05 5-1,text,true,,131484,0,1,5,0,0,0
+1494567851863,10107,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,760719,0,1,5,0,1790,0
+1494567874953,3278,bp01s1,200,OK,bp01 1-1,text,true,,131485,0,1,5,0,0,0
+1494567874637,3753,bp03s1,200,OK,bp03 3-1,text,true,,131484,0,1,5,0,0,0
+1494567878598,109,bp01s2,200,OK,bp01 1-1,text,true,,131545,0,1,5,0,0,0
+1494567878763,161,bp03s2,200,OK,bp03 3-1,text,true,,131544,0,1,5,0,0,0
+1494567879356,70,bp03s3,200,OK,bp03 3-1,text,true,,131544,0,1,5,0,0,0
+1494567879826,417,bp03s4,200,OK,bp03 3-1,text,true,,96828,0,1,5,0,0,0
+1494567879067,5345,bp01s3,200,OK,bp01 1-1,text,true,,96830,0,1,5,0,0,0
+1494567883693,6341,bp03s5,200,OK,bp03 3-1,text,true,,131486,0,1,5,0,0,0
+1494567874337,10742,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,622886,0,1,5,0,4937,0
+1494567884732,6040,bp01s4,200,OK,bp01 1-1,text,true,,131481,0,1,5,0,0,0
+1494567874650,14772,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,491341,0,1,5,0,1332,0
+1494567955867,9666,bp02s0A,200,OK,bp02 2-1,text,true,,131265,0,1,5,0,0,0
+1494567965893,2909,bp02s0B,200,OK,bp02 2-1,text,true,,168866,0,1,5,0,0,0
+1494568016741,8640,bp04s1,200,OK,bp04 4-1,text,true,,131480,0,1,5,0,0,0
+1494568025822,8346,bp04s2,200,OK,bp04 4-1,text,true,,147183,0,1,5,0,0,0
+1494568034494,22,bp04s3,500,"invalid selector: Unable to locate an element with the xpath expression http://testweb06-study.webcluster.uwa.edu.au/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://testweb06-study.webcluster.uwa.edu.au/' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2568_14770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3fd7926d3bf646a5f761207385211d0b
+*** Element info: {Using=xpath, value=http://testweb06-study.webcluster.uwa.edu.au/}",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3737,0,1,5,0,0,0
+1494568016438,17008,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,282400,0,1,5,0,1070,0
+1494567969131,73887,bp02s0C,200,OK,bp02 2-1,text,true,,231312,0,1,5,0,0,0
+1494568044417,4816,bp05s1,200,OK,bp05 5-1,text,true,,131481,0,1,5,0,0,0
+1494568049565,112,bp05s2,200,OK,bp05 5-1,text,true,,130294,0,1,5,0,0,0
+1494568043361,6599,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Physics"" class=""tile-row-list-item tile/",131330,0,1,5,0,0,0
+1494567955582,93061,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,662773,0,1,5,0,1303,0
+1494568050115,2174,bp05s3,200,OK,bp05 5-1,text,true,,279043,0,1,5,0,0,0
+1494568052681,1579,bp05s4,200,OK,bp05 5-1,text,true,,88407,0,1,5,0,0,0
+1494568054579,4555,bp05s5,200,OK,bp05 5-1,text,true,,131484,0,1,5,0,0,0
+1494568044114,13236,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,760709,0,1,5,0,1801,0
+1494568070676,4220,bp03s1,200,OK,bp03 3-1,text,true,,131483,0,1,5,0,0,0
+1494568071381,3649,bp01s1,200,OK,bp01 1-1,text,true,,131483,0,1,5,0,0,0
+1494568075232,108,bp03s2,200,OK,bp03 3-1,text,true,,131543,0,1,5,0,0,0
+1494568075359,108,bp01s2,200,OK,bp01 1-1,text,true,,131543,0,1,5,0,0,0
+1494568075772,64,bp03s3,200,OK,bp03 3-1,text,true,,131543,0,1,5,0,0,0
+1494568076305,352,bp03s4,200,OK,bp03 3-1,text,true,,96830,0,1,5,0,0,0
+1494568075860,5096,bp01s3,200,OK,bp01 1-1,text,true,,96828,0,1,5,0,0,0
+1494568080461,4882,bp03s5,200,OK,bp03 3-1,text,true,,131481,0,1,5,0,0,0
+1494568070336,9626,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,622880,0,1,5,0,5376,0
+1494568081276,4570,bp01s4,200,OK,bp01 1-1,text,true,,131480,0,1,5,0,0,0
+1494568071078,13423,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,491334,0,1,5,0,1356,0
+1494568215005,10571,bp04s1,200,OK,bp04 4-1,text,true,,131483,0,1,5,0,0,0
+1494568226057,3481,bp04s2,200,OK,bp04 4-1,text,true,,144540,0,1,5,0,0,0
+1494568229861,22,bp04s3,500,"invalid selector: Unable to locate an element with the xpath expression http://testweb06-study.webcluster.uwa.edu.au/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://testweb06-study.webcluster.uwa.edu.au/' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2568_14770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3fd7926d3bf646a5f761207385211d0b
+*** Element info: {Using=xpath, value=http://testweb06-study.webcluster.uwa.edu.au/}",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3736,0,1,5,0,0,0
+1494568214690,14074,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,279759,0,1,5,0,965,0
+1494568230616,8319,bp02s0A,200,OK,bp02 2-1,text,true,,131329,0,1,5,0,0,0
+1494568239758,15873,bp05s1,200,OK,bp05 5-1,text,true,,131485,0,1,5,0,0,0
+1494568255957,173,bp05s2,200,OK,bp05 5-1,text,true,,130298,0,1,5,0,0,0
+1494568239275,17865,bp02s0B,200,OK,bp02 2-1,text,true,,168867,0,1,5,0,0,0
+1494568256534,9912,bp05s3,200,OK,bp05 5-1,text,true,,279040,0,1,5,0,0,0
+1494568266945,7708,bp05s4,200,OK,bp05 5-1,text,true,,88407,0,1,5,0,0,0
+1494568266475,15809,bp01s1,200,OK,bp01 1-1,text,true,,131484,0,1,5,0,0,0
+1494568265966,16382,bp03s1,200,OK,bp03 3-1,text,true,,131483,0,1,5,0,0,0
+1494568282609,104,bp01s2,200,OK,bp01 1-1,text,true,,131544,0,1,5,0,0,0
+1494568282675,129,bp03s2,200,OK,bp03 3-1,text,true,,131543,0,1,5,0,0,0
+1494568283333,70,bp03s3,200,OK,bp03 3-1,text,true,,131543,0,1,5,0,0,0
+1494568274972,21500,bp05s5,200,OK,bp05 5-1,text,true,,131485,0,1,5,0,0,0
+1494568239455,55166,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,760715,0,1,5,0,1876,0
+1494568283068,14181,bp01s3,200,OK,bp01 1-1,text,true,,96830,0,1,5,0,0,0
+1494568283821,367,bp03s4,200,OK,bp03 3-1,text,true,,96829,0,1,5,0,0,0
+1494568257469,45271,bp02s0C,200,OK,bp02 2-1,text,true,,202023,0,1,5,0,0,0
+1494568303074,13937,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Physiology"" class=""tile-row-list-item tile/",131412,0,1,5,0,0,0
+1494568230287,85392,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,633631,0,1,5,0,1420,0
+1494568297568,26608,bp01s4,200,OK,bp01 1-1,text,true,,131486,0,1,5,0,0,0
+1494568266172,56702,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,491344,0,1,5,0,1463,0
+1494568301796,23372,bp03s5,200,OK,bp03 3-1,text,true,,131637,0,1,5,0,0,0
+1494568265663,40320,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,623035,0,1,5,0,19208,0
+1494568410440,12887,bp04s1,200,OK,bp04 4-1,text,true,,131484,0,1,5,0,0,0
+1494568423748,3589,bp04s2,200,OK,bp04 4-1,text,true,,104499,0,1,5,0,0,0
+1494568427648,21,bp04s3,500,"invalid selector: Unable to locate an element with the xpath expression http://testweb06-study.webcluster.uwa.edu.au/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://testweb06-study.webcluster.uwa.edu.au/' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2568_14770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3fd7926d3bf646a5f761207385211d0b
+*** Element info: {Using=xpath, value=http://testweb06-study.webcluster.uwa.edu.au/}",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3736,0,1,5,0,0,0
+1494568410140,16497,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,239719,0,1,5,0,953,0
+1494568477114,5399,bp05s1,200,OK,bp05 5-1,text,true,,131486,0,1,5,0,0,0
+1494568482858,148,bp05s2,200,OK,bp05 5-1,text,true,,130299,0,1,5,0,0,0
+1494568483454,2801,bp05s3,200,OK,bp05 5-1,text,true,,279041,0,1,5,0,0,0
+1494568486666,1900,bp05s4,200,OK,bp05 5-1,text,true,,88408,0,1,5,0,0,0
+1494568488879,4311,bp05s5,200,OK,bp05 5-1,text,true,,131485,0,1,5,0,0,0
+1494568476799,14559,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,760719,0,1,5,0,1836,0
+1494568497746,3403,bp02s0A,200,OK,bp02 2-1,text,true,,131410,0,1,5,0,0,0
+1494568501476,2993,bp02s0B,200,OK,bp02 2-1,text,true,,168867,0,1,5,0,0,0
+1494568504945,6039,bp01s1,200,OK,bp01 1-1,text,true,,131483,0,1,5,0,0,0
+1494568511319,130,bp01s2,200,OK,bp01 1-1,text,true,,131543,0,1,5,0,0,0
+1494568505794,6745,bp03s1,200,OK,bp03 3-1,text,true,,131638,0,1,5,0,0,0
+1494568512871,129,bp03s2,200,OK,bp03 3-1,text,true,,131806,0,1,5,0,0,0
+1494568513436,63,bp03s3,200,OK,bp03 3-1,text,true,,131806,0,1,5,0,0,0
+1494568513911,360,bp03s4,200,OK,bp03 3-1,text,true,,96826,0,1,5,0,0,0
+1494568511810,11427,bp01s3,200,OK,bp01 1-1,text,true,,96830,0,1,5,0,0,0
+1494568504802,30228,bp02s0C,200,OK,bp02 2-1,text,true,,198853,0,1,5,0,0,0
+1494568519165,19814,bp03s5,200,OK,bp03 3-1,text,true,,131634,0,1,5,0,0,0
+1494568505481,27111,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,623710,0,1,5,0,6399,0
+1494568523557,18243,bp01s4,200,OK,bp01 1-1,text,true,,131482,0,1,5,0,0,0
+1494568504657,35839,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,491338,0,1,5,0,1448,0
+1494568535372,15735,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Political-Science-and-International-Relations"" class=""tile-row-list-item tile/",131406,0,1,5,0,0,0
+1494568497442,52359,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,630536,0,1,5,0,1326,0
+1494568608254,4358,bp04s1,200,OK,bp04 4-1,text,true,,131484,0,1,5,0,0,0
+1494568612994,2943,bp04s2,200,OK,bp04 4-1,text,true,,121402,0,1,5,0,0,0
+1494568616252,22,bp04s3,500,"invalid selector: Unable to locate an element with the xpath expression http://testweb06-study.webcluster.uwa.edu.au/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://testweb06-study.webcluster.uwa.edu.au/' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2568_14770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3fd7926d3bf646a5f761207385211d0b
+*** Element info: {Using=xpath, value=http://testweb06-study.webcluster.uwa.edu.au/}",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3736,0,1,5,0,0,0
+1494568607939,7323,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,256622,0,1,5,0,956,0
+1494568673772,4450,bp05s1,200,OK,bp05 5-1,text,true,,131486,0,1,5,0,0,0
+1494568678659,106,bp05s2,200,OK,bp05 5-1,text,true,,130299,0,1,5,0,0,0
+1494568679119,2287,bp05s3,200,OK,bp05 5-1,text,true,,279043,0,1,5,0,0,0
+1494568681764,1551,bp05s4,200,OK,bp05 5-1,text,true,,88408,0,1,5,0,0,0
+1494568683619,3229,bp05s5,200,OK,bp05 5-1,text,true,,131481,0,1,5,0,0,0
+1494568673473,11623,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,760717,0,1,5,0,1682,0
+1494568719609,3102,bp03s1,200,OK,bp03 3-1,text,true,,131638,0,1,5,0,0,0
+1494568723078,102,bp03s2,200,OK,bp03 3-1,text,true,,131806,0,1,5,0,0,0
+1494568723639,65,bp03s3,200,OK,bp03 3-1,text,true,,131806,0,1,5,0,0,0
+1494568722558,3442,bp01s1,200,OK,bp01 1-1,text,true,,131486,0,1,5,0,0,0
+1494568726329,117,bp01s2,200,OK,bp01 1-1,text,true,,131546,0,1,5,0,0,0
+1494568724098,372,bp03s4,200,OK,bp03 3-1,text,true,,96827,0,1,5,0,0,0
+1494568727930,4671,bp03s5,200,OK,bp03 3-1,text,true,,131637,0,1,5,0,0,0
+1494568719279,8312,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,623714,0,1,5,0,4990,0
+1494568731740,3253,bp02s0A,200,OK,bp02 2-1,text,true,,131406,0,1,5,0,0,0
+1494568726817,11308,bp01s3,200,OK,bp01 1-1,text,true,,96830,0,1,5,0,0,0
+1494568735319,2824,bp02s0B,200,OK,bp02 2-1,text,true,,168866,0,1,5,0,0,0
+1494568738445,5795,bp01s4,200,OK,bp01 1-1,text,true,,131486,0,1,5,0,0,0
+1494568722255,20662,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,491348,0,1,5,0,1344,0
+1494568738471,35314,bp02s0C,200,OK,bp02 2-1,text,true,,206977,0,1,5,0,0,0
+1494568774105,6589,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Population-Health"" class=""tile-row-list-item tile/",131435,0,1,5,0,0,0
+1494568731437,47980,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,638684,0,1,5,0,1312,0
+1494568796891,5699,bp04s1,200,OK,bp04 4-1,text,true,,131483,0,1,5,0,0,0
+1494568802939,4660,bp04s2,200,OK,bp04 4-1,text,true,,161857,0,1,5,0,0,0
+1494568807930,22,bp04s3,500,"invalid selector: Unable to locate an element with the xpath expression http://testweb06-study.webcluster.uwa.edu.au/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://testweb06-study.webcluster.uwa.edu.au/' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2568_14770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3fd7926d3bf646a5f761207385211d0b
+*** Element info: {Using=xpath, value=http://testweb06-study.webcluster.uwa.edu.au/}",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3737,0,1,5,0,0,0
+1494568796576,10381,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,297077,0,1,5,0,972,0
+1494568867547,3756,bp05s1,200,OK,bp05 5-1,text,true,,131484,0,1,5,0,0,0
+1494568871661,107,bp05s2,200,OK,bp05 5-1,text,true,,130297,0,1,5,0,0,0
+1494568872174,2362,bp05s3,200,OK,bp05 5-1,text,true,,279039,0,1,5,0,0,0
+1494568874898,1640,bp05s4,200,OK,bp05 5-1,text,true,,88407,0,1,5,0,0,0
+1494568876874,2742,bp05s5,200,OK,bp05 5-1,text,true,,131482,0,1,5,0,0,0
+1494568867232,10607,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,760709,0,1,5,0,1753,0
+1494568913232,11506,bp03s1,200,OK,bp03 3-1,text,true,,131636,0,1,5,0,0,0
+1494568925096,103,bp03s2,200,OK,bp03 3-1,text,true,,131804,0,1,5,0,0,0
+1494568925623,69,bp03s3,200,OK,bp03 3-1,text,true,,131804,0,1,5,0,0,0
+1494568924865,12429,bp01s1,200,OK,bp01 1-1,text,true,,131486,0,1,5,0,0,0
+1494568937620,103,bp01s2,200,OK,bp01 1-1,text,true,,131546,0,1,5,0,0,0
+1494568926094,346,bp03s4,200,OK,bp03 3-1,text,true,,96828,0,1,5,0,0,0
+1494568938087,10125,bp01s3,200,OK,bp01 1-1,text,true,,96826,0,1,5,0,0,0
+1494568941658,16160,bp03s5,200,OK,bp03 3-1,text,true,,131637,0,1,5,0,0,0
+1494568912917,28184,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,623709,0,1,5,0,16707,0
+1494568948531,14113,bp01s4,200,OK,bp01 1-1,text,true,,131486,0,1,5,0,0,0
+1494568924562,36770,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,491344,0,1,5,0,1450,0
+1494568961347,4896,bp02s0A,200,OK,bp02 2-1,text,true,,131438,0,1,5,0,0,0
+1494568966569,4672,bp02s0B,200,OK,bp02 2-1,text,true,,168867,0,1,5,0,0,0
+1494568971570,16266,bp02s0C,200,OK,bp02 2-1,text,true,,181346,0,1,5,0,0,0
+1494568988159,4638,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Professional-Economics"" class=""tile-row-list-item tile/",131418,0,1,5,0,0,0
+1494568961043,30472,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,613069,0,1,5,0,1303,0
+1494568988556,4732,bp04s1,200,OK,bp04 4-1,text,true,,131485,0,1,5,0,0,0
+1494568993627,3380,bp04s2,200,OK,bp04 4-1,text,true,,138150,0,1,5,0,0,0
+1494568997336,22,bp04s3,500,"invalid selector: Unable to locate an element with the xpath expression http://testweb06-study.webcluster.uwa.edu.au/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://testweb06-study.webcluster.uwa.edu.au/' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2568_14770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3fd7926d3bf646a5f761207385211d0b
+*** Element info: {Using=xpath, value=http://testweb06-study.webcluster.uwa.edu.au/}",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3737,0,1,5,0,0,0
+1494568988253,8134,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,273372,0,1,5,0,959,0
+1494569060247,11771,bp05s1,200,OK,bp05 5-1,text,true,,131484,0,1,5,0,0,0
+1494569072367,109,bp05s2,200,OK,bp05 5-1,text,true,,130297,0,1,5,0,0,0
+1494569072887,3355,bp05s3,200,OK,bp05 5-1,text,true,,279042,0,1,5,0,0,0
+1494569076775,3207,bp05s4,200,OK,bp05 5-1,text,true,,88408,0,1,5,0,0,0
+1494569080278,10668,bp05s5,200,OK,bp05 5-1,text,true,,131485,0,1,5,0,0,0
+1494569059947,29110,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,760716,0,1,5,0,1890,0
+1494569138381,7012,bp03s1,200,OK,bp03 3-1,text,true,,131638,0,1,5,0,0,0
+1494569145801,139,bp03s2,200,OK,bp03 3-1,text,true,,131806,0,1,5,0,0,0
+1494569146365,63,bp03s3,200,OK,bp03 3-1,text,true,,131806,0,1,5,0,0,0
+1494569143385,5422,bp01s1,200,OK,bp01 1-1,text,true,,131485,0,1,5,0,0,0
+1494569149131,114,bp01s2,200,OK,bp01 1-1,text,true,,131545,0,1,5,0,0,0
+1494569146839,415,bp03s4,200,OK,bp03 3-1,text,true,,96829,0,1,5,0,0,0
+1494569149636,5414,bp01s3,200,OK,bp01 1-1,text,true,,96828,0,1,5,0,0,0
+1494569150827,5436,bp03s5,200,OK,bp03 3-1,text,true,,131638,0,1,5,0,0,0
+1494569138081,13065,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,623717,0,1,5,0,5055,0
+1494569155379,5353,bp01s4,200,OK,bp01 1-1,text,true,,131482,0,1,5,0,0,0
+1494569143082,16303,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,491340,0,1,5,0,1368,0
+1494569173366,3670,bp02s0A,200,OK,bp02 2-1,text,true,,131418,0,1,5,0,0,0
+1494569177453,3158,bp02s0B,200,OK,bp02 2-1,text,true,,168865,0,1,5,0,0,0
+1494569177960,4422,bp04s1,200,OK,bp04 4-1,text,true,,131483,0,1,5,0,0,0
+1494569182817,3225,bp04s2,200,OK,bp04 4-1,text,true,,150859,0,1,5,0,0,0
+1494569186409,22,bp04s3,500,"invalid selector: Unable to locate an element with the xpath expression http://testweb06-study.webcluster.uwa.edu.au/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://testweb06-study.webcluster.uwa.edu.au/' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2568_14770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3fd7926d3bf646a5f761207385211d0b
+*** Element info: {Using=xpath, value=http://testweb06-study.webcluster.uwa.edu.au/}",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3737,0,1,5,0,0,0
+1494569177657,7669,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,286079,0,1,5,0,1105,0
+1494569180958,14736,bp02s0C,200,OK,bp02 2-1,text,true,,198945,0,1,5,0,0,0
+1494569196015,3405,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Psychological-Science"" class=""tile-row-list-item tile/",131392,0,1,5,0,0,0
+1494569173067,24969,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,630620,0,1,5,0,1315,0
+1494569271622,4821,bp05s1,200,OK,bp05 5-1,text,true,,131484,0,1,5,0,0,0
+1494569276800,139,bp05s2,200,OK,bp05 5-1,text,true,,130297,0,1,5,0,0,0
+1494569277342,2411,bp05s3,200,OK,bp05 5-1,text,true,,279040,0,1,5,0,0,0
+1494569280110,1889,bp05s4,200,OK,bp05 5-1,text,true,,88407,0,1,5,0,0,0
+1494569282357,3911,bp05s5,200,OK,bp05 5-1,text,true,,131483,0,1,5,0,0,0
+1494569271323,13171,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,760711,0,1,5,0,1729,0
+1494569336903,5494,bp03s1,200,OK,bp03 3-1,text,true,,131636,0,1,5,0,0,0
+1494569342739,101,bp03s2,200,OK,bp03 3-1,text,true,,131804,0,1,5,0,0,0
+1494569343321,63,bp03s3,200,OK,bp03 3-1,text,true,,131804,0,1,5,0,0,0
+1494569341357,4333,bp01s1,200,OK,bp01 1-1,text,true,,131485,0,1,5,0,0,0
+1494569346015,114,bp01s2,200,OK,bp01 1-1,text,true,,131545,0,1,5,0,0,0
+1494569343768,432,bp03s4,200,OK,bp03 3-1,text,true,,96828,0,1,5,0,0,0
+1494569346490,4797,bp01s3,200,OK,bp01 1-1,text,true,,96829,0,1,5,0,0,0
+1494569347751,5731,bp03s5,200,OK,bp03 3-1,text,true,,131638,0,1,5,0,0,0
+1494569336588,11821,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,623710,0,1,5,0,5078,0
+1494569351607,5399,bp01s4,200,OK,bp01 1-1,text,true,,131483,0,1,5,0,0,0
+1494569341039,14643,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,491342,0,1,5,0,1334,0
+1494569367019,4284,bp04s1,200,OK,bp04 4-1,text,true,,131479,0,1,5,0,0,0
+1494569371676,2891,bp04s2,200,OK,bp04 4-1,text,true,,99160,0,1,5,0,0,0
+1494569374885,43,bp04s3,500,"invalid selector: Unable to locate an element with the xpath expression http://testweb06-study.webcluster.uwa.edu.au/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://testweb06-study.webcluster.uwa.edu.au/' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 42 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2568_14770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3fd7926d3bf646a5f761207385211d0b
+*** Element info: {Using=xpath, value=http://testweb06-study.webcluster.uwa.edu.au/}",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3737,0,1,5,0,0,0
+1494569366720,7218,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,234376,0,1,5,0,944,0
+1494569379939,4837,bp02s0A,200,OK,bp02 2-1,text,true,,131391,0,1,5,0,0,0
+1494569385245,2792,bp02s0B,200,OK,bp02 2-1,text,true,,168864,0,1,5,0,0,0
+1494569388352,15675,bp02s0C,200,OK,bp02 2-1,text,false,Test failed: text expected to contain /<title>Psychology (double major)</title>/,189121,0,1,5,0,0,0
+1494569404363,3799,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Psychology-double-major"" class=""tile-row-list-item tile/",131408,0,1,5,0,0,0
+1494569379639,27103,bp02,,"Number of samples in transaction : 4, number of failing samples : 2",bp02 2-1,,false,,620784,0,1,5,0,1294,0
+1494569466910,3776,bp05s1,200,OK,bp05 5-1,text,true,,131483,0,1,5,0,0,0
+1494569471012,112,bp05s2,200,OK,bp05 5-1,text,true,,130296,0,1,5,0,0,0
+1494569471570,2330,bp05s3,200,OK,bp05 5-1,text,true,,279041,0,1,5,0,0,0
+1494569474290,1601,bp05s4,200,OK,bp05 5-1,text,true,,88408,0,1,5,0,0,0
+1494569476204,2860,bp05s5,200,OK,bp05 5-1,text,true,,131485,0,1,5,0,0,0
+1494569466610,10679,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,760713,0,1,5,0,1771,0
+1494569534033,4170,bp03s1,200,OK,bp03 3-1,text,true,,131634,0,1,5,0,0,0
+1494569538642,101,bp03s2,200,OK,bp03 3-1,text,true,,131802,0,1,5,0,0,0
+1494569539164,70,bp03s3,200,OK,bp03 3-1,text,true,,131802,0,1,5,0,0,0
+1494569537633,5289,bp01s1,200,OK,bp01 1-1,text,true,,131483,0,1,5,0,0,0
+1494569543248,105,bp01s2,200,OK,bp01 1-1,text,true,,131543,0,1,5,0,0,0
+1494569539643,403,bp03s4,200,OK,bp03 3-1,text,true,,96826,0,1,5,0,0,0
+1494569543713,5307,bp01s3,200,OK,bp01 1-1,text,true,,96831,0,1,5,0,0,0
+1494569544921,6041,bp03s5,200,OK,bp03 3-1,text,true,,131637,0,1,5,0,0,0
+1494569533719,10785,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,623701,0,1,5,0,6385,0
+1494569549345,5071,bp01s4,200,OK,bp01 1-1,text,true,,131486,0,1,5,0,0,0
+1494569537330,15772,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,491343,0,1,5,0,1335,0
+1494569555549,3659,bp04s1,200,OK,bp04 4-1,text,true,,131486,0,1,5,0,0,0
+1494569559535,3052,bp04s2,200,OK,bp04 4-1,text,true,,117554,0,1,5,0,0,0
+1494569562910,22,bp04s3,500,"invalid selector: Unable to locate an element with the xpath expression http://testweb06-study.webcluster.uwa.edu.au/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://testweb06-study.webcluster.uwa.edu.au/' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2568_14770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3fd7926d3bf646a5f761207385211d0b
+*** Element info: {Using=xpath, value=http://testweb06-study.webcluster.uwa.edu.au/}",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3738,0,1,5,0,0,0
+1494569555246,6733,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,252778,0,1,5,0,953,0
+1494569588733,7753,bp02s0A,200,OK,bp02 2-1,text,true,,131406,0,1,5,0,0,0
+1494569597007,3562,bp02s0B,200,OK,bp02 2-1,text,true,,168861,0,1,5,0,0,0
+1494569600878,9256,bp02s0C,200,OK,bp02 2-1,text,true,,191522,0,1,5,0,0,0
+1494569610476,3207,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Psychology-in-Society"" class=""tile-row-list-item tile/",131437,0,1,5,0,0,0
+1494569588444,23778,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,623226,0,1,5,0,1377,0
+1494569659637,4511,bp05s1,200,OK,bp05 5-1,text,true,,131484,0,1,5,0,0,0
+1494569664587,106,bp05s2,200,OK,bp05 5-1,text,true,,130297,0,1,5,0,0,0
+1494569665095,3066,bp05s3,200,OK,bp05 5-1,text,true,,279039,0,1,5,0,0,0
+1494569668554,1752,bp05s4,200,OK,bp05 5-1,text,true,,88406,0,1,5,0,0,0
+1494569670624,3633,bp05s5,200,OK,bp05 5-1,text,true,,131484,0,1,5,0,0,0
+1494569659338,13068,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,760710,0,1,5,0,1774,0
+1494569731626,7877,bp03s1,200,OK,bp03 3-1,text,true,,131636,0,1,5,0,0,0
+1494569739845,146,bp03s2,200,OK,bp03 3-1,text,true,,131804,0,1,5,0,0,0
+1494569740438,64,bp03s3,200,OK,bp03 3-1,text,true,,131804,0,1,5,0,0,0
+1494569735026,5891,bp01s1,200,OK,bp01 1-1,text,true,,131483,0,1,5,0,0,0
+1494569741259,110,bp01s2,200,OK,bp01 1-1,text,true,,131543,0,1,5,0,0,0
+1494569740901,395,bp03s4,200,OK,bp03 3-1,text,true,,96830,0,1,5,0,0,0
+1494569741721,5312,bp01s3,200,OK,bp01 1-1,text,true,,96822,0,1,5,0,0,0
+1494569743535,3522,bp04s1,200,OK,bp04 4-1,text,true,,131482,0,1,5,0,0,0
+1494569747383,2953,bp04s2,200,OK,bp04 4-1,text,true,,114054,0,1,5,0,0,0
+1494569750659,22,bp04s3,500,"invalid selector: Unable to locate an element with the xpath expression http://testweb06-study.webcluster.uwa.edu.au/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://testweb06-study.webcluster.uwa.edu.au/' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2568_14770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3fd7926d3bf646a5f761207385211d0b
+*** Element info: {Using=xpath, value=http://testweb06-study.webcluster.uwa.edu.au/}",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3738,0,1,5,0,0,0
+1494569743232,6497,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,249274,0,1,5,0,953,0
+1494569744850,6172,bp03s5,200,OK,bp03 3-1,text,true,,131637,0,1,5,0,0,0
+1494569731253,14654,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,623711,0,1,5,0,5064,0
+1494569747357,6341,bp01s4,200,OK,bp01 1-1,text,true,,131485,0,1,5,0,0,0
+1494569734723,17654,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,491333,0,1,5,0,1328,0
+1494569794243,4789,bp02s0A,200,OK,bp02 2-1,text,true,,131438,0,1,5,0,0,0
+1494569799458,2723,bp02s0B,200,OK,bp02 2-1,text,true,,168866,0,1,5,0,0,0
+1494569802532,14965,bp02s0C,200,OK,bp02 2-1,text,true,,193847,0,1,5,0,0,0
+1494569817840,8131,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Human-Resource-Management"" class=""tile-row-list-item tile/",131394,0,1,5,0,0,0
+1494569793944,30608,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,625545,0,1,5,0,1328,0
+1494569854870,3745,bp05s1,200,OK,bp05 5-1,text,true,,131486,0,1,5,0,0,0
+1494569859027,118,bp05s2,200,OK,bp05 5-1,text,true,,130299,0,1,5,0,0,0
+1494569859548,2115,bp05s3,200,OK,bp05 5-1,text,true,,279039,0,1,5,0,0,0
+1494569862042,1590,bp05s4,200,OK,bp05 5-1,text,true,,88408,0,1,5,0,0,0
+1494569863938,3623,bp05s5,200,OK,bp05 5-1,text,true,,131486,0,1,5,0,0,0
+1494569854571,11191,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,760718,0,1,5,0,1735,0
+1494569931646,3673,bp03s1,200,OK,bp03 3-1,text,true,,131638,0,1,5,0,0,0
+1494569931151,4031,bp04s1,200,OK,bp04 4-1,text,true,,131486,0,1,5,0,0,0
+1494569935651,106,bp03s2,200,OK,bp03 3-1,text,true,,131806,0,1,5,0,0,0
+1494569936247,73,bp03s3,200,OK,bp03 3-1,text,true,,131806,0,1,5,0,0,0
+1494569934321,3341,bp01s1,200,OK,bp01 1-1,text,true,,131483,0,1,5,0,0,0
+1494569938009,121,bp01s2,200,OK,bp01 1-1,text,true,,131543,0,1,5,0,0,0
+1494569935669,3257,bp04s2,200,OK,bp04 4-1,text,true,,104541,0,1,5,0,0,0
+1494569939248,23,bp04s3,500,"invalid selector: Unable to locate an element with the xpath expression http://testweb06-study.webcluster.uwa.edu.au/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://testweb06-study.webcluster.uwa.edu.au/' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2568_14770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3fd7926d3bf646a5f761207385211d0b
+*** Element info: {Using=xpath, value=http://testweb06-study.webcluster.uwa.edu.au/}",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3738,0,1,5,0,0,0
+1494569930836,7311,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,239765,0,1,5,0,962,0
+1494569936724,473,bp03s4,200,OK,bp03 3-1,text,true,,96830,0,1,5,0,0,0
+1494569938483,4950,bp01s3,200,OK,bp01 1-1,text,true,,96830,0,1,5,0,0,0
+1494569941298,5722,bp03s5,200,OK,bp03 3-1,text,true,,131637,0,1,5,0,0,0
+1494569931181,10047,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,623717,0,1,5,0,5658,0
+1494569943754,4909,bp01s4,200,OK,bp01 1-1,text,true,,131484,0,1,5,0,0,0
+1494569934018,13321,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,491340,0,1,5,0,1348,0
+1494570006617,3690,bp02s0A,200,OK,bp02 2-1,text,true,,131394,0,1,5,0,0,0
+1494570010633,2704,bp02s0B,200,OK,bp02 2-1,text,true,,168867,0,1,5,0,0,0
+1494570013660,16064,bp02s0C,200,OK,bp02 2-1,text,true,,197801,0,1,5,0,0,0
+1494570030078,3648,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Human-Geography-and-Planning"" class=""tile-row-list-item tile/",131324,0,1,5,0,0,0
+1494570006163,26106,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,629386,0,1,5,0,1303,0
+1494570048170,4411,bp05s1,200,OK,bp05 5-1,text,true,,131486,0,1,5,0,0,0
+1494570052986,116,bp05s2,200,OK,bp05 5-1,text,true,,130299,0,1,5,0,0,0
+1494570053513,3334,bp05s3,200,OK,bp05 5-1,text,true,,279039,0,1,5,0,0,0
+1494570057275,2361,bp05s4,200,OK,bp05 5-1,text,true,,88406,0,1,5,0,0,0
+1494570059951,6434,bp05s5,200,OK,bp05 5-1,text,true,,131486,0,1,5,0,0,0
+1494570047856,16656,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,760716,0,1,5,0,1816,0
+1494570119811,4124,bp04s1,200,OK,bp04 4-1,text,true,,131482,0,1,5,0,0,0
+1494570124364,2839,bp04s2,200,OK,bp04 4-1,text,true,,104913,0,1,5,0,0,0
+1494570127513,24,bp04s3,500,"invalid selector: Unable to locate an element with the xpath expression http://testweb06-study.webcluster.uwa.edu.au/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://testweb06-study.webcluster.uwa.edu.au/' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2568_14770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3fd7926d3bf646a5f761207385211d0b
+*** Element info: {Using=xpath, value=http://testweb06-study.webcluster.uwa.edu.au/}",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3738,0,1,5,0,0,0
+1494570119496,6987,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,240133,0,1,5,0,951,0
+1494570127634,3274,bp03s1,200,OK,bp03 3-1,text,true,,131637,0,1,5,0,0,0
+1494570131236,107,bp03s2,200,OK,bp03 3-1,text,true,,131805,0,1,5,0,0,0
+1494570131790,63,bp03s3,200,OK,bp03 3-1,text,true,,131805,0,1,5,0,0,0
+1494570129272,3028,bp01s1,200,OK,bp01 1-1,text,true,,131486,0,1,5,0,0,0
+1494570132643,117,bp01s2,200,OK,bp01 1-1,text,true,,131546,0,1,5,0,0,0
+1494570132309,358,bp03s4,200,OK,bp03 3-1,text,true,,96828,0,1,5,0,0,0
+1494570133108,4690,bp01s3,200,OK,bp01 1-1,text,true,,96829,0,1,5,0,0,0
+1494570136102,5378,bp03s5,200,OK,bp03 3-1,text,true,,131638,0,1,5,0,0,0
+1494570127348,9180,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,623713,0,1,5,0,4977,0
+1494570138118,4803,bp01s4,200,OK,bp01 1-1,text,true,,131485,0,1,5,0,0,0
+1494570128969,12638,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,491346,0,1,5,0,1319,0
+1494570214280,3581,bp02s0A,200,OK,bp02 2-1,text,true,,131319,0,1,5,0,0,0
+1494570218289,2757,bp02s0B,200,OK,bp02 2-1,text,true,,168867,0,1,5,0,0,0
+1494570221373,6099,bp02s0C,200,OK,bp02 2-1,text,true,,186231,0,1,5,0,0,0
+1494570227809,2891,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /History-of-Art"" class=""tile-row-list-item tile/",131275,0,1,5,0,0,0
+1494570213965,15328,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,617692,0,1,5,0,1319,0
+1494570247051,3367,bp05s1,200,OK,bp05 5-1,text,true,,131484,0,1,5,0,0,0
+1494570250745,158,bp05s2,200,OK,bp05 5-1,text,true,,130297,0,1,5,0,0,0
+1494570251355,2402,bp05s3,200,OK,bp05 5-1,text,true,,279042,0,1,5,0,0,0
+1494570254151,1972,bp05s4,200,OK,bp05 5-1,text,true,,88407,0,1,5,0,0,0
+1494570256430,3928,bp05s5,200,OK,bp05 5-1,text,true,,131482,0,1,5,0,0,0
+1494570246751,11827,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,760712,0,1,5,0,1768,0
+1494570308125,3645,bp04s1,200,OK,bp04 4-1,text,true,,131485,0,1,5,0,0,0
+1494570312161,2893,bp04s2,200,OK,bp04 4-1,text,true,,101892,0,1,5,0,0,0
+1494570315364,21,bp04s3,500,"invalid selector: Unable to locate an element with the xpath expression http://testweb06-study.webcluster.uwa.edu.au/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://testweb06-study.webcluster.uwa.edu.au/' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2568_14770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3fd7926d3bf646a5f761207385211d0b
+*** Element info: {Using=xpath, value=http://testweb06-study.webcluster.uwa.edu.au/}",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3738,0,1,5,0,0,0
+1494570307826,6559,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,237115,0,1,5,0,937,0
+1494570322145,3303,bp03s1,200,OK,bp03 3-1,text,true,,131638,0,1,5,0,0,0
+1494570325776,149,bp03s2,200,OK,bp03 3-1,text,true,,131806,0,1,5,0,0,0
+1494570323529,2895,bp01s1,200,OK,bp01 1-1,text,true,,131484,0,1,5,0,0,0
+1494570326350,62,bp03s3,200,OK,bp03 3-1,text,true,,131806,0,1,5,0,0,0
+1494570326752,157,bp01s2,200,OK,bp01 1-1,text,true,,131544,0,1,5,0,0,0
+1494570326814,455,bp03s4,200,OK,bp03 3-1,text,true,,96829,0,1,5,0,0,0
+1494570327283,4853,bp01s3,200,OK,bp01 1-1,text,true,,96831,0,1,5,0,0,0
+1494570330569,4617,bp03s5,200,OK,bp03 3-1,text,true,,131637,0,1,5,0,0,0
+1494570321831,8586,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,623716,0,1,5,0,4774,0
+1494570332455,4509,bp01s4,200,OK,bp01 1-1,text,true,,131482,0,1,5,0,0,0
+1494570323226,12414,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,491341,0,1,5,0,1328,0
+1494570411170,5240,bp02s0A,200,OK,bp02 2-1,text,true,,131276,0,1,5,0,0,0
+1494570416893,2754,bp02s0B,200,OK,bp02 2-1,text,true,,168865,0,1,5,0,0,0
+1494570419967,24506,bp02s0C,200,OK,bp02 2-1,text,true,,210956,0,1,5,0,0,0
+1494570441014,4922,bp05s1,200,OK,bp05 5-1,text,true,,131485,0,1,5,0,0,0
+1494570446278,121,bp05s2,200,OK,bp05 5-1,text,true,,130298,0,1,5,0,0,0
+1494570444816,3853,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Accounting"" class=""tile-row-list-item tile/",131523,0,1,5,0,0,0
+1494570410882,36353,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,642620,0,1,5,0,1290,0
+1494570446814,2675,bp05s3,200,OK,bp05 5-1,text,true,,279042,0,1,5,0,0,0
+1494570449877,1826,bp05s4,200,OK,bp05 5-1,text,true,,88375,0,1,5,0,0,0
+1494570452021,7221,bp05s5,200,OK,bp05 5-1,text,true,,131486,0,1,5,0,0,0
+1494570440711,16765,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,760686,0,1,5,0,1786,0
+1494570496002,6633,bp04s1,200,OK,bp04 4-1,text,true,,131480,0,1,5,0,0,0
+1494570502997,4122,bp04s2,200,OK,bp04 4-1,text,true,,152675,0,1,5,0,0,0
+1494570507444,21,bp04s3,500,"invalid selector: Unable to locate an element with the xpath expression http://testweb06-study.webcluster.uwa.edu.au/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://testweb06-study.webcluster.uwa.edu.au/' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'WIN-8SE6JBRRQQI', ip: '172.31.7.134', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir2568_14770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3fd7926d3bf646a5f761207385211d0b
+*** Element info: {Using=xpath, value=http://testweb06-study.webcluster.uwa.edu.au/}",bp04 4-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3738,0,1,5,0,0,0
+1494570495687,10776,bp04,,"Number of samples in transaction : 3, number of failing samples : 1",bp04 4-1,,false,,287893,0,1,5,0,967,0
+1494570515789,6701,bp03s1,200,OK,bp03 3-1,text,true,,131635,0,1,5,0,0,0
+1494570522873,136,bp03s2,200,OK,bp03 3-1,text,true,,131803,0,1,5,0,0,0
+1494570523476,64,bp03s3,200,OK,bp03 3-1,text,true,,131803,0,1,5,0,0,0
+1494570517588,6460,bp01s1,200,OK,bp01 1-1,text,true,,131482,0,1,5,0,0,0
+1494570524386,103,bp01s2,200,OK,bp01 1-1,text,true,,131542,0,1,5,0,0,0
+1494570523948,360,bp03s4,200,OK,bp03 3-1,text,true,,96831,0,1,5,0,0,0
+1494570524878,6681,bp01s3,200,OK,bp01 1-1,text,true,,96831,0,1,5,0,0,0
+1494570530382,13950,bp03s5,200,OK,bp03 3-1,text,true,,131480,0,1,5,0,0,0
+1494570515489,21211,bp03,200,"Number of samples in transaction : 5, number of failing samples : 0",bp03 3-1,,true,,623552,0,1,5,0,7601,0
+1494570531879,16107,bp01s4,200,OK,bp01 1-1,text,true,,131484,0,1,5,0,0,0
+1494570517285,29351,bp01,200,"Number of samples in transaction : 4, number of failing samples : 0",bp01 1-1,,true,,491339,0,1,5,0,1373,0
+1494570629279,3620,bp02s0A,200,OK,bp02 2-1,text,true,,131535,0,1,5,0,0,0
+1494570633268,2774,bp02s0B,200,OK,bp02 2-1,text,true,,168873,0,1,5,0,0,0
+1494570636376,1642,bp02s0C,200,OK,bp02 2-1,text,true,,101495,0,1,5,0,0,0
+1494570638357,3060,bp02s1,200,OK,bp02 2-1,text,false,"Test failed: text expected to contain /Agricultural-Science"" class=""tile-row-list-item tile/",131467,0,1,5,0,0,0
+1494570628979,11096,bp02,,"Number of samples in transaction : 4, number of failing samples : 1",bp02 2-1,,false,,533370,0,1,5,0,1318,0
+1494570639862,2952,bp05s1,200,OK,bp05 5-1,text,true,,131486,0,1,5,0,0,0
+1494570643144,110,bp05s2,200,OK,bp05 5-1,text,true,,130299,0,1,5,0,0,0
+1494570643626,2153,bp05s3,200,OK,bp05 5-1,text,true,,279042,0,1,5,0,0,0
