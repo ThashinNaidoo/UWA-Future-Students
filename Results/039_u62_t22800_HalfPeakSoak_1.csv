@@ -1,0 +1,73 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1494577620700,1456,27 /,200,OK,bp10 10-1,text,true,,10388,904,1,10,335,0,134
+1494577620700,1759,87 /,200,OK,bp07 7-1,text,true,,27464,468,1,10,1749,0,606
+1494577620305,1759,bp07s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,27464,468,1,10,1749,386,606
+1494577620700,1846,13 /,200,OK,bp08 8-1,text,true,,23092,896,1,10,382,0,134
+1494577620374,1846,bp08s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp08 8-1,,true,,23092,896,1,10,382,327,134
+1494577620700,1852,17 /,200,OK,bp04 4-1,text,true,,23095,1078,1,10,335,0,134
+1494577620380,1852,bp04s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp04 4-1,,true,,23095,1078,1,10,335,321,134
+1494577620700,1861,13 /,200,OK,bp09 9-1,text,true,,23092,896,1,10,381,0,134
+1494577620378,1861,bp09s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp09 9-1,,true,,23092,896,1,10,381,323,134
+1494577620700,2054,4 /,200,OK,bp06 6-1,text,true,,23102,896,1,10,355,0,134
+1494577620701,2057,41 /,200,OK,bp03 3-1,text,true,,23091,948,1,10,355,0,133
+1494577620379,2057,bp03s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp03 3-1,,true,,23091,948,1,10,355,337,133
+1494577620701,2072,1 /,200,OK,bp01 1-1,text,true,,22529,448,1,10,2059,0,560
+1494577622848,22,BeanShell Sampler,200,OK,bp04 4-1,text,true,,0,0,1,10,0,0,0
+1494577620701,2257,4 /,200,OK,bp02 2-1,text,true,,23101,896,1,10,455,0,133
+1494577622459,571,31 /layouts/system/VisitorIdentification.js,200,OK,bp10 10-1,text,true,,1528,412,1,10,571,0,58
+1494577620700,2349,17 /,200,OK,bp05 5-1,text,true,,23096,898,1,10,386,0,134
+1494577620304,2349,bp05s1 ,200,"Number of samples in transaction : 1, number of failing samples : 0",bp05 5-1,,true,,23096,898,1,10,386,387,134
+1494577623067,59,46 /UWAFS/LoginRegister/LoginRegisterUser,200,OK,bp03 3-1,text,true,,2939,1561,1,10,10,0,4
+1494577622755,485,89 /international-students,200,OK,bp07 7-1,text,true,,33858,547,1,10,471,0,32
+1494577622460,485,bp07s3,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,33858,547,1,10,471,296,32
+1494577623302,8,32 /assets/r-B6BE34619D738D15880CCD7B0B7C93D5/uwaCss.css,200,OK,bp10 10-1,text,true,,61812,440,1,10,4,0,0
+1494577623613,9,33 /assets/r-0DF3025DFD45326BBA4E75A9ECAED483/modernizrJs.js,200,OK,bp10 10-1,text,true,,6313,429,1,10,9,0,0
+1494577623332,516,20 /Events/Open-day,200,OK,bp05 5-1,text,true,,14397,1010,1,10,6,0,2
+1494577623050,516,bp05s4,200,"Number of samples in transaction : 1, number of failing samples : 0",bp05 5-1,,true,,14397,1010,1,10,6,283,2
+1494577623535,390,90 /international-students/life-in-perth,200,OK,bp07 7-1,text,true,,24943,583,1,10,389,0,0
+1494577623241,390,bp07s4,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,24943,583,1,10,389,295,0
+1494577623909,240,34 /visualid/lib/font-awesome/font-awesome.4.latest.css,200,OK,bp10 10-1,text,true,,37872,452,1,10,100,0,49
+1494577622818,1447,22 /find-a-course,200,OK,bp08 8-1,text,true,,27273,954,1,10,14,0,2
+1494577622548,1447,bp08s2,200,"Number of samples in transaction : 1, number of failing samples : 0",bp08 8-1,,true,,27273,954,1,10,14,270,2
+1494577622848,1518,22 /find-a-course,200,OK,bp09 9-1,text,true,,36043,952,1,10,24,0,2
+1494577622562,1518,bp09s2,200,"Number of samples in transaction : 1, number of failing samples : 0",bp09 9-1,,true,,36043,952,1,10,24,287,2
+1494577623068,1307,3 /,200,OK,bp01 1-1,text,true,,23103,1136,1,10,7,0,2
+1494577620377,3379,bp01s1,200,"Number of samples in transaction : 2, number of failing samples : 0",bp01 1-1,,true,,45632,1584,1,10,2066,620,562
+1494577624440,16,36 /assets/r-772E2629E969026E53EBA20227688FD7/uwaJs.js,200,OK,bp10 10-1,text,true,,102711,423,1,10,9,0,2
+1494577624221,441,91 /international-students,200,OK,bp07 7-1,text,true,,33859,578,1,10,440,0,0
+1494577623926,441,bp07s5,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,33859,578,1,10,440,296,0
+1494577623051,1638,5 /,200,OK,bp06 6-1,text,true,,23093,896,1,10,20,0,2
+1494577620376,3692,bp06s1,200,"Number of samples in transaction : 2, number of failing samples : 0",bp06 6-1,,true,,46195,1792,1,10,375,621,136
+1494577623160,1554,?typeOfSearch=course&term=e&json=true,200,OK,bp04 4-1,text,true,,112965,324,1,10,26,0,2
+1494577624752,3,37 /assets/dist/images/logo-full-hor-rev.png,200,OK,bp10 10-1,bin,true,,5430,438,1,10,3,0,0
+1494577623254,1523,5 /,200,OK,bp02 2-1,text,true,,22569,1190,1,10,7,0,2
+1494577620381,3780,bp02s0A,200,"Number of samples in transaction : 2, number of failing samples : 0",bp02 2-1,,true,,45670,2086,1,10,462,616,135
+1494577625064,43,40 /assets/dist/images/main-strokes.jpg,200,OK,bp10 10-1,bin,true,,878458,485,1,10,7,0,0
+1494577624954,438,92 /international-students/moving-to-perth,200,OK,bp07 7-1,text,true,,19233,585,1,10,426,0,29
+1494577624663,438,bp07s6,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,19233,585,1,10,426,292,29
+1494577625555,154,39 /gtm.js,200,OK,bp10 10-1,text,true,,39634,338,1,10,143,0,5
+1494577624143,1522,21 /,200,OK,bp05 5-1,text,true,,23102,1000,1,10,6,0,0
+1494577623849,1522,bp05s5,200,"Number of samples in transaction : 1, number of failing samples : 0",bp05 5-1,,true,,23102,1000,1,10,6,294,0
+1494577620304,4387,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,60595,2908,1,10,398,964,136
+1494577625992,11,42 /assets/dist/fonts/glyphicons-halflings-regular.woff,200,OK,bp10 10-1,text,true,,23804,507,1,10,8,0,0
+1494577624658,1252,23 /courses/Doctor-of-Clinical-Dentistry,200,OK,bp09 9-1,text,true,,23162,1116,1,10,6,0,0
+1494577624658,1264,8 /UWAFS/LoginRegister/LoginRegisterUser,200,OK,bp01 1-1,text,true,,762,1108,1,10,1264,0,7
+1494577626288,11,43 /assets/dist/fonts/uwa-icon-font/uwa-icon-font.woff,200,OK,bp10 10-1,text,true,,10646,506,1,10,10,0,0
+1494577625852,514,93 /international-students,200,OK,bp07 7-1,text,true,,33854,580,1,10,501,0,0
+1494577625557,514,bp07s7,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,33854,580,1,10,501,296,0
+1494577623410,2920,47 /Dashboard,200,OK,bp03 3-1,text,true,,101564,2073,1,10,6,0,0
+1494577625001,1386,?typeOfSearch=course&term=en&json=true,200,OK,bp04 4-1,text,true,,112976,326,1,10,16,0,0
+1494577624970,1561,9 /find-a-course,200,OK,bp06 6-1,text,true,,33176,968,1,10,17,0,0
+1494577624689,1561,bp06s2,200,"Number of samples in transaction : 1, number of failing samples : 0",bp06 6-1,,true,,33176,968,1,10,17,281,0
+1494577625064,1480,9 /find-a-course,200,OK,bp02 2-1,text,true,,16780,1284,1,10,5,0,0
+1494577624777,1480,bp02s0B,200,"Number of samples in transaction : 1, number of failing samples : 0",bp02 2-1,,true,,16780,1284,1,10,5,288,0
+1494577626585,133,45 /analytics/1489393800000/2102409.js,200,OK,bp10 10-1,text,true,,21355,412,1,10,133,0,118
+1494577626788,54,49 /Areas/UWAFS/Assets/img/texture.jpg,200,OK,bp03 3-1,bin,true,,71519,1206,1,10,16,0,2
+1494577626648,543,94 /international-students/fees-and-scholarships,200,OK,bp07 7-1,text,true,,29489,591,1,10,542,0,0
+1494577626367,543,bp07s8,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,29489,591,1,10,542,281,0
+1494577627006,257,46 /devices/uwamenu-sitemap-cache.php,200,OK,bp10 10-1,text,true,,236,391,1,10,257,0,207
+1494577627552,332,48 /assets/dist/images/indigenous-row.jpg,200,OK,bp10 10-1,bin,true,,125837,487,1,10,325,0,2
+1494577627474,508,95 /international-students,200,OK,bp07 7-1,text,true,,33854,586,1,10,494,0,29
+1494577627191,508,bp07s9,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,33854,586,1,10,494,284,29
+1494577626367,1647,9 /Dashboard,200,OK,bp01 1-1,text,true,,14482,1046,1,10,1646,0,0
+1494577624376,2911,bp01s3,200,"Number of samples in transaction : 2, number of failing samples : 0",bp01 1-1,,true,,15244,2154,1,10,2910,
