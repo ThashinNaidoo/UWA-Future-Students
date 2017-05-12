@@ -19,7 +19,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="Environment" elementType="Argument">
             <stringProp name="Argument.name">Environment</stringProp>
-            <stringProp name="Argument.value">testweb05-study.webcluster.uwa.edu.au</stringProp>
+            <stringProp name="Argument.value">test-study.uwa.edu.au/</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="9Counter" elementType="Argument">
@@ -49,7 +49,7 @@
           </elementProp>
           <elementProp name="Duration" elementType="Argument">
             <stringProp name="Argument.name">Duration</stringProp>
-            <stringProp name="Argument.value">28800</stringProp>
+            <stringProp name="Argument.value">3600</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="TestActionPause" elementType="Argument">
@@ -584,7 +584,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">5</stringProp>
+        <stringProp name="ThreadGroup.num_threads">7</stringProp>
         <stringProp name="ThreadGroup.ramp_time">${RampUp}</stringProp>
         <longProp name="ThreadGroup.start_time">1491448101000</longProp>
         <longProp name="ThreadGroup.end_time">1491448101000</longProp>
@@ -962,7 +962,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">3</stringProp>
+        <stringProp name="ThreadGroup.num_threads">4</stringProp>
         <stringProp name="ThreadGroup.ramp_time">${RampUp}</stringProp>
         <longProp name="ThreadGroup.start_time">1491448097000</longProp>
         <longProp name="ThreadGroup.end_time">1491448097000</longProp>
@@ -1562,7 +1562,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">4</stringProp>
+        <stringProp name="ThreadGroup.num_threads">6</stringProp>
         <stringProp name="ThreadGroup.ramp_time">${RampUp}</stringProp>
         <longProp name="ThreadGroup.start_time">1491448094000</longProp>
         <longProp name="ThreadGroup.end_time">1491448094000</longProp>
@@ -1945,7 +1945,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">9</stringProp>
+        <stringProp name="ThreadGroup.num_threads">14</stringProp>
         <stringProp name="ThreadGroup.ramp_time">${RampUp}</stringProp>
         <longProp name="ThreadGroup.start_time">1491448090000</longProp>
         <longProp name="ThreadGroup.end_time">1491448090000</longProp>
@@ -2164,7 +2164,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">3</stringProp>
+        <stringProp name="ThreadGroup.num_threads">5</stringProp>
         <stringProp name="ThreadGroup.ramp_time">${RampUp}</stringProp>
         <longProp name="ThreadGroup.start_time">1491448087000</longProp>
         <longProp name="ThreadGroup.end_time">1491448087000</longProp>
@@ -2513,7 +2513,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">2</stringProp>
+        <stringProp name="ThreadGroup.num_threads">3</stringProp>
         <stringProp name="ThreadGroup.ramp_time">${RampUp}</stringProp>
         <longProp name="ThreadGroup.start_time">1493263100000</longProp>
         <longProp name="ThreadGroup.end_time">1493263100000</longProp>
@@ -3441,7 +3441,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">6</stringProp>
+        <stringProp name="ThreadGroup.num_threads">9</stringProp>
         <stringProp name="ThreadGroup.ramp_time">${RampUp}</stringProp>
         <longProp name="ThreadGroup.start_time">1491448085000</longProp>
         <longProp name="ThreadGroup.end_time">1491448085000</longProp>
@@ -4270,7 +4270,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">2</stringProp>
+        <stringProp name="ThreadGroup.num_threads">3</stringProp>
         <stringProp name="ThreadGroup.ramp_time">${RampUp}</stringProp>
         <longProp name="ThreadGroup.start_time">1491448082000</longProp>
         <longProp name="ThreadGroup.end_time">1491448082000</longProp>
@@ -5099,7 +5099,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">19</stringProp>
+        <stringProp name="ThreadGroup.num_threads">28</stringProp>
         <stringProp name="ThreadGroup.ramp_time">${RampUp}</stringProp>
         <longProp name="ThreadGroup.start_time">1491448077000</longProp>
         <longProp name="ThreadGroup.end_time">1491448077000</longProp>
@@ -6725,7 +6725,7 @@ vars.put(&quot;i&quot;,(i-1)+&quot;&quot;);</stringProp>
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">C:\Users\Administrator\Desktop\Test Assets\UWA-Future-Students\Results\03805_u62_t22800_HalfPeakSoak.csv</stringProp>
+        <stringProp name="filename">C:\Users\Administrator\Desktop\Test Assets\UWA-Future-Students\Results\038_u125_t3600_QuarterPeak_1.csv</stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>
