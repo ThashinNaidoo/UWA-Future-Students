@@ -1,0 +1,431 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1494839417710,713,27 /,200,OK,bp10 10-1,text,true,,10388,904,1,10,31,0,3
+1494839418740,311,31 /layouts/system/VisitorIdentification.js,200,OK,bp10 10-1,text,true,,1528,412,1,10,311,0,3
+1494839419352,7,32 /assets/r-B6BE34619D738D15880CCD7B0B7C93D5/uwaCss.css,200,OK,bp10 10-1,text,true,,61813,440,1,10,4,0,0
+1494839419660,3,33 /assets/r-0DF3025DFD45326BBA4E75A9ECAED483/modernizrJs.js,200,OK,bp10 10-1,text,true,,6313,429,1,10,3,0,0
+1494839419988,237,34 /visualid/lib/font-awesome/font-awesome.4.latest.css,200,OK,bp10 10-1,text,true,,37872,452,1,10,97,0,47
+1494839417658,2732,4 /,200,OK,bp02 2-1,text,true,,27839,928,1,10,567,0,550
+1494839417658,2827,41 /,200,OK,bp03 3-1,text,true,,27855,980,1,10,567,0,550
+1494839417322,2827,bp03s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp03 3-1,,true,,27855,980,1,10,567,339,550
+1494839417695,2804,17 /,200,OK,bp05 5-1,text,true,,27847,930,1,10,529,0,513
+1494839417369,2804,bp05s1 ,200,"Number of samples in transaction : 1, number of failing samples : 0",bp05 5-1,,true,,27847,930,1,10,529,327,513
+1494839417658,2852,17 /,200,OK,bp04 4-1,text,true,,27845,1140,1,10,566,0,550
+1494839417321,2852,bp04s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp04 4-1,,true,,27845,1140,1,10,566,338,550
+1494839417710,2822,13 /,200,OK,bp09 9-1,text,true,,27844,928,1,10,514,0,498
+1494839417384,2822,bp09s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp09 9-1,,true,,27844,928,1,10,514,327,498
+1494839420534,9,36 /assets/r-772E2629E969026E53EBA20227688FD7/uwaJs.js,200,OK,bp10 10-1,text,true,,102719,423,1,10,4,0,0
+1494839417710,2977,13 /,200,OK,bp08 8-1,text,true,,27838,928,1,10,515,0,498
+1494839417384,2977,bp08s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp08 8-1,,true,,27838,928,1,10,515,327,498
+1494839417658,3105,1 /,200,OK,bp01 1-1,text,true,,27463,464,1,10,3092,0,651
+1494839417695,3094,4 /,200,OK,bp06 6-1,text,true,,27833,928,1,10,529,0,513
+1494839420815,23,BeanShell Sampler,200,OK,bp04 4-1,text,true,,0,0,1,10,0,0,0
+1494839420799,91,46 /UWAFS/LoginRegister/LoginRegisterUser,200,OK,bp03 3-1,text,true,,3241,1839,1,10,31,0,16
+1494839417695,3198,87 /,200,OK,bp07 7-1,text,true,,27457,468,1,10,3179,0,213
+1494839417369,3198,bp07s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,27457,468,1,10,3179,327,213
+1494839420846,110,37 /assets/dist/images/logo-full-hor-rev.png,200,OK,bp10 10-1,bin,true,,5430,438,1,10,110,0,2
+1494839420799,347,20 /Events/Open-day,200,OK,bp05 5-1,text,true,,16443,1072,1,10,29,0,15
+1494839420500,347,bp05s4,200,"Number of samples in transaction : 1, number of failing samples : 0",bp05 5-1,,true,,16443,1072,1,10,29,299,15
+1494839421267,40,40 /assets/dist/images/main-strokes.jpg,200,OK,bp10 10-1,bin,true,,878458,485,1,10,4,0,0
+1494839421585,154,39 /gtm.js,200,OK,bp10 10-1,text,true,,39634,338,1,10,142,0,2
+1494839422065,5,42 /assets/dist/fonts/glyphicons-halflings-regular.woff,200,OK,bp10 10-1,text,true,,23804,507,1,10,4,0,0
+1494839422377,5,43 /assets/dist/fonts/uwa-icon-font/uwa-icon-font.woff,200,OK,bp10 10-1,text,true,,10646,506,1,10,5,0,0
+1494839420831,1865,22 /find-a-course,200,OK,bp09 9-1,text,true,,46857,1014,1,10,29,0,14
+1494839420533,1866,bp09s2,200,"Number of samples in transaction : 1, number of failing samples : 0",bp09 9-1,,true,,46857,1014,1,10,29,298,14
+1494839420707,2412,5 /,200,OK,bp02 2-1,text,true,,27420,1408,1,10,29,0,14
+1494839417321,5144,bp02s0A,200,"Number of samples in transaction : 2, number of failing samples : 0",bp02 2-1,,true,,55259,2336,1,10,596,655,564
+1494839420986,2158,22 /find-a-course,200,OK,bp08 8-1,text,true,,33105,1016,1,10,29,0,14
+1494839420688,2158,bp08s2,200,"Number of samples in transaction : 1, number of failing samples : 0",bp08 8-1,,true,,33105,1016,1,10,29,299,14
+1494839421205,2013,89 /international-students,200,OK,bp07 7-1,text,true,,33858,547,1,10,1999,0,155
+1494839420894,2013,bp07s3,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,33858,547,1,10,1999,311,155
+1494839422689,725,45 /analytics/1489393800000/2102409.js,200,OK,bp10 10-1,text,true,,21355,412,1,10,724,0,7
+1494839421095,2357,5 /,200,OK,bp06 6-1,text,true,,27838,928,1,10,38,0,17
+1494839417369,5451,bp06s1,200,"Number of samples in transaction : 2, number of failing samples : 0",bp06 6-1,,true,,55671,1856,1,10,567,633,530
+1494839421454,2016,21 /,200,OK,bp05 5-1,text,true,,27835,1062,1,10,48,0,0
+1494839421147,2016,bp05s5,200,"Number of samples in transaction : 1, number of failing samples : 0",bp05 5-1,,true,,27835,1062,1,10,48,307,0
+1494839417369,5167,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-1,,true,,72125,3064,1,10,606,935,528
+1494839421064,2426,3 /,200,OK,bp01 1-1,text,true,,27397,1408,1,10,72,0,14
+1494839417308,5532,bp01s1,200,"Number of samples in transaction : 2, number of failing samples : 0",bp01 1-1,,true,,54860,1872,1,10,3164,651,665
+1494839421142,2609,?typeOfSearch=course&term=e&json=true,200,OK,bp04 4-1,text,true,,110604,354,1,10,39,0,17
+1494839423693,103,46 /devices/uwamenu-sitemap-cache.php,200,OK,bp10 10-1,text,true,,236,391,1,10,103,0,53
+1494839424124,18,48 /assets/dist/images/indigenous-row.jpg,200,OK,bp10 10-1,bin,true,,125837,487,1,10,11,0,2
+1494839424426,5,49 /assets/dist/images/footer-go8.png,200,OK,bp10 10-1,bin,true,,2480,483,1,10,5,0,0
+1494839423001,1437,23 /courses/Doctor-of-Clinical-Dentistry,200,OK,bp09 9-1,text,true,,27893,1178,1,10,36,0,15
+1494839423531,1100,90 /international-students/life-in-perth,200,OK,bp07 7-1,text,true,,24944,583,1,10,1087,0,51
+1494839423220,1100,bp07s4,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,24944,583,1,10,1087,312,51
+1494839424731,3,50 /assets/dist/images/footer-social-conversation.png,200,OK,bp10 10-1,bin,true,,2119,499,1,10,3,0,0
+1494839425034,7,51 /assets/dist/images/svg/logo-full-hor-rev.svg,200,OK,bp10 10-1,bin,true,,8981,494,1,10,7,0,0
+1494839423422,1739,9 /find-a-course,200,OK,bp02 2-1,text,true,,19564,1532,1,10,40,0,19
+1494839423122,1739,bp02s0B,200,"Number of samples in transaction : 1, number of failing samples : 0",bp02 2-1,,true,,19564,1532,1,10,40,300,19
+1494839423771,1428,8 /UWAFS/LoginRegister/LoginRegisterUser,200,OK,bp01 1-1,text,true,,568,1154,1,10,1428,0,37
+1494839425341,15,52 /assets/dist/images/footer-art-alt.png,200,OK,bp10 10-1,bin,true,,15066,487,1,10,10,0,0
+1494839424932,777,91 /international-students,200,OK,bp07 7-1,text,true,,33855,578,1,10,762,0,0
+1494839424632,777,bp07s5,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,33855,578,1,10,762,300,0
+1494839425656,70,41 /-/media/images/carousels/corporate/home/homepage-hero-graduation.jpg,200,OK,bp10 10-1,bin,true,,209705,466,1,10,32,0,0
+1494839423740,2138,9 /find-a-course,200,OK,bp06 6-1,text,true,,42628,1030,1,10,31,0,17
+1494839423455,2138,bp06s2,200,"Number of samples in transaction : 1, number of failing samples : 0",bp06 6-1,,true,,42628,1030,1,10,31,286,17
+1494839426026,7,53 /assets/dist/images/bx_loader.gif,200,OK,bp10 10-1,bin,true,,7064,482,1,10,7,0,0
+1494839426334,124,54 /bat.js,200,OK,bp10 10-1,text,true,,4102,377,1,10,124,0,2
+1494839421189,5370,47 /Dashboard,200,OK,bp03 3-1,text,true,,105096,2298,1,10,51,0,0
+1494839426009,650,92 /international-students/moving-to-perth,200,OK,bp07 7-1,text,true,,19221,585,1,10,649,0,81
+1494839425709,650,bp07s6,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,19221,585,1,10,649,300,81
+1494839424739,1960,25 /72/60/cost,200,OK,bp09 9-1,bin,true,,5156,938,1,10,1255,0,6
+1494839422699,3397,bp09s3,200,"Number of samples in transaction : 2, number of failing samples : 0",bp09 9-1,,true,,33049,2116,1,10,1291,603,21
+1494839426759,121,56 /action/0,204,No Content,bp10 10-1,,true,,538,557,1,10,0,0,0
+1494839426861,199,49 /Areas/UWAFS/Assets/img/texture.jpg,200,O
+1494839827195,22378,bp09,200,"Number of samples in transaction : 13, number of failing samples : 0",bp09 9-1,,true,,295587,11492,1,30,8463,3307,78
+1494839852945,13,48 /assets/dist/images/indigenous-row.jpg,200,OK,bp10 10-2,bin,true,,125837,487,10,30,6,0,1
+1494839852737,291,59 /action-uic/0,204,No Content,bp10 10-10,,true,,446,562,10,30,0,0,145
+1494839853119,4,50 /assets/dist/images/footer-social-conversation.png,200,OK,bp10 10-6,bin,true,,2119,499,10,30,4,0,0
+1494839851211,1921,87 /,200,OK,bp07 7-1,text,true,,27468,468,1,30,1908,0,30
+1494839850911,1921,bp07s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,27468,468,1,30,1908,301,30
+1494839851831,1322,?typeOfSearch=course&term=law&json=true,200,OK,bp04 4-1,text,true,,110605,358,2,30,14,0,0
+1494839853258,4,49 /assets/dist/images/footer-go8.png,200,OK,bp10 10-2,bin,true,,2480,483,10,30,4,0,0
+1494839852101,1311,?typeOfSearch=course&term=e&json=true,200,OK,bp04 4-2,text,true,,110576,354,2,30,15,0,0
+1494839853423,6,51 /assets/dist/images/svg/logo-full-hor-rev.svg,200,OK,bp10 10-6,bin,true,,8981,494,10,30,6,0,0
+1494839853561,15,50 /assets/dist/images/footer-social-conversation.png,200,OK,bp10 10-2,bin,true,,2119,499,10,30,15,0,0
+1494839853328,273,57 /activityi;src=5061140;type=basem0;cat=uwa-a0;ord=110503073462;~oref=http%3A%2F%2Fwww.uwa.edu.au%2F,200,OK,bp10 10-10,text,true,,1681,1204,10,30,141,0,1
+1494839853728,5,52 /assets/dist/images/footer-art-alt.png,200,OK,bp10 10-6,bin,true,,15066,487,10,30,4,0,0
+1494839853875,7,51 /assets/dist/images/svg/logo-full-hor-rev.svg,200,OK,bp10 10-2,bin,true,,8981,494,10,30,7,0,0
+1494839853901,127,61 /layouts/system/VisitorIdentificationCSS.aspx,200,OK,bp10 10-10,text,true,,827,381,10,30,127,0,3
+1494839854032,32,41 /-/media/images/carousels/corporate/home/homepage-hero-graduation.jpg,200,OK,bp10 10-6,bin,true,,209705,466,10,30,22,0,0
+1494839853432,657,89 /international-students,200,OK,bp07 7-1,text,true,,33856,547,1,30,643,0,39
+1494839853133,657,bp07s3,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,33856,547,1,30,643,299,39
+1494839854182,17,52 /assets/dist/images/footer-art-alt.png,200,OK,bp10 10-2,bin,true,,15066,487,10,30,17,0,0
+1494839854363,8,53 /assets/dist/images/bx_loader.gif,200,OK,bp10 10-6,bin,true,,7064,482,10,30,8,0,0
+1494839854499,34,41 /-/media/images/carousels/corporate/home/homepage-hero-graduation.jpg,200,OK,bp10 10-2,bin,true,,209705,466,10,30,25,0,0
+1494839854329,457,63 /__ptq.gif,200,OK,bp10 10-10,bin,true,,319,637,10,30,457,0,227
+1494839843698,3286,bp10s1,200,"Number of samples in transaction : 26, number of failing samples : 0",bp10 10-10,,true,,1579314,13253,10,30,1652,7803,486
+1494839843698,3286,bp10,200,"Number of samples in transaction : 26, number of failing samples : 0",bp10 10-10,,true,,1579314,13253,10,30,1652,7803,486
+1494839854672,124,54 /bat.js,200,OK,bp10 10-6,text,true,,4102,377,10,30,123,0,3
+1494839854833,7,53 /assets/dist/images/bx_loader.gif,200,OK,bp10 10-2,bin,true,,7064,482,10,30,7,0,0
+1494839853453,1519,?typeOfSearch=course&term=nurs&json=true,200,OK,bp04 4-1,text,true,,110610,360,2,30,29,0,15
+1494839853711,1367,?typeOfSearch=course&term=ed&json=true,200,OK,bp04 4-2,text,true,,110585,356,2,30,33,0,19
+1494839855095,122,56 /action/0,204,No Content,bp10 10-6,,true,,538,557,10,30,0,0,0
+1494839855139,125,54 /bat.js,200,OK,bp10 10-2,text,true,,4105,377,10,30,125,0,3
+1494839854390,1089,90 /international-students/life-in-perth,200,OK,bp07 7-1,text,true,,24949,583,1,30,1088,0,0
+1494839854089,1089,bp07s4,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,24949,583,1,30,1088,301,0
+1494839855574,122,56 /action/0,204,No Content,bp10 10-2,,true,,541,557,10,30,0,0,0
+1494839855556,291,59 /action-uic/0,204,No Content,bp10 10-6,,true,,446,562,10,30,0,0,145
+1494839855996,295,59 /action-uic/0,204,No Content,bp10 10-2,,true,,446,562,10,30,0,0,147
+1494839856147,265,57 /activityi;src=5061140;type=basem0;cat=uwa-a0;ord=110503073462;~oref=http%3A%2F%2Fwww.uwa.edu.au%2F,200,OK,bp10 10-6,text,true,,1681,1204,10,30,132,0,1
+1494839855762,827,91 /international-students,200,OK,bp07 7-1,text,true,,33852,578,1,30,813,0,64
+1494839855479,827,bp07s5,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,33852,578,1,30,813,283,64
+1494839855306,1423,?typeOfSearch=course&term=nursi&json=true,200,OK,bp04 4-1,text,true,,110615,362,2,30,14,0,0
+1494839855415,1365,?typeOfSearch=course&term=edu&json=true,200,OK,bp04 4-2,text,true,,110590,358,2,30,14,0,0
+1494839856590,276,57 /activityi;src=5061140;type=basem0;cat=uwa-a0;ord=110503073462;~oref=http%3A%2F%2Fwww.uwa.edu.au%2F,200,OK,bp10 10-2,text,true,,1681,1204,10,30,133,0,2
+1494839856712,341,61 /layouts/system/VisitorIdentificationCSS.aspx,200,OK,bp10 10-6,text,true,,827,381,10,30,341,0,2
+1494839856890,607,92 /international-students/moving-to-perth,200,OK,bp07 7-1,text,true,,19229,585,1,30,607,0,0
+1494839856589,607,bp07s6,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,19229,585,1,30,607,302,0
+1494839857157,402,61 /layouts/system/VisitorIdentificationCSS.aspx,200,OK,bp10 10-2,text,true,,827,381,10,30,402,0,1
+1494839857345,456,63 /__ptq.gif,200,OK,bp10 10-6,bin,true,,319,637,10,30,456,0,227
+1494839846711,3259,bp10s1,200,"Number of samples in transaction : 26, number of failing samples : 0",bp10 10-6,,true,,1579358,13253,10,30,1521,7840,484
+1494839846711,3259,bp10,200,"Number of samples in transaction : 26, number of failing samples : 0",bp10 10-6,,true,,1579358,13253,10,30,1521,7840,484
+1494839857859,456,63 /__ptq.gif,200,OK,bp10 10-2,bin,true,,319,637,10,30,456,0,226
+1494839847404,3119,bp10s1,200,"Number of samples in transaction : 26, number of failing samples : 0",bp10 10-2,,true,,1579325,13253,10,30,1613,7802,484
+1494839847404,3119,bp10,200,"Number of samples in transaction : 26, number of failing samples : 0",bp10 10-2,,true,,1579325,13253,10,30,1613,7802,484
+1494839857788,546,93 /international-students,200,OK,bp07 7-1,text,true,,33845,580,1,30,531,0,29
+1494839857489,546,bp07s7,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,33845,580,1,30,531,299,29
+1494839857080,1379,?typeOfSearch=course&term=educ&json=true,200,OK,bp04 4-2,text,true,,110589,360,2,30,28,0,14
+1494839857029,1445,?typeOfSearch=course&term=nursin&json=true,200,OK,bp04 4-1,text,true,,110618,364,2,30,28,0,14
+1494839858635,838,94 /international-students/fees-and-scholarships,200,OK,bp07 7-1,text,true,,29491,591,1,30,824,0,0
+1494839858334,838,bp07s8,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,29491,591,1,30,824,302,0
+1494839858750,1279,?typeOfSearch=course&term=educa&json=true,200,OK,bp04 4-2,text,true,,110594,362,2,30,14,0,0
+1494839858765,1297,?typeOfSearch=course&term=nursing&json=true,200,OK,bp04 4-1,text,true,,110623,366,2,30,14,0,0
+1494839859774,677,95 /international-students,200,OK,bp07 7-1,text,true,,33854,586,1,30,676,0,0
+1494839859474,677,bp07s9,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,33854,586,1,30,676,300,0
+1494839860751,686,96 /international-students/moving-to-perth/student-visas,200,OK,bp07 7-1,text,true,,17509,599,1,30,686,0,30
+1494839860451,686,bp07s10,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,17509,599,1,30,686,301,30
+1494839860329,1247,?typeOfSearch=course&term=educat&json=true,200,OK,bp04 4-2,text,true,,110603,364,2,30,28,0,14
+1494839860362,1218,?typeOfSearch=course&term=engineer&json=true,200,OK,bp04 4-1,text,true,,110630,368,2,30,27,0,13
+1494839861737,645,97 /international-students,200,OK,bp07 7-1,text,true,,33869,594,1,30,631,0,0
+1494839861438,645,bp07s11,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,33869,594,1,30,631,299,0
+1494839862683,358,99 /international-students/moving-to-perth/what-to-bring,200,OK,bp07 7-1,text,true,,19315,599,1,30,357,0,0
+1494839862382,358,bp07s12,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,19315,599,1,30,357,301,0
+1494839861876,1224,?typeOfSearch=course&term=educati&json=true,200,OK,bp04 4-2,text,true,,110610,366,2,30,17,0,0
+1494839861880,1253,?typeOfSearch=course&term=engineeri&json=true,200,OK,bp04 4-1,text,true,,110633,370,2,30,15,0,0
+1494839863342,602,100 /international-students,200,OK,bp07 7-1,text,true,,33846,594,1,30,586,0,33
+1494839863041,602,bp07s13,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,33846,594,1,30,586,301,33
+1494839864244,438,101 /international-students/safety-and-security,200,OK,bp07 7-1,text,true,,17215,589,1,30,437,0,0
+1494839863944,438,bp07s14,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,17215,589,1,30,437,300,0
+1494839863400,1375,?typeOfSearch=course&term=educatio&json=true,200,OK,bp04 4-2,text,true,,110615,368,2,30,30,0,16
+1494839863469,1338,13 /,200,OK,bp08 8-1,text,true,,27840,928,3,30,27,0,14
+1494839863169,1338,bp08s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp08 8-1,,true,,27840,928,3,30,27,300,14
+1494839863432,1387,?typeOfSearch=course&term=engineerin&json=true,200,OK,bp04 4-1,text,true,,110638,372,2,30,28,0,14
+1494839865075,1275,?typeOfSearch=course&term=education&json=true,200,OK,bp04 4-2,text,true,,110616,370,2,30,14,0,0
+1494839865120,1360,?typeOfSearch=course&term=engineering&json=true,200,OK,bp04 4-1,text,true,,110643,374,2,30,17,0,0
+1494839865108,1439,22 /find-a-course,200,OK,bp08 8-1,text,true,,33091,1016,3,30,19,0,0
+1494839864807,1439,bp08s2,200,"Number of samples in transaction : 1, number of failing samples : 0",bp08 8-1,,true,,33091,1016,3,30,19,302,0
+1494839864982,2137,103 /,200,OK,bp07 7-1,text,true,,27454,562,1,30,2137,0,0
+1494839864682,2137,bp07s15,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,27454,562,1,30,2137,301,0
+1494839850911,12028,bp07,200,"Number of samples in transaction : 27, number of failing samples : 0",bp07 7-1,,true,,385752,8055,1,30,11924,4190,225
+1494839866847,467,23 /courses/Agricultural-Science,200,OK,bp08 8-1,text,true,,20510,1162,3,30,31,0,14
+1494839866650,1400,?typeOfSearch=course&term=psychology&json=true,200,OK,bp04 4-2,text,true,,110621,372,3,34,27,0,13
+1494839866781,1388,22 /find-a-course,200,OK,bp04 4-1,text,true,,26857,1034,3,34,30,0,16
+1494839847711,16534,bp04s2,200,"Number of samples in transaction : 14, number of failing samples : 0",bp04 4-1,,true,,1243665,5038,3,34,263,3934,88
+1494839867614,831,25 /72/60/cost,200,OK,bp08 8-1,bin,true,,5955,938,4,34,828,0,2
+1494839866548,1298,bp08s3,200,"Number of samples in transaction : 2, number of failing samples : 0",bp08 8-1,,true,,26465,2100,4,34,859,599,16
+1494839867684,1814,13 /,200,OK,bp08 8-4,text,true,,27840,928,4,34,27,0,13
+1494839867384,1814,bp08s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp08 8-4,,true,,27840,928,4,34,27,301,13
+1494839867622,1926,17 /,200,OK,bp04 4-3,text,true,,27840,1140,3,34,29,0,14
+1494839867322,1926,bp04s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp04 4-3,,true,,27840,1140,3,34,29,313,14
+1494839868350,1346,22 /find-a-course,200,OK,bp04 4-2,text,true,,26309,1046,3,34,14,0,0
+1494839851499,14571,bp04s2,200,"Number of samples in transaction : 13, number of failing samples : 0",bp04 4-2,,true,,1132308,4676,3,34,234,3635,76
+1494839867684,2093,13 /,200,OK,bp09 9-2,text,true,,27843,928,2,34,27,0,13
+1494839867384,2093,bp09s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp09 9-2,,true,,27843,928,2,34,27,300,13
+1494839869860,5,BeanShell Sampler,200,OK,bp04 4-3,text,true,,0,0,3,34,0,0,0
+1494839868469,1528,23 /,200,OK,bp04 4-1,text,true,,27844,1124,3,34,69,0,0
+1494839868170,1528,bp04s3,200,"Number of samples in transaction : 1, number of failing samples : 0",bp04 4-1,,true,,27844,1124,3,34,69,300,0
+1494839846108,19364,bp04,200,"Number of samples in transaction : 17, number of failing samples : 0",bp04 4-1,,true,,1299356,7302,3,34,360,4535,102
+1494839868746,1320,22 /find-a-course,200,OK,bp08 8-1,text,true,,33105,1016,4,34,14,0,0
+1494839868446,1320,bp08s4,200,"Number of samples in transaction : 1, number of failing samples : 0",bp08 8-1,,true,,33105,1016,4,34,14,300,0
+1494839867420,3624,87 /,200,OK,bp07 7-1,text,true,,27450,468,2,34,3606,0,34
+1494839867120,3624,bp07s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,27450,468,2,34,3606,300,34
+1494839869799,1547,22 /find-a-course,200,OK,bp08 8-4,text,true,,33089,1016,4,34,35,0,21
+1494839870078,1268,22 /find-a-course,200,OK,bp09 9-2,text,true,,46857,1014,2,34,28,0,14
+1494839869499,1547,bp08s2,200,"Number of samples in transaction : 1, number of failing samples : 0",bp08 8-4,,true,,33089,1016,4,34,35,301,21
+1494839869777,1268,bp09s2,200,"Number of samples in transaction : 1, number of failing samples : 0",bp09 9-2,,true,,46857,1014,2,34,28,302,14
+1494839869997,1758,23 /,200,OK,bp04 4-2,text,true,,27845,1124,3,34,28,0,14
+1494839869696,1758,bp04s3,200,"Number of samples in transaction : 1, number of failing samples : 0",bp04 4-2,,true,,27845,1124,3,34,28,302,14
+1494839849883,17645,bp04,200,"Number of samples in transaction : 16, number of failing samples : 0",bp04 4-2,,true,,1187989,6940,3,34,291,4237,104
+1494839870165,1721,?typeOfSearch=course&term=m&json=true,200,OK,bp04 4-3,text,true,,110539,354,3,34,33,0,19
+1494839867668,4552,87 /,200,OK,bp07 7-2,text,true,,27451,468,2,34,4536,0,188
+1494839867369,4552,bp07s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-2,,true,,27451,468,2,34,4536,299,188
+1494839871345,1337,89 /international-students,200,OK,bp07 7-1,text,true,,33857,547,2,34,1323,0,157
+1494839871044,1337,bp07s3,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,33857,547,2,34,1323,301,157
+1494839872520,1541,89 /international-students,200,OK,bp07 7-2,text,true,,33861,547,2,34,1525,0,59
+1494839872220,1541,bp07s3,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-2,,true,,33861,547,2,34,1525,301,59
+1494839872982,1529,90 /international-students/life-in-perth,200,OK,bp07 7-1,text,true,,24944,583,2,34,1511,0,0
+1494839872682,1529,bp07s4,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,24944,583,2,34,1511,300,0
+1494839872185,2566,?typeOfSearch=course&term=me&json=true,200,OK,bp04 4-3,text,true,,110542,356,3,34,32,0,16
+1494839874362,861,90 /international-students/life-in-perth,200,OK,bp07 7-2,text,true,,24943,583,2,34,860,0,0
+1494839874062,861,bp07s4,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-2,,true,,24943,583,2,34,860,301,0
+1494839874811,690,91 /international-students,200,OK,bp07 7-1,text,true,,33858,578,2,34,674,0,31
+1494839874511,690,bp07s5,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,33858,578,2,34,674,301,31
+1494839871646,4417,23 /courses/Graduate-Certificate-in-Business,200,OK,bp09 9-2,text,true,,29445,1186,2,34,15,0,0
+1494839875524,1121,91 /international-students,200,OK,bp07 7-2,text,true,,33856,578,2,34,1103,0,35
+1494839875224,1121,bp07s5,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-2,,true,,33856,578,2,34,1103,301,35
+1494839875802,1080,92 /international-students/moving-to-perth,200,OK,bp07 7-1,text,true,,19227,585,2,34,1079,0,0
+1494839875502,1080,bp07s6,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,19227,585,2,34,1079,300,0
+1494839875052,2295,?typeOfSearch=course&term=med&json=true,200,OK,bp04 4-3,text,true,,110551,358,3,34,537,0,523
+1494839876364,1054,25 /72/60/cost,200,OK,bp09 9-2,bin,true,,5455,938,2,34,1049,0,150
+1494839871347,5471,bp09s3,200,"Number of samples in transaction : 2, number of failing samples : 0",bp09 9-2,,true,,34900,2124,2,34,1064,600,150
+1494839877181,1186,93 /international-students,200,OK,bp07 7-1,text,true,,33858,580,2,34,1169,0,29
+1494839876882,1186,bp07s7,200,"Number of samples in transaction : 1, number of failing samp
+1494840731295,2043,bp04s3,200,"Number of samples in transaction : 1, number of failing samples : 0",bp04 4-2,,true,,27838,1124,4,54,45,301,30
+1494840694469,34332,bp04,200,"Number of samples in transaction : 18, number of failing samples : 0",bp04 4-2,,true,,1402080,7690,4,54,830,4810,221
+1494840729341,4659,87 /,200,OK,bp07 7-2,text,true,,108783,468,2,54,4609,0,35
+1494840729041,4659,bp07s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-2,,true,,108783,468,2,54,4609,301,35
+1494840729396,4830,87 /,200,OK,bp07 7-1,text,true,,108781,468,2,54,4788,0,43
+1494840729096,4830,bp07s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,108781,468,2,54,4788,300,43
+1494840732937,1659,?typeOfSearch=course&term=agricultur&json=true,200,OK,bp04 4-3,text,true,,110694,372,4,54,32,0,18
+1494840733939,858,25 /72/60/cost,200,OK,bp08 8-2,bin,true,,5222,938,6,54,854,0,2
+1494840725381,8814,bp08s7,200,"Number of samples in transaction : 2, number of failing samples : 0",bp08 8-2,,true,,42310,2112,6,54,883,602,16
+1494840734896,1449,?typeOfSearch=course&term=agriculture&json=true,200,OK,bp04 4-3,text,true,,110699,374,4,54,14,0,0
+1494840734526,2014,89 /international-students,200,OK,bp07 7-1,text,true,,109217,547,2,54,1947,0,29
+1494840734226,2014,bp07s3,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,109217,547,2,54,1947,301,29
+1494840735096,1662,35 /,200,OK,bp08 8-2,text,true,,27847,1088,6,54,176,0,162
+1494840734797,1662,bp08s8,200,"Number of samples in transaction : 1, number of failing samples : 0",bp08 8-2,,true,,27847,1088,6,54,176,299,162
+1494840690965,42387,bp08,200,"Number of samples in transaction : 13, number of failing samples : 0",bp08 8-2,,true,,284343,11372,6,54,3934,3338,260
+1494840734300,2739,89 /international-students,200,OK,bp07 7-2,text,true,,109217,547,2,54,2597,0,187
+1494840734001,2739,bp07s3,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-2,,true,,109217,547,2,54,2597,300,187
+1494840733890,3440,51 /Dashboard,200,OK,bp03 3-2,text,true,,105080,2310,3,54,28,0,14
+1494840736646,1364,?typeOfSearch=course&term=physiotherap&json=true,200,OK,bp04 4-3,text,true,,110702,376,4,54,44,0,20
+1494840736840,1341,90 /international-students/life-in-perth,200,OK,bp07 7-1,text,true,,89419,583,2,54,1297,0,33
+1494840736541,1341,bp07s4,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,89419,583,2,54,1297,299,33
+1494840737340,1223,90 /international-students/life-in-perth,200,OK,bp07 7-2,text,true,,89419,583,2,54,1180,0,117
+1494840737040,1223,bp07s4,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-2,,true,,89419,583,2,54,1180,300,117
+1494840737630,1668,52 /,200,OK,bp03 3-2,text,true,,27406,1528,3,54,27,0,13
+1494840738489,1120,91 /international-students,200,OK,bp07 7-1,text,true,,109217,578,2,54,1035,0,0
+1494840738166,1120,bp07s5,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,109217,578,2,54,1035,323,0
+1494840739581,96,55 /layouts/system/VisitorIdentificationCSS.aspx,200,OK,bp03 3-2,text,true,,1060,1334,3,54,15,0,0
+1494840728503,9991,bp03s5,200,"Number of samples in transaction : 4, number of failing samples : 0",bp03 3-2,,true,,239005,8297,3,54,102,1198,40
+1494840714317,22674,bp03,200,"Number of samples in transaction : 11, number of failing samples : 0",bp03 3-2,,true,,551355,16951,3,54,243,2701,86
+1494840738302,1521,?typeOfSearch=course&term=physiotherapy&json=true,200,OK,bp04 4-3,text,true,,110709,378,4,54,14,0,0
+1494840738833,1703,91 /international-students,200,OK,bp07 7-2,text,true,,109217,578,2,54,1686,0,0
+1494840738548,1703,bp07s5,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-2,,true,,109217,578,2,54,1686,286,0
+1494840740127,1464,22 /find-a-course,200,OK,bp04 4-3,text,true,,20665,1050,4,54,29,0,14
+1494840707956,29140,bp04s2,200,"Number of samples in transaction : 16, number of failing samples : 0",bp04 4-3,,true,,1459474,5808,4,54,514,4511,180
+1494840740237,1510,4 /,200,OK,bp02 2-4,text,true,,27536,1408,5,54,28,0,14
+1494840733540,8463,10 /courses/Chemistry,200,OK,bp02 2-5,text,true,,37444,1688,5,54,29,0,0
+1494840733240,8463,bp02s0C,200,"Number of samples in transaction : 1, number of failing samples : 0",bp02 2-5,,true,,37444,1688,5,54,29,300,0
+1494840740831,1404,92 /international-students/moving-to-perth,200,OK,bp07 7-2,text,true,,75302,585,2,54,1362,0,52
+1494840740537,1404,bp07s6,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-2,,true,,75302,585,2,54,1362,294,52
+1494840739909,3025,92 /international-students/moving-to-perth,200,OK,bp07 7-1,text,true,,75302,585,2,54,2979,0,29
+1494840739609,3025,bp07s6,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,75302,585,2,54,2979,300,29
+1494840742545,630,93 /international-students,200,OK,bp07 7-2,text,true,,109217,580,2,54,603,0,0
+1494840742235,630,bp07s7,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-2,,true,,109217,580,2,54,603,310,0
+1494840741890,1556,23 /,200,OK,bp04 4-3,text,true,,27843,1124,4,54,15,0,0
+1494840741592,1556,bp04s3,200,"Number of samples in transaction : 1, number of failing samples : 0",bp04 4-3,,true,,27843,1124,4,54,15,298,0
+1494840705330,33023,bp04,200,"Number of samples in transaction : 19, number of failing samples : 0",bp04 4-3,,true,,1515162,8072,4,54,678,5111,193
+1494840742046,1511,5 /,200,OK,bp02 2-4,text,true,,27400,1408,5,54,15,0,0
+1494840739925,3021,bp02s0A,200,"Number of samples in transaction : 2, number of failing samples : 0",bp02 2-4,,true,,54936,2816,5,54,43,611,14
+1494840742296,1909,15 /,200,OK,bp02 2-5,text,false,"Test failed: text expected to contain /Chemistry"" class=""tile-row-list-item tile/",27441,1558,5,54,27,0,14
+1494840741988,1909,bp02s1,,"Number of samples in transaction : 1, number of failing samples : 1",bp02 2-5,,false,,27441,1558,5,54,27,308,14
+1494840726247,16463,bp02,,"Number of samples in transaction : 8, number of failing samples : 1",bp02 2-5,,false,,139598,7588,5,54,159,1510,62
+1494840743271,1030,93 /international-students,200,OK,bp07 7-1,text,true,,109217,580,2,54,997,0,30
+1494840742942,1030,bp07s7,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,109217,580,2,54,997,329,30
+1494840743099,1471,17 /,200,OK,bp05 5-5,text,true,,27844,930,9,54,29,0,15
+1494840742769,1471,bp05s1 ,200,"Number of samples in transaction : 1, number of failing samples : 0",bp05 5-5,,true,,27844,930,9,54,29,322,15
+1494840744864,272,20 /Events/Open-day,200,OK,bp05 5-5,text,true,,16446,1072,9,54,14,0,0
+1494840744570,272,bp05s4,200,"Number of samples in transaction : 1, number of failing samples : 0",bp05 5-5,,true,,16446,1072,9,54,14,294,0
+1494840743864,1352,9 /find-a-course,200,OK,bp02 2-4,text,true,,18780,1522,5,54,28,0,14
+1494840743565,1352,bp02s0B,200,"Number of samples in transaction : 1, number of failing samples : 0",bp02 2-4,,true,,18780,1522,5,54,28,299,14
+1494840743489,2209,94 /international-students/fees-and-scholarships,200,OK,bp07 7-2,text,true,,115895,591,2,54,2155,0,42
+1494840743183,2209,bp07s8,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-2,,true,,115895,591,2,54,2155,306,42
+1494840745424,1259,21 /,200,OK,bp05 5-5,text,true,,27843,1062,9,54,29,0,15
+1494840745136,1259,bp05s5,200,"Number of samples in transaction : 1, number of failing samples : 0",bp05 5-5,,true,,27843,1062,9,54,29,288,15
+1494840742769,3003,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-5,,true,,72133,3064,9,54,72,904,30
+1494840744613,2153,94 /international-students/fees-and-scholarships,200,OK,bp07 7-1,text,true,,115893,591,2,54,2136,0,0
+1494840744301,2153,bp07s8,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,115893,591,2,54,2136,312,0
+1494840746001,1161,95 /international-students,200,OK,bp07 7-2,text,true,,109217,586,2,54,1119,0,35
+1494840745698,1161,bp07s9,200,"Number of samples in transaction 
+1494851834608,2693,100 /international-students,200,OK,bp07 7-2,text,true,,109217,594,2,54,2649,0,37
+1494851834308,2693,bp07s13,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-2,,true,,109217,594,2,54,2649,301,37
+1494851834999,2935,101 /international-students/safety-and-security,200,OK,bp07 7-1,text,true,,68949,589,2,54,2905,0,51
+1494851834699,2935,bp07s14,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,68949,589,2,54,2905,301,51
+1494851837601,1811,101 /international-students/safety-and-security,200,OK,bp07 7-2,text,true,,68949,589,2,54,1782,0,95
+1494851837302,1811,bp07s14,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-2,,true,,68949,589,2,54,1782,300,95
+1494851834800,4760,23 /courses/Landscape-Architecture,200,OK,bp08 8-2,text,true,,34319,1166,6,54,15,0,0
+1494851838235,3875,103 /,200,OK,bp07 7-1,text,true,,108781,562,2,54,3834,0,31
+1494851837935,3875,bp07s15,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,108781,562,2,54,3834,301,31
+1494851799981,37892,bp07,200,"Number of samples in transaction : 27, number of failing samples : 0",bp07 7-1,,true,,1365102,8055,2,54,37299,4206,724
+1494851839867,2399,25 /72/60/cost,200,OK,bp08 8-2,bin,true,,5337,938,6,54,2386,0,3
+1494851834500,7159,bp08s5,200,"Number of samples in transaction : 2, number of failing samples : 0",bp08 8-2,,true,,39656,2104,6,54,2401,603,3
+1494851842565,1690,22 /find-a-course,200,OK,bp08 8-2,text,true,,33086,1016,6,54,183,0,169
+1494851842266,1690,bp08s6,200,"Number of samples in transaction : 1, number of failing samples : 0",bp08 8-2,,true,,33086,1016,6,54,183,299,169
+1494851839712,6123,103 /,200,OK,bp07 7-2,text,true,,108783,562,2,54,6080,0,297
+1494851839413,6123,bp07s15,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-2,,true,,108783,562,2,54,6080,300,297
+1494851804017,37587,bp07,200,"Number of samples in transaction : 27, number of failing samples : 0",bp07 7-2,,true,,1365106,8055,2,54,37064,4208,1122
+1494851846189,1071,27 /,200,OK,bp10 10-16,text,true,,10388,904,19,54,40,0,9
+1494851847560,19,31 /layouts/system/VisitorIdentification.js,200,OK,bp10 10-16,text,true,,1528,412,19,54,19,0,5
+1494851847878,13,32 /assets/r-B6BE34619D738D15880CCD7B0B7C93D5/uwaCss.css,200,OK,bp10 10-16,text,true,,61813,440,19,54,8,0,0
+1494851848190,5,33 /assets/r-0DF3025DFD45326BBA4E75A9ECAED483/modernizrJs.js,200,OK,bp10 10-16,text,true,,6313,429,19,54,4,0,0
+1494851842414,5982,87 /,200,OK,bp07 7-1,text,true,,108783,468,2,54,5931,0,33
+1494851842115,5982,bp07s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,108783,468,2,54,5931,300,33
+1494851847378,1340,17 /,200,OK,bp05 5-5,text,true,,27840,930,9,54,31,0,14
+1494851847078,1340,bp05s1 ,200,"Number of samples in transaction : 1, number of failing samples : 0",bp05 5-5,,true,,27840,930,9,54,31,300,14
+1494851848494,236,34 /visualid/lib/font-awesome/font-awesome.4.latest.css,200,OK,bp10 10-16,text,true,,37872,452,19,54,96,0,48
+1494851847611,1286,27 /,200,OK,bp10 10-12,text,true,,10388,904,19,54,31,0,2
+1494851849029,10,36 /assets/r-772E2629E969026E53EBA20227688FD7/uwaJs.js,200,OK,bp10 10-16,text,true,,102672,423,19,54,5,0,0
+1494851849196,10,31 /layouts/system/VisitorIdentification.js,200,OK,bp10 10-12,text,true,,1528,412,19,54,10,0,3
+1494851849017,307,20 /Events/Open-day,200,OK,bp05 5-5,text,true,,16432,1072,9,54,15,0,0
+1494851848718,307,bp05s4,200,"Number of samples in transaction : 1, number of failing samples : 0",bp05 5-5,,true,,16432,1072,9,54,15,300,0
+1494851849338,4,37 /assets/dist/images/logo-full-hor-rev.png,200,OK,bp10 10-16,bin,true,,5430,438,19,54,4,0,0
+1494851849505,10,32 /assets/r-B6BE34619D738D15880CCD7B0B7C93D5/uwaCss.css,200,OK,bp10 10-12,text,true,,61813,440,19,54,6,0,0
+1494851849641,45,40 /assets/dist/images/main-strokes.jpg,200,OK,bp10 10-16,bin,true,,878458,485,19,54,11,0,2
+1494851847989,1746,27 /,200,OK,bp10 10-4,text,true,,10393,904,19,54,13,0,2
+1494851849814,9,33 /assets/r-0DF3025DFD45326BBA4E75A9ECAED483/modernizrJs.js,200,OK,bp10 10-12,text,true,,6313,429,19,54,8,0,0
+1494851849158,684,27 /,200,OK,bp10 10-8,text,true,,10388,904,19,54,16,0,3
+1494851850034,7,31 /layouts/system/VisitorIdentification.js,200,OK,bp10 10-4,text,true,,1528,412,19,54,7,0,2
+1494851849985,152,39 /gtm.js,200,OK,bp10 10-16,text,true,,39634,338,19,54,140,0,3
+1494851850141,7,31 /layouts/system/VisitorIdentification.js,200,OK,bp10 10-8,text,true,,1528,412,19,54,7,0,3
+1494851850342,7,32 /assets/r-B6BE34619D738D15880CCD7B0B7C93D5/uwaCss.css,200,OK,bp10 10-4,text,true,,61813,440,19,54,4,0,0
+1494851850122,282,34 /visualid/lib/font-awesome/font-awesome.4.latest.css,200,OK,bp10 10-12,text,true,,37872,452,19,54,96,0,48
+1494851850436,6,42 /assets/dist/fonts/glyphicons-halflings-regular.woff,200,OK,bp10 10-16,text,true,,23804,507,19,54,6,0,0
+1494851850447,10,32 /assets/r-B6BE34619D738D15880CCD7B0B7C93D5/uwaCss.css,200,OK,bp10 10-8,text,true,,61813,440,19,54,5,0,0
+1494851850649,4,33 /assets/r-0DF3025DFD45326BBA4E75A9ECAED483/modernizrJs.js,200,OK,bp10 10-4,text,true,,6313,429,19,54,3,0,0
+1494851850741,7,43 /assets/dist/fonts/uwa-icon-font/uwa-icon-font.woff,200,OK,bp10 10-16,text,true,,10646,506,19,54,6,0,0
+1494851850703,45,36 /assets/r-772E2629E969026E53EBA20227688FD7/uwaJs.js,200,OK,bp10 10-12,text,true,,102719,423,19,54,11,0,0
+1494851850756,5,33 /assets/r-0DF3025DFD45326BBA4E75A9ECAED483/modernizrJs.js,200,OK,bp10 10-8,text,true,,6313,429,19,54,5,0,0
+1494851849624,1350,21 /,200,OK,bp05 5-5,text,true,,27845,1062,9,54,38,0,19
+1494851849325,1350,bp05s5,200,"Number of samples in transaction : 1, number of failing samples : 0",bp05 5-5,,true,,27845,1062,9,54,38,300,19
+1494851847078,2997,bp05,200,"Number of samples in transaction : 5, number of failing samples : 0",bp05 5-5,,true,,72117,3064,9,54,84,900,33
+1494851851047,4,37 /assets/dist/images/logo-full-hor-rev.png,200,OK,bp10 10-12,bin,true,,5430,438,19,54,4,0,0
+1494851851047,10,45 /analytics/1489393800000/2102409.js,200,OK,bp10 10-16,text,true,,21355,412,19,54,9,0,6
+1494851850952,236,34 /visualid/lib/font-awesome/font-awesome.4.latest.css,200,OK,bp10 10-4,text,true,,37872,452,19,54,97,0,48
+1494851851060,237,34 /visualid/lib/font-awesome/font-awesome.4.latest.css,200,OK,bp10 10-8,text,true,,37872,452,19,54,97,0,48
+1494851851351,37,40 /assets/dist/images/main-strokes.jpg,200,OK,bp10 10-12,bin,true,,878458,485,19,54,5,0,2
+1494851851356,97,46 /devices/uwamenu-sitemap-cache.php,200,OK,bp10 10-16,text,true,,236,391,19,54,97,0,48
+1494851851488,9,36 /assets/r-772E2629E969026E53EBA20227688FD7/uwaJs.js,200,OK,bp10 10-4,text,true,,102672,423,19,54,4,0,0
+1494851851596,12,36 /assets/r-772E2629E969026E53EBA20227688FD7/uwaJs.js,200,OK,bp10 10-8,text,true,,102711,423,19,54,6,0,0
+1494851846140,5593,87 /,200,OK,bp07 7-2,text,true,,108781,468,2,54,5546,0,41
+1494851845840,5593,bp07s1,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-2,,true,,108781,468,2,54,5546,300,41
+1494851851752,14,48 /assets/dist/images/indigenous-row.jpg,200,OK,bp10 10-16,bin,true,,125837,487,19,54,7,0,2
+1494851851796,3,37 /assets/dist/images/logo-full-hor-rev.png,200,OK,bp10 10-4,bin,true,,5430,438,19,54,3,0,0
+1494851851687,153,39 /gtm.js,200,OK,bp10 10-12,text,true,,39634,338,19,54,147,0,3
+1494851851907,4,37 /assets/dist/images/logo-full-hor-rev.png,200,OK,bp10 10-8,bin,true,,5430,438,19,54,4,0,0
+1494851848696,3218,89 /international-students,200,OK,bp07 7-1,text,true,,109217,547,2,54,3184,0,40
+1494851848397,3218,bp07s3,200,"Number of samples in transaction : 1, number of failing samples : 0",bp07 7-1,,true,,109217,547,2,54,3184,299,40
+1494851852065,4,49 /assets/dist/images/footer-go8.png,200,OK,bp10 10-16,bin,true,,2480,483,19,54,4,0,0
+1494851852099,47,40 /assets/dist/images/main-strokes.jpg,200,OK,bp10 10-4,bin,true,,878458,485,19,54,9,0,3
+1494851852139,7,42 /assets/dist/fonts/glyphicons-halflings-regular.woff,200,OK,bp10 10-12,text,true,,23804,507,19,54,6,0,0
+1494851852210,46,40 /assets/dist/images/main-strokes.jpg,200,OK,bp10 10-8,bin,true,,87
+1494889693621,3773,bp10,200,"Number of samples in transaction : 26, number of failing samples : 0",bp10 10-1,,true,,1579314,13253,19,54,1809,7821,1254
+1494889704956,454,63 /__ptq.gif,200,OK,bp10 10-3,bin,true,,319,637,19,54,454,0,225
+1494889693761,3867,bp10s1,200,"Number of samples in transaction : 26, number of failing samples : 0",bp10 10-3,,true,,1579314,13253,19,54,1270,7804,534
+1494889693761,3867,bp10,200,"Number of samples in transaction : 26, number of failing samples : 0",bp10 10-3,,true,,1579314,13253,19,54,1270,7804,534
+1494889705034,456,63 /__ptq.gif,200,OK,bp10 10-7,bin,true,,319,637,19,54,456,0,226
+1494889693652,3992,bp10s1,200,"Number of samples in transaction : 26, number of failing samples : 0",bp10 10-7,,true,,1579334,13253,19,54,1735,7868,632
+1494889693652,3992,bp10,200,"Number of samples in transaction : 26, number of failing samples : 0",bp10 10-7,,true,,1579334,13253,19,54,1735,7868,632
+1494889705268,441,63 /__ptq.gif,200,OK,bp10 10-8,bin,true,,319,637,19,54,441,0,218
+1494889693778,4135,bp10s1,200,"Number of samples in transaction : 26, number of failing samples : 0",bp10 10-8,,true,,1579314,13253,19,54,1327,7818,485
+1494889693778,4135,bp10,200,"Number of samples in transaction : 26, number of failing samples : 0",bp10 10-8,,true,,1579314,13253,19,54,1327,7818,485
+1494889705501,458,63 /__ptq.gif,200,OK,bp10 10-15,bin,true,,319,637,19,54,458,0,228
+1494889693777,4286,bp10s1,200,"Number of samples in transaction : 26, number of failing samples : 0",bp10 10-15,,true,,1579345,13253,19,54,1332,7918,521
+1494889693777,4286,bp10,200,"Number of samples in transaction : 26, number of failing samples : 0",bp10 10-15,,true,,1579345,13253,19,54,1332,7918,521
+1494876024736,21463520,3 /,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp01 1-1,text,false,,3874,704,1,35,70957,0,304
+1494875834901,21652753,bp01s1,,"Number of samples in transaction : 2, number of failing samples : 2",bp01 1-1,,false,,6810,704,1,35,70957,603,40300
+1494875660599,21827657,9 /find-a-course,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp02 2-2,text,false,Test failed: text expected to contain /<title>Find a course</title>/,4010,761,5,35,11599,0,15
+1494875660290,21827657,bp02s0B,,"Number of samples in transaction : 1, number of failing samples : 1",bp02 2-2,,false,,4010,761,5,35,11599,304,15
+1494875677803,21810454,4 /,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp02 2-5,text,false,Test failed: text expected to contain /<title>Home</title>/,3874,704,5,34,1146,0,14
+1494876024736,21463522,5 /,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp02 2-3,text,false,,3874,704,3,32,75746,0,304
+1494875734497,21753162,bp02s0A,,"Number of samples in transaction : 2, number of failing samples : 2",bp02 2-3,,false,,7692,1408,3,32,239112,599,318
+1494876024736,21463522,5 /,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp02 2-1,text,false,,3874,704,3,32,75746,0,304
+1494875836292,21651365,bp02s0A,,"Number of samples in transaction : 2, number of failing samples : 2",bp02 2-1,,false,,7692,1408,3,32,137318,602,318
+1494876024736,21463523,5 /,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp02 2-4,text,false,,3874,704,1,30,70956,0,304
+1494875800066,21687592,bp02s0A,,"Number of samples in transaction : 2, number of failing samples : 2",bp02 2-4,,false,,7692,1408,1,30,168752,601,318
+1494875709851,21778408,41 /,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp03 3-3,text,false,Test failed: text expected to contain /<title>Home</title>/,3874,490,3,29,25223,0,17
+1494875709552,21778408,bp03s1,,"Number of samples in transaction : 1, number of failing samples : 1",bp03 3-3,,false,,3874,490,3,29,25223,300,17
+1494875706602,21781657,41 /,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp03 3-2,text,false,Test failed: text expected to contain /<title>Home</title>/,3874,490,3,29,25751,0,14
+1494875706303,21781657,bp03s1,,"Number of samples in transaction : 1, number of failing samples : 1",bp03 3-2,,false,,3874,490,3,29,25751,300,14
+1494875706760,21781500,41 /,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp03 3-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3874,490,1,27,25594,0,14
+1494875706460,21781500,bp03s1,,"Number of samples in transaction : 1, number of failing samples : 1",bp03 3-1,,false,,3874,490,1,27,25594,301,14
+1494875689861,21798400,17 /,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp04 4-3,text,false,Test failed: text expected to contain /<title>Home</title>/,3874,570,4,26,42492,0,14
+1494875689561,21798400,bp04s1,,"Number of samples in transaction : 1, number of failing samples : 1",bp04 4-3,,false,,3874,570,4,26,42492,301,14
+1494876025086,21463176,?typeOfSearch=course&term=g&json=true,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp04 4-1,text,false,,5431,177,4,26,72438,0,14
+1494876025083,21463179,?typeOfSearch=course&term=g&json=true,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp04 4-4,text,false,,5377,177,4,26,74879,0,14
+1494875657565,21830697,17 /,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp04 4-2,text,false,Test failed: text expected to contain /<title>Home</title>/,3874,570,3,25,14627,0,14
+1494875657253,21830697,bp04s1,,"Number of samples in transaction : 1, number of failing samples : 1",bp04 4-2,,false,,3874,570,3,25,14627,298,14
+1494875660662,21827600,17 /,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp05 5-2,text,false,Test failed: text expected to contain /<title>Home</title>/,3874,465,9,23,11521,0,15
+1494875660350,21827600,bp05s1 ,,"Number of samples in transaction : 1, number of failing samples : 1",bp05 5-2,,false,,3874,465,9,23,11521,307,15
+1494876024735,21463528,20 /Events/Open-day,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp05 5-9,text,false,Test failed: text expected to contain /<title>Open Day</title>/,3904,536,8,21,75228,0,305
+1494876024436,21463528,bp05s4,,"Number of samples in transaction : 1, number of failing samples : 1",bp05 5-9,,false,,3904,536,8,21,75228,299,305
+1494875701345,21786918,17 /,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp05 5-6,text,false,Test failed: text expected to contain /<title>Home</title>/,3874,465,7,20,31008,0,533
+1494875701045,21786918,bp05s1 ,,"Number of samples in transaction : 1, number of failing samples : 1",bp05 5-6,,false,,3874,465,7,20,31008,301,533
+1494876024736,21463528,20 /Events/Open-day,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp05 5-7,text,false,Test failed: text expected to contain /<title>Open Day</title>/,3904,536,6,19,77554,0,304
+1494876024437,21463528,bp05s4,,"Number of samples in transaction : 1, number of failing samples : 1",bp05 5-7,,false,,3904,536,6,19,77554,299,304
+1494876024735,21463529,20 /Events/Open-day,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp05 5-5,text,false,Test failed: text expected to contain /<title>Open Day</title>/,3904,536,5,18,70957,0,305
+1494876024436,21463529,bp05s4,,"Number of samples in transaction : 1, number of failing samples : 1",bp05 5-5,,false,,3904,536,5,18,70957,300,305
+1494876024735,21463530,20 /Events/Open-day,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp05 5-3,text,false,Test failed: text expected to contain /<title>Open Day</title>/,3904,536,4,17,70957,0,305
+1494876024436,21463530,bp05s4,,"Number of samples in transaction : 1, number of failing samples : 1",bp05 5-3,,false,,3904,536,4,17,70957,299,305
+1494875719617,21768648,17 /,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp05 5-8,text,false,Test failed: text expected to contain /<title>Home</title>/,3874,465,3,16,15464,0,17
+1494875719316,21768648,bp05s1 ,,"Number of samples in transaction : 1, number of failing samples : 1",bp05 5-8,,false,,3874,465,3,16,15464,302,17
+1494875692785,21795481,17 /,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp05 5-4,text,false,Test failed: text expected to contain /<title>Home</title>/,3874,465,3,16,39568,0,15
+1494875692486,21795481,bp05s1 ,,"Number of samples in transaction : 1, number of failing samples : 1",bp05 5-4,,false,,3874,465,3,16,39568,299,15
+1494876024735,21463531,20 /Events/Open-day,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp05 5-1,text,false,Test failed: text expected to contain /<title>Open Day</title>/,3904,536,2,15,70956,0,305
+1494876024436,21463531,bp05s4,,"Number of samples in transaction : 1, number of failing samples : 1",bp05 5-1,,false,,3904,536,2,15,70956,300,305
+1494875725971,21762296,4 /,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp06 6-1,text,false,Test failed: text expected to contain /<title>Home</title>/,3874,464,3,13,9110,0,17
+1494876024736,21463531,5 /,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp06 6-3,text,false,,3874,464,2,12,70955,0,304
+1494875829725,21657943,bp06s1,,"Number of samples in transaction : 2, number of failing samples : 2",bp06 6-3,,false,,7692,928,2,12,139095,600,319
+1494875684411,21803857,4 /,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp06 6-2,text,false,Test failed: text expected to contain /<title>Home</title>/,3874,464,2,12,94,0,16
+1494875694791,21793477,89 /international-students,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp07 7-1,text,false,Test failed: text expected to contain /<title>International students</title>/,2992,0,2,10,0,0,251
+1494875694491,21793477,bp07s3,,"Number of samples in transaction : 1, number of failing samples : 1",bp07 7-1,,false,,2992,0,2,10,0,303,251
+1494875694791,21793480,99 /international-students/moving-to-perth/what-to-bring,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp07 7-2,text,false,"Test failed: text expected to contain /<h1 class=""short-header-title"">What to bring</h1>/",2992,0,2,10,0,0,251
+1494875694491,21793480,bp07s12,,"Number of samples in transaction : 1, number of failing samples : 1",bp07 7-2,,false,,2992,0,2,10,0,301,251
+1494876024735,21463537,22 /find-a-course,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp08 8-6,text,false,Test failed: text expected to contain /<title>Find a course</title>/,3980,508,6,8,75228,0,305
+1494876024436,21463537,bp08s2,,"Number of samples in transaction : 1, number of failing samples : 1",bp08 8-6,,false,,3980,508,6,8,75228,299,305
+1494875670452,21817820,22 /find-a-course,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp08 8-2,text,false,Test failed: text expected to contain /<title>Find a course</title>/,3980,508,6,8,1751,0,19
+1494875670153,21817820,bp08s6,,"Number of samples in transaction : 1, number of failing samples : 1",bp08 8-2,,false,,3980,508,6,8,1751,300,19
+1494875662165,21826108,35 /,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp08 8-5,text,false,Test failed: text expected to contain /<title>Home</title>/,3874,544,5,7,10035,0,14
+1494875661887,21826108,bp08s8,,"Number of samples in transaction : 1, number of failing samples : 1",bp08 8-5,,false,,3874,544,5,7,10035,272,14
+1494875616808,21868238,bp08,,"Number of samples in transaction : 13, number of failing samples : 1",bp08 8-5,,false,,258097,10836,5,7,13315,3279,115
+1494875681343,21806930,22 /find-a-course,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp08 8-4,text,false,Test failed: text expected to contain /<title>Find a course</title>/,3980,508,4,6,3164,0,16
+1494875681044,21806930,bp08s4,,"Number of samples in transaction : 1, number of failing samples : 1",bp08 8-4,,false,,3980,508,4,6,3164,300,16
+1494875669427,21818846,22 /find-a-course,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp08 8-3,text,false,Test failed: text expected to contain /<title>Find a course</title>/,3980,508,3,5,2780,0,15
+1494875669128,21818846,bp08s4,,"Number of samples in transaction : 1, number of failing samples : 1",bp08 8-3,,false,,3980,508,3,5,2780,300,15
+1494876024735,21463539,22 /find-a-course,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp08 8-1,text,false,Test failed: text expected to contain /<title>Find a course</title>/,3980,508,1,3,70958,0,305
+1494876024436,21463539,bp08s2,,"Number of samples in transaction : 1, number of failing samples : 1",bp08 8-1,,false,,3980,508,1,3,70958,299,305
+1494876024735,21463539,22 /find-a-course,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp09 9-1,text,false,Test failed: text expected to contain /<title>Find a course</title>/,3978,507,2,3,70958,0,305
+1494876024436,21463539,bp09s2,,"Number of samples in transaction : 1, number of failing samples : 1",bp09 9-1,,false,,3978,507,2,3,70958,300,305
+1494875657159,21831116,22 /find-a-course,Non HTTP response code: java.net.SocketException,Non HTTP response message: socket closed,bp09 9-2,text,false,Test failed: text expected to contain /<title>Find a course</title>/,3978,507,1,1,15015,0,14
+1494875656858,21831116,bp09s2,,"Number of samples in transaction : 1, number of failing samples : 1",bp09 9-2,,false,,3978,507,1,1,15015,287,14
